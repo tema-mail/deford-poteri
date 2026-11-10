@@ -239,7 +239,8 @@
     document.getElementById('r-y').textContent = fmt(money * 12);
   }
   var chips = document.getElementById('chips');
-  chips.innerHTML = P.SERVICES.map(function (s) {
+  var inBase = function (s) { return P.BASE.indexOf(s[0]) >= 0 ? 0 : 1; };
+  chips.innerHTML = P.SERVICES.slice().sort(function (a, b) { return inBase(a) - inBase(b); }).map(function (s) {
     return '<label><input type="checkbox"' + (P.BASE.indexOf(s[0]) >= 0 ? ' checked' : '') + ' data-q="' + s[0] + '"><span>' + s[1] + '</span><input class="p-chk" type="number" min="0" step="500" value="' + s[2] + '" data-c="' + s[0] + '" aria-label="Средний чек ' + s[1] + '"> ₽</label>';
   }).join('');
   chips.addEventListener('change', function (e) { if (e.target.dataset.q) { chosen[e.target.dataset.q] = e.target.checked; draw(); } });
