@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Прототип – Дефорд · SEO-сайт для продажи и пригона авто</title>
+<style>/*KIT*/</style>
+<style>
+.p-count { font: 700 clamp(44px, 9vw, 88px)/1 var(--font); letter-spacing: -.02em; }
+.p-count small { display: block; font: 600 15px/1.4 var(--font); color: var(--muted); letter-spacing: 0; margin-top: 6px; }
+.p-box { border: 2px solid var(--ink); padding: 18px; display: grid; gap: 10px; align-content: start; }
+.p-row { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; }
+.p-row select, .p-row input { min-height: 44px; border: 1px solid var(--ink); padding: 0 10px; font: inherit; background: #fff; }
+.p-row input { width: 140px; }
+.p-flags { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.p-flag { border: 1px solid var(--line); padding: 12px; display: grid; gap: 4px; cursor: pointer; }
+.p-flag b { font-size: 26px; line-height: 1.1; }
+.p-flag span { font-size: 13px; color: var(--muted); }
+.p-flag:has(input:checked) { border: 2px solid var(--ink); background: var(--fill2); }
+.p-flag input { justify-self: start; }
+.p-res { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.p-res div { background: var(--fill); padding: 14px; display: grid; gap: 4px; }
+.p-res b { font-size: clamp(22px, 3.4vw, 32px); line-height: 1.1; }
+.p-res span { font-size: 13px; color: var(--muted); }
+.p-formula { font: 13px/1.6 var(--mono); background: var(--fill2); border: 1px dashed var(--line); padding: 10px 12px; }
+.p-states { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+@media (max-width: 760px) { .p-res, .p-flags { grid-template-columns: 1fr 1fr; } .p-states { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="w-bar"><div class="w-wrap">
+  <b>Прототип · Дефорд · SEO-сайт для продажи и пригона авто · v1 11.11.2026</b>
+  <label><input type="checkbox" id="t-logic"> Логика блоков</label>
+  <label><input type="checkbox" id="t-notes"> Комментарии дизайнеру</label>
+  <label><input type="checkbox" id="t-seo"> SEO страницы</label>
+  <label><input type="checkbox" id="t-success"> После отправки</label>
+  <span>Меток «запросить»: <b id="ask-count">0</b></span>
+  <a href="../" style="color:#fff">← отчёт</a>
+</div></div>
+
+<script type="application/json" id="w-seo">{"title": "Сайт для пригона и продажи авто из Китая, Кореи, Японии | Дефорд", "description": "Покажем, сколько людей каждый месяц ищут авто из Китая, Кореи, Японии и ОАЭ и сколько сделок уходит к тем, у кого есть сайт в топе.", "h1": "Пока у вас нет сайта, покупатели авто из-за границы звонят другим", "zapros": "сайт для автосалона / пригона авто", "schema": "Organization, Service, FAQPage", "links": ["/avtoservis/ – соседняя ниша", "/services/website/ – сайт под ключ", "/cases/ – кейсы"]}</script>
+<div class="w-seo" id="w-seo-box"></div>
+
+<header class="w-header w-block" data-n="0" data-name="Шапка" data-question="Кто это и как связаться?" data-proof="телефон, Telegram, Макс">
+  <div class="w-wrap">
+    <span class="w-logo">DEFORD</span>
+    <span class="w-descr">Сайты для продажи и пригона авто, которые приводят покупателей из поиска</span>
+    <span class="w-contacts-top"><a href="tel:+79537777891">+7 953 777-78-91</a></span>
+    <a class="w-btn ghost" href="#kalkulyator">Посчитать потери</a>
+  </div>
+</header>
+
+<main>
+  <section class="w-block" data-n="1" data-name="Первый экран" data-question="Про меня ли это и что я теряю?" data-proof="спрос по странам по всей России" data-next="Кого и откуда ищут?">
+    <div class="w-wrap">
+      <div class="w-hero">
+        <div class="w-stack">
+          <h1>Пока у вас нет сайта, покупатели авто из-за границы звонят другим</h1>
+          <p>Машины из Кореи, Китая, Японии и ещё 9 стран ищут <b class="js-month">…</b> раз в месяц по России. Человек отдаёт 3–6 млн ₽ и предоплату тому, кого нашёл и кому поверил. Сайт с каталогом, ценами под ключ и отзывами – первое, что он проверяет.</p>
+          <ul>
+            <li><b>Вся страна</b> – пригон продаёт не одному городу, а всей России с доставкой</li>
+            <li><b>Дорогая сделка</b> – один покупатель окупает сайт</li>
+            <li><b>Бесплатно</b> – из поиска, без оплаты за клик</li>
+          </ul>
+          <div class="w-actions"><a class="w-btn" href="#kalkulyator">Посчитать мои потери</a><a class="w-btn ghost" href="#zayavka">Получить разбор</a></div>
+        </div>
+        <div class="p-box">
+          <span class="w-muted"><span id="today-l">Сегодня с 8:00</span> по России искали авто из-за границы</span>
+          <div class="p-count"><span id="today">…</span><small>раз – и звонили тем, у кого есть сайт в поиске</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="w-block" id="kalkulyator" data-n="2" data-name="Страны и калькулятор" data-question="Кого и откуда ищут?" data-proof="Вордстат по 12 странам × 3 формулировки, заработок с машины правит владелец" data-next="Почему у меня есть Авито и лендинг, а покупателей из поиска нет?">
+    <div class="w-wrap w-stack">
+      <h2>Сколько ищут машины из каждой страны – и сколько сделок проходит мимо вас</h2>
+      <div class="p-row"><label>Где продаёте <select id="reg"></select></label><span class="w-muted js-src"></span></div>
+      <p class="w-muted">Отметьте страны, откуда возите. Цифра – горячих поисков в месяц: «авто из…», «автомобили из…», «машину из…» без «растаможка калькулятор», «пошлина», «Авито», «Дром».</p>
+      <div class="p-flags" id="flags"></div>
+      <div class="p-box">
+        <div class="p-row"><b>Что у вас сейчас</b>
+          <select id="state"><option value="none">Сайта нет – Авито, Дром, соцсети</option><option value="landing">Лендинг на одну страницу</option><option value="weak">Сайт есть, но не продвигается</option></select>
+          <label>Зарабатываете с машины, ₽ <input id="margin" type="number" min="0" step="10000" value="150000"></label></div>
+        <div class="p-res">
+          <div><b id="r-cl">…</b><span>сделок в месяц у конкурентов</span></div>
+          <div><b id="r-m">…</b><span>₽ в месяц мимо вас</span></div>
+          <div><b id="r-d">…</b><span>₽ в день</span></div>
+          <div><b id="r-y">…</b><span>₽ за год</span></div>
+        </div>
+        <details><summary>Как считаем</summary>
+          <p class="p-formula">горячие поиски × 60% переходят на сайты × 10% достаются сайту в топ-3 × 3% оставляют заявку × 10% заявок доходят до сделки × заработок с машины.<br>Лендинг забирает ≈15% этого, сайт без продвижения ≈10%, без сайта – 0.</p>
+          <p class="w-ask">[запросить: конверсию заявка → сделка и заработок с машины у знакомых пригонщиков]</p>
+        </details>
+      </div>
+      <p class="w-note">Страны – карточками с флагом; выбранная выделяется. Цифры пересчитываются сразу.</p>
+    </div>
+  </section>
+
+  <section class="w-block w-cta-strip" data-n="2а" data-name="Плашка после калькулятора" data-question="Хочу точный расчёт" data-proof="расчёт по маркам и моделям">
+    <div class="w-wrap"><div class="w-cta"><p>Посчитаем по вашим маркам и моделям: сколько ищут Zeekr, Li Auto, Kia из Кореи – и кто сейчас забирает этих покупателей</p><a class="w-btn" href="#zayavka">Получить расчёт</a></div></div>
+  </section>
+
+  <section class="w-block" data-n="3" data-name="Почему не работает то, что есть" data-question="Почему у меня есть Авито и лендинг, а покупателей из поиска нет?" data-proof="как ищут: страна → марка → модель" data-next="Как сайт забирает этих покупателей?">
+    <div class="w-wrap w-stack">
+      <h2>Покупатель ищет страну, марку и модель. Под каждую нужна своя страница</h2>
+      <div class="p-states">
+        <article class="w-card"><h3>Только Авито и соцсети</h3><p>Вы стоите в ленте рядом с сотней объявлений, сравнивают по цене. Кто ищет «авто из Кореи под заказ», на Авито не идёт – он идёт на сайты.</p></article>
+        <article class="w-card"><h3>Лендинг на одну страницу</h3><p>Лендинг держит один запрос. «Авто из Японии», «Zeekr 001 из Китая цена под ключ», «Kia K5 из Кореи» – это десятки разных страниц.</p></article>
+        <article class="w-card"><h3>Сайт без продвижения</h3><p>Каталог есть, но в выдаче его нет. Покупатель за 5 млн доверяет тем, кого видит на первой странице.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="w-block" data-n="4" data-name="Как работает" data-question="Как сайт забирает этих покупателей?" data-proof="структура: страны → марки → модели, ЧПУ" data-next="Почему вам верить?">
+    <div class="w-wrap w-stack">
+      <h2>Страница под каждую страну, марку и модель – и каждая ловит свой запрос</h2>
+      <ol class="w-steps" style="--cols:4">
+        <li><b>Ищет</b><span>«авто из кореи под заказ»</span></li>
+        <li><b>Попадает на страницу</b><span>/countries/korea/ – цены под ключ, сроки, как платить</span></li>
+        <li><b>Считает и пишет</b><span>калькулятор под ключ, Telegram, Макс, звонок</span></li>
+        <li><b>Вы видите заявку</b><span>с моделью, бюджетом и страницей входа</span></li>
+      </ol>
+      <div class="w-media" data-alt="схема сайта пригона: страны, марки, модели, авто в пути">Схема: главная → страны (Китай, Корея, Япония, ОАЭ…) → марки → модели → авто в пути и выданные с фото</div>
+    </div>
+  </section>
+
+  <section class="w-block" data-n="5" data-name="Доказательства" data-question="Почему вам верить?" data-proof="наши проекты в авто" data-next="Сколько стоит?">
+    <div class="w-wrap w-stack">
+      <h2>Мы делаем сайты для тех, кто продаёт машины</h2>
+      <div class="w-grid" style="--cols:2;--cols-m:1">
+        <article class="w-card"><div class="w-media small">Скрин сайта пригона</div><h3>Evolution Car – пригон авто</h3><p><span class="w-ask">[запросить: можно ли показывать, цифры заявок]</span></p></article>
+        <article class="w-card"><div class="w-media small">Скрин конфигуратора Zeekr</div><h3>Конфигуратор Zeekr 8X и 9X</h3><p>Покупатель собирает машину на сайте и отправляет менеджеру. <span class="w-ask">[запросить: что говорить о результате]</span></p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="w-block w-cta-strip" data-n="5а" data-name="Плашка после доказательств" data-question="Хочу так же" data-proof="разбор своего сайта или Авито">
+    <div class="w-wrap"><div class="w-cta"><p>Разберём ваш сайт или Авито: каких страниц не хватает и сколько покупателей вы на этом теряете</p><a class="w-btn" href="#zayavka">Получить разбор</a></div></div>
+  </section>
+
+  <section class="w-block" data-n="6" data-name="Цена" data-question="Сколько стоит?" data-proof="вход и состав" data-next="Что меня ещё останавливает?">
+    <div class="w-wrap w-stack">
+      <h2>Сайт окупается первой машиной</h2>
+      <p><b>Вход – от 35 000 ₽.</b> Каталог, страницы стран и моделей, калькулятор под ключ, кабинет заявок. <span class="w-ask">[запросить: цена и состав для продавцов авто, ведение, рассрочка]</span></p>
+    </div>
+  </section>
+
+  <section class="w-block" data-n="7" data-name="Вопросы" data-question="Что меня ещё останавливает?" data-proof="возражения продавцов" data-next="Как сделать первый шаг?">
+    <div class="w-wrap w-stack w-faq"><h2>Что спрашивают продавцы авто</h2>
+      <details><summary>У меня всё продаётся через Авито и Telegram</summary><p>Авито – это аренда чужой витрины, где вас сравнивают по цене. Сайт – своя: туда приходят из поиска уже с выбранной страной и моделью.</p></details>
+      <details><summary>Правила ввоза меняются – сайт устареет?</summary><p>Цены и условия правятся в кабинете за минуты. Страницы стран и моделей остаются.</p></details>
+      <details><summary>Откуда цифры?</summary><p>Вордстат Яндекса за прошлый месяц, по России и по городу. Убираем запросы про пошлины, калькуляторы и чужие площадки.</p></details>
+    </div>
+  </section>
+
+  <section class="w-block" id="zayavka" data-n="8" data-name="Заявка" data-question="Как сделать первый шаг?" data-proof="расчёт по своим странам и моделям">
+    <div class="w-wrap">
+      <form class="w-form" onsubmit="event.preventDefault()">
+        <h2>Получите расчёт по вашим странам и моделям</h2>
+        <label class="w-field">Имя<input autocomplete="name"></label>
+        <label class="w-field">Телефон<input inputmode="tel" placeholder="+7 (___) ___-__-__"></label>
+        <label class="w-field">Откуда возите и какие модели<input></label>
+        <label class="w-check"><input type="checkbox" data-agree> <span>Согласен на обработку <a href="#">персональных данных</a></span></label>
+        <button class="w-btn" type="submit" disabled>Получить расчёт</button>
+        <p class="w-hint">Пришлём расчёт в Telegram или Макс</p>
+        <div class="w-success">
+          <p><b>Заявка принята.</b></p>
+          <p>Расчёт пришлём: <span class="w-ask">[запросить: срок ответа]</span></p>
+          <p>Срочно – <a href="tel:+79537777891">позвонить</a> или <a href="https://t.me/Artem1Galimov">написать в Telegram</a></p>
+          <p>Подготовьте: страны, марки, сколько машин в месяц</p>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="w-footer"><div class="w-wrap w-stack"><span>Дефорд · +7 953 777-78-91 · <a href="https://t.me/Artem1Galimov">Telegram</a> · <a href="https://max.ru/u/f9LHodD0cOKS6C3PPXRh8eHyRKrJiSTUcpsOsnbQDl6Cp3LSE-Xu-dNig7c">Макс</a></span></div></footer>
+<div class="w-sticky"><a class="w-btn" href="tel:+79537777891">Позвонить</a><a class="w-btn ghost" href="#kalkulyator">Посчитать</a></div>
+
+<script src="../data.js"></script>
+<script src="../calc.js"></script>
+<script>
+(function () {
+  var P = window.POTERI, fmt = P.fmt, reg = document.getElementById('reg');
+  Object.keys(P.D.carRegions).forEach(function (r) {
+    var o = document.createElement('option'); o.value = r; o.textContent = r === 'rf' ? 'По всей России' : P.D.carRegions[r]; reg.appendChild(o);
+  });
+  var chosen = { 'китая': true, 'кореи': true, 'японии': true, 'оаэ': true };
+  function draw() {
+    var rows = P.countryRows(reg.value), all = P.countryRows('rf'), hotRf = 0;
+    all.forEach(function (x) { hotRf += x.hot; });
+    document.querySelector('.js-month').textContent = fmt(hotRf);
+    var dp = P.dayPart();
+    document.getElementById('today').textContent = fmt(hotRf / 30 * dp.part);
+    document.getElementById('today-l').textContent = dp.label;
+    document.querySelector('.js-src').textContent = 'Источник: ' + P.D.date;
+    document.getElementById('flags').innerHTML = rows.map(function (x) {
+      return '<label class="p-flag"><input type="checkbox" data-k="' + x.key + '"' + (chosen[x.key] ? ' checked' : '') + '><span>' + x.name +
+        '</span><b>' + fmt(x.hot) + '</b><span>в месяц · ' + fmt(x.hot / 30) + ' в день</span></label>';
+    }).join('');
+    var st = document.getElementById('state').value, m = +document.getElementById('margin').value || 0, deals = 0;
+    rows.forEach(function (x) { if (chosen[x.key]) deals += P.lost(P.dealsAvto(x.hot), st); });
+    document.getElementById('r-cl').textContent = deals < 10 ? deals.toFixed(1).replace('.', ',') : fmt(deals);
+    document.getElementById('r-m').textContent = fmt(deals * m);
+    document.getElementById('r-d').textContent = fmt(deals * m / 30);
+    document.getElementById('r-y').textContent = fmt(deals * m * 12);
+  }
+  document.getElementById('flags').addEventListener('change', function (e) { var k = e.target.dataset.k; if (k) { chosen[k] = e.target.checked; draw(); } });
+  ['reg', 'state', 'margin'].forEach(function (id) { document.getElementById(id).addEventListener('input', draw); });
+  draw();
+})();
+</script>
+<script src="../proto.js"></script>
+</body>
+</html>

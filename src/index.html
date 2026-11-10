@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Дефорд · Потери без SEO-сайта – отчёт</title>
+<style>
+:root { --ink: #16181c; --muted: #5d636c; --line: #dfe2e6; --fill: #f4f5f7; --acc: #1b4dd8; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #fff; color: var(--ink); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 900px; margin: 0 auto; padding: 28px 16px 80px; display: grid; gap: 30px; }
+h1 { font-size: clamp(26px, 4vw, 38px); line-height: 1.2; margin: 0; }
+h2 { font-size: 22px; margin: 0 0 10px; }
+p, ul, ol { margin: 0 0 10px; }
+.sub { color: var(--muted); }
+.card { border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; background: #fff; }
+.grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.big { font-size: 30px; font-weight: 700; line-height: 1.1; }
+.btn { display: inline-block; background: var(--ink); color: #fff; text-decoration: none; padding: 12px 18px; border-radius: 8px; font-weight: 600; margin: 4px 8px 4px 0; }
+.note { background: #fff7d6; border: 1px solid #ecd98a; border-radius: 10px; padding: 12px 16px; }
+table { width: 100%; border-collapse: collapse; font-size: 15px; }
+th, td { border-bottom: 1px solid var(--line); padding: 7px 8px; text-align: left; vertical-align: top; }
+td.n, th.n { text-align: right; white-space: nowrap; }
+th { background: var(--fill); }
+.tw { overflow-x: auto; }
+audio { width: 100%; }
+@media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <p class="sub">Дефорд · идея продаж SEO-сайтов · 11.11.2026 · v1</p>
+  <h1>«Вы каждый день теряете горячих клиентов» – на цифрах Вордстата по городу</h1>
+</header>
+
+<section class="card">
+  <p><b>Послушать итог голосом</b></p>
+  <audio controls preload="none" src="itog.mp3"></audio>
+</section>
+
+<section>
+  <h2>Идея в одном абзаце</h2>
+  <p>Владельцу сервиса или пригонщику продаём не «сайт», а возврат клиентов, которых он уже сейчас теряет. Берём Вордстат его города, убираем «своими руками» и прочий мусор, и показываем: столько людей в месяц ищут твою работу, столько уходит на сайты в топе, столько денег проходит мимо – в день и за год. Цифру он двигает сам: отмечает свои работы и свой средний чек. Для автосервисов считаем по услугам, для продавцов авто – по странам.</p>
+  <a class="btn" href="avtoservis/">Прототип: автосервисы</a>
+  <a class="btn" href="avtoprodazha/">Прототип: продажа и пригон авто</a>
+  <p class="sub">Прототипы чёрно-белые: смысл, порядок блоков и рабочий калькулятор. Дизайн – после вашего «да». Сверху переключатели «Логика блоков» и «Комментарии дизайнеру».</p>
+</section>
+
+<section>
+  <h2>Что показали цифры</h2>
+  <p class="sub">Вордстат Яндекса за октябрь 2026, снято через XMLRiver 11.11 (≈8,4 ₽). «Горячие» – без «своими руками», «как», «видео», «вакансии», «сканер», «пылесос», «пошлина», «калькулятор», «Авито», «Дром». У «замены» масла, ремня, сцепления нейтральные формулировки считаем наполовину: их часто делают сами.</p>
+  <div class="grid">
+    <div class="card"><div class="big">60 864</div><p>горячих поисков ремонта и обслуживания в месяц в Новосибирске (33 работы, без двойного счёта). Москва – 274 тыс., Петербург – 188 тыс., Екатеринбург – 99 тыс., Краснодар – 60 тыс.</p></div>
+    <div class="card"><div class="big">≈2,2 млн ₽/мес</div><p>проходит мимо обычного сервиса по ремонту в Новосибирске без сайта (12 типовых работ, чеки – рыночная оценка). Это потолок для сайта в топ-3, его и надо сверить на наших цифрах.</p></div>
+    <div class="card"><div class="big">594 тыс.</div><p>горячих поисков машин из 12 стран в месяц по России. Плюс «авто под заказ» – ещё 170 тыс. без страны.</p></div>
+    <div class="card"><div class="big">Япония №1 в Сибири</div><p>В Новосибирске Япония 5 179, Китай 2 917, Корея 2 608. По России наоборот: Корея 219 тыс., Китай 162 тыс., Япония 128 тыс.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Автосервисы: где спрос и где деньги</h2>
+  <div class="tw"><table>
+    <tr><th>Работа</th><th class="n">НСК, горячих/мес</th><th class="n">Москва</th><th>Вывод</th></tr>
+    <tr><td>Замена масла</td><td class="n">16 346</td><td class="n">52 283</td><td>Самый массовый поток, чек маленький – вход клиента в сервис</td></tr>
+    <tr><td>«Автосервис»</td><td class="n">8 470</td><td class="n">108 103</td><td>Ищут «рядом» – это больше карты, чем сайт</td></tr>
+    <tr><td>Кузовной ремонт</td><td class="n">3 397</td><td class="n">18 373</td><td>Большой чек + большой спрос – главная страница для кузовных</td></tr>
+    <tr><td>Ремонт АКПП</td><td class="n">1 254</td><td class="n">8 756</td><td>Спрос средний, чек 70 тыс. – один клиент окупает месяц ведения</td></tr>
+    <tr><td>Ремонт китайских авто</td><td class="n">36</td><td class="n">192</td><td>Почти не ищут так. Ищут работу + марку: «ремонт акпп haval» – страницы марок нужны под услуги</td></tr>
+  </table></div>
+  <p class="sub">Полная таблица по 39 запросам и 6 городам – в прототипе, блок «Спрос в городе».</p>
+</section>
+
+<section>
+  <h2>Продавцы авто: по странам</h2>
+  <div class="tw"><table>
+    <tr><th>Страна</th><th class="n">Россия</th><th class="n">Москва</th><th class="n">НСК</th></tr>
+    <tr><td>Корея</td><td class="n">218 556</td><td class="n">19 133</td><td class="n">2 608</td></tr>
+    <tr><td>Китай</td><td class="n">161 752</td><td class="n">18 411</td><td class="n">2 917</td></tr>
+    <tr><td>Япония</td><td class="n">127 999</td><td class="n">7 797</td><td class="n">5 179</td></tr>
+    <tr><td>Европа + Германия</td><td class="n">41 431</td><td class="n">5 202</td><td class="n">312</td></tr>
+    <tr><td>Казахстан, Грузия, Киргизия</td><td class="n">28 869</td><td class="n">3 008</td><td class="n">574</td></tr>
+    <tr><td>США</td><td class="n">6 241</td><td class="n">1 076</td><td class="n">89</td></tr>
+    <tr><td>ОАЭ</td><td class="n">1 960</td><td class="n">293</td><td class="n">11</td></tr>
+  </table></div>
+  <p>Главное для продажи: пригонщик продаёт всей стране, поэтому его рынок – колонка «Россия», а не город. ОАЭ отдельной страницей не поднимать – спроса почти нет.</p>
+</section>
+
+<section>
+  <h2>Как считаем потери</h2>
+  <div class="tw"><table>
+    <tr><th>Шаг</th><th>Автосервис</th><th>Продажа авто</th><th>Откуда</th></tr>
+    <tr><td>Горячие поиски</td><td colspan="2">Вордстат по городу или России, без мусора</td><td>замер</td></tr>
+    <tr><td>Уходят на сайты, а не на карты</td><td>50% (для «автосервис», «шиномонтаж», «автоэлектрик» – 25%)</td><td>60%</td><td>допущение</td></tr>
+    <tr><td>Достаётся сайту в топ-3</td><td>20%</td><td>10%</td><td>допущение</td></tr>
+    <tr><td>Звонят / оставляют заявку</td><td>8%</td><td>3%</td><td>допущение</td></tr>
+    <tr><td>Доходят до сделки</td><td>60%</td><td>10%</td><td>допущение</td></tr>
+    <tr><td>Чек / заработок</td><td>по работе, правит владелец</td><td>150 000 ₽ с машины</td><td>оценка</td></tr>
+    <tr><td>Что уже забирает бизнес</td><td colspan="2">нет сайта – 0, лендинг – 15%, сайт без продвижения – 10%</td><td>допущение</td></tr>
+  </table></div>
+  <p class="note">Все допущения можно заменить нашими цифрами: Метрика и Вебмастер EV Sibir и TEYES Sibir дают реальные переходы из поиска, звонки и заявки по позициям. После этого слово «допущение» в таблице меняется на «наш сервис, такой-то месяц» – и это и есть кейс.</p>
+</section>
+
+<section>
+  <h2>Что нужно от вас</h2>
+  <ol>
+    <li><b>Кейсы:</b> можно ли показывать Метрику EV Sibir и TEYES Sibir (заявки из поиска по месяцам)? Какие клиенты-сервисы и пригонщики ещё – GRAFIT, Evolution Car?</li>
+    <li><b>Директ:</b> цена клика по «ремонт акпп», «автосервис», «авто из кореи» – у Дениса, для блока «поиск против рекламы».</li>
+    <li><b>Цена и состав</b> для этих двух ниш: сайт, ведение, рассрочка. Пока стоит «вход от 35 000 ₽».</li>
+    <li><b>Средние чеки:</b> взять с прайсов EV, GRAFIT или у знакомых сервисов – сейчас оценка.</li>
+    <li><b>Где живут страницы:</b> deford.ru/avtoservis/ и /avtoprodazha/ или отдельный адрес под рекламу?</li>
+  </ol>
+</section>
+
+<section>
+  <h2>Что предлагаю дальше</h2>
+  <ol>
+    <li>Сверить коэффициенты на Метрике наших сервисов – это и цифры, и кейс.</li>
+    <li>Именные расчёты: выгрузить с Яндекс Карт сервисы и пригонщиков без сайта или с лендингом (как делали с Apple в Новосибирске) и каждому – своя ссылка «ваш сервис теряет столько». Это крючок для холодного касания.</li>
+    <li>Добавить в расчёт по пригону марки и модели (Zeekr, Li, Kia K5, Toyota) – у них свой спрос.</li>
+    <li>После «да» на прототип – дизайн и вёрстка на Astro.</li>
+  </ol>
+</section>
+
+<p class="sub">Сырьё Вордстата и скрипты съёма – в репозитории tema-mail/deford-poteri (data/raw, scripts_sbor.py, scripts_data.py).</p>
+</main>
+</body>
+</html>
