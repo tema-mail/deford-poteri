@@ -1,0 +1,3893 @@
+{
+ "city": "Пермь",
+ "currency": "RUB",
+ "date": "2026-11-11",
+ "prices": {
+  "автосервис|сто минск": {
+   "check": 6500,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Расчёт: типовое ТО",
+     "url": "https://yandex.ru/maps/org/koleso_ru/1013703998/prices/",
+     "price": "7148 ₽",
+     "za_chto": "замена масла с материалами 5398 ₽ + замена воздушного фильтра 350 ₽ + замена салонного фильтра 400 ₽ + компьютерная диагностика 1000 ₽ (медианы по прайсам сервисов)"
+    },
+    {
+     "company": "Расчёт: ремонт ходовой",
+     "url": "https://yandex.ru/maps/org/grafit/1709180610/prices/",
+     "price": "5800 ₽",
+     "za_chto": "замена двух рычагов и двух амортизаторов (см. строку «Ремонт ходовой»)"
+    }
+   ],
+   "kommentariy": "Готового «среднего чека» сервисы не публикуют. Число расчётное: среднее двух типовых заказов – ТО (7148 ₽) и ремонт ходовой (5800 ₽), каждый из медиан прайсов сервисов города на Яндекс Картах."
+  },
+  "замена масла": {
+   "check": 5398,
+   "basis": "tipovoy",
+   "n": 42,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Колесо.ру",
+     "url": "https://yandex.ru/maps/org/koleso_ru/1013703998/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Замена масла"
+    },
+    {
+     "company": "Агрегатка",
+     "url": "https://yandex.ru/maps/org/agregatka/102281875051/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Замена масла в ДВС"
+    },
+    {
+     "company": "Mobil 1 центр",
+     "url": "https://yandex.ru/maps/org/mobil_1_tsentr/1059238048/prices/",
+     "price": "400 ₽",
+     "za_chto": "Замена масла"
+    },
+    {
+     "company": "Автосервис Экскурс",
+     "url": "https://yandex.ru/maps/org/exkurs/1083618266/prices/",
+     "price": "1050 ₽",
+     "za_chto": "Замена масла в двигателе"
+    },
+    {
+     "company": "АвтоРитм 24/7",
+     "url": "https://yandex.ru/maps/org/avtoritm_24_7/109379321441/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Замена масла"
+    },
+    {
+     "company": "AutoBox",
+     "url": "https://yandex.ru/maps/org/autobox/1099910342/prices/",
+     "price": "1250 ₽",
+     "za_chto": "Замена масла в двигателе (ДВС)"
+    },
+    {
+     "company": "RS",
+     "url": "https://yandex.ru/maps/org/rs/110485918451/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Замена масла"
+    },
+    {
+     "company": "Фанавто",
+     "url": "https://yandex.ru/maps/org/fanavto/110616431813/prices/",
+     "price": "1450 ₽",
+     "za_chto": "Замена масла"
+    },
+    {
+     "company": "LR-Wert",
+     "url": "https://yandex.ru/maps/org/lr_wert/11192121494/prices/",
+     "price": "1050 ₽",
+     "za_chto": "Замена масла в ДВС"
+    },
+    {
+     "company": "Экскурс",
+     "url": "https://yandex.ru/maps/org/ekskurs/1124328992/prices/",
+     "price": "1050 ₽",
+     "za_chto": "Замена масла в двигателе"
+    },
+    {
+     "company": "Автоштат",
+     "url": "https://yandex.ru/maps/org/avtoshtat/119473076420/prices/",
+     "price": "1250 ₽",
+     "za_chto": "Замена масла в двигателе"
+    },
+    {
+     "company": "Автобольница",
+     "url": "https://yandex.ru/maps/org/avto_bo_ru/120219396292/prices/",
+     "price": "500 ₽",
+     "za_chto": "замена масла"
+    },
+    {
+     "company": "Икс Пять",
+     "url": "https://yandex.ru/maps/org/iks_pyat/120547531361/prices/",
+     "price": "800 ₽",
+     "za_chto": "Замена масла двигателя от"
+    },
+    {
+     "company": "New Oil",
+     "url": "https://yandex.ru/maps/org/new_oil_perm/1268873008/prices/",
+     "price": "300 ₽",
+     "za_chto": "Замена масла в двигателе"
+    },
+    {
+     "company": "Автомоё",
+     "url": "https://yandex.ru/maps/org/avtomoe/1291417990/prices/",
+     "price": "600 ₽",
+     "za_chto": "Замена масла в ДВС"
+    },
+    {
+     "company": "Выхлопофф",
+     "url": "https://yandex.ru/maps/org/vykhlopoff/136552665782/prices/",
+     "price": "500 ₽",
+     "za_chto": "Замена масла ДВС"
+    },
+    {
+     "company": "Wertlab",
+     "url": "https://yandex.ru/maps/org/wertlab/1383194153/prices/",
+     "price": "2000 ₽",
+     "za_chto": "Замена масла в двигателе, от"
+    },
+    {
+     "company": "Гайва-моторс",
+     "url": "https://yandex.ru/maps/org/gaiva_otors/138343467003/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Замена масла ДВС"
+    },
+    {
+     "company": "Реммастер",
+     "url": "https://yandex.ru/maps/org/remmaster/1406845808/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Замена масла"
+    },
+    {
+     "company": "Otvaga",
+     "url": "https://yandex.ru/maps/org/otvaga/144906512732/prices/",
+     "price": "1620 ₽",
+     "za_chto": "Замена масла"
+    },
+    {
+     "company": "ПроАвто",
+     "url": "https://yandex.ru/maps/org/proavto/149670794792/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Замена Масла и масляного фильтра"
+    },
+    {
+     "company": "Svg Auto",
+     "url": "https://yandex.ru/maps/org/svg_auto/157160827230/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Замена масла в двигателе Porsche, Audi, VW, BMW, Mercedes"
+    },
+    {
+     "company": "АКПП.Pro",
+     "url": "https://yandex.ru/maps/org/akpp_pro/165976944387/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Замена масла в двигателе"
+    },
+    {
+     "company": "Grafit",
+     "url": "https://yandex.ru/maps/org/grafit/1709180610/prices/",
+     "price": "700 ₽",
+     "za_chto": "Замена масла в двигателе"
+    },
+    {
+     "company": "Fit Service",
+     "url": "https://yandex.ru/maps/org/fit_service/177677912585/prices/",
+     "price": "1790 ₽",
+     "za_chto": "Замена масла и масляного фильтра двигателя"
+    },
+    {
+     "company": "ТехАвто159",
+     "url": "https://yandex.ru/maps/org/tehavto159/190880647453/prices/",
+     "price": "900 ₽",
+     "za_chto": "Замена масла | Балатово"
+    },
+    {
+     "company": "МикСервис",
+     "url": "https://yandex.ru/maps/org/mikservis/191205267416/prices/",
+     "price": "900 ₽",
+     "za_chto": "Замена масла в ДВС и масляного фильтра | Район Балатово"
+    },
+    {
+     "company": "ТакумиСервис",
+     "url": "https://yandex.ru/maps/org/takumi_service/192202506275/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Замена масла и фильтров"
+    },
+    {
+     "company": "Цех Победа",
+     "url": "https://yandex.ru/maps/org/pobeda_workshop/195463654215/prices/",
+     "price": "800 ₽",
+     "za_chto": "Замена масла в двигателе"
+    },
+    {
+     "company": "Лига-сервис",
+     "url": "https://yandex.ru/maps/org/ligaservis/198063434223/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Замена масла в двигателе"
+    },
+    {
+     "company": "Тайм",
+     "url": "https://yandex.ru/maps/org/time/216440722776/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Замена масла в двигателе с масляным фильтром (Седан)"
+    },
+    {
+     "company": "Босозоку",
+     "url": "https://yandex.ru/maps/org/bosozoku/229461462247/prices/",
+     "price": "500 ₽",
+     "za_chto": "Замена масла"
+    },
+    {
+     "company": "АКПП Сервис",
+     "url": "https://yandex.ru/maps/org/akpp_servis/230394899844/prices/",
+     "price": "2500 ₽",
+     "za_chto": "Замена масла с фильтром и прокачкой (100%)"
+    },
+    {
+     "company": "Автосервис",
+     "url": "https://yandex.ru/maps/org/avtoservis/241749286584/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Замена масла"
+    },
+    {
+     "company": "Сафари",
+     "url": "https://yandex.ru/maps/org/safari/37498141864/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Замена масла в двигателе"
+    },
+    {
+     "company": "Хартманн",
+     "url": "https://yandex.ru/maps/org/hartmann/37592741431/prices/",
+     "price": "1800 ₽",
+     "za_chto": "Замена масла"
+    },
+    {
+     "company": "Юпитер Н",
+     "url": "https://yandex.ru/maps/org/jupiter_n/51268520871/prices/",
+     "price": "500 ₽",
+     "za_chto": "Замена масла"
+    },
+    {
+     "company": "Дисконт Масел",
+     "url": "https://yandex.ru/maps/org/diskont_masel/62203370605/prices/",
+     "price": "695 ₽",
+     "za_chto": "Замена масла автомобиля ДЗ"
+    },
+    {
+     "company": "Техцентр ЕЕМоторс",
+     "url": "https://yandex.ru/maps/org/eemotors_technical_center/63978936761/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Замена масла"
+    },
+    {
+     "company": "Паркк Электро",
+     "url": "https://yandex.ru/maps/org/parkk_electro/73132609487/prices/",
+     "price": "2500 ₽",
+     "za_chto": "Замена масла в двигателе гибридных автомобилей"
+    },
+    {
+     "company": "АвтоКрай",
+     "url": "https://yandex.ru/maps/org/avtokray/91286786276/prices/",
+     "price": "800 ₽",
+     "za_chto": "Замена масла в двигателе"
+    },
+    {
+     "company": "ГОСТ",
+     "url": "https://yandex.ru/maps/org/gost/99382637861/prices/",
+     "price": "750 ₽",
+     "za_chto": "Замена моторного масла"
+    },
+    {
+     "company": "Exist.ru",
+     "url": "https://yandex.ru/maps/org/exist_ru/154526926522/prices/",
+     "price": "3540 ₽",
+     "za_chto": "Масло моторное \"GX7 SP 5W-30\", 4л (моторное масло 4 л – материал, в медиану работ не входит)"
+    },
+    {
+     "company": "Про авто",
+     "url": "https://yandex.ru/maps/org/proavto/99304795953/prices/",
+     "price": "4260 ₽",
+     "za_chto": "Масло моторное ZIC X9 LS 5W-30 4л (моторное масло 4 л – материал, в медиану работ не входит)"
+    },
+    {
+     "company": "Автомоё",
+     "url": "https://yandex.ru/maps/org/avtomoyo/1094665901/prices/",
+     "price": "260 ₽",
+     "za_chto": "Фильтр масляный AVTOMOE (масляный фильтр – материал, в медиану работ не входит)"
+    },
+    {
+     "company": "Биг Wheel-auto",
+     "url": "https://yandex.ru/maps/org/big_wheel_auto/115699085271/prices/",
+     "price": "775 ₽",
+     "za_chto": "Фильтр масляный (вставка) (масляный фильтр – материал, в медиану работ не входит)"
+    },
+    {
+     "company": "MaxAuto",
+     "url": "https://yandex.ru/maps/org/maxauto/139254724330/prices/",
+     "price": "1200 ₽",
+     "za_chto": "Фильтр масляный (масляный фильтр – материал, в медиану работ не входит)"
+    }
+   ],
+   "kommentariy": "Медиана 42 цен по прайсам компаний города на Яндекс Картах (работа «замена масла в двигателе», минимальная позиция компании). + моторное масло 4 л 3900 ₽ (медиана 2 прайсов). + масляный фильтр 498 ₽ (медиана 6 прайсов). В прайсах сервисов замена масла указана как работа без материалов."
+  },
+  "диагностика автомобиля|диагностика авто": {
+   "check": 1000,
+   "basis": "tipovoy",
+   "n": 20,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Фанавто",
+     "url": "https://yandex.ru/maps/org/fanavto/110616431813/prices/",
+     "price": "900 ₽",
+     "za_chto": "Компьютерная диагностика автомобиля"
+    },
+    {
+     "company": "Закамск",
+     "url": "https://yandex.ru/maps/org/zakamsk/110702113506/prices/",
+     "price": "500 ₽",
+     "za_chto": "Компьютерная диагностика"
+    },
+    {
+     "company": "Икс Пять",
+     "url": "https://yandex.ru/maps/org/iks_pyat/120547531361/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Компьютерная диагностика"
+    },
+    {
+     "company": "Tuning Territory Service",
+     "url": "https://yandex.ru/maps/org/tuning_territory_service/1209517929/prices/",
+     "price": "500 ₽",
+     "za_chto": "Компьютерная диагностика"
+    },
+    {
+     "company": "Выхлопофф",
+     "url": "https://yandex.ru/maps/org/vykhlopoff/136552665782/prices/",
+     "price": "500 ₽",
+     "za_chto": "Компьютерная диагностика"
+    },
+    {
+     "company": "Пушкарс",
+     "url": "https://yandex.ru/maps/org/pushcars/136811601630/prices/",
+     "price": "1250 ₽",
+     "za_chto": "Компьютерная диагностика"
+    },
+    {
+     "company": "Гайва-моторс",
+     "url": "https://yandex.ru/maps/org/gaiva_otors/138343467003/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Компьютерная диагностика"
+    },
+    {
+     "company": "Кар Линк",
+     "url": "https://yandex.ru/maps/org/car_link/1384140323/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Компьютерная диагностика двигателя"
+    },
+    {
+     "company": "Автомоё",
+     "url": "https://yandex.ru/maps/org/avtomoyo/148256997119/prices/",
+     "price": "800 ₽",
+     "za_chto": "Компьютерная диагностика автомобиля"
+    },
+    {
+     "company": "Азия-Авто",
+     "url": "https://yandex.ru/maps/org/aziya_avto/155552262899/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Компьютерная диагностика двигателя"
+    },
+    {
+     "company": "Svg Auto",
+     "url": "https://yandex.ru/maps/org/svg_auto/157160827230/prices/",
+     "price": "1200 ₽",
+     "za_chto": "Компьютерная диагностика Porsche, Audi, VW, BMW, Mercedes"
+    },
+    {
+     "company": "Grafit",
+     "url": "https://yandex.ru/maps/org/grafit/1709180610/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Компьютерная диагностика"
+    },
+    {
+     "company": "Докавто",
+     "url": "https://yandex.ru/maps/org/docavto/19047458519/prices/",
+     "price": "1750 ₽",
+     "za_chto": "Компьютерная диагностика"
+    },
+    {
+     "company": "МикСервис",
+     "url": "https://yandex.ru/maps/org/mikservis/191205267416/prices/",
+     "price": "500 ₽",
+     "za_chto": "Компьютерная диагностика двигателя"
+    },
+    {
+     "company": "Автосервис",
+     "url": "https://yandex.ru/maps/org/avtoservis/22316035103/prices/",
+     "price": "3000 ₽",
+     "za_chto": "Компьютерная диагностика: 3000 руб."
+    },
+    {
+     "company": "Сила Тока",
+     "url": "https://yandex.ru/maps/org/sila_toka/32155834759/prices/",
+     "price": "600 ₽",
+     "za_chto": "Компьютерная диагностика двигателя"
+    },
+    {
+     "company": "Техцентр ЕЕМоторс",
+     "url": "https://yandex.ru/maps/org/eemotors_technical_center/63978936761/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Компьютерная диагностика"
+    },
+    {
+     "company": "ЧипТюнингПермь.рф",
+     "url": "https://yandex.ru/maps/org/chiptyuningperm_rf/9873277970/prices/",
+     "price": "2000 ₽",
+     "za_chto": "Компьютерная диагностика всех систем авто"
+    },
+    {
+     "company": "Про-Дизель",
+     "url": "https://yandex.ru/maps/org/pro_dizel/98773432685/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Компьютерная диагностика дизельного двигателя"
+    },
+    {
+     "company": "ГОСТ",
+     "url": "https://yandex.ru/maps/org/gost/99382637861/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Компьютерная диагностика"
+    }
+   ],
+   "kommentariy": "Медиана 20 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию)."
+  },
+  "ремонт двигателя": {
+   "check": 10000,
+   "basis": "ot",
+   "n": 12,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Закамск",
+     "url": "https://yandex.ru/maps/org/zakamsk/110702113506/prices/",
+     "price": "5000 ₽",
+     "za_chto": "Ремонт ГБЦ"
+    },
+    {
+     "company": "Tuning Territory Service",
+     "url": "https://yandex.ru/maps/org/tuning_territory_service/1209517929/prices/",
+     "price": "5000 ₽",
+     "za_chto": "Ремонт ГБЦ"
+    },
+    {
+     "company": "Выхлопофф",
+     "url": "https://yandex.ru/maps/org/vykhlopoff/136552665782/prices/",
+     "price": "10000 ₽",
+     "za_chto": "Ремонт головки блока цилиндров"
+    },
+    {
+     "company": "Otvaga",
+     "url": "https://yandex.ru/maps/org/otvaga/144906512732/prices/",
+     "price": "25000 ₽",
+     "za_chto": "Замена цепи ГРМ 1,8 -2,0"
+    },
+    {
+     "company": "Азия-Авто",
+     "url": "https://yandex.ru/maps/org/aziya_avto/155552262899/prices/",
+     "price": "8000 ₽",
+     "za_chto": "Ремонт головки блока цилиндров"
+    },
+    {
+     "company": "Grafit",
+     "url": "https://yandex.ru/maps/org/grafit/1709180610/prices/",
+     "price": "27000 ₽",
+     "za_chto": "Замена цепи ГРМ"
+    },
+    {
+     "company": "МикСервис",
+     "url": "https://yandex.ru/maps/org/mikservis/191205267416/prices/",
+     "price": "5000 ₽",
+     "za_chto": "Замена прокладки ГБЦ"
+    },
+    {
+     "company": "Лига-сервис",
+     "url": "https://yandex.ru/maps/org/ligaservis/198063434223/prices/",
+     "price": "15000 ₽",
+     "za_chto": "Замена цепи ГРМ"
+    },
+    {
+     "company": "Тарзап",
+     "url": "https://yandex.ru/maps/org/tarzap/219327808775/prices/",
+     "price": "15000 ₽",
+     "za_chto": "Замена цепи ГРМ"
+    },
+    {
+     "company": "Автосервис",
+     "url": "https://yandex.ru/maps/org/avtoservis/241749286584/prices/",
+     "price": "10000 ₽",
+     "za_chto": "Ремонт ГБЦ"
+    },
+    {
+     "company": "Техцентр ЕЕМоторс",
+     "url": "https://yandex.ru/maps/org/eemotors_technical_center/63978936761/prices/",
+     "price": "7000 ₽",
+     "za_chto": "Замена прокладки ГБЦ"
+    },
+    {
+     "company": "ГОСТ",
+     "url": "https://yandex.ru/maps/org/gost/99382637861/prices/",
+     "price": "10500 ₽",
+     "za_chto": "Замена прокладки ГБЦ"
+    }
+   ],
+   "kommentariy": "Медиана 12 цен по прайсам компаний города на Яндекс Картах (замена цепи ГРМ, ремонт ГБЦ или замена прокладки ГБЦ – работа). Запчасти и материалы (комплект цепи ГРМ) не включены: в прайсах магазинов города на Картах не найдено цен (комплект цепи ГРМ); число – цена работы. Цены работ – нижняя планка для простых моторов."
+  },
+  "ремонт акпп": {
+   "check": 14000,
+   "basis": "ot",
+   "n": 8,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Агрегатка",
+     "url": "https://yandex.ru/maps/org/agregatka/102281875051/prices/",
+     "price": "10000 ₽",
+     "za_chto": "Ремонт АКПП"
+    },
+    {
+     "company": "Фанавто",
+     "url": "https://yandex.ru/maps/org/fanavto/110616431813/prices/",
+     "price": "18000 ₽",
+     "za_chto": "Ремонт АКПП"
+    },
+    {
+     "company": "Tuning Territory Service",
+     "url": "https://yandex.ru/maps/org/tuning_territory_service/1209517929/prices/",
+     "price": "5000 ₽",
+     "za_chto": "Ремонт АКПП"
+    },
+    {
+     "company": "Азия-Авто",
+     "url": "https://yandex.ru/maps/org/aziya_avto/155552262899/prices/",
+     "price": "45000 ₽",
+     "za_chto": "Ремонт АКПП"
+    },
+    {
+     "company": "АКПП.Pro",
+     "url": "https://yandex.ru/maps/org/akpp_pro/165976944387/prices/",
+     "price": "10000 ₽",
+     "za_chto": "Ремонт АКПП"
+    },
+    {
+     "company": "АКПП Сервис",
+     "url": "https://yandex.ru/maps/org/akpp_servis/230394899844/prices/",
+     "price": "10000 ₽",
+     "za_chto": "Ремонт АКПП, частичный, при снятом агрегате"
+    },
+    {
+     "company": "Паркк Сервис",
+     "url": "https://yandex.ru/maps/org/parkk_service/70993489748/prices/",
+     "price": "200000 ₽",
+     "za_chto": "Ремонт АКПП Porsche, Audi, BMW, Mercedes"
+    },
+    {
+     "company": "Паркк Электро",
+     "url": "https://yandex.ru/maps/org/parkk_electro/73132609487/prices/",
+     "price": "200000 ₽",
+     "za_chto": "Ремонт АКПП"
+    }
+   ],
+   "kommentariy": "Медиана 8 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию). В прайсах – стоимость работы по ремонту коробки, обычно без запчастей и «от»; реальный чек переборки выше."
+  },
+  "замена ремня грм": {
+   "check": 10291,
+   "basis": "tipovoy",
+   "n": 19,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Автосервис Экскурс",
+     "url": "https://yandex.ru/maps/org/exkurs/1083618266/prices/",
+     "price": "9450 ₽",
+     "za_chto": "Замена ремня ГРМ"
+    },
+    {
+     "company": "AutoBox",
+     "url": "https://yandex.ru/maps/org/autobox/1099910342/prices/",
+     "price": "8000 ₽",
+     "za_chto": "Замена ремня ГРМ"
+    },
+    {
+     "company": "Фанавто",
+     "url": "https://yandex.ru/maps/org/fanavto/110616431813/prices/",
+     "price": "10000 ₽",
+     "za_chto": "Замена ремня ГРМ"
+    },
+    {
+     "company": "Закамск",
+     "url": "https://yandex.ru/maps/org/zakamsk/110702113506/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Замена привода ГРМ"
+    },
+    {
+     "company": "Экскурс",
+     "url": "https://yandex.ru/maps/org/ekskurs/1124328992/prices/",
+     "price": "9450 ₽",
+     "za_chto": "Замена ремня ГРМ"
+    },
+    {
+     "company": "Икс Пять",
+     "url": "https://yandex.ru/maps/org/iks_pyat/120547531361/prices/",
+     "price": "18000 ₽",
+     "za_chto": "Замена грм от"
+    },
+    {
+     "company": "Tuning Territory Service",
+     "url": "https://yandex.ru/maps/org/tuning_territory_service/1209517929/prices/",
+     "price": "3000 ₽",
+     "za_chto": "Замена привода ГРМ"
+    },
+    {
+     "company": "Выхлопофф",
+     "url": "https://yandex.ru/maps/org/vykhlopoff/136552665782/prices/",
+     "price": "3500 ₽",
+     "za_chto": "Замена ремня газо распределительного механизма (грм) 1.6л"
+    },
+    {
+     "company": "Автомоё",
+     "url": "https://yandex.ru/maps/org/avtomoyo/148256997119/prices/",
+     "price": "8400 ₽",
+     "za_chto": "Замена ремня ГРМ"
+    },
+    {
+     "company": "Азия-Авто",
+     "url": "https://yandex.ru/maps/org/aziya_avto/155552262899/prices/",
+     "price": "6250 ₽",
+     "za_chto": "Замена ремня ГРМ"
+    },
+    {
+     "company": "Grafit",
+     "url": "https://yandex.ru/maps/org/grafit/1709180610/prices/",
+     "price": "10500 ₽",
+     "za_chto": "Замена ремня ГРМ"
+    },
+    {
+     "company": "МикСервис",
+     "url": "https://yandex.ru/maps/org/mikservis/191205267416/prices/",
+     "price": "3750 ₽",
+     "za_chto": "Замена ГРМ"
+    },
+    {
+     "company": "Лига-сервис",
+     "url": "https://yandex.ru/maps/org/ligaservis/198063434223/prices/",
+     "price": "3000 ₽",
+     "za_chto": "Замена ремня ГРМ"
+    },
+    {
+     "company": "Тарзап",
+     "url": "https://yandex.ru/maps/org/tarzap/219327808775/prices/",
+     "price": "8000 ₽",
+     "za_chto": "Замена ремня ГРМ"
+    },
+    {
+     "company": "Автосервис",
+     "url": "https://yandex.ru/maps/org/avtoservis/241749286584/prices/",
+     "price": "4000 ₽",
+     "za_chto": "Замена ремня ГРМ"
+    },
+    {
+     "company": "Сафари",
+     "url": "https://yandex.ru/maps/org/safari/37498141864/prices/",
+     "price": "5500 ₽",
+     "za_chto": "Замена ремня ГРМ с роликами"
+    },
+    {
+     "company": "Дисконт Масел",
+     "url": "https://yandex.ru/maps/org/diskont_masel/62203370605/prices/",
+     "price": "5595 ₽",
+     "za_chto": "Замена ремня ГРМ и роликов"
+    },
+    {
+     "company": "Техцентр ЕЕМоторс",
+     "url": "https://yandex.ru/maps/org/eemotors_technical_center/63978936761/prices/",
+     "price": "6500 ₽",
+     "za_chto": "Замена ремня ГРМ"
+    },
+    {
+     "company": "ГОСТ",
+     "url": "https://yandex.ru/maps/org/gost/99382637861/prices/",
+     "price": "4500 ₽",
+     "za_chto": "Замена ремня ГРМ"
+    },
+    {
+     "company": "Выхлопофф",
+     "url": "https://yandex.ru/maps/org/vykhlopoff/136552665782/prices/",
+     "price": "2000 ₽",
+     "za_chto": "Демонтаж монтаж шкива коленчетого вала (не ремень ГРМ) (комплект ремня ГРМ – материал, в медиану работ не входит)"
+    },
+    {
+     "company": "Росско",
+     "url": "https://yandex.ru/maps/org/rossko/203522096810/prices/",
+     "price": "4041 ₽",
+     "za_chto": "Комплект ремня ГРМ (усиленный ремень) LADA GRANTA 2190-94/KALINA 2192-94/LARGUS/PRIORA 2170/72 LYNXauto арт. PK1355 (комплект ремня ГРМ – материал, в медиану работ не входит)"
+    },
+    {
+     "company": "Юпитер Н",
+     "url": "https://yandex.ru/maps/org/jupiter_n/51268520871/prices/",
+     "price": "5000 ₽",
+     "za_chto": "Комплект ГРМ уаз, газ (комплект ремня ГРМ – материал, в медиану работ не входит)"
+    }
+   ],
+   "kommentariy": "Медиана 19 цен по прайсам компаний города на Яндекс Картах (работа по замене ремня ГРМ). + комплект ремня ГРМ 4041 ₽ (медиана 3 прайсов)."
+  },
+  "замена сцепления": {
+   "check": 6750,
+   "basis": "ot",
+   "n": 13,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Леонов-Авто",
+     "url": "https://yandex.ru/maps/org/leonov_auto/1090149318/prices/",
+     "price": "3500 ₽",
+     "za_chto": "Замена сцепления"
+    },
+    {
+     "company": "Закамск",
+     "url": "https://yandex.ru/maps/org/zakamsk/110702113506/prices/",
+     "price": "2000 ₽",
+     "za_chto": "Замена сцепления"
+    },
+    {
+     "company": "Биг Wheel-auto",
+     "url": "https://yandex.ru/maps/org/big_wheel_auto/115699085271/prices/",
+     "price": "7500 ₽",
+     "za_chto": "Замена диска сцепления КПП (комплект). Подготовьте свой автомобиль с профессиональной заменой диска сцепления КПП в АвтоТехЦентре “БИГWheel”! Диск сцепления – это ключевой элемент трансмиссии, который отвечает за передачу крутящего момента о"
+    },
+    {
+     "company": "Tuning Territory Service",
+     "url": "https://yandex.ru/maps/org/tuning_territory_service/1209517929/prices/",
+     "price": "5000 ₽",
+     "za_chto": "Замена сцепления"
+    },
+    {
+     "company": "Выхлопофф",
+     "url": "https://yandex.ru/maps/org/vykhlopoff/136552665782/prices/",
+     "price": "6500 ₽",
+     "za_chto": "Замена сцепления механической коробки передач (мкпп)"
+    },
+    {
+     "company": "Автомоё",
+     "url": "https://yandex.ru/maps/org/avtomoyo/148256997119/prices/",
+     "price": "13500 ₽",
+     "za_chto": "Замена сцепления"
+    },
+    {
+     "company": "Азия-Авто",
+     "url": "https://yandex.ru/maps/org/aziya_avto/155552262899/prices/",
+     "price": "18000 ₽",
+     "za_chto": "Замена сцепления"
+    },
+    {
+     "company": "Grafit",
+     "url": "https://yandex.ru/maps/org/grafit/1709180610/prices/",
+     "price": "12000 ₽",
+     "za_chto": "Замена сцепления"
+    },
+    {
+     "company": "Лига-сервис",
+     "url": "https://yandex.ru/maps/org/ligaservis/198063434223/prices/",
+     "price": "10000 ₽",
+     "za_chto": "Замена комплекта сцепления"
+    },
+    {
+     "company": "Тарзап",
+     "url": "https://yandex.ru/maps/org/tarzap/219327808775/prices/",
+     "price": "8000 ₽",
+     "za_chto": "Замена сцепления механика"
+    },
+    {
+     "company": "Автосервис",
+     "url": "https://yandex.ru/maps/org/avtoservis/241749286584/prices/",
+     "price": "6000 ₽",
+     "za_chto": "Замена сцепления"
+    },
+    {
+     "company": "Техцентр ЕЕМоторс",
+     "url": "https://yandex.ru/maps/org/eemotors_technical_center/63978936761/prices/",
+     "price": "6500 ₽",
+     "za_chto": "Замена сцепления"
+    },
+    {
+     "company": "ГОСТ",
+     "url": "https://yandex.ru/maps/org/gost/99382637861/prices/",
+     "price": "6750 ₽",
+     "za_chto": "Замена сцепления"
+    }
+   ],
+   "kommentariy": "Медиана 13 цен по прайсам компаний города на Яндекс Картах (работа по замене сцепления). Запчасти и материалы (комплект сцепления) не включены: в прайсах магазинов города на Картах не найдено цен (комплект сцепления); число – цена работы."
+  },
+  "ремонт ходовой": {
+   "check": 5800,
+   "basis": "ot",
+   "n": 9,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Grafit",
+     "url": "https://yandex.ru/maps/org/grafit/1709180610/prices/",
+     "price": "2400 ₽ × 2 + 3600 ₽ × 2",
+     "za_chto": "Замена рычага подвески задней + Замена амортизаторов"
+    },
+    {
+     "company": "Азия-Авто",
+     "url": "https://yandex.ru/maps/org/aziya_avto/155552262899/prices/",
+     "price": "2000 ₽ × 2 + 2000 ₽ × 2",
+     "za_chto": "Замена рычагов подвески + Замена амортизаторов"
+    },
+    {
+     "company": "Выхлопофф",
+     "url": "https://yandex.ru/maps/org/vykhlopoff/136552665782/prices/",
+     "price": "500 ₽ × 2 + 1200 ₽ × 2",
+     "za_chto": "Замена сайленблока рычага передней подвески при снятом рычаге + Замена амортизатора задней подвески без пружины"
+    },
+    {
+     "company": "ГОСТ",
+     "url": "https://yandex.ru/maps/org/gost/99382637861/prices/",
+     "price": "1200 ₽ × 2 + 2250 ₽ × 2",
+     "za_chto": "Замена рычага подвески задней + Замена амортизаторов"
+    },
+    {
+     "company": "Лига-сервис",
+     "url": "https://yandex.ru/maps/org/ligaservis/198063434223/prices/",
+     "price": "2500 ₽ × 2 + 1500 ₽ × 2",
+     "za_chto": "Замена рычагов подвески + Замена заднего амортизатора"
+    },
+    {
+     "company": "МикСервис",
+     "url": "https://yandex.ru/maps/org/mikservis/191205267416/prices/",
+     "price": "1200 ₽ × 2 + 1700 ₽ × 2",
+     "za_chto": "Замена рычага подвески + Замена амортизаторов"
+    },
+    {
+     "company": "Тайм",
+     "url": "https://yandex.ru/maps/org/time/216440722776/prices/",
+     "price": "1200 ₽ × 2 + 1200 ₽ × 2",
+     "za_chto": "Замена переднего верхнего рычага (Седан) + Замена заднего амортизатора, простая подвеска (Седан)"
+    },
+    {
+     "company": "ТехАвто159",
+     "url": "https://yandex.ru/maps/org/tehavto159/190880647453/prices/",
+     "price": "2000 ₽ × 2 + 800 ₽ × 2",
+     "za_chto": "Замена рычага | Балатово + Замена заднего амортизатора | Балатово"
+    },
+    {
+     "company": "Техцентр ЕЕМоторс",
+     "url": "https://yandex.ru/maps/org/eemotors_technical_center/63978936761/prices/",
+     "price": "1500 ₽ × 2 + 1200 ₽ × 2",
+     "za_chto": "Замена рычагов задней подвески + Замена втулок амортизатора"
+    }
+   ],
+   "kommentariy": "Медиана 9 цен по прайсам компаний города на Яндекс Картах (работа: два рычага и два амортизатора по прайсу компании). Запчасти и материалы (рычаг подвески, амортизатор (стойка)) не включены: в прайсах магазинов города на Картах не найдено цен (рычаг подвески); число – цена работы. Готовой цены «ремонт ходовой под ключ» в прайсах нет, заказ собран из позиций."
+  },
+  "автоэлектрик": {
+   "check": 2056,
+   "basis": "ot",
+   "n": 10,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Закамск",
+     "url": "https://yandex.ru/maps/org/zakamsk/110702113506/prices/",
+     "price": "500 ₽",
+     "za_chto": "Ремонт электропроводки"
+    },
+    {
+     "company": "Биг Wheel-auto",
+     "url": "https://yandex.ru/maps/org/big_wheel_auto/115699085271/prices/",
+     "price": "2000 ₽",
+     "za_chto": "Автоэлектрик услуга. Ремонт, обслуживание."
+    },
+    {
+     "company": "Tuning Territory Service",
+     "url": "https://yandex.ru/maps/org/tuning_territory_service/1209517929/prices/",
+     "price": "500 ₽",
+     "za_chto": "Ремонт электропроводки"
+    },
+    {
+     "company": "Автомоё",
+     "url": "https://yandex.ru/maps/org/avtomoyo/148256997119/prices/",
+     "price": "2000 ₽",
+     "za_chto": "Автоэлектрик"
+    },
+    {
+     "company": "Азия-Авто",
+     "url": "https://yandex.ru/maps/org/aziya_avto/155552262899/prices/",
+     "price": "3000 ₽",
+     "za_chto": "Ремонт электропроводки"
+    },
+    {
+     "company": "Сафари",
+     "url": "https://yandex.ru/maps/org/safari/37498141864/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Работа электрика 1 час"
+    },
+    {
+     "company": "Юпитер Н",
+     "url": "https://yandex.ru/maps/org/jupiter_n/51268520871/prices/",
+     "price": "500 ₽",
+     "za_chto": "Ремонт автоэлектрики"
+    },
+    {
+     "company": "Техцентр ЕЕМоторс",
+     "url": "https://yandex.ru/maps/org/eemotors_technical_center/63978936761/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Ремонт электропроводки"
+    },
+    {
+     "company": "Гараж 11/1",
+     "url": "https://yandex.ru/maps/org/garazh_11_1/66020321125/prices/",
+     "price": "2000 ₽",
+     "za_chto": "АвтоЭлектрик - диагност"
+    },
+    {
+     "company": "Про-Дизель",
+     "url": "https://yandex.ru/maps/org/pro_dizel/98773432685/prices/",
+     "price": "1350 ₽",
+     "za_chto": "Автоэлектрик – диагностика и ремонт электрики"
+    }
+   ],
+   "kommentariy": "Медиана 10 цен по прайсам компаний города на Яндекс Картах (ставка автоэлектрика за час или минимальная цена обращения). Типовой заказ – 1,75 часа работы: медиана × 1,75."
+  },
+  "заправка автокондиционера|заправка кондиционера автомобиля|заправка кондиционера авто|ремонт кондиционера автомобиля": {
+   "check": 2500,
+   "basis": "tipovoy",
+   "n": 21,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Колесо.ру",
+     "url": "https://yandex.ru/maps/org/koleso_ru/1013703998/prices/",
+     "price": "2070 ₽",
+     "za_chto": "Заправка кондиционера"
+    },
+    {
+     "company": "Center",
+     "url": "https://yandex.ru/maps/org/center/1030620145/prices/",
+     "price": "2500 ₽",
+     "za_chto": "Заправка кондиционера"
+    },
+    {
+     "company": "АвтоРитм 24/7",
+     "url": "https://yandex.ru/maps/org/avtoritm_24_7/109379321441/prices/",
+     "price": "3500 ₽",
+     "za_chto": "Заправка кондиционера"
+    },
+    {
+     "company": "Фанавто",
+     "url": "https://yandex.ru/maps/org/fanavto/110616431813/prices/",
+     "price": "2600 ₽",
+     "za_chto": "Заправка кондиционера"
+    },
+    {
+     "company": "Tuning Territory Service",
+     "url": "https://yandex.ru/maps/org/tuning_territory_service/1209517929/prices/",
+     "price": "2000 ₽",
+     "za_chto": "Заправка кондиционеров"
+    },
+    {
+     "company": "Арктика",
+     "url": "https://yandex.ru/maps/org/arktika/1238034238/prices/",
+     "price": "3000 ₽",
+     "za_chto": "Заправка автокондиционера"
+    },
+    {
+     "company": "Пушкарс",
+     "url": "https://yandex.ru/maps/org/pushcars/136811601630/prices/",
+     "price": "2500 ₽",
+     "za_chto": "Заправка кондиционера"
+    },
+    {
+     "company": "Гайва-моторс",
+     "url": "https://yandex.ru/maps/org/gaiva_otors/138343467003/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Заправка кондиционера"
+    },
+    {
+     "company": "Реммастер",
+     "url": "https://yandex.ru/maps/org/remmaster/1406845808/prices/",
+     "price": "2000 ₽",
+     "za_chto": "Заправка кондиционера"
+    },
+    {
+     "company": "Автомоё",
+     "url": "https://yandex.ru/maps/org/avtomoyo/148256997119/prices/",
+     "price": "2500 ₽",
+     "za_chto": "Заправка кондиционера автомобиля"
+    },
+    {
+     "company": "Fit Service",
+     "url": "https://yandex.ru/maps/org/fit_service/177677912585/prices/",
+     "price": "5090 ₽",
+     "za_chto": "Заправка автокондиционеров"
+    },
+    {
+     "company": "Докавто",
+     "url": "https://yandex.ru/maps/org/docavto/19047458519/prices/",
+     "price": "1400 ₽",
+     "za_chto": "Заправка кондиционера"
+    },
+    {
+     "company": "ТехАвто159",
+     "url": "https://yandex.ru/maps/org/tehavto159/190880647453/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Заправка кондиционера | Балатово"
+    },
+    {
+     "company": "Лига-сервис",
+     "url": "https://yandex.ru/maps/org/ligaservis/198063434223/prices/",
+     "price": "2000 ₽",
+     "za_chto": "Заправка автокондиционера"
+    },
+    {
+     "company": "РемБат",
+     "url": "https://yandex.ru/maps/org/rembat/22809524046/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Опрессовка, заправка, дозаправка системы кондиционирования автомобиля | Свердловский"
+    },
+    {
+     "company": "Кардано",
+     "url": "https://yandex.ru/maps/org/kardano/49629464219/prices/",
+     "price": "3000 ₽",
+     "za_chto": "Заправка кондиционера"
+    },
+    {
+     "company": "Техцентр ЕЕМоторс",
+     "url": "https://yandex.ru/maps/org/eemotors_technical_center/63978936761/prices/",
+     "price": "2000 ₽",
+     "za_chto": "Заправка автокондиционера"
+    },
+    {
+     "company": "Гараж 11/1",
+     "url": "https://yandex.ru/maps/org/garazh_11_1/66020321125/prices/",
+     "price": "4000 ₽",
+     "za_chto": "Заправка кондиционера от 3.000"
+    },
+    {
+     "company": "Паркк Сервис",
+     "url": "https://yandex.ru/maps/org/parkk_service/70993489748/prices/",
+     "price": "2500 ₽",
+     "za_chto": "Заправка кондиционера"
+    },
+    {
+     "company": "Паркк Электро",
+     "url": "https://yandex.ru/maps/org/parkk_electro/73132609487/prices/",
+     "price": "4500 ₽",
+     "za_chto": "Заправка кондиционера"
+    },
+    {
+     "company": "АвтоКрай",
+     "url": "https://yandex.ru/maps/org/avtokray/91286786276/prices/",
+     "price": "2000 ₽",
+     "za_chto": "Заправка кондиционера"
+    }
+   ],
+   "kommentariy": "Медиана 21 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию)."
+  },
+  "кузовной ремонт": {
+   "check": 6000,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Формула Зеро",
+     "url": "https://yandex.ru/maps/org/formula_zero/1000735684/prices/",
+     "price": "5500 ₽",
+     "za_chto": "Кузовной ремонт"
+    },
+    {
+     "company": "Закамск",
+     "url": "https://yandex.ru/maps/org/zakamsk/110702113506/prices/",
+     "price": "6000 ₽",
+     "za_chto": "Кузовной ремонт"
+    },
+    {
+     "company": "Pro-Service",
+     "url": "https://yandex.ru/maps/org/pro_service/1242371762/prices/",
+     "price": "15000 ₽",
+     "za_chto": "Кузовной ремонт"
+    }
+   ],
+   "kommentariy": "Медиана 3 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию). Позиция «кузовной ремонт» обычно с ценой «от» за один элемент."
+  },
+  "покраска автомобиля|покраска авто": {
+   "check": 12000,
+   "basis": "tipovoy",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Формула Зеро",
+     "url": "https://yandex.ru/maps/org/formula_zero/1000735684/prices/",
+     "price": "7500 ₽",
+     "za_chto": "Покраска двери автомобиля"
+    },
+    {
+     "company": "Кузовной",
+     "url": "https://yandex.ru/maps/org/kuzovnoy/131401428396/prices/",
+     "price": "12000 ₽",
+     "za_chto": "Покраска элемента автомобиля"
+    },
+    {
+     "company": "Сэм Авто",
+     "url": "https://yandex.ru/maps/org/sem_avto/147603826743/prices/",
+     "price": "15000 ₽",
+     "za_chto": "Покраска Элементов кузова"
+    },
+    {
+     "company": "Экскурс, центр кузовного ремонта",
+     "url": "https://yandex.ru/maps/org/ekskurs_tsentr_kuzovnogo_remonta/233284255324/prices/",
+     "price": "4500 ₽",
+     "za_chto": "Покраска дверей"
+    },
+    {
+     "company": "Первый Кузовной",
+     "url": "https://yandex.ru/maps/org/pervy_kuzovnoy/28898698980/prices/",
+     "price": "15000 ₽",
+     "za_chto": "Великолепная покраска элемента"
+    }
+   ],
+   "kommentariy": "Медиана 5 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию)."
+  },
+  "удаление вмятин": {
+   "check": 3000,
+   "basis": "ot",
+   "n": 6,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Формула Зеро",
+     "url": "https://yandex.ru/maps/org/formula_zero/1000735684/prices/",
+     "price": "3000 ₽",
+     "za_chto": "Удаление вмятин с кузова без покраски"
+    },
+    {
+     "company": "Pro-Service",
+     "url": "https://yandex.ru/maps/org/pro_service/1242371762/prices/",
+     "price": "5000 ₽",
+     "za_chto": "Удаление вмятин без покраски"
+    },
+    {
+     "company": "Vienn",
+     "url": "https://yandex.ru/maps/org/vienn/167932538488/prices/",
+     "price": "3000 ₽",
+     "za_chto": "Беспокрасочное удаление вмятин PDR. Дверь передняя/задняя"
+    },
+    {
+     "company": "Автоискусство",
+     "url": "https://yandex.ru/maps/org/car_craft/225974713842/prices/",
+     "price": "3000 ₽",
+     "za_chto": "Удаление вмятин без покраски"
+    },
+    {
+     "company": "Карлссон",
+     "url": "https://yandex.ru/maps/org/karlsson/25635207441/prices/",
+     "price": "3490 ₽",
+     "za_chto": "Вытягивание вмятины без покраски"
+    },
+    {
+     "company": "Автокультура",
+     "url": "https://yandex.ru/maps/org/avtokultura/76648806918/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Выправление вмятин без окраса PDR"
+    }
+   ],
+   "kommentariy": "Медиана 6 цен по прайсам компаний города на Яндекс Картах (цена «от» за простую вмятину)."
+  },
+  "покраска бампера": {
+   "check": 10250,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Формула Зеро",
+     "url": "https://yandex.ru/maps/org/formula_zero/1000735684/prices/",
+     "price": "7500 ₽",
+     "za_chto": "Покраска бампера"
+    },
+    {
+     "company": "Кузовной",
+     "url": "https://yandex.ru/maps/org/kuzovnoy/1330219235/prices/",
+     "price": "13000 ₽",
+     "za_chto": "Покраска бампера"
+    },
+    {
+     "company": "Сэм Авто",
+     "url": "https://yandex.ru/maps/org/sem_avto/147603826743/prices/",
+     "price": "15000 ₽",
+     "za_chto": "Покраска нового бампера"
+    },
+    {
+     "company": "Экскурс, центр кузовного ремонта",
+     "url": "https://yandex.ru/maps/org/ekskurs_tsentr_kuzovnogo_remonta/233284255324/prices/",
+     "price": "4200 ₽",
+     "za_chto": "Покраска бампера"
+    }
+   ],
+   "kommentariy": "Медиана 4 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию)."
+  },
+  "ремонт бампера": {
+   "check": 4000,
+   "basis": "ot",
+   "n": 7,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Формула Зеро",
+     "url": "https://yandex.ru/maps/org/formula_zero/1000735684/prices/",
+     "price": "5500 ₽",
+     "za_chto": "Ремонт бампера"
+    },
+    {
+     "company": "Verra",
+     "url": "https://yandex.ru/maps/org/verra/1044037194/prices/",
+     "price": "4000 ₽",
+     "za_chto": "Ремонт бампера"
+    },
+    {
+     "company": "Закамск",
+     "url": "https://yandex.ru/maps/org/zakamsk/110702113506/prices/",
+     "price": "6000 ₽",
+     "za_chto": "Ремонт бампера"
+    },
+    {
+     "company": "Буллет",
+     "url": "https://yandex.ru/maps/org/bullet/1183635756/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Ремонт пластика"
+    },
+    {
+     "company": "Tuning Territory Service",
+     "url": "https://yandex.ru/maps/org/tuning_territory_service/1209517929/prices/",
+     "price": "7000 ₽",
+     "za_chto": "Ремонт бампера"
+    },
+    {
+     "company": "Сэм Авто",
+     "url": "https://yandex.ru/maps/org/sem_avto/147603826743/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Ремонт бамперов"
+    },
+    {
+     "company": "Лава",
+     "url": "https://yandex.ru/maps/org/lava/210375468184/prices/",
+     "price": "3500 ₽",
+     "za_chto": "Реставрация и ремонт пластика авто"
+    }
+   ],
+   "kommentariy": "Медиана 7 цен по прайсам компаний города на Яндекс Картах (минимальная цена ремонта бампера)."
+  },
+  "локальная покраска": {
+   "check": 8500,
+   "basis": "tipovoy",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Формула Зеро",
+     "url": "https://yandex.ru/maps/org/formula_zero/1000735684/prices/",
+     "price": "7500 ₽",
+     "za_chto": "Локальная покраска авто"
+    },
+    {
+     "company": "Bezpokrasa",
+     "url": "https://yandex.ru/maps/org/bezpokrasa/1375850125/prices/",
+     "price": "2000 ₽",
+     "za_chto": "Локальная покраска автомобиля"
+    },
+    {
+     "company": "Сэм Авто",
+     "url": "https://yandex.ru/maps/org/sem_avto/147603826743/prices/",
+     "price": "12000 ₽",
+     "za_chto": "Локальная покраска"
+    },
+    {
+     "company": "РемБат",
+     "url": "https://yandex.ru/maps/org/rembat/22809524046/prices/",
+     "price": "8500 ₽",
+     "za_chto": "Окрас, локальный окрас, полировка | Свердловский"
+    },
+    {
+     "company": "Первый Кузовной",
+     "url": "https://yandex.ru/maps/org/pervy_kuzovnoy/28898698980/prices/",
+     "price": "10000 ₽",
+     "za_chto": "Филигранная локальная покраска"
+    }
+   ],
+   "kommentariy": "Медиана 5 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию)."
+  },
+  "замена лобового стекла": {
+   "check": 4448,
+   "basis": "tipovoy",
+   "n": 10,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Bezpokrasa",
+     "url": "https://yandex.ru/maps/org/bezpokrasa/1375850125/prices/",
+     "price": "2000 ₽",
+     "za_chto": "Вклейка лобового стекла + лобовое стекло по медиане города 2699 ₽"
+    },
+    {
+     "company": "FService",
+     "url": "https://yandex.ru/maps/org/fservice/138162966813/prices/",
+     "price": "800 ₽",
+     "za_chto": "Замена стекла основной камеры + лобовое стекло по медиане города 2699 ₽"
+    },
+    {
+     "company": "Pedant.ru",
+     "url": "https://yandex.ru/maps/org/pedant_ru/142819839789/prices/",
+     "price": "690 ₽",
+     "za_chto": "Замена стекла iPhone + лобовое стекло по медиане города 2699 ₽"
+    },
+    {
+     "company": "Verra",
+     "url": "https://yandex.ru/maps/org/verra/1044037194/prices/",
+     "price": "12000 ₽",
+     "za_chto": "Замена стекла (цена заказа целиком)"
+    },
+    {
+     "company": "Автостекло 59 Пермь",
+     "url": "https://yandex.ru/maps/org/avtosteklo_59_perm/164432729610/prices/",
+     "price": "1499 ₽ + 2699 ₽",
+     "za_chto": "Замена лобового автостекла в Перми + Лобовое стекло Hyundai Solaris"
+    },
+    {
+     "company": "Дисконт Масел",
+     "url": "https://yandex.ru/maps/org/diskont_masel/62203370605/prices/",
+     "price": "3500 ₽",
+     "za_chto": "Замена лобового стекла + лобовое стекло по медиане города 2699 ₽"
+    },
+    {
+     "company": "Доктор Яблочков",
+     "url": "https://yandex.ru/maps/org/doctor_yablochkov/175354549645/prices/",
+     "price": "1390 ₽",
+     "za_chto": "Замена стекла дисплея iPhone 11 + лобовое стекло по медиане города 2699 ₽"
+    },
+    {
+     "company": "Карлссон",
+     "url": "https://yandex.ru/maps/org/karlsson/25635207441/prices/",
+     "price": "5990 ₽",
+     "za_chto": "Замена лобового стекла + лобовое стекло по медиане города 2699 ₽"
+    },
+    {
+     "company": "Сервис+",
+     "url": "https://yandex.ru/maps/org/servis_/132425425123/prices/",
+     "price": "990 ₽",
+     "za_chto": "Замена стекла + лобовое стекло по медиане города 2699 ₽"
+    },
+    {
+     "company": "Тарзап",
+     "url": "https://yandex.ru/maps/org/tarzap/219327808775/prices/",
+     "price": "4000 ₽",
+     "za_chto": "Замена лобового стекла Пермь + лобовое стекло по медиане города 2699 ₽"
+    }
+   ],
+   "kommentariy": "Медиана 10 цен по прайсам компаний города на Яндекс Картах (стекло + замена: свои цены компании или медиана города для недостающей части). Стёкла с датчиками, обогревом и камерами дороже в 2–5 раз."
+  },
+  "ремонт лобового стекла": {
+   "check": 500,
+   "basis": "tipovoy",
+   "n": 7,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Дока-с",
+     "url": "https://yandex.ru/maps/org/doka_s/1303892112/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Ремонт сколов трещин стекла коммерческим авто"
+    },
+    {
+     "company": "Bezpokrasa",
+     "url": "https://yandex.ru/maps/org/bezpokrasa/1375850125/prices/",
+     "price": "300 ₽",
+     "za_chto": "Ремонт сколов автостекла"
+    },
+    {
+     "company": "АвтоСфера59",
+     "url": "https://yandex.ru/maps/org/autosfera59/143395266532/prices/",
+     "price": "500 ₽",
+     "za_chto": "Ремонт сколов и трещин на лобовом стекле"
+    },
+    {
+     "company": "Skolovnet.ru",
+     "url": "https://yandex.ru/maps/org/skolovnet_ru/193863593456/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Ремонт сколов и трещин"
+    },
+    {
+     "company": "Авто-скол",
+     "url": "https://yandex.ru/maps/org/avto_skol/223915082613/prices/",
+     "price": "500 ₽",
+     "za_chto": "Ремонт сколов"
+    },
+    {
+     "company": "Мир Автостекла",
+     "url": "https://yandex.ru/maps/org/mir_avtostekla/24123841950/prices/",
+     "price": "500 ₽",
+     "za_chto": "ремонт автостекла"
+    },
+    {
+     "company": "Мастерская автостекла",
+     "url": "https://yandex.ru/maps/org/masterskaya_avtostekla/66366483352/prices/",
+     "price": "600 ₽",
+     "za_chto": "Ремонт автостекла"
+    }
+   ],
+   "kommentariy": "Медиана 7 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию)."
+  },
+  "автостекла": {
+   "check": 5944,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Автостекло 59 Пермь",
+     "url": "https://yandex.ru/maps/org/avtosteklo_59_perm/164432729610/prices/",
+     "price": "3499 ₽",
+     "za_chto": "замена бокового или заднего стекла (работа) по медиане города 2445 ₽ + Заднее стекло Hyundai Solaris"
+    },
+    {
+     "company": "Доктор Яблочков",
+     "url": "https://yandex.ru/maps/org/doctor_yablochkov/175354549645/prices/",
+     "price": "1390 ₽",
+     "za_chto": "Замена заднего стекла iPhone 11 + боковое или заднее стекло по медиане города 3499 ₽"
+    },
+    {
+     "company": "РемБат",
+     "url": "https://yandex.ru/maps/org/rembat/22809524046/prices/",
+     "price": "3500 ₽",
+     "za_chto": "Замена лобового стекла без датчиков, замена заднего стекла | Свердловский + боковое или заднее стекло по медиане города 3499 ₽"
+    }
+   ],
+   "kommentariy": "Медиана 3 цен по прайсам компаний города на Яндекс Картах (боковое или заднее стекло + работа: свои цены компании или медиана города)."
+  },
+  "детейлинг": {
+   "check": 37500,
+   "basis": "tipovoy",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Thegarage. Pro",
+     "url": "https://yandex.ru/maps/org/thegarage_pro/1649871268/prices/",
+     "price": "40000 ₽",
+     "za_chto": "Комплекс: \"Полировка + керамика\" 2 слоя"
+    },
+    {
+     "company": "Нужен Блеск",
+     "url": "https://yandex.ru/maps/org/nuzhen_blesk/77620559187/prices/",
+     "price": "35000 ₽",
+     "za_chto": "Полировка автомобиля + керамика"
+    }
+   ],
+   "kommentariy": "Медиана 2 цен по прайсам компаний города на Яндекс Картах (пакет «полировка + керамика», младший вариант компании)."
+  },
+  "полировка автомобиля|полировка авто": {
+   "check": 12000,
+   "basis": "tipovoy",
+   "n": 27,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Формула Зеро",
+     "url": "https://yandex.ru/maps/org/formula_zero/1000735684/prices/",
+     "price": "25000 ₽",
+     "za_chto": "Полировка автомобиля"
+    },
+    {
+     "company": "Yapostyle",
+     "url": "https://yandex.ru/maps/org/yapostyle/1174404079/prices/",
+     "price": "10000 ₽",
+     "za_chto": "Полировка кузова"
+    },
+    {
+     "company": "Pro-Service",
+     "url": "https://yandex.ru/maps/org/pro_service/1242371762/prices/",
+     "price": "25000 ₽",
+     "za_chto": "Полировка кузова"
+    },
+    {
+     "company": "Кузовной",
+     "url": "https://yandex.ru/maps/org/kuzovnoy/131401428396/prices/",
+     "price": "15000 ₽",
+     "za_chto": "Полировка автомобиля."
+    },
+    {
+     "company": "Сэм Авто",
+     "url": "https://yandex.ru/maps/org/sem_avto/147603826743/prices/",
+     "price": "12000 ₽",
+     "za_chto": "Полная полировка кузова"
+    },
+    {
+     "company": "Drd",
+     "url": "https://yandex.ru/maps/org/drd/155023346324/prices/",
+     "price": "8000 ₽",
+     "za_chto": "Полировка кузова авто"
+    },
+    {
+     "company": "FaraCar",
+     "url": "https://yandex.ru/maps/org/faracar/162832120331/prices/",
+     "price": "10000 ₽",
+     "za_chto": "Полировка кузова"
+    },
+    {
+     "company": "АБС-Авто",
+     "url": "https://yandex.ru/maps/org/abs_auto/165426054649/prices/",
+     "price": "18000 ₽",
+     "za_chto": "Полировка кузова кроссовер"
+    },
+    {
+     "company": "Vienn",
+     "url": "https://yandex.ru/maps/org/vienn/167932538488/prices/",
+     "price": "8000 ₽",
+     "za_chto": "Полная абразивная полировка легкой и средней степени повреждения"
+    },
+    {
+     "company": "Культ",
+     "url": "https://yandex.ru/maps/org/cult/204567773247/prices/",
+     "price": "14000 ₽",
+     "za_chto": "Многоэтапная полировка кузова"
+    },
+    {
+     "company": "Трианон-Авто",
+     "url": "https://yandex.ru/maps/org/trianon_auto/209185466594/prices/",
+     "price": "35000 ₽",
+     "za_chto": "Полировка кузова с нанесением керамических покрытий"
+    },
+    {
+     "company": "Лава",
+     "url": "https://yandex.ru/maps/org/lava/210375468184/prices/",
+     "price": "18000 ₽",
+     "za_chto": "Полировка автомобиля с гарантией"
+    },
+    {
+     "company": "Art Detailing",
+     "url": "https://yandex.ru/maps/org/art_detailing/224289641851/prices/",
+     "price": "27000 ₽",
+     "za_chto": "Полировка кузова с нанесением жидкого керамического покрытия"
+    },
+    {
+     "company": "Автоискусство",
+     "url": "https://yandex.ru/maps/org/car_craft/225974713842/prices/",
+     "price": "40000 ₽",
+     "za_chto": "Полировка кузова с нанесением керамического покрытия"
+    },
+    {
+     "company": "EliteGarage",
+     "url": "https://yandex.ru/maps/org/elitegarage/226138683122/prices/",
+     "price": "18000 ₽",
+     "za_chto": "Полировка кузова"
+    },
+    {
+     "company": "Mb-studio",
+     "url": "https://yandex.ru/maps/org/mb_studio/239195079585/prices/",
+     "price": "17000 ₽",
+     "za_chto": "Полировка кузова"
+    },
+    {
+     "company": "Карлссон",
+     "url": "https://yandex.ru/maps/org/karlsson/25635207441/prices/",
+     "price": "8490 ₽",
+     "za_chto": "Полировка кузова"
+    },
+    {
+     "company": "Первый Кузовной",
+     "url": "https://yandex.ru/maps/org/pervy_kuzovnoy/28898698980/prices/",
+     "price": "12000 ₽",
+     "za_chto": "Сногсшибательная полировка кузова"
+    },
+    {
+     "company": "Авто Сига 59",
+     "url": "https://yandex.ru/maps/org/auto_siga_59/40941773760/prices/",
+     "price": "12000 ₽",
+     "za_chto": "Полировка автомобиля целиком"
+    },
+    {
+     "company": "59 Restyle",
+     "url": "https://yandex.ru/maps/org/59_restyle/51537218236/prices/",
+     "price": "10000 ₽",
+     "za_chto": "Полировка"
+    },
+    {
+     "company": "Алекс Авто",
+     "url": "https://yandex.ru/maps/org/a_lex_avto/65255269910/prices/",
+     "price": "15000 ₽",
+     "za_chto": "Полировка кузова"
+    },
+    {
+     "company": "Барибал",
+     "url": "https://yandex.ru/maps/org/baribal/66190218088/prices/",
+     "price": "10000 ₽",
+     "za_chto": "Полировка кузова"
+    },
+    {
+     "company": "Мастерская автостекла",
+     "url": "https://yandex.ru/maps/org/masterskaya_avtostekla/66366483352/prices/",
+     "price": "7000 ₽",
+     "za_chto": "Полировка авто стекол"
+    },
+    {
+     "company": "Tf Technology",
+     "url": "https://yandex.ru/maps/org/tf_technology/72803771109/prices/",
+     "price": "4000 ₽",
+     "za_chto": "Полировка кузова"
+    },
+    {
+     "company": "Паркк Электро",
+     "url": "https://yandex.ru/maps/org/parkk_electro/73132609487/prices/",
+     "price": "12000 ₽",
+     "za_chto": "Полировка кузова"
+    },
+    {
+     "company": "Автокультура",
+     "url": "https://yandex.ru/maps/org/avtokultura/76648806918/prices/",
+     "price": "10000 ₽",
+     "za_chto": "Востановительная полировка кузова"
+    },
+    {
+     "company": "Dtl159",
+     "url": "https://yandex.ru/maps/org/dtl159/94888445841/prices/",
+     "price": "7000 ₽",
+     "za_chto": "Полировка"
+    }
+   ],
+   "kommentariy": "Медиана 27 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию)."
+  },
+  "покрытие керамикой": {
+   "check": 27000,
+   "basis": "tipovoy",
+   "n": 13,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "S22",
+     "url": "https://yandex.ru/maps/org/autoaudiocenter/146074149529/prices/",
+     "price": "27000 ₽",
+     "za_chto": "Керамическое покрытие 1 слой"
+    },
+    {
+     "company": "FaraCar",
+     "url": "https://yandex.ru/maps/org/faracar/162832120331/prices/",
+     "price": "8000 ₽",
+     "za_chto": "Керамика ServFaces"
+    },
+    {
+     "company": "Thegarage. Pro",
+     "url": "https://yandex.ru/maps/org/thegarage_pro/1649871268/prices/",
+     "price": "15400 ₽",
+     "za_chto": "Керамическое покрытия для матовых и глянцевых пленок"
+    },
+    {
+     "company": "Vienn",
+     "url": "https://yandex.ru/maps/org/vienn/167932538488/prices/",
+     "price": "14000 ₽",
+     "za_chto": "Нанокерамическое покрытие GYEON PRIME"
+    },
+    {
+     "company": "Verra Детейлинг",
+     "url": "https://yandex.ru/maps/org/verra_detailing/200993993771/prices/",
+     "price": "15000 ₽",
+     "za_chto": "Керамическое покрытие кузова"
+    },
+    {
+     "company": "Культ",
+     "url": "https://yandex.ru/maps/org/cult/204567773247/prices/",
+     "price": "8000 ₽",
+     "za_chto": "Нанесение керамического покрытия на весь кузов авто"
+    },
+    {
+     "company": "Лава",
+     "url": "https://yandex.ru/maps/org/lava/210375468184/prices/",
+     "price": "10000 ₽",
+     "za_chto": "Покрытие керамикой"
+    },
+    {
+     "company": "Romax",
+     "url": "https://yandex.ru/maps/org/romax/219148630144/prices/",
+     "price": "12000 ₽",
+     "za_chto": "Нанесение керамики"
+    },
+    {
+     "company": "Автоискусство",
+     "url": "https://yandex.ru/maps/org/car_craft/225974713842/prices/",
+     "price": "45000 ₽",
+     "za_chto": "Керамическое покрытие кузова"
+    },
+    {
+     "company": "EliteGarage",
+     "url": "https://yandex.ru/maps/org/elitegarage/226138683122/prices/",
+     "price": "10000 ₽",
+     "za_chto": "Керамическое покрытие автомобиля"
+    },
+    {
+     "company": "Mb-studio",
+     "url": "https://yandex.ru/maps/org/mb_studio/239195079585/prices/",
+     "price": "17000 ₽",
+     "za_chto": "Нанесение керамического покрытия"
+    },
+    {
+     "company": "Tf Technology",
+     "url": "https://yandex.ru/maps/org/tf_technology/72803771109/prices/",
+     "price": "15000 ₽",
+     "za_chto": "Нанесение керамического покрытия"
+    },
+    {
+     "company": "Автокультура",
+     "url": "https://yandex.ru/maps/org/avtokultura/76648806918/prices/",
+     "price": "15000 ₽",
+     "za_chto": "Нанесение керамического покрытия (1 слой)"
+    }
+   ],
+   "kommentariy": "Медиана 13 цен по прайсам компаний города на Яндекс Картах (керамика кузова, младший пакет компании). + подготовка: «полировка автомобиля» по медиане 12000 ₽."
+  },
+  "оклейка пленкой": {
+   "check": 220000,
+   "basis": "ot",
+   "n": 9,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Pro-Service",
+     "url": "https://yandex.ru/maps/org/pro_service/1242371762/prices/",
+     "price": "270000 ₽",
+     "za_chto": "Полная оклейка кузова защитной полиуретановой пленкой"
+    },
+    {
+     "company": "Thegarage. Pro",
+     "url": "https://yandex.ru/maps/org/thegarage_pro/1649871268/prices/",
+     "price": "180000 ₽",
+     "za_chto": "Оклейка виниловой пленкой"
+    },
+    {
+     "company": "Авто-Дока",
+     "url": "https://yandex.ru/maps/org/avto_doka/188534198649/prices/",
+     "price": "240000 ₽",
+     "za_chto": "Полная оклейка автомобиля антигравийной пленкой"
+    },
+    {
+     "company": "Трианон-Авто",
+     "url": "https://yandex.ru/maps/org/trianon_auto/209185466594/prices/",
+     "price": "220000 ₽",
+     "za_chto": "Полная оклейка кузова антигравийной пленкой"
+    },
+    {
+     "company": "Лава",
+     "url": "https://yandex.ru/maps/org/lava/210375468184/prices/",
+     "price": "210000 ₽",
+     "za_chto": "Полная оклейка авто полиуретановой плёнкой с гарантией"
+    },
+    {
+     "company": "Автоискусство",
+     "url": "https://yandex.ru/maps/org/car_craft/225974713842/prices/",
+     "price": "230000 ₽",
+     "za_chto": "Оклейка цветными пленками"
+    },
+    {
+     "company": "EliteGarage",
+     "url": "https://yandex.ru/maps/org/elitegarage/226138683122/prices/",
+     "price": "150000 ₽",
+     "za_chto": "Оклейка автомобиля цветной пленкой"
+    },
+    {
+     "company": "Первый Кузовной",
+     "url": "https://yandex.ru/maps/org/pervy_kuzovnoy/28898698980/prices/",
+     "price": "240000 ₽",
+     "za_chto": "Бескомпромиссная полная оклейка кузова полиуретановой пленкой"
+    },
+    {
+     "company": "Автокультура",
+     "url": "https://yandex.ru/maps/org/avtokultura/76648806918/prices/",
+     "price": "100000 ₽",
+     "za_chto": "Оклейка виниловой плёнкой"
+    }
+   ],
+   "kommentariy": "Медиана 9 цен по прайсам компаний города на Яндекс Картах (полная оклейка кузова, младший вариант компании)."
+  },
+  "бронепленка": {
+   "check": 30000,
+   "basis": "ot",
+   "n": 7,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Авто-Дока",
+     "url": "https://yandex.ru/maps/org/avto_doka/188534198649/prices/",
+     "price": "56000 ₽",
+     "za_chto": "Оклейка \"зон риска\" автомобиля полиуретановой пленкой 230 мкм (базовый)"
+    },
+    {
+     "company": "Verra Детейлинг",
+     "url": "https://yandex.ru/maps/org/verra_detailing/200993993771/prices/",
+     "price": "29990 ₽",
+     "za_chto": "Пакет «Оптимум» – полная подготовка автомобиля к зиме!"
+    },
+    {
+     "company": "Лава",
+     "url": "https://yandex.ru/maps/org/lava/210375468184/prices/",
+     "price": "27000 ₽",
+     "za_chto": "Оклейка авто, зоны риска «Лайт» с гарантией – Антигравийная защита полиуретаном"
+    },
+    {
+     "company": "Mb-studio",
+     "url": "https://yandex.ru/maps/org/mb_studio/239195079585/prices/",
+     "price": "20000 ₽",
+     "za_chto": "Оклейка зон риска пленкой"
+    },
+    {
+     "company": "Первый Кузовной",
+     "url": "https://yandex.ru/maps/org/pervy_kuzovnoy/28898698980/prices/",
+     "price": "35000 ₽",
+     "za_chto": "Стойкая оклейка зон риска полиуретановой пленкой"
+    },
+    {
+     "company": "Авто Сига 59",
+     "url": "https://yandex.ru/maps/org/auto_siga_59/40941773760/prices/",
+     "price": "33000 ₽",
+     "za_chto": "Передняя часть автомобиля №1 (Полиуретановая пленка)"
+    },
+    {
+     "company": "Нужен Блеск",
+     "url": "https://yandex.ru/maps/org/nuzhen_blesk/77620559187/prices/",
+     "price": "30000 ₽",
+     "za_chto": "Оклейка зон риска \"Лайт\""
+    }
+   ],
+   "kommentariy": "Медиана 7 цен по прайсам компаний города на Яндекс Картах (оклейка зон риска антигравийной плёнкой, младший пакет)."
+  },
+  "химчистка салона": {
+   "check": 12000,
+   "basis": "tipovoy",
+   "n": 25,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Роса",
+     "url": "https://yandex.ru/maps/org/rosa/132179527593/prices/",
+     "price": "5500 ₽",
+     "za_chto": "Химчистка салона"
+    },
+    {
+     "company": "Армор кар",
+     "url": "https://yandex.ru/maps/org/armor_car/152739886422/prices/",
+     "price": "13000 ₽",
+     "za_chto": "Химчистка салона"
+    },
+    {
+     "company": "Drd",
+     "url": "https://yandex.ru/maps/org/drd/155023346324/prices/",
+     "price": "8000 ₽",
+     "za_chto": "Полная химчистка салона"
+    },
+    {
+     "company": "FaraCar",
+     "url": "https://yandex.ru/maps/org/faracar/162832120331/prices/",
+     "price": "8000 ₽",
+     "za_chto": "Детейлинг химчистка салона"
+    },
+    {
+     "company": "Thegarage. Pro",
+     "url": "https://yandex.ru/maps/org/thegarage_pro/1649871268/prices/",
+     "price": "15000 ₽",
+     "za_chto": "Химчистка салона с разбором/без разбора"
+    },
+    {
+     "company": "Vienn",
+     "url": "https://yandex.ru/maps/org/vienn/167932538488/prices/",
+     "price": "7000 ₽",
+     "za_chto": "Полная химчистка текстильного салона светлого цвета"
+    },
+    {
+     "company": "АвтоЛера",
+     "url": "https://yandex.ru/maps/org/avtolera/187112527204/prices/",
+     "price": "18000 ₽",
+     "za_chto": "Химчистка салона авто"
+    },
+    {
+     "company": "Verra Детейлинг",
+     "url": "https://yandex.ru/maps/org/verra_detailing/200993993771/prices/",
+     "price": "16900 ₽",
+     "za_chto": "Химчистка"
+    },
+    {
+     "company": "Культ",
+     "url": "https://yandex.ru/maps/org/cult/204567773247/prices/",
+     "price": "12000 ₽",
+     "za_chto": "Комплексная химчистка салона из алькантары"
+    },
+    {
+     "company": "Трианон-Авто",
+     "url": "https://yandex.ru/maps/org/trianon_auto/209185466594/prices/",
+     "price": "20000 ₽",
+     "za_chto": "Химчистка салона"
+    },
+    {
+     "company": "Лава",
+     "url": "https://yandex.ru/maps/org/lava/210375468184/prices/",
+     "price": "12000 ₽",
+     "za_chto": "Химчистка салона с гарантией"
+    },
+    {
+     "company": "U. D. G.",
+     "url": "https://yandex.ru/maps/org/u_d_g_/223237793814/prices/",
+     "price": "11999 ₽",
+     "za_chto": "Детейлинг химчистка салона"
+    },
+    {
+     "company": "Art Detailing",
+     "url": "https://yandex.ru/maps/org/art_detailing/224289641851/prices/",
+     "price": "9000 ₽",
+     "za_chto": "Химчистка салона"
+    },
+    {
+     "company": "Автоискусство",
+     "url": "https://yandex.ru/maps/org/car_craft/225974713842/prices/",
+     "price": "22000 ₽",
+     "za_chto": "Химчистка салона"
+    },
+    {
+     "company": "EliteGarage",
+     "url": "https://yandex.ru/maps/org/elitegarage/226138683122/prices/",
+     "price": "18000 ₽",
+     "za_chto": "Химчистка автомобиля"
+    },
+    {
+     "company": "Mb-studio",
+     "url": "https://yandex.ru/maps/org/mb_studio/239195079585/prices/",
+     "price": "20000 ₽",
+     "za_chto": "Химчистка салона"
+    },
+    {
+     "company": "Карлссон",
+     "url": "https://yandex.ru/maps/org/karlsson/25635207441/prices/",
+     "price": "7990 ₽",
+     "za_chto": "Химчистка автомобиля"
+    },
+    {
+     "company": "Первый Кузовной",
+     "url": "https://yandex.ru/maps/org/pervy_kuzovnoy/28898698980/prices/",
+     "price": "8000 ₽",
+     "za_chto": "Преображающая химчистка салона с разборкой"
+    },
+    {
+     "company": "Дисконт Масел",
+     "url": "https://yandex.ru/maps/org/diskont_masel/62203370605/prices/",
+     "price": "7995 ₽",
+     "za_chto": "Химчистка салона автомобиля"
+    },
+    {
+     "company": "Барибал",
+     "url": "https://yandex.ru/maps/org/baribal/66190218088/prices/",
+     "price": "5000 ₽",
+     "za_chto": "Химчистка салона"
+    },
+    {
+     "company": "Паркк Сервис",
+     "url": "https://yandex.ru/maps/org/parkk_service/70993489748/prices/",
+     "price": "18000 ₽",
+     "za_chto": "Химчистка салона автомобиля с разбором"
+    },
+    {
+     "company": "Паркк Электро",
+     "url": "https://yandex.ru/maps/org/parkk_electro/73132609487/prices/",
+     "price": "15000 ₽",
+     "za_chto": "Химчистка салона автомобиля"
+    },
+    {
+     "company": "Автокультура",
+     "url": "https://yandex.ru/maps/org/avtokultura/76648806918/prices/",
+     "price": "15000 ₽",
+     "za_chto": "Полная химчистка салона"
+    },
+    {
+     "company": "Нужен Блеск",
+     "url": "https://yandex.ru/maps/org/nuzhen_blesk/77620559187/prices/",
+     "price": "8000 ₽",
+     "za_chto": "Химчистка салона автомобиля"
+    },
+    {
+     "company": "Dtl159",
+     "url": "https://yandex.ru/maps/org/dtl159/94888445841/prices/",
+     "price": "7000 ₽",
+     "za_chto": "химчистка"
+    }
+   ],
+   "kommentariy": "Медиана 25 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию)."
+  },
+  "антикор": {
+   "check": 15490,
+   "basis": "tipovoy",
+   "n": 9,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Verra",
+     "url": "https://yandex.ru/maps/org/verra/1044037194/prices/",
+     "price": "15730 ₽",
+     "za_chto": "Антикоррозийная обработка"
+    },
+    {
+     "company": "Закамск",
+     "url": "https://yandex.ru/maps/org/zakamsk/110702113506/prices/",
+     "price": "5000 ₽",
+     "za_chto": "Антикоррозийная обработка"
+    },
+    {
+     "company": "Кузовной",
+     "url": "https://yandex.ru/maps/org/kuzovnoy/131401428396/prices/",
+     "price": "19000 ₽",
+     "za_chto": "Антикоррозийная обработка."
+    },
+    {
+     "company": "Антикоррозийная обработка автомобиля",
+     "url": "https://yandex.ru/maps/org/antikorroziynaya_obrabotka_avtomobilya/136219474216/prices/",
+     "price": "15000 ₽",
+     "za_chto": "Антикоррозийная обработка"
+    },
+    {
+     "company": "Lamark",
+     "url": "https://yandex.ru/maps/org/lamark/147999761893/prices/",
+     "price": "13200 ₽",
+     "za_chto": "Комплексный антикор"
+    },
+    {
+     "company": "Fit Service",
+     "url": "https://yandex.ru/maps/org/fit_service/177677912585/prices/",
+     "price": "15490 ₽",
+     "za_chto": "Антикоррозионная защита (арки)"
+    },
+    {
+     "company": "Антикор центр",
+     "url": "https://yandex.ru/maps/org/antikor_center/243205571392/prices/",
+     "price": "9900 ₽",
+     "za_chto": "Антикор багажного отсека (внутренние части)"
+    },
+    {
+     "company": "Первый Кузовной",
+     "url": "https://yandex.ru/maps/org/pervy_kuzovnoy/28898698980/prices/",
+     "price": "25000 ₽",
+     "za_chto": "Сохраняющий антикоррозийнный комплекс обработки автомобиля"
+    },
+    {
+     "company": "Anticorka",
+     "url": "https://yandex.ru/maps/org/anticorka/79378326866/prices/",
+     "price": "25000 ₽",
+     "za_chto": "Антикоррозийная обработка автомобиля Changan"
+    }
+   ],
+   "kommentariy": "Медиана 9 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию)."
+  },
+  "тонировка": {
+   "check": 4500,
+   "basis": "tipovoy",
+   "n": 16,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Автотрон",
+     "url": "https://yandex.ru/maps/org/autotron/1035118887/prices/",
+     "price": "3587 ₽",
+     "za_chto": "Глушитель - задняя часть системы ОГ"
+    },
+    {
+     "company": "АвтоЛаб 59",
+     "url": "https://yandex.ru/maps/org/avtolab59/160785325279/prices/",
+     "price": "5000 ₽",
+     "za_chto": "Тонирование стекол"
+    },
+    {
+     "company": "Vienn",
+     "url": "https://yandex.ru/maps/org/vienn/167932538488/prices/",
+     "price": "4500 ₽",
+     "za_chto": "Чёрная плёнка SunTek. Задняя полусфера"
+    },
+    {
+     "company": "Red Tuning",
+     "url": "https://yandex.ru/maps/org/red_tuning/172079244706/prices/",
+     "price": "1900 ₽",
+     "za_chto": "Тонировка"
+    },
+    {
+     "company": "Dream Dop",
+     "url": "https://yandex.ru/maps/org/dream_dop/18005068034/prices/",
+     "price": "2000 ₽",
+     "za_chto": "Тонировка"
+    },
+    {
+     "company": "Skolovnet.ru",
+     "url": "https://yandex.ru/maps/org/skolovnet_ru/193863593456/prices/",
+     "price": "7000 ₽",
+     "za_chto": "Тонировка"
+    },
+    {
+     "company": "Verra Детейлинг",
+     "url": "https://yandex.ru/maps/org/verra_detailing/200993993771/prices/",
+     "price": "12500 ₽",
+     "za_chto": "Тонировка"
+    },
+    {
+     "company": "Автоискусство",
+     "url": "https://yandex.ru/maps/org/car_craft/225974713842/prices/",
+     "price": "11000 ₽",
+     "za_chto": "Тонировка задней полусферы"
+    },
+    {
+     "company": "EliteGarage",
+     "url": "https://yandex.ru/maps/org/elitegarage/226138683122/prices/",
+     "price": "7500 ₽",
+     "za_chto": "Тонировка стекол задней полусферы"
+    },
+    {
+     "company": "Фара пленка",
+     "url": "https://yandex.ru/maps/org/fara_plenka/235829987728/prices/",
+     "price": "3500 ₽",
+     "za_chto": "Тонировка"
+    },
+    {
+     "company": "Авто Сига 59",
+     "url": "https://yandex.ru/maps/org/auto_siga_59/40941773760/prices/",
+     "price": "4500 ₽",
+     "za_chto": "Тонирование задней части автомобиля(седан,хетчбек)"
+    },
+    {
+     "company": "Центр тонировки автомобилей",
+     "url": "https://yandex.ru/maps/org/centrtonirovkiavtomobiley/52861748307/prices/",
+     "price": "4500 ₽",
+     "za_chto": "Тонировка"
+    },
+    {
+     "company": "СвойDетейлинг",
+     "url": "https://yandex.ru/maps/org/svoydeteyling/57211046240/prices/",
+     "price": "2500 ₽",
+     "za_chto": "Тонирование авто"
+    },
+    {
+     "company": "Алекс Авто",
+     "url": "https://yandex.ru/maps/org/a_lex_avto/65255269910/prices/",
+     "price": "6000 ₽",
+     "za_chto": "Тонировка задней полусферы Llumar"
+    },
+    {
+     "company": "Барибал",
+     "url": "https://yandex.ru/maps/org/baribal/66190218088/prices/",
+     "price": "3000 ₽",
+     "za_chto": "Тонирование автомобилей"
+    },
+    {
+     "company": "Автокультура",
+     "url": "https://yandex.ru/maps/org/avtokultura/76648806918/prices/",
+     "price": "2800 ₽",
+     "za_chto": "Обработка стекол “Антидождь” ( полусфера, зеркала)"
+    }
+   ],
+   "kommentariy": "Медиана 16 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию)."
+  },
+  "шумоизоляция автомобиля|шумоизоляция авто": {
+   "check": 20000,
+   "basis": "tipovoy",
+   "n": 8,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "S22",
+     "url": "https://yandex.ru/maps/org/autoaudiocenter/146074149529/prices/",
+     "price": "25000 ₽",
+     "za_chto": "Двери (4 шт)"
+    },
+    {
+     "company": "Vienn",
+     "url": "https://yandex.ru/maps/org/vienn/167932538488/prices/",
+     "price": "10000 ₽",
+     "za_chto": "Шумоизоляция дверей"
+    },
+    {
+     "company": "Авто-Дока",
+     "url": "https://yandex.ru/maps/org/avto_doka/188534198649/prices/",
+     "price": "20000 ₽",
+     "za_chto": "Шумоизоляция дверей"
+    },
+    {
+     "company": "Stp-install",
+     "url": "https://yandex.ru/maps/org/stp_install/189916399812/prices/",
+     "price": "20000 ₽",
+     "za_chto": "Шумоизоляция дверей"
+    },
+    {
+     "company": "Культ",
+     "url": "https://yandex.ru/maps/org/cult/204567773247/prices/",
+     "price": "16000 ₽",
+     "za_chto": "Шумоизоляция дверей – бюджетный вариант"
+    },
+    {
+     "company": "На колесах",
+     "url": "https://yandex.ru/maps/org/na_kolesakh/216853404716/prices/",
+     "price": "3500 ₽",
+     "za_chto": "Задние арки Volkswagen Caddy 3 (2004 – 2010) Коротыш 5 ДВЕРЕЙ (штамп.)"
+    },
+    {
+     "company": "EliteGarage",
+     "url": "https://yandex.ru/maps/org/elitegarage/226138683122/prices/",
+     "price": "24000 ₽",
+     "za_chto": "Шумоизоляция дверей"
+    },
+    {
+     "company": "Авто Сига 59",
+     "url": "https://yandex.ru/maps/org/auto_siga_59/40941773760/prices/",
+     "price": "20000 ₽",
+     "za_chto": "Двери 4шт."
+    }
+   ],
+   "kommentariy": "Медиана 8 цен по прайсам компаний города на Яндекс Картах (шумоизоляция дверей)."
+  },
+  "полировка фар": {
+   "check": 1250,
+   "basis": "tipovoy",
+   "n": 18,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Drd",
+     "url": "https://yandex.ru/maps/org/drd/155023346324/prices/",
+     "price": "2500 ₽",
+     "za_chto": "Восстановление фар"
+    },
+    {
+     "company": "АвтоЛаб 59",
+     "url": "https://yandex.ru/maps/org/avtolab59/160785325279/prices/",
+     "price": "3000 ₽",
+     "za_chto": "Полировка фар"
+    },
+    {
+     "company": "FaraCar",
+     "url": "https://yandex.ru/maps/org/faracar/162832120331/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Полировка фар"
+    },
+    {
+     "company": "Vienn",
+     "url": "https://yandex.ru/maps/org/vienn/167932538488/prices/",
+     "price": "5000 ₽",
+     "za_chto": "Полное восстановление фар"
+    },
+    {
+     "company": "Dream Dop",
+     "url": "https://yandex.ru/maps/org/dream_dop/18005068034/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Полировка фар авто"
+    },
+    {
+     "company": "Автомоё",
+     "url": "https://yandex.ru/maps/org/avtomoe/191898983462/prices/",
+     "price": "5000 ₽",
+     "za_chto": "Восстановление фар"
+    },
+    {
+     "company": "Skolovnet.ru",
+     "url": "https://yandex.ru/maps/org/skolovnet_ru/193863593456/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Полировка фар"
+    },
+    {
+     "company": "Verra Детейлинг",
+     "url": "https://yandex.ru/maps/org/verra_detailing/200993993771/prices/",
+     "price": "5500 ₽",
+     "za_chto": "Полировка фар"
+    },
+    {
+     "company": "Культ",
+     "url": "https://yandex.ru/maps/org/cult/204567773247/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Полировка фар"
+    },
+    {
+     "company": "Лава",
+     "url": "https://yandex.ru/maps/org/lava/210375468184/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Полировка фар"
+    },
+    {
+     "company": "U. D. G.",
+     "url": "https://yandex.ru/maps/org/u_d_g_/223237793814/prices/",
+     "price": "2000 ₽",
+     "za_chto": "Полировка фар"
+    },
+    {
+     "company": "EliteGarage",
+     "url": "https://yandex.ru/maps/org/elitegarage/226138683122/prices/",
+     "price": "2000 ₽",
+     "za_chto": "Полировка фар"
+    },
+    {
+     "company": "СвойDетейлинг",
+     "url": "https://yandex.ru/maps/org/svoydeteyling/57211046240/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Полировка фар"
+    },
+    {
+     "company": "Барибал",
+     "url": "https://yandex.ru/maps/org/baribal/66190218088/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Полировка фар"
+    },
+    {
+     "company": "Мастерская автостекла",
+     "url": "https://yandex.ru/maps/org/masterskaya_avtostekla/66366483352/prices/",
+     "price": "700 ₽",
+     "za_chto": "Полировка фар"
+    },
+    {
+     "company": "Автокультура",
+     "url": "https://yandex.ru/maps/org/avtokultura/76648806918/prices/",
+     "price": "500 ₽",
+     "za_chto": "Полировка фар"
+    },
+    {
+     "company": "Нужен Блеск",
+     "url": "https://yandex.ru/maps/org/nuzhen_blesk/77620559187/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Полировка фар автомобиля"
+    },
+    {
+     "company": "Dtl159",
+     "url": "https://yandex.ru/maps/org/dtl159/94888445841/prices/",
+     "price": "500 ₽",
+     "za_chto": "Полировка фар"
+    }
+   ],
+   "kommentariy": "Медиана 18 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию). У части студий цена за одну фару, у части – за пару; в прайсах это не всегда подписано."
+  },
+  "установка магнитолы": {
+   "check": 14500,
+   "basis": "tipovoy",
+   "n": 7,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Auto Sound Zone",
+     "url": "https://yandex.ru/maps/org/auto_sound_zone/94253382675/prices/",
+     "price": "2000 ₽",
+     "za_chto": "Установка андроид магнитол + магнитола по медиане города 13000 ₽"
+    },
+    {
+     "company": "Profi Sound",
+     "url": "https://yandex.ru/maps/org/profi_sound/37051748497/prices/",
+     "price": "11990 ₽",
+     "za_chto": "установка магнитолы по медиане города 1500 ₽ + Android магнитола OSAKA 9/232 QLED"
+    },
+    {
+     "company": "Автозапуск 59",
+     "url": "https://yandex.ru/maps/org/autozapusk_59/7089414636/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Установка андройд магнитолы + магнитола по медиане города 13000 ₽"
+    },
+    {
+     "company": "Автозвук",
+     "url": "https://yandex.ru/maps/org/avtozvuk/191912332639/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Установка Android магнитол + магнитола по медиане города 13000 ₽"
+    },
+    {
+     "company": "Автокультура",
+     "url": "https://yandex.ru/maps/org/avtokultura/76648806918/prices/",
+     "price": "2000 ₽",
+     "za_chto": "Подбор и установка Android-автомагнитол + магнитола по медиане города 13000 ₽"
+    },
+    {
+     "company": "Автомагнитолы 59",
+     "url": "https://yandex.ru/maps/org/avtomagnitoly_59/214867555103/prices/",
+     "price": "1500 ₽ + 13000 ₽",
+     "za_chto": "Установка Android-магнитол в авто Пермь – быстро и надёжно + Магнитола Android 2/32 для Lada Vesta с регулятором громкости и кнопками"
+    },
+    {
+     "company": "Нави-с",
+     "url": "https://yandex.ru/maps/org/navi_s/1222044880/prices/",
+     "price": "25850 ₽",
+     "za_chto": "установка магнитолы по медиане города 1500 ₽ + Автомагнитола Teyes CC3L 4/64 для Renault Kaptur (Рено Каптюр) 2015 - 2021 для комплектации автомобиля без подрулевого джойстика"
+    }
+   ],
+   "kommentariy": "Медиана 7 цен по прайсам компаний города на Яндекс Картах (магнитола на Android + установка: свои цены компании или медиана города)."
+  },
+  "установка сигнализации": {
+   "check": 21000,
+   "basis": "tipovoy",
+   "n": 14,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Fit Service",
+     "url": "https://yandex.ru/maps/org/fit_service/177677912585/prices/",
+     "price": "17790 ₽",
+     "za_chto": "Установка автосигнализации эконом класса (цена заказа целиком)"
+    },
+    {
+     "company": "Mentor Premium Sound",
+     "url": "https://yandex.ru/maps/org/mentor_premium_sound/96511372590/prices/",
+     "price": "12000 ₽",
+     "za_chto": "Установка автосигнализации + комплект сигнализации по медиане города 16000 ₽"
+    },
+    {
+     "company": "Spl Team Perm",
+     "url": "https://yandex.ru/maps/org/spl_team_perm/218953129216/prices/",
+     "price": "9000 ₽",
+     "za_chto": "Установка сигнализации + комплект сигнализации по медиане города 16000 ₽"
+    },
+    {
+     "company": "Tuning Territory Service",
+     "url": "https://yandex.ru/maps/org/tuning_territory_service/1209517929/prices/",
+     "price": "3500 ₽",
+     "za_chto": "Установка сигнализации + комплект сигнализации по медиане города 16000 ₽"
+    },
+    {
+     "company": "Автозапуск 59",
+     "url": "https://yandex.ru/maps/org/autozapusk_59/7089414636/prices/",
+     "price": "5000 ₽ + 16000 ₽",
+     "za_chto": "Установка автосигнализации + StarLine A93 eco"
+    },
+    {
+     "company": "АвтоКомфорт",
+     "url": "https://yandex.ru/maps/org/avtokomfort/1045745561/prices/",
+     "price": "10000 ₽ + 18500 ₽",
+     "za_chto": "Установка автосигнализаций + Starline E96 v2 ECO"
+    },
+    {
+     "company": "Автосервис",
+     "url": "https://yandex.ru/maps/org/avtoservis/241749286584/prices/",
+     "price": "5000 ₽",
+     "za_chto": "Установка сигнализации + комплект сигнализации по медиане города 16000 ₽"
+    },
+    {
+     "company": "Автосигнализации Тонировка",
+     "url": "https://yandex.ru/maps/org/avtosignalizatsii_tonirovka/51084002701/prices/",
+     "price": "8500 ₽",
+     "za_chto": "Установка автосигнализаций + комплект сигнализации по медиане города 16000 ₽"
+    },
+    {
+     "company": "АвтоСфера59",
+     "url": "https://yandex.ru/maps/org/autosfera59/143395266532/prices/",
+     "price": "5000 ₽",
+     "za_chto": "Установка Автосигнализации + комплект сигнализации по медиане города 16000 ₽"
+    },
+    {
+     "company": "Выхлопофф",
+     "url": "https://yandex.ru/maps/org/vykhlopoff/136552665782/prices/",
+     "price": "4000 ₽",
+     "za_chto": "Установка сигнализации с односторонней связью + комплект сигнализации по медиане города 16000 ₽"
+    },
+    {
+     "company": "Гайва-моторс",
+     "url": "https://yandex.ru/maps/org/gaiva_otors/138343467003/prices/",
+     "price": "8000 ₽",
+     "za_chto": "Установка сигнализации starline + комплект сигнализации по медиане города 16000 ₽"
+    },
+    {
+     "company": "Нави-с",
+     "url": "https://yandex.ru/maps/org/navi_s/1222044880/prices/",
+     "price": "2000 ₽",
+     "za_chto": "Установка сигнализации на автомобиль + комплект сигнализации по медиане города 16000 ₽"
+    },
+    {
+     "company": "УралАвтоТюнинг",
+     "url": "https://yandex.ru/maps/org/uralautotuning/1007807623/prices/",
+     "price": "10000 ₽ + 9200 ₽",
+     "za_chto": "Установка автосигнализаций + StarLine A63 v3 BT ECO"
+    },
+    {
+     "company": "Цезарь Сателлит",
+     "url": "https://yandex.ru/maps/org/cesar_satellite/193534536977/prices/",
+     "price": "10900 ₽",
+     "za_chto": "Установка систем охранной сигнализации + комплект сигнализации по медиане города 16000 ₽"
+    }
+   ],
+   "kommentariy": "Медиана 14 цен по прайсам компаний города на Яндекс Картах (установка + комплект сигнализации с автозапуском; комплект – своя цена или медиана города)."
+  },
+  "автозвук": {
+   "check": null,
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "В прайсах компаний города на Яндекс Картах позиции не найдено."
+  },
+  "установка камеры заднего вида": {
+   "check": 16490,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Auto Sound Zone",
+     "url": "https://yandex.ru/maps/org/auto_sound_zone/94253382675/prices/",
+     "price": "2500 ₽",
+     "za_chto": "Установка камеры заднего вида + камера заднего вида по медиане города 13990 ₽"
+    },
+    {
+     "company": "Автозапуск 59",
+     "url": "https://yandex.ru/maps/org/autozapusk_59/7089414636/prices/",
+     "price": "2500 ₽",
+     "za_chto": "Установка камеры заднего вида + камера заднего вида по медиане города 13990 ₽"
+    },
+    {
+     "company": "Нави-с",
+     "url": "https://yandex.ru/maps/org/navi_s/1222044880/prices/",
+     "price": "13990 ₽",
+     "za_chto": "установка камеры по медиане города 2500 ₽ + Автомагнитола Teyes CC3L Wi-Fi 2/32GB для Mitsubishi Outlander 3 III GFOW/GGOW (Мицубиси Аутлендер 3) 2013 - 2020 для комплектации без штатной камеры заднего вида"
+    }
+   ],
+   "kommentariy": "Медиана 3 цен по прайсам компаний города на Яндекс Картах (камера + установка: свои цены или медиана города)."
+  },
+  "установка автозапуска": {
+   "check": 17600,
+   "basis": "tipovoy",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Автозапуск 59",
+     "url": "https://yandex.ru/maps/org/autozapusk_59/7089414636/prices/",
+     "price": "16000 ₽",
+     "za_chto": "установка автозапуска по медиане города 5000 ₽ + StarLine A93 eco"
+    },
+    {
+     "company": "АвтоКомфорт",
+     "url": "https://yandex.ru/maps/org/avtokomfort/1045745561/prices/",
+     "price": "19500 ₽",
+     "za_chto": "установка автозапуска по медиане города 5000 ₽ + Starline S96 v2 Eco"
+    },
+    {
+     "company": "Сафари",
+     "url": "https://yandex.ru/maps/org/safari/37498141864/prices/",
+     "price": "5000 ₽",
+     "za_chto": "Снятие/установка сигнализации с автозапуском + модуль автозапуска по медиане города 12600 ₽"
+    },
+    {
+     "company": "Угона. нет",
+     "url": "https://yandex.ru/maps/org/ugona_net/1005711046/prices/",
+     "price": "6900 ₽",
+     "za_chto": "установка автозапуска по медиане города 5000 ₽ + Автосигнализация StarLine A60 ECO"
+    },
+    {
+     "company": "УралАвтоТюнинг",
+     "url": "https://yandex.ru/maps/org/uralautotuning/1007807623/prices/",
+     "price": "9200 ₽",
+     "za_chto": "установка автозапуска по медиане города 5000 ₽ + StarLine A63 v3 BT ECO"
+    }
+   ],
+   "kommentariy": "Медиана 5 цен по прайсам компаний города на Яндекс Картах (модуль автозапуска + установка: свои цены или медиана города)."
+  },
+  "установка парктроника": {
+   "check": null,
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "В прайсах компаний города на Яндекс Картах позиции не найдено."
+  },
+  "чип ключ|изготовление ключей для автомобиля": {
+   "check": 500,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Ключ. Авто59",
+     "url": "https://yandex.ru/maps/org/key_auto59/110369161224/prices/",
+     "price": "500 ₽",
+     "za_chto": "Изготовление сувальдного ключа"
+    },
+    {
+     "company": "Автомобильные ключи и брелоки",
+     "url": "https://yandex.ru/maps/org/avtomobilnyye_klyuchi_i_breloki/147472095846/prices/",
+     "price": "500 ₽",
+     "za_chto": "изготовление ключа без чипа"
+    },
+    {
+     "company": "Ключевой момент",
+     "url": "https://yandex.ru/maps/org/kluchevoy_moment/154094441934/prices/",
+     "price": "2000 ₽",
+     "za_chto": "Чип-ключ (с транспондером)"
+    }
+   ],
+   "kommentariy": "Медиана 3 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию). Цены – нижняя планка для простых ключей; смарт-ключи и премиальные марки дороже."
+  },
+  "вскрытие автомобиля|вскрытие авто": {
+   "check": 2000,
+   "basis": "ot",
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "Ключ. Авто59",
+     "url": "https://yandex.ru/maps/org/key_auto59/110369161224/prices/",
+     "price": "2000 ₽",
+     "za_chto": "Аварийное вскрытие автомобиля"
+    }
+   ],
+   "kommentariy": "Медиана 1 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию)."
+  },
+  "чип тюнинг": {
+   "check": 12000,
+   "basis": "ot",
+   "n": 7,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Про чип",
+     "url": "https://yandex.ru/maps/org/pro_chip/1016929972/prices/",
+     "price": "12000 ₽",
+     "za_chto": "Чип-тюнинг (прошивка) Санта Фе (Santa Fe)"
+    },
+    {
+     "company": "Азия-Авто",
+     "url": "https://yandex.ru/maps/org/aziya_avto/155552262899/prices/",
+     "price": "10000 ₽",
+     "za_chto": "Программирование ЭБУ для чип тюнинга"
+    },
+    {
+     "company": "Евро Чип Тюнинг",
+     "url": "https://yandex.ru/maps/org/euro_chip_tuning/23779778044/prices/",
+     "price": "19800 ₽",
+     "za_chto": "Чип тюнинг Audi A4 3.0 TDI B8 245 лс"
+    },
+    {
+     "company": "Автопремьер",
+     "url": "https://yandex.ru/maps/org/avtopremyer/242043741129/prices/",
+     "price": "50000 ₽",
+     "za_chto": "Чип-тюнинг Stage 2 Etuners ДВС + КПП Audi A3 2020 из Кореи 2.0TFSI CZRA 186hp DQ381"
+    },
+    {
+     "company": "Тесла",
+     "url": "https://yandex.ru/maps/org/tesla/32551533515/prices/",
+     "price": "20000 ₽",
+     "za_chto": "Чип-тюнинг ДВС"
+    },
+    {
+     "company": "ЧипТюнингПермь.рф",
+     "url": "https://yandex.ru/maps/org/chiptyuningperm_rf/9873277970/prices/",
+     "price": "8000 ₽",
+     "za_chto": "Чип-тюнинг Stage 1 (бензин / дизель)"
+    },
+    {
+     "company": "Про-Дизель",
+     "url": "https://yandex.ru/maps/org/pro_dizel/98773432685/prices/",
+     "price": "7500 ₽",
+     "za_chto": "Чип-тюнинг и прошивка ЭБУ дизеля"
+    }
+   ],
+   "kommentariy": "Медиана 7 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию). Многопрофильные сервисы пишут «от», профильные студии за Stage 1 берут заметно больше."
+  },
+  "русификация": {
+   "check": 8000,
+   "basis": "tipovoy",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Vag-com-perm.ru",
+     "url": "https://yandex.ru/maps/org/vag_com_perm/1546031609/prices/",
+     "price": "10000 ₽",
+     "za_chto": "Русификация VAG Audi Volkswagen Skoda Seat Bentley Lamborghini Porsche"
+    },
+    {
+     "company": "ЧипТюнингПермь.рф",
+     "url": "https://yandex.ru/maps/org/chiptyuningperm_rf/9873277970/prices/",
+     "price": "6000 ₽",
+     "za_chto": "Русификация Kia, Hyundai, BMW, Toyota"
+    }
+   ],
+   "kommentariy": "Медиана 2 цен по прайсам компаний города на Яндекс Картах (русификация одного блока, младший вариант компании)."
+  },
+  "прошивка эбу|прошивка авто": {
+   "check": 5500,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Про чип",
+     "url": "https://yandex.ru/maps/org/pro_chip/1016929972/prices/",
+     "price": "3500 ₽",
+     "za_chto": "Чип тюнинг (прошивка) РИО, евро 2, увеличение мощности и крутящего момента"
+    },
+    {
+     "company": "МастерКат",
+     "url": "https://yandex.ru/maps/org/masterkat/225512950871/prices/",
+     "price": "3500 ₽",
+     "za_chto": "Прошивка авто под Евро2"
+    },
+    {
+     "company": "Евро Чип Тюнинг",
+     "url": "https://yandex.ru/maps/org/euro_chip_tuning/23779778044/prices/",
+     "price": "7800 ₽",
+     "za_chto": "Обновление прошивки двигателя Ford"
+    },
+    {
+     "company": "Про-Дизель",
+     "url": "https://yandex.ru/maps/org/pro_dizel/98773432685/prices/",
+     "price": "7500 ₽",
+     "za_chto": "Чип-тюнинг и прошивка ЭБУ дизеля"
+    }
+   ],
+   "kommentariy": "Медиана 4 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию)."
+  },
+  "удаление катализатора": {
+   "check": null,
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "В прайсах компаний города на Яндекс Картах позиции не найдено."
+  },
+  "ремонт эбу": {
+   "check": 4900,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Азия-Авто",
+     "url": "https://yandex.ru/maps/org/aziya_avto/155552262899/prices/",
+     "price": "5000 ₽",
+     "za_chto": "Ремонт ЭБУ"
+    },
+    {
+     "company": "ГОСТ",
+     "url": "https://yandex.ru/maps/org/gost/99382637861/prices/",
+     "price": "4800 ₽",
+     "za_chto": "Ремонт блока ЭБУ"
+    }
+   ],
+   "kommentariy": "Медиана 2 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию). Обычно минимальная цена без стоимости заменяемых компонентов."
+  },
+  "ремонт приборной панели": {
+   "check": null,
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "В прайсах компаний города на Яндекс Картах позиции не найдено."
+  },
+  "перетяжка салона": {
+   "check": 80000,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "АвтоЛера",
+     "url": "https://yandex.ru/maps/org/avtolera/187112527204/prices/",
+     "price": "110000 ₽",
+     "za_chto": "Перетяжка салона"
+    },
+    {
+     "company": "EliteGarage",
+     "url": "https://yandex.ru/maps/org/elitegarage/226138683122/prices/",
+     "price": "80000 ₽",
+     "za_chto": "Перетяжка салона"
+    },
+    {
+     "company": "Перетяжка",
+     "url": "https://yandex.ru/maps/org/peretyazhka/64460176224/prices/",
+     "price": "30000 ₽",
+     "za_chto": "Перетяжка салона авто"
+    }
+   ],
+   "kommentariy": "Медиана 3 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию)."
+  },
+  "перетяжка руля": {
+   "check": 8000,
+   "basis": "tipovoy",
+   "n": 8,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Топруль.рф",
+     "url": "https://yandex.ru/maps/org/toprul_rf/120715218469/prices/",
+     "price": "5000 ₽",
+     "za_chto": "Перетяжка руля"
+    },
+    {
+     "company": "Авто-ателье",
+     "url": "https://yandex.ru/maps/org/avto_atelye/157659938303/prices/",
+     "price": "4000 ₽",
+     "za_chto": "Перетяжка руля в экокожу"
+    },
+    {
+     "company": "АвтоЛера",
+     "url": "https://yandex.ru/maps/org/avtolera/187112527204/prices/",
+     "price": "9500 ₽",
+     "za_chto": "Перетяжка руля"
+    },
+    {
+     "company": "Лава",
+     "url": "https://yandex.ru/maps/org/lava/210375468184/prices/",
+     "price": "8000 ₽",
+     "za_chto": "Перетяжка руля"
+    },
+    {
+     "company": "Автоискусство",
+     "url": "https://yandex.ru/maps/org/car_craft/225974713842/prices/",
+     "price": "12000 ₽",
+     "za_chto": "Перешив руля"
+    },
+    {
+     "company": "EliteGarage",
+     "url": "https://yandex.ru/maps/org/elitegarage/226138683122/prices/",
+     "price": "8000 ₽",
+     "za_chto": "Перетяжка руля"
+    },
+    {
+     "company": "Перетяжка",
+     "url": "https://yandex.ru/maps/org/peretyazhka/64460176224/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Перетяжка руля"
+    },
+    {
+     "company": "Пермь-рулит",
+     "url": "https://yandex.ru/maps/org/perm_rulit/74810189375/prices/",
+     "price": "8000 ₽",
+     "za_chto": "Перетяжка руля экокожей"
+    }
+   ],
+   "kommentariy": "Медиана 8 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию)."
+  },
+  "перетяжка сидений": {
+   "check": null,
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "В прайсах компаний города на Яндекс Картах позиции не найдено."
+  },
+  "перетяжка потолка": {
+   "check": 31000,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Топруль.рф",
+     "url": "https://yandex.ru/maps/org/toprul_rf/120715218469/prices/",
+     "price": "50000 ₽",
+     "za_chto": "Перетяжка потолка"
+    },
+    {
+     "company": "АвтоЛера",
+     "url": "https://yandex.ru/maps/org/avtolera/187112527204/prices/",
+     "price": "22000 ₽",
+     "za_chto": "Перетяжка потолка и его комплектующие"
+    },
+    {
+     "company": "Лава",
+     "url": "https://yandex.ru/maps/org/lava/210375468184/prices/",
+     "price": "20000 ₽",
+     "za_chto": "Перетяжка потолка авто"
+    },
+    {
+     "company": "EliteGarage",
+     "url": "https://yandex.ru/maps/org/elitegarage/226138683122/prices/",
+     "price": "40000 ₽",
+     "za_chto": "Перетяжка потолка"
+    }
+   ],
+   "kommentariy": "Медиана 4 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию)."
+  },
+  "перетяжка дверных карт": {
+   "check": 15000,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Топруль.рф",
+     "url": "https://yandex.ru/maps/org/toprul_rf/120715218469/prices/",
+     "price": "3500 ₽",
+     "za_chto": "Перетяжка дверных карт (цена за одну дверь, в расчёте четыре)"
+    },
+    {
+     "company": "АвтоЛера",
+     "url": "https://yandex.ru/maps/org/avtolera/187112527204/prices/",
+     "price": "4000 ₽",
+     "za_chto": "Перетяжка дверных карт (цена за одну дверь, в расчёте четыре)"
+    },
+    {
+     "company": "EliteGarage",
+     "url": "https://yandex.ru/maps/org/elitegarage/226138683122/prices/",
+     "price": "8000 ₽",
+     "za_chto": "Перетяжка дверных карт (цена за одну дверь, в расчёте четыре)"
+    },
+    {
+     "company": "Перетяжка",
+     "url": "https://yandex.ru/maps/org/peretyazhka/64460176224/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Перетяжка дверной карты (цена за одну дверь, в расчёте четыре)"
+    }
+   ],
+   "kommentariy": "Медиана 4 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию). Где цена ниже 9 000 ₽, она принята за одну дверь и умножена на четыре."
+  },
+  "перетяжка торпедо": {
+   "check": 20000,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Топруль.рф",
+     "url": "https://yandex.ru/maps/org/toprul_rf/120715218469/prices/",
+     "price": "10000 ₽",
+     "za_chto": "Перетяжка торпедо"
+    },
+    {
+     "company": "АвтоЛера",
+     "url": "https://yandex.ru/maps/org/avtolera/187112527204/prices/",
+     "price": "50000 ₽",
+     "za_chto": "Перетяжка торпедо и элементов панели"
+    },
+    {
+     "company": "EliteGarage",
+     "url": "https://yandex.ru/maps/org/elitegarage/226138683122/prices/",
+     "price": "20000 ₽",
+     "za_chto": "Перетяжка торпеды"
+    }
+   ],
+   "kommentariy": "Медиана 3 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию)."
+  },
+  "пошив чехлов": {
+   "check": 8600,
+   "basis": "tipovoy",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Автоаксессуары",
+     "url": "https://yandex.ru/maps/org/auto_accessories/196408596313/prices/",
+     "price": "5200 ₽",
+     "za_chto": "Авточехлы из экокожи модель \"Лайн\""
+    },
+    {
+     "company": "Авто Сига 59",
+     "url": "https://yandex.ru/maps/org/auto_siga_59/40941773760/prices/",
+     "price": "12000 ₽",
+     "za_chto": "Авточехлы \"Автопилот\""
+    }
+   ],
+   "kommentariy": "Медиана 2 цен по прайсам компаний города на Яндекс Картах (комплект чехлов, младший вариант компании)."
+  },
+  "ремонт сидений автомобиля": {
+   "check": 3750,
+   "basis": "tipovoy",
+   "n": 6,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Авто-ателье",
+     "url": "https://yandex.ru/maps/org/avto_atelye/157659938303/prices/",
+     "price": "4000 ₽",
+     "za_chto": "Частичный ремонт сидений автомобиля"
+    },
+    {
+     "company": "Vienn",
+     "url": "https://yandex.ru/maps/org/vienn/167932538488/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Кожа. Ремонт порезов"
+    },
+    {
+     "company": "Лава",
+     "url": "https://yandex.ru/maps/org/lava/210375468184/prices/",
+     "price": "3500 ₽",
+     "za_chto": "Реставрация кожи авто"
+    },
+    {
+     "company": "Автоискусство",
+     "url": "https://yandex.ru/maps/org/car_craft/225974713842/prices/",
+     "price": "5000 ₽",
+     "za_chto": "Реставрация кожаной обивки"
+    },
+    {
+     "company": "EliteGarage",
+     "url": "https://yandex.ru/maps/org/elitegarage/226138683122/prices/",
+     "price": "4000 ₽",
+     "za_chto": "Перешив салона и ремонт сидений"
+    },
+    {
+     "company": "Пермь-рулит",
+     "url": "https://yandex.ru/maps/org/perm_rulit/74810189375/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Ремонт автомобильных сидений"
+    }
+   ],
+   "kommentariy": "Медиана 6 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию)."
+  },
+  "автоателье": {
+   "check": null,
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "Не хватает составляющих расчёта (руль, сиденья)."
+  },
+  "шиномонтаж": {
+   "check": 3480,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Шинторг",
+     "url": "https://yandex.ru/maps/org/shintorg/1176528217/prices/",
+     "price": "2760 ₽",
+     "za_chto": "Шиномонтаж R16"
+    },
+    {
+     "company": "Ми Драйв",
+     "url": "https://yandex.ru/maps/org/my_drive/162508704446/prices/",
+     "price": "4200 ₽",
+     "za_chto": "Комплексный шиномонтаж 4-х колес R16 (легковой)"
+    },
+    {
+     "company": "Fit Service",
+     "url": "https://yandex.ru/maps/org/fit_service/177677912585/prices/",
+     "price": "4700 ₽",
+     "za_chto": "Шиномонтаж R16"
+    },
+    {
+     "company": "Лига-сервис",
+     "url": "https://yandex.ru/maps/org/ligaservis/198063434223/prices/",
+     "price": "2400 ₽",
+     "za_chto": "Шиномонтаж R-16"
+    }
+   ],
+   "kommentariy": "Медиана 4 цен по прайсам компаний города на Яндекс Картах (шиномонтаж комплекта R16–R17)."
+  },
+  "развал схождение": {
+   "check": 1900,
+   "basis": "tipovoy",
+   "n": 26,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Колесо.ру",
+     "url": "https://yandex.ru/maps/org/koleso_ru/1013703998/prices/",
+     "price": "2250 ₽",
+     "za_chto": "Сход-развал"
+    },
+    {
+     "company": "Center",
+     "url": "https://yandex.ru/maps/org/center/1030620145/prices/",
+     "price": "2500 ₽",
+     "za_chto": "Развал-Схождение"
+    },
+    {
+     "company": "Автосервис Экскурс",
+     "url": "https://yandex.ru/maps/org/exkurs/1083618266/prices/",
+     "price": "2500 ₽",
+     "za_chto": "Сход-развал (развал-схождение)"
+    },
+    {
+     "company": "АвтоРитм 24/7",
+     "url": "https://yandex.ru/maps/org/avtoritm_24_7/109379321441/prices/",
+     "price": "2200 ₽",
+     "za_chto": "Развал схождение"
+    },
+    {
+     "company": "RS",
+     "url": "https://yandex.ru/maps/org/rs/110485918451/prices/",
+     "price": "1750 ₽",
+     "za_chto": "Развал схождение"
+    },
+    {
+     "company": "Фанавто",
+     "url": "https://yandex.ru/maps/org/fanavto/110616431813/prices/",
+     "price": "1750 ₽",
+     "za_chto": "Развал-схождение"
+    },
+    {
+     "company": "Экскурс",
+     "url": "https://yandex.ru/maps/org/ekskurs/1124328992/prices/",
+     "price": "2500 ₽",
+     "za_chto": "Сход-развал (развал-схождение)"
+    },
+    {
+     "company": "Авто Тема",
+     "url": "https://yandex.ru/maps/org/avto_tema/1194670824/prices/",
+     "price": "850 ₽",
+     "za_chto": "Болт развальный MITSUBISHI L200'05-15 (c гайкой и шайбой) (Masuma) / MLS593"
+    },
+    {
+     "company": "АБС-Авто",
+     "url": "https://yandex.ru/maps/org/abs_auto/1264081346/prices/",
+     "price": "3290 ₽",
+     "za_chto": "Развал-схождение"
+    },
+    {
+     "company": "Автомоё",
+     "url": "https://yandex.ru/maps/org/avtomoe/1291417990/prices/",
+     "price": "2600 ₽",
+     "za_chto": "Развал/схождение"
+    },
+    {
+     "company": "Выхлопофф",
+     "url": "https://yandex.ru/maps/org/vykhlopoff/136552665782/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Развал схождения"
+    },
+    {
+     "company": "Гайва-моторс",
+     "url": "https://yandex.ru/maps/org/gaiva_otors/138343467003/prices/",
+     "price": "2000 ₽",
+     "za_chto": "Развал - схождения"
+    },
+    {
+     "company": "Авто Электро",
+     "url": "https://yandex.ru/maps/org/avto_elektro/169671220402/prices/",
+     "price": "3900 ₽",
+     "za_chto": "Сход-развал"
+    },
+    {
+     "company": "Grafit",
+     "url": "https://yandex.ru/maps/org/grafit/1709180610/prices/",
+     "price": "3190 ₽",
+     "za_chto": "Развал схождение"
+    },
+    {
+     "company": "Докавто",
+     "url": "https://yandex.ru/maps/org/docavto/19047458519/prices/",
+     "price": "1300 ₽",
+     "za_chto": "3D сход-развал"
+    },
+    {
+     "company": "ТехАвто159",
+     "url": "https://yandex.ru/maps/org/tehavto159/190880647453/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Сход-развал 3D | Балатово"
+    },
+    {
+     "company": "Slide Avto",
+     "url": "https://yandex.ru/maps/org/slide_avto/203202990660/prices/",
+     "price": "1100 ₽",
+     "za_chto": "Развал схождение"
+    },
+    {
+     "company": "Поехали",
+     "url": "https://yandex.ru/maps/org/poyekhali/206977196690/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Развал-схождения"
+    },
+    {
+     "company": "Автосервис",
+     "url": "https://yandex.ru/maps/org/avtoservis/22316035103/prices/",
+     "price": "1800 ₽",
+     "za_chto": "Регулировка сход-развала"
+    },
+    {
+     "company": "Босозоку",
+     "url": "https://yandex.ru/maps/org/bosozoku/229461462247/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Развал-схождение"
+    },
+    {
+     "company": "Рмс59",
+     "url": "https://yandex.ru/maps/org/rms59/243650650617/prices/",
+     "price": "1088 ₽",
+     "za_chto": "SWAG Болт регулировки развала, арт. 10923459"
+    },
+    {
+     "company": "Хартманн",
+     "url": "https://yandex.ru/maps/org/hartmann/37592741431/prices/",
+     "price": "3000 ₽",
+     "za_chto": "Развал схождение"
+    },
+    {
+     "company": "Кардано",
+     "url": "https://yandex.ru/maps/org/kardano/49629464219/prices/",
+     "price": "2000 ₽",
+     "za_chto": "Регулировка развала-схождения"
+    },
+    {
+     "company": "Паркк Электро",
+     "url": "https://yandex.ru/maps/org/parkk_electro/73132609487/prices/",
+     "price": "6000 ₽",
+     "za_chto": "Сход-развал"
+    },
+    {
+     "company": "АвтоКрай",
+     "url": "https://yandex.ru/maps/org/avtokray/91286786276/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Развал Схождение"
+    },
+    {
+     "company": "Сход-развал 3D",
+     "url": "https://yandex.ru/maps/org/skhod_razval_3d/9330240451/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Развал схождение"
+    }
+   ],
+   "kommentariy": "Медиана 26 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию)."
+  },
+  "балансировка колес": {
+   "check": 800,
+   "basis": "tipovoy",
+   "n": 6,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "5 Колесо",
+     "url": "https://yandex.ru/maps/org/5_koleso/100620370875/prices/",
+     "price": "165 ₽",
+     "za_chto": "Балансировка (цена за колесо, в расчёте четыре)"
+    },
+    {
+     "company": "R15",
+     "url": "https://yandex.ru/maps/org/r15/120747845453/prices/",
+     "price": "200 ₽",
+     "za_chto": "Балансировка колеса (цена за колесо, в расчёте четыре)"
+    },
+    {
+     "company": "Tuning Territory Service",
+     "url": "https://yandex.ru/maps/org/tuning_territory_service/1209517929/prices/",
+     "price": "200 ₽",
+     "za_chto": "Балансировка (цена за колесо, в расчёте четыре)"
+    },
+    {
+     "company": "Шиномонтаж R15",
+     "url": "https://yandex.ru/maps/org/shinomontazh_r15/196017616036/prices/",
+     "price": "200 ₽",
+     "za_chto": "Балансировка колеса (цена за колесо, в расчёте четыре)"
+    },
+    {
+     "company": "Лига-сервис",
+     "url": "https://yandex.ru/maps/org/ligaservis/198063434223/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Балансировка колёс"
+    },
+    {
+     "company": "Тайм",
+     "url": "https://yandex.ru/maps/org/time/216440722776/prices/",
+     "price": "200 ₽",
+     "za_chto": "Балансировка колеса Легковая R13/R14/R15 (цена за колесо, в расчёте четыре)"
+    }
+   ],
+   "kommentariy": "Медиана 6 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию)."
+  },
+  "покраска дисков": {
+   "check": 8000,
+   "basis": "tipovoy",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Verra",
+     "url": "https://yandex.ru/maps/org/verra/1044037194/prices/",
+     "price": "25000 ₽",
+     "za_chto": "Покраска дисков"
+    },
+    {
+     "company": "Закамск",
+     "url": "https://yandex.ru/maps/org/zakamsk/110702113506/prices/",
+     "price": "2500 ₽",
+     "za_chto": "Покраска дисков (цена за диск, в расчёте четыре)"
+    },
+    {
+     "company": "Даст Драй",
+     "url": "https://yandex.ru/maps/org/dust_dry_proshkovaya_pokraska/1329910224/prices/",
+     "price": "5000 ₽",
+     "za_chto": "Порошковая покраска дисков"
+    },
+    {
+     "company": "Рубль Вилс",
+     "url": "https://yandex.ru/maps/org/rubl_vils/155563266848/prices/",
+     "price": "6000 ₽",
+     "za_chto": "Покраска дисков"
+    },
+    {
+     "company": "Атмосфера колёс",
+     "url": "https://yandex.ru/maps/org/atmosfera_koles/206760792257/prices/",
+     "price": "8000 ₽",
+     "za_chto": "Покраска дисков в серебро, чёрный глянец, графит, бронза, алюминий"
+    }
+   ],
+   "kommentariy": "Медиана 5 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию)."
+  },
+  "правка дисков": {
+   "check": 600,
+   "basis": "tipovoy",
+   "n": 6,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "5 Колесо",
+     "url": "https://yandex.ru/maps/org/5_koleso/100620370875/prices/",
+     "price": "440 ₽",
+     "za_chto": "Правка стального диска"
+    },
+    {
+     "company": "Леонов-Авто",
+     "url": "https://yandex.ru/maps/org/leonov_auto/1090149318/prices/",
+     "price": "450 ₽",
+     "za_chto": "Правка стального диска"
+    },
+    {
+     "company": "АвтоРитм 24/7",
+     "url": "https://yandex.ru/maps/org/avtoritm_24_7/109379321441/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Правка дисков"
+    },
+    {
+     "company": "R15",
+     "url": "https://yandex.ru/maps/org/r15/120747845453/prices/",
+     "price": "1400 ₽",
+     "za_chto": "Правка литого диска"
+    },
+    {
+     "company": "Шиномонтаж R15",
+     "url": "https://yandex.ru/maps/org/shinomontazh_r15/196017616036/prices/",
+     "price": "500 ₽",
+     "za_chto": "Правка литого диска"
+    },
+    {
+     "company": "Атмосфера колёс",
+     "url": "https://yandex.ru/maps/org/atmosfera_koles/206760792257/prices/",
+     "price": "700 ₽",
+     "za_chto": "Правка кованых разборных дисков"
+    }
+   ],
+   "kommentariy": "Медиана 6 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию)."
+  },
+  "сварка дисков": {
+   "check": 1750,
+   "basis": "tipovoy",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Big Wheel",
+     "url": "https://yandex.ru/maps/org/big_wheel/1703171260/prices/",
+     "price": "2000 ₽",
+     "za_chto": "Сварка дисков"
+    },
+    {
+     "company": "Атмосфера колёс",
+     "url": "https://yandex.ru/maps/org/atmosfera_koles/206760792257/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Сварка диска (восстановление)"
+    }
+   ],
+   "kommentariy": "Медиана 2 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию)."
+  },
+  "ремонт шин": {
+   "check": 1050,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "5 Колесо",
+     "url": "https://yandex.ru/maps/org/5_koleso/100620370875/prices/",
+     "price": "1100 ₽",
+     "za_chto": "Ремонт бокового пореза"
+    },
+    {
+     "company": "R15",
+     "url": "https://yandex.ru/maps/org/r15/120747845453/prices/",
+     "price": "2750 ₽",
+     "za_chto": "Горячая вулканизация бескамерной шины"
+    },
+    {
+     "company": "Рубль Вилс",
+     "url": "https://yandex.ru/maps/org/rubl_vils/155563266848/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Варка боковых порезов"
+    },
+    {
+     "company": "Шиномонтаж R15",
+     "url": "https://yandex.ru/maps/org/shinomontazh_r15/196017616036/prices/",
+     "price": "500 ₽",
+     "za_chto": "Вулканизация бескамерной шины"
+    }
+   ],
+   "kommentariy": "Медиана 4 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию)."
+  },
+  "хранение шин": {
+   "check": 3800,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Колесо.ру",
+     "url": "https://yandex.ru/maps/org/koleso_ru/1013703998/prices/",
+     "price": "2700 ₽",
+     "za_chto": "Сезонное хранение шин"
+    },
+    {
+     "company": "Big Wheel",
+     "url": "https://yandex.ru/maps/org/big_wheel/1703171260/prices/",
+     "price": "3200 ₽",
+     "za_chto": "Хранение шин"
+    },
+    {
+     "company": "Паркк Сервис",
+     "url": "https://yandex.ru/maps/org/parkk_service/70993489748/prices/",
+     "price": "4400 ₽",
+     "za_chto": "Хранение шин"
+    },
+    {
+     "company": "Паркк Электро",
+     "url": "https://yandex.ru/maps/org/parkk_electro/73132609487/prices/",
+     "price": "4400 ₽",
+     "za_chto": "Сезонное хранение колес"
+    }
+   ],
+   "kommentariy": "Медиана 4 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию)."
+  },
+  "ремонт китайских автомобилей": {
+   "check": null,
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "В прайсах компаний города на Яндекс Картах позиции не найдено."
+  },
+  "русификация китайских автомобилей|русификация китайских авто": {
+   "check": null,
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "В прайсах компаний города на Яндекс Картах позиции не найдено."
+  },
+  "ремонт хавал|ремонт haval|сервис хавал": {
+   "check": null,
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "В прайсах компаний города на Яндекс Картах позиции не найдено."
+  },
+  "ремонт чери|ремонт chery|сервис чери": {
+   "check": null,
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "В прайсах компаний города на Яндекс Картах позиции не найдено."
+  },
+  "ремонт джили|ремонт geely": {
+   "check": null,
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "В прайсах компаний города на Яндекс Картах позиции не найдено."
+  },
+  "ремонт лисян|ремонт lixiang": {
+   "check": 11930,
+   "basis": "tipovoy",
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "Авто Электро",
+     "url": "https://yandex.ru/maps/org/avto_elektro/169671220402/prices/",
+     "price": "11930 ₽",
+     "za_chto": "ТО двигателя + салонный фильтр LiXiang L6, L7, L8, L9"
+    }
+   ],
+   "kommentariy": "Медиана 1 цен по прайсам компаний города на Яндекс Картах (ТО Li Auto). Состав ТО в прайсах не всегда раскрыт; где цена ниже 5 000 ₽, к работе добавлены масло и фильтр по ценам города."
+  },
+  "ремонт зикр|ремонт zeekr": {
+   "check": null,
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "В прайсах компаний города на Яндекс Картах позиции не найдено."
+  },
+  "ремонт чанган": {
+   "check": null,
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "В прайсах компаний города на Яндекс Картах позиции не найдено."
+  },
+  "ремонт гибридов": {
+   "check": 40000,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Авто Электро",
+     "url": "https://yandex.ru/maps/org/avto_elektro/169671220402/prices/",
+     "price": "30000 ₽",
+     "za_chto": "Замена высоковольтных батарей"
+    },
+    {
+     "company": "Паркк Электро",
+     "url": "https://yandex.ru/maps/org/parkk_electro/73132609487/prices/",
+     "price": "50000 ₽",
+     "za_chto": "Восстановление высоковольтных батарей"
+    }
+   ],
+   "kommentariy": "Медиана 2 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию). Нижняя граница: переборка батареи с заменой секций дороже."
+  },
+  "ремонт стартера": {
+   "check": 1000,
+   "basis": "ot",
+   "n": 11,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Закамск",
+     "url": "https://yandex.ru/maps/org/zakamsk/110702113506/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Ремонт стартеров"
+    },
+    {
+     "company": "Вольтаж",
+     "url": "https://yandex.ru/maps/org/kompaniya_startery_i_generatory/1119045023/prices/",
+     "price": "900 ₽",
+     "za_chto": "Ремонт стартера"
+    },
+    {
+     "company": "Tuning Territory Service",
+     "url": "https://yandex.ru/maps/org/tuning_territory_service/1209517929/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Ремонт стартеров"
+    },
+    {
+     "company": "Компания по ремонту стартеров и генераторов",
+     "url": "https://yandex.ru/maps/org/kompaniya_po_remontu_starterov_i_generatorov/155564592330/prices/",
+     "price": "800 ₽",
+     "za_chto": "Ремонт стартера"
+    },
+    {
+     "company": "Сгсервис",
+     "url": "https://yandex.ru/maps/org/sgservice/187798707503/prices/",
+     "price": "900 ₽",
+     "za_chto": "ремонт стартеров генераторов"
+    },
+    {
+     "company": "МикСервис",
+     "url": "https://yandex.ru/maps/org/mikservis/191205267416/prices/",
+     "price": "1700 ₽",
+     "za_chto": "Ремонт стартера"
+    },
+    {
+     "company": "Автосервис",
+     "url": "https://yandex.ru/maps/org/avtoservis/241749286584/prices/",
+     "price": "3000 ₽",
+     "za_chto": "Ремонт стартеров"
+    },
+    {
+     "company": "Кардано",
+     "url": "https://yandex.ru/maps/org/kardano/49629464219/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Ремонт стартера 12v"
+    },
+    {
+     "company": "Техцентр ЕЕМоторс",
+     "url": "https://yandex.ru/maps/org/eemotors_technical_center/63978936761/prices/",
+     "price": "3500 ₽",
+     "za_chto": "Ремонт стартера"
+    },
+    {
+     "company": "МаршрутАвто",
+     "url": "https://yandex.ru/maps/org/marshrutavto/74687985027/prices/",
+     "price": "800 ₽",
+     "za_chto": "Ремонт стартера или генератора 12В"
+    },
+    {
+     "company": "ГОСТ",
+     "url": "https://yandex.ru/maps/org/gost/99382637861/prices/",
+     "price": "2250 ₽",
+     "za_chto": "Ремонт стартера"
+    }
+   ],
+   "kommentariy": "Медиана 11 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию). Работа без запчастей, у части сервисов «от»."
+  },
+  "ремонт генератора": {
+   "check": 1500,
+   "basis": "ot",
+   "n": 11,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Закамск",
+     "url": "https://yandex.ru/maps/org/zakamsk/110702113506/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Ремонт генераторов"
+    },
+    {
+     "company": "Вольтаж",
+     "url": "https://yandex.ru/maps/org/kompaniya_startery_i_generatory/1119045023/prices/",
+     "price": "900 ₽",
+     "za_chto": "Ремонт генератора"
+    },
+    {
+     "company": "Tuning Territory Service",
+     "url": "https://yandex.ru/maps/org/tuning_territory_service/1209517929/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Ремонт генераторов"
+    },
+    {
+     "company": "Компания по ремонту стартеров и генераторов",
+     "url": "https://yandex.ru/maps/org/kompaniya_po_remontu_starterov_i_generatorov/155564592330/prices/",
+     "price": "800 ₽",
+     "za_chto": "Ремонт генератора"
+    },
+    {
+     "company": "Grafit",
+     "url": "https://yandex.ru/maps/org/grafit/1709180610/prices/",
+     "price": "3000 ₽",
+     "za_chto": "Ремонт генератора"
+    },
+    {
+     "company": "Сгсервис",
+     "url": "https://yandex.ru/maps/org/sgservice/187798707503/prices/",
+     "price": "900 ₽",
+     "za_chto": "ремонт генераторов"
+    },
+    {
+     "company": "МикСервис",
+     "url": "https://yandex.ru/maps/org/mikservis/191205267416/prices/",
+     "price": "1700 ₽",
+     "za_chto": "Ремонт генератора"
+    },
+    {
+     "company": "Автосервис",
+     "url": "https://yandex.ru/maps/org/avtoservis/241749286584/prices/",
+     "price": "3000 ₽",
+     "za_chto": "Ремонт генераторов"
+    },
+    {
+     "company": "Кардано",
+     "url": "https://yandex.ru/maps/org/kardano/49629464219/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Ремонт генератора 12V"
+    },
+    {
+     "company": "Техцентр ЕЕМоторс",
+     "url": "https://yandex.ru/maps/org/eemotors_technical_center/63978936761/prices/",
+     "price": "4500 ₽",
+     "za_chto": "Ремонт генератора"
+    },
+    {
+     "company": "ГОСТ",
+     "url": "https://yandex.ru/maps/org/gost/99382637861/prices/",
+     "price": "3000 ₽",
+     "za_chto": "Ремонт генератора"
+    }
+   ],
+   "kommentariy": "Медиана 11 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию). Работа без запчастей, у части сервисов «от»."
+  },
+  "ремонт турбины": {
+   "check": 6500,
+   "basis": "ot",
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "Про-Дизель",
+     "url": "https://yandex.ru/maps/org/pro_dizel/98773432685/prices/",
+     "price": "6500 ₽",
+     "za_chto": "Ремонт турбины / турбокомпрессора"
+    }
+   ],
+   "kommentariy": "Медиана 1 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию)."
+  },
+  "ремонт радиатора автомобиля|пайка радиатора": {
+   "check": null,
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "В прайсах компаний города на Яндекс Картах позиции не найдено."
+  },
+  "ремонт глушителя": {
+   "check": 1000,
+   "basis": "tipovoy",
+   "n": 15,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Автотрон",
+     "url": "https://yandex.ru/maps/org/autotron/1035118887/prices/",
+     "price": "1058 ₽",
+     "za_chto": "Гофра глушителя L230 диам.*45 Patron EL45X230"
+    },
+    {
+     "company": "Глушители",
+     "url": "https://yandex.ru/maps/org/glushiteli/1077848429/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Изготовление глушителей ремонт глушителей"
+    },
+    {
+     "company": "Закамск",
+     "url": "https://yandex.ru/maps/org/zakamsk/110702113506/prices/",
+     "price": "500 ₽",
+     "za_chto": "Ремонт глушителей"
+    },
+    {
+     "company": "Биг Wheel-auto",
+     "url": "https://yandex.ru/maps/org/big_wheel_auto/115699085271/prices/",
+     "price": "900 ₽",
+     "za_chto": "Замена датчика кислорода в БИГWheel‑auto. Запчасти в наличии, выгодные цены. Диагностика, ремонт выхлопной системы. Первым клиентам – скидка!"
+    },
+    {
+     "company": "Авто Тема",
+     "url": "https://yandex.ru/maps/org/avto_tema/1194670824/prices/",
+     "price": "850 ₽",
+     "za_chto": "Гофра системы выпуска CHEVROLET CAPTIVA'07 3.2 (50x230) Interlock (Zekkert) / FR50230L"
+    },
+    {
+     "company": "Tuning Territory Service",
+     "url": "https://yandex.ru/maps/org/tuning_territory_service/1209517929/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Ремонт глушителей"
+    },
+    {
+     "company": "Выхлопофф",
+     "url": "https://yandex.ru/maps/org/vykhlopoff/136552665782/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Гофра выхлопной системы замена"
+    },
+    {
+     "company": "Автомоё",
+     "url": "https://yandex.ru/maps/org/avtomoyo/148256997119/prices/",
+     "price": "4500 ₽",
+     "za_chto": "Ремонт выхлопной системы"
+    },
+    {
+     "company": "Азия-Авто",
+     "url": "https://yandex.ru/maps/org/aziya_avto/155552262899/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Ремонт глушителя"
+    },
+    {
+     "company": "Глушок 59",
+     "url": "https://yandex.ru/maps/org/glushok_59/166579674505/prices/",
+     "price": "2500 ₽",
+     "za_chto": "Замена гофры"
+    },
+    {
+     "company": "МастерКат",
+     "url": "https://yandex.ru/maps/org/masterkat/225512950871/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Замена гофры"
+    },
+    {
+     "company": "Рмс59",
+     "url": "https://yandex.ru/maps/org/rms59/243650650617/prices/",
+     "price": "680 ₽",
+     "za_chto": "BOSAL Гофра 55x150мм, арт. 265329"
+    },
+    {
+     "company": "Сафари",
+     "url": "https://yandex.ru/maps/org/safari/37498141864/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Замена гофры глушителя (если одна труба)"
+    },
+    {
+     "company": "Юпитер Н",
+     "url": "https://yandex.ru/maps/org/jupiter_n/51268520871/prices/",
+     "price": "1500 ₽",
+     "za_chto": "Ремонт выхлопных систем"
+    },
+    {
+     "company": "Техцентр ЕЕМоторс",
+     "url": "https://yandex.ru/maps/org/eemotors_technical_center/63978936761/prices/",
+     "price": "1000 ₽",
+     "za_chto": "Ремонт глушителя"
+    }
+   ],
+   "kommentariy": "Медиана 15 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию)."
+  },
+  "ремонт рулевой рейки|ремонт гур": {
+   "check": 5000,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Центр ремонта рулевых реек",
+     "url": "https://yandex.ru/maps/org/centr_remonta_rulevyh_reek/1308749625/prices/",
+     "price": "5000 ₽",
+     "za_chto": "Ремонт рулевых реек"
+    },
+    {
+     "company": "Железный конь",
+     "url": "https://yandex.ru/maps/org/zhelezniy_kon/1314839772/prices/",
+     "price": "4000 ₽",
+     "za_chto": "Ремонт механических рулевых реек"
+    },
+    {
+     "company": "Автодонор",
+     "url": "https://yandex.ru/maps/org/autodonor/1674303250/prices/",
+     "price": "5000 ₽",
+     "za_chto": "Ремонт рулевых реек"
+    }
+   ],
+   "kommentariy": "Медиана 3 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию)."
+  },
+  "ремонт форсунок": {
+   "check": 14000,
+   "basis": "tipovoy",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Азия-Авто",
+     "url": "https://yandex.ru/maps/org/aziya_avto/155552262899/prices/",
+     "price": "3000 ₽",
+     "za_chto": "Ремонт форсунок (цена за одну форсунку, в расчёте четыре)"
+    },
+    {
+     "company": "Про-Дизель",
+     "url": "https://yandex.ru/maps/org/pro_dizel/98773432685/prices/",
+     "price": "4000 ₽",
+     "za_chto": "Ремонт форсунок Common Rail (цена за одну форсунку, в расчёте четыре)"
+    }
+   ],
+   "kommentariy": "Медиана 2 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию). Цены без запчастей (распылители, клапаны оплачиваются отдельно)."
+  },
+  "ремонт тнвд": {
+   "check": 15000,
+   "basis": "ot",
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "Про-Дизель",
+     "url": "https://yandex.ru/maps/org/pro_dizel/98773432685/prices/",
+     "price": "15000 ₽",
+     "za_chto": "Ремонт ТНВД (рядный / распределительный)"
+    }
+   ],
+   "kommentariy": "Медиана 1 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию). Работа без запчастей и без снятия и установки насоса."
+  },
+  "ремонт пневмоподвески": {
+   "check": 2500,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Хартманн",
+     "url": "https://yandex.ru/maps/org/hartmann/37592741431/prices/",
+     "price": "5000 ₽",
+     "za_chto": "Ремонт пневмоподвески"
+    },
+    {
+     "company": "Паркк Сервис",
+     "url": "https://yandex.ru/maps/org/parkk_service/70993489748/prices/",
+     "price": "2500 ₽",
+     "za_chto": "Ремонт пневмоподвески"
+    },
+    {
+     "company": "Паркк Электро",
+     "url": "https://yandex.ru/maps/org/parkk_electro/73132609487/prices/",
+     "price": "2500 ₽",
+     "za_chto": "Ремонт пневмоподвески"
+    }
+   ],
+   "kommentariy": "Медиана 3 цен по прайсам компаний города на Яндекс Картах (по одной позиции на компанию). В прайсах цена работы; сама пневмостойка или баллон оплачиваются отдельно."
+  }
+ }
+}
