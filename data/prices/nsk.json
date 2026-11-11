@@ -1,0 +1,2257 @@
+{
+ "city": "Новосибирск",
+ "currency": "RUB",
+ "date": "2026-11-11",
+ "prices": {
+  "автосервис|сто минск": {
+   "check": 12105,
+   "basis": "ot",
+   "n": 4,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/",
+     "price": "замена масла 1000 ₽ + компьютерная диагностика от 750 ₽; замена рычагов от 1840 ₽ ×2 + шаровых от 1150 ₽ ×2",
+     "za_chto": "среднее двух типовых заказов: ТО (масло с материалами + диагностика) 6 225 ₽ и ходовая (4 позиции с запчастями) 17 876 ₽"
+    },
+    {
+     "company": "Аршина",
+     "url": "https://arshina.su/prices/",
+     "price": "замена масла от 1 500 ₽ + компьютерная диагностика от 950 ₽; нижний рычаг от 1 700 ₽ ×2 + шаровая от 1 050 ₽ ×2",
+     "za_chto": "среднее двух типовых заказов: ТО 6 925 ₽ и ходовая с запчастями 17 396 ₽"
+    },
+    {
+     "company": "А-Бренд",
+     "url": "https://autoservice154.ru/price",
+     "price": "замена масла от 950 ₽ + компьютерная диагностика от 1400 ₽; замена рычагов от 1400 ₽ ×2 + шаровых от 1260 ₽ ×2",
+     "za_chto": "среднее двух типовых заказов: ТО 6 825 ₽ и ходовая с запчастями 17 216 ₽"
+    },
+    {
+     "company": "Белый Сервис (филиал в Новосибирске)",
+     "url": "https://novosibirsk.beliyservice.ru/prices/kia/",
+     "price": "ТО Максимум 5W30: Kia от 8799, Toyota от 10099, Renault от 8199, Hyundai от 4999 рублей; рычаг – замена от 5499 ×2 + шаровая опора – замена от 3199 ×2",
+     "za_chto": "среднее двух типовых заказов: ТО (медиана четырёх марок 8 499 ₽, с запчастями) и ходовая с запчастями 17 396 ₽"
+    }
+   ],
+   "kommentariy": "РАСЧЁТНОЕ число: средний чек заказ-наряда в городе никто не публикует. Для четырёх многопрофильных сервисов посчитано среднее двух типовых заказов – ТО (замена масла с материалами + компьютерная диагностика; у Белого Сервиса готовый пакет «ТО Максимум») и ходовая (2 рычага + 2 шаровые с запчастями). Материалы масла 4 475 ₽ и запчасти ходовой 11 896 ₽ добавлены к ценам работы – см. ключи «замена масла» и «ремонт ходовой»."
+  },
+  "замена масла": {
+   "check": 5450,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/repair/repair_engine/",
+     "price": "1000 ₽ (0 ₽ по акции при покупке масла)",
+     "za_chto": "замена масла в двигателе, только работа"
+    },
+    {
+     "company": "Аршина",
+     "url": "https://arshina.su/prices/",
+     "price": "от 1 500 ₽",
+     "za_chto": "замена масла в двигателе (ДВС), только работа, без масла и фильтра"
+    },
+    {
+     "company": "А-Бренд",
+     "url": "https://autoservice154.ru/price",
+     "price": "от 950 ₽",
+     "za_chto": "замена масла в двигателе автомобиля, работа"
+    },
+    {
+     "company": "Zoon (агрегатор)",
+     "url": "https://zoon.ru/nsk/autoservice/price/zamena_masla_v_dvigatele/",
+     "price": "700 ₽ в среднем, 260 автосервисов",
+     "za_chto": "замена масла в двигателе, работа"
+    }
+   ],
+   "kommentariy": "Цены сервисов – только работа («от»): медиана работы 975 ₽. Добавлены материалы 4 475 ₽: масло 4 л ≈ 3 700 ₽ (Rolf GT 5W30/5W40 4 л – 3 614–3 717 ₽ в магазине Reaktor, nsk.reaktor24.ru/shop/popular_products_in_stock/) + масляный фильтр ≈ 775 ₽ (медиана 9 позиций maslo54.ru/shop/filtry/). Во многих сервисах города работа бесплатна при покупке масла на месте."
+  },
+  "диагностика автомобиля|диагностика авто": {
+   "check": 1175,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/diagnostics/",
+     "price": "от 750 ₽",
+     "za_chto": "компьютерная диагностика авто"
+    },
+    {
+     "company": "Аршина",
+     "url": "https://arshina.su/prices/",
+     "price": "от 950 ₽",
+     "za_chto": "компьютерная диагностика"
+    },
+    {
+     "company": "А-Бренд",
+     "url": "https://autoservice154.ru/price",
+     "price": "от 1400 ₽",
+     "za_chto": "компьютерная диагностика автомобиля"
+    },
+    {
+     "company": "Profi.ru (агрегатор)",
+     "url": "https://profi.ru/geo-nsk/remont/kompyuternaya-diagnostika-avtomobilya/price/",
+     "price": "от 1580 ₽ за усл.",
+     "za_chto": "компьютерная диагностика автомобилей"
+    }
+   ],
+   "kommentariy": "Медиана цен «от» четырёх источников; нижняя граница, на премиальные марки дороже."
+  },
+  "ремонт двигателя": {
+   "check": 13560,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/repair/repair_engine/",
+     "price": "от 16100 ₽",
+     "za_chto": "замена цепи ГРМ, работа (ремонт ГБЦ – от 11 500 ₽)"
+    },
+    {
+     "company": "Аршина",
+     "url": "https://arshina.su/prices/",
+     "price": "от 10 000 ₽",
+     "za_chto": "замена цепи ГРМ (R4), работа (замена прокладки ГБЦ – от 11 400 ₽)"
+    },
+    {
+     "company": "А-Бренд",
+     "url": "https://autoservice154.ru/price",
+     "price": "от 15120 ₽",
+     "za_chto": "замена цепи ГРМ, работа"
+    },
+    {
+     "company": "Резиновая Подкова",
+     "url": "https://r-podkova.ru/service/grm/",
+     "price": "от 12000 руб.",
+     "za_chto": "замена цепи ГРМ, рядный ДВС, работа"
+    }
+   ],
+   "kommentariy": "Только работа по замене цепи ГРМ (цены «от»), комплект цепи и запчасти НЕ включены – реальный чек с запчастями в 1,5–2 раза выше. Ремонт ГБЦ по прайсам сопоставим: от 11 400–11 500 ₽ за работу."
+  },
+  "ремонт акпп": {
+   "check": 15000,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Transmatic (центр ремонта АКПП)",
+     "url": "https://transmatic.pro/",
+     "price": "от 22 000 рублей",
+     "za_chto": "стоимость ремонта АКПП (Toyota U660/U760)"
+    },
+    {
+     "company": "Кэнси Трансмишн (cansy.ru)",
+     "url": "https://cansy.ru/price/",
+     "price": "ремонт АКПП от 10 000 руб. + снятие/установка 2WD от 5000 руб.",
+     "za_chto": "ремонт АКПП со снятием и установкой, работа"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/repair/repair_transmission/",
+     "price": "от 14950 ₽",
+     "za_chto": "ремонт АКПП"
+    }
+   ],
+   "kommentariy": "СОМНИТЕЛЬНО: на сайтах только стартовые цены «от» за работу (15–22 тыс.), запчасти и расходники не включены. Капитальный ремонт АКПП под ключ в реальности стоит кратно дороже; это нижняя граница, а не средний чек."
+  },
+  "замена ремня грм": {
+   "check": 4620,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/repair/repair_engine/zamena-remnya-grm/",
+     "price": "от 4 048 ₽",
+     "za_chto": "замена ремня ГРМ, натяжного и обводного роликов, только работа"
+    },
+    {
+     "company": "Аршина",
+     "url": "https://arshina.su/prices/",
+     "price": "от 3 800 ₽",
+     "za_chto": "замена ремня ГРМ, только работа (сложный доступ – от 7 600 ₽)"
+    },
+    {
+     "company": "А-Бренд",
+     "url": "https://autoservice154.ru/price",
+     "price": "от 4620 ₽",
+     "za_chto": "замена ремня ГРМ, работа"
+    },
+    {
+     "company": "Резиновая Подкова",
+     "url": "https://r-podkova.ru/service/grm/",
+     "price": "от 8000 руб.",
+     "za_chto": "замена ремня ГРМ, рядный ДВС, работа"
+    },
+    {
+     "company": "Zoon (агрегатор)",
+     "url": "https://zoon.ru/nsk/autoservice/price/zamena_remnya_grm/",
+     "price": "средняя цена 4700 руб.",
+     "za_chto": "замена ремня ГРМ, работа"
+    }
+   ],
+   "kommentariy": "Только работа: комплект ремня ГРМ с роликами в цену НЕ включён – открытого прайса на комплекты в Новосибирске без браузера снять не удалось. Реальный чек «работа + комплект» выше на стоимость комплекта."
+  },
+  "замена сцепления": {
+   "check": 6225,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/repair/repair_transmission/",
+     "price": "от 16 100 ₽",
+     "za_chto": "замена сцепления, работа"
+    },
+    {
+     "company": "Аршина",
+     "url": "https://arshina.su/prices/",
+     "price": "от 7 050 ₽",
+     "za_chto": "замена сцепления, поперечный ДВС, монопривод, только работа"
+    },
+    {
+     "company": "СТО Автомаркет Е",
+     "url": "https://sto-nsk.ru/service/9500005794-zamena-sceplenia",
+     "price": "от 5 400 ₽",
+     "za_chto": "замена комплекта сцепления (корзина, диск, выжимной), передний привод, работа"
+    },
+    {
+     "company": "Profi.ru (агрегатор)",
+     "url": "https://profi.ru/geo-nsk/remont/zamena-scepleniya/price/",
+     "price": "от 3460 ₽ за усл.",
+     "za_chto": "замена сцепления, работа"
+    }
+   ],
+   "kommentariy": "Только работа, цены «от» для переднего привода; комплект сцепления в цену НЕ включён (прайса на комплекты в открытых источниках города не снято). Разброс большой: от 3 460 до 16 100 ₽."
+  },
+  "ремонт ходовой": {
+   "check": 17396,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/repair/repair_chassis/",
+     "price": "замена рычагов подвески от 1840 ₽ ×2 + замена шаровой опоры от 1150 ₽ ×2",
+     "za_chto": "4 позиции, работа 5 980 ₽; добавлены запчасти 11 896 ₽"
+    },
+    {
+     "company": "Аршина",
+     "url": "https://arshina.su/prices/",
+     "price": "замена переднего нижнего рычага от 1 700 ₽ ×2 + замена шаровой опоры от 1 050 ₽ ×2",
+     "za_chto": "4 позиции, работа 5 500 ₽; добавлены запчасти 11 896 ₽"
+    },
+    {
+     "company": "А-Бренд",
+     "url": "https://autoservice154.ru/price",
+     "price": "замена рычагов ходовой части от 1400 ₽ ×2 + замена шаровой опоры от 1260 ₽ ×2",
+     "za_chto": "4 позиции, работа 5 320 ₽; добавлены запчасти 11 896 ₽"
+    },
+    {
+     "company": "Белый Сервис (филиал в Новосибирске)",
+     "url": "https://novosibirsk.beliyservice.ru/prices/geely/",
+     "price": "рычаг передней подвески – замена от 5499 рублей ×2 + шаровая опора – замена от 3199 рублей ×2",
+     "za_chto": "4 позиции, цена включает работу и запчасти"
+    }
+   ],
+   "kommentariy": "2 рычага + 2 шаровые опоры. Белый Сервис публикует цены «работа + запчасти» (17 396 ₽ за набор); у остальных в прайсе только работа, к ней добавлены запчасти 11 896 ₽ (набор Белого Сервиса минус медиана работы 5 500 ₽). Цены «от», массовые марки."
+  },
+  "автоэлектрик": {
+   "check": 3000,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Резиновая Подкова",
+     "url": "https://r-podkova.ru/service/grm/",
+     "price": "от 1500₽/ч",
+     "za_chto": "автоэлектрик, ×1,75 часа"
+    },
+    {
+     "company": "Аршина",
+     "url": "https://arshina.su/prices/",
+     "price": "от 3 150 ₽",
+     "za_chto": "диагностика и поиск неисправностей в работе электронных систем автомобиля"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/repair/repair_electrics/",
+     "price": "диагностика электрооборудования от 1500 ₽ + ремонт электропроводки от 1500 ₽",
+     "za_chto": "поиск и устранение неисправности"
+    }
+   ],
+   "kommentariy": "Подкова – ставка за час ×1,75 ч; Аршина и Reaktor – цена «от» за поиск/диагностику и ремонт проводки."
+  },
+  "заправка автокондиционера|заправка кондиционера автомобиля|заправка кондиционера авто|ремонт кондиционера автомобиля": {
+   "check": 1850,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/repair/repair_ac_and_heating/zapravka-konditsionera/",
+     "price": "от 2 208 ₽",
+     "za_chto": "заправка кондиционера"
+    },
+    {
+     "company": "Аршина",
+     "url": "https://arshina.su/prices/",
+     "price": "от 1 850 ₽",
+     "za_chto": "заправка кондиционера"
+    },
+    {
+     "company": "А-Бренд",
+     "url": "https://autoservice154.ru/price",
+     "price": "от 1400 ₽",
+     "za_chto": "заправка кондиционера автомобиля"
+    },
+    {
+     "company": "Резиновая Подкова",
+     "url": "https://r-podkova.ru/service/grm/",
+     "price": "от 3300₽",
+     "za_chto": "заправка кондиционера (блок популярных услуг)"
+    },
+    {
+     "company": "Profi.ru (агрегатор)",
+     "url": "https://profi.ru/geo-nsk/remont/diagnostika-i-zapravka-avtokonditsionera/price/",
+     "price": "от 1460 ₽ за усл.",
+     "za_chto": "диагностика и заправка автокондиционера"
+    }
+   ],
+   "kommentariy": "Медиана цен «от» пяти источников; цена растёт с объёмом хладагента."
+  },
+  "кузовной ремонт": {
+   "check": 7560,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Кузовной сервис на Жуковского, 96/2 (kuzovnoy-remont.su)",
+     "url": "https://kuzovnoy-remont.su/prices/",
+     "price": "ремонт детали от 1 850 ₽ + покраска детали (бампер, крыло, дверь) от 15 000 ₽",
+     "za_chto": "ремонт и покраска одного элемента"
+    },
+    {
+     "company": "Кузовной сервис «Сибирские Моторы»",
+     "url": "https://kuzov.sm-nsk.ru/",
+     "price": "выправление вмятин от 1800 руб. + покраска в камере от 10000 руб.",
+     "za_chto": "ремонт и покраска одного элемента"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/body-work/",
+     "price": "ремонт крыла от 3000 ₽ + покраска деталей от 4560 ₽",
+     "za_chto": "ремонт и покраска одного элемента"
+    },
+    {
+     "company": "Profi.ru (агрегатор)",
+     "url": "https://profi.ru/geo-nsk/remont/avtoremont/kuzovnoi-remont/price/",
+     "price": "от 4300 ₽ за усл.",
+     "za_chto": "кузовной ремонт (услуга частного мастера)"
+    },
+    {
+     "company": "Доктор Кузов",
+     "url": "https://kuzovnsk.ru/prajs",
+     "price": "кузовной ремонт с заменой элементов: крыло переднее от 2 000 ₽ + покраска: крыло от 5 000 ₽",
+     "za_chto": "ремонт (замена) и покраска одного элемента"
+    }
+   ],
+   "kommentariy": "Цена за ОДИН элемент (ремонт + окраска), сложены строки «от» из прайсов; заказ на два элемента примерно вдвое дороже. Нижняя граница."
+  },
+  "покраска автомобиля|покраска авто": {
+   "check": 7500,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Доктор Кузов",
+     "url": "https://kuzovnsk.ru/prajs",
+     "price": "от 5 000 ₽",
+     "za_chto": "покраска крыла или двери"
+    },
+    {
+     "company": "Кузовной сервис на Жуковского, 96/2 (kuzovnoy-remont.su)",
+     "url": "https://kuzovnoy-remont.su/prices/",
+     "price": "от 15 000 ₽",
+     "za_chto": "покраска детали: бампер, крыло, дверь"
+    },
+    {
+     "company": "Кузовной сервис «Сибирские Моторы»",
+     "url": "https://kuzov.sm-nsk.ru/",
+     "price": "от 10000 руб.",
+     "za_chto": "покраска в камере (элемент)"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/body-work/",
+     "price": "от 4560 ₽",
+     "za_chto": "покраска деталей"
+    }
+   ],
+   "kommentariy": "Медиана цен «от» четырёх кузовных сервисов за окраску одной детали."
+  },
+  "удаление вмятин": {
+   "check": 1800,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "PDR-avto (ул. 1-я Шевцовой, 30)",
+     "url": "https://pdr-avto.ru/",
+     "price": "от: 2500–6000 руб",
+     "za_chto": "ремонт PDR, средняя вмятина 3–6 см (взята нижняя граница)"
+    },
+    {
+     "company": "True Detailing",
+     "url": "https://truedetailing.ru/vmyatiny",
+     "price": "от 1000",
+     "za_chto": "выправление вмятин без покраски по технологии PDR"
+    },
+    {
+     "company": "Кузовной сервис «Сибирские Моторы»",
+     "url": "https://kuzov.sm-nsk.ru/",
+     "price": "от 1800 руб.",
+     "za_chto": "выправление вмятин без покраски"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/body-work/",
+     "price": "от 1500 ₽",
+     "za_chto": "удаление вмятин без покраски"
+    },
+    {
+     "company": "Profi.ru (агрегатор)",
+     "url": "https://profi.ru/geo-nsk/remont/avtoremont/kuzovnoi-remont/price/",
+     "price": "от 2920 ₽ за усл.",
+     "za_chto": "удаление вмятин без покраски"
+    }
+   ],
+   "kommentariy": "Цены «от» за вмятину; у профильной PDR-студии средняя вмятина 3–6 см стоит 2 500–6 000 ₽, так что реальный чек выше медианы."
+  },
+  "покраска бампера": {
+   "check": 6000,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Доктор Кузов",
+     "url": "https://kuzovnsk.ru/prajs",
+     "price": "от 6 000 ₽",
+     "za_chto": "покраска бампера"
+    },
+    {
+     "company": "Кузовной сервис на Жуковского, 96/2 (kuzovnoy-remont.su)",
+     "url": "https://kuzovnoy-remont.su/prices/",
+     "price": "от 15 000 ₽",
+     "za_chto": "покраска бампера"
+    },
+    {
+     "company": "Кузовной сервис «Сибирские Моторы»",
+     "url": "https://kuzov.sm-nsk.ru/",
+     "price": "от 10000 руб.",
+     "za_chto": "покраска в камере (элемент)"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/body-work/",
+     "price": "от 4560 ₽",
+     "za_chto": "покраска деталей"
+    },
+    {
+     "company": "Profi.ru (агрегатор)",
+     "url": "https://profi.ru/geo-nsk/remont/pokraska-bampera/price/",
+     "price": "от 5000 ₽ за шт.",
+     "za_chto": "покраска бамперов"
+    }
+   ],
+   "kommentariy": "Медиана цен «от»; у Reaktor и «Сибирских Моторов» взята общая строка окраски детали."
+  },
+  "ремонт бампера": {
+   "check": 1850,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Кузовной сервис на Жуковского, 96/2 (kuzovnoy-remont.su)",
+     "url": "https://kuzovnoy-remont.su/prices/",
+     "price": "от 1 850 ₽",
+     "za_chto": "ремонт бампера"
+    },
+    {
+     "company": "Кузовной сервис «Сибирские Моторы»",
+     "url": "https://kuzov.sm-nsk.ru/",
+     "price": "от 1800 руб.",
+     "za_chto": "ремонт пластика"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/body-work/remont-bampera/",
+     "price": "от 5 000 ₽",
+     "za_chto": "ремонт бампера"
+    },
+    {
+     "company": "Profi.ru (агрегатор)",
+     "url": "https://profi.ru/geo-nsk/remont/avtoremont/kuzovnoi-remont/price/",
+     "price": "от 2000 ₽ за шт.",
+     "za_chto": "ремонт бамперов"
+    },
+    {
+     "company": "Доктор Кузов",
+     "url": "https://kuzovnsk.ru/prajs",
+     "price": "раздел «Ремонт и покраска бамперов»: бампер (японские марки) от 1 000 ₽, бампер (немецкие марки) от 2 000 ₽",
+     "za_chto": "ремонт бампера, взята середина 1 500 ₽"
+    }
+   ],
+   "kommentariy": "Ремонт пластика бампера без окраски, цены «от»."
+  },
+  "локальная покраска": {
+   "check": 8420,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Кузовной сервис на Жуковского, 96/2 (kuzovnoy-remont.su)",
+     "url": "https://kuzovnoy-remont.su/pokraska-avto/",
+     "price": "от 10000 ₽",
+     "za_chto": "локальная покраска деталей и элементов"
+    },
+    {
+     "company": "Profi.ru (агрегатор)",
+     "url": "https://profi.ru/geo-nsk/remont/lokalnaya-pokraska-avtomobilya/price/",
+     "price": "от 6840 ₽ за усл.",
+     "za_chto": "локальная покраска автомобиля"
+    }
+   ],
+   "kommentariy": "Только два источника (один сервис и агрегатор), у остальных кузовных сервисов города отдельной строки «локальная покраска» нет. Сомнительно."
+  },
+  "замена лобового стекла": {
+   "check": 16785,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Bitstop (федеральная сеть автостёкол, филиал в Новосибирске)",
+     "url": "https://novosibirsk.bitstop.ru/zamena/lobovoe-hyundai/",
+     "price": "Итого 16 785 ₽ (медиана 18 позиций Hyundai; Toyota – 21 115 ₽, Kia – 12 475 ₽)",
+     "za_chto": "лобовое стекло + установка 3 000 ₽"
+    },
+    {
+     "company": "Автостекла54 (avtostekla54.ru)",
+     "url": "https://avtostekla54.ru/",
+     "price": "от 1500 руб.",
+     "za_chto": "замена лобового/заднего стекла (клей), только работа; добавлено стекло 13 785 ₽"
+    },
+    {
+     "company": "Автостекло-НСК (avtosteklo-nsk.ru)",
+     "url": "http://avtosteklo-nsk.ru/service/autoglass.htm",
+     "price": "клееного – от 3000 руб.",
+     "za_chto": "замена лобового автостекла, только работа; добавлено стекло 13 785 ₽"
+    }
+   ],
+   "kommentariy": "Bitstop публикует цену «стекло + установка» по моделям для Новосибирска; у остальных – только работа, к ней добавлена типовая цена стекла 13 785 ₽ (медиана Bitstop по Hyundai 16 785 ₽ минус установка 3 000 ₽)."
+  },
+  "ремонт лобового стекла": {
+   "check": 500,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Bitstop (федеральная сеть автостёкол, филиал в Новосибирске)",
+     "url": "https://novosibirsk.bitstop.ru/remont/skoly/",
+     "price": "от 500 ₽",
+     "za_chto": "ремонт сколов"
+    },
+    {
+     "company": "Автостекло-НСК (avtosteklo-nsk.ru)",
+     "url": "http://avtosteklo-nsk.ru/service/autoglass.htm",
+     "price": "скол – от 1500 руб. и выше",
+     "za_chto": "ремонт скола на легковом автомобиле"
+    },
+    {
+     "company": "PDR-avto (ул. 1-я Шевцовой, 30)",
+     "url": "https://pdr-avto.ru/",
+     "price": "от: 500 р.",
+     "za_chto": "ремонт сколов на автостёклах"
+    },
+    {
+     "company": "Автостекла54 (avtostekla54.ru)",
+     "url": "https://avtostekla54.ru/",
+     "price": "от 300 руб.",
+     "za_chto": "ремонт трещин, сколов (в таблице прайса – «договорная»)"
+    }
+   ],
+   "kommentariy": "Цены «от» за один скол."
+  },
+  "автостекла": {
+   "check": 4834,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Bitstop (федеральная сеть автостёкол, филиал в Новосибирске)",
+     "url": "https://novosibirsk.bitstop.ru/zamena/bokovoe-toyota/",
+     "price": "Итого 6 834 ₽ (медиана 18 позиций боковых стёкол Toyota)",
+     "za_chto": "боковое стекло + установка 3 000 ₽"
+    },
+    {
+     "company": "Автостекла54 (avtostekla54.ru)",
+     "url": "https://avtostekla54.ru/",
+     "price": "от 1000 руб.",
+     "za_chto": "замена боковых стёкол (опускных), только работа; добавлено стекло 3 834 ₽"
+    },
+    {
+     "company": "Автостекло-НСК (avtosteklo-nsk.ru)",
+     "url": "http://avtosteklo-nsk.ru/service/autoglass.htm",
+     "price": "от 1000 руб.",
+     "za_chto": "замена бокового автостекла, только работа; добавлено стекло 3 834 ₽"
+    }
+   ],
+   "kommentariy": "Взято БОКОВОЕ стекло (чаще меняют): Bitstop – «стекло + установка» по Toyota; у остальных к работе добавлено стекло 3 834 ₽ (медиана Bitstop 6 834 ₽ минус установка 3 000 ₽). Заднее стекло дороже: медиана Bitstop по Toyota 26 677 ₽."
+  },
+  "детейлинг": {
+   "check": 29000,
+   "basis": "tipovoy",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Vinyl Style",
+     "url": "http://vinylstyle.ru/price",
+     "price": "35000/40000/45000 руб. (I/II/III класс)",
+     "za_chto": "полировка + керамика, взят II класс"
+    },
+    {
+     "company": "Polysher (полишер.рф)",
+     "url": "https://xn--e1afilek8c.xn--p1ai/detailing_kompleks",
+     "price": "от 23.000₽",
+     "za_chto": "комплекс «детейлинг полировка» + 1 слой керамики, купе и малый седан"
+    },
+    {
+     "company": "REGAL studio",
+     "url": "https://regalnsk.ru/detail/",
+     "price": "восстановительная полировка – 15000₽ + керамика – 14000₽",
+     "za_chto": "полировка в 3 этапа + керамика в 2 слоя"
+    },
+    {
+     "company": "OMEGA Detail",
+     "url": "https://omega-detail.ru/price-list",
+     "price": "полировка кузова от 10 000 ₽ + нанесение керамики от 7 000 ₽",
+     "za_chto": "полировка + керамика"
+    },
+    {
+     "company": "True Detailing",
+     "url": "https://truedetailing.ru/price",
+     "price": "восстановительная полировка от 20 000 + керамическое покрытие от 22 000",
+     "za_chto": "полировка + керамика"
+    }
+   ],
+   "kommentariy": "Комплекс «полировка + керамика»: у Vinyl Style и Polysher готовая цена комплекса, у остальных сложены строки полировки и керамики. Класс авто – средний седан."
+  },
+  "полировка автомобиля|полировка авто": {
+   "check": 15000,
+   "basis": "tipovoy",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "OMEGA Detail",
+     "url": "https://omega-detail.ru/price-list",
+     "price": "от 10 000 ₽",
+     "za_chto": "полировка кузова автомобиля"
+    },
+    {
+     "company": "Vinyl Style",
+     "url": "http://vinylstyle.ru/price",
+     "price": "15000/20000/25000 руб. (I/II/III класс)",
+     "za_chto": "детейлинг-полировка, взят II класс"
+    },
+    {
+     "company": "REGAL studio",
+     "url": "https://regalnsk.ru/detail/",
+     "price": "15000₽",
+     "za_chto": "восстановительная полировка в 3 этапа"
+    },
+    {
+     "company": "True Detailing",
+     "url": "https://truedetailing.ru/price",
+     "price": "от 20 000",
+     "za_chto": "восстановительная полировка"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/deteyling/",
+     "price": "от 12000 ₽",
+     "za_chto": "полировка кузова"
+    }
+   ],
+   "kommentariy": "Смесь фиксированных цен и «от»; у Vinyl Style взят II класс (среднеразмерные авто)."
+  },
+  "покрытие керамикой": {
+   "check": 14000,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "REGAL studio",
+     "url": "https://regalnsk.ru/detail/",
+     "price": "14000₽",
+     "za_chto": "керамика начального уровня в 2 слоя"
+    },
+    {
+     "company": "OMEGA Detail",
+     "url": "https://omega-detail.ru/price-list",
+     "price": "от 7 000 ₽",
+     "za_chto": "нанесение керамики"
+    },
+    {
+     "company": "True Detailing",
+     "url": "https://truedetailing.ru/price",
+     "price": "от 22 000",
+     "za_chto": "керамическое покрытие"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/deteyling/",
+     "price": "от 10000 ₽",
+     "za_chto": "керамика"
+    },
+    {
+     "company": "Polysher (полишер.рф)",
+     "url": "https://xn--e1afilek8c.xn--p1ai/detailing_kompleks",
+     "price": "от 23.000₽",
+     "za_chto": "«детейлинг полировка» + 1 слой керамики (с подготовкой), малый седан"
+    }
+   ],
+   "kommentariy": "Большинство цен – только покрытие «от», без полировки; с подготовкой (полировкой) комплекс стоит 23 000–40 000 ₽, см. ключ «детейлинг»."
+  },
+  "оклейка пленкой": {
+   "check": 180000,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "REGAL studio",
+     "url": "https://regalnsk.ru/protectfilm/",
+     "price": "Пакет Platinum – 170000₽ (цветная плёнка: полная оклейка авто – от 80000₽)",
+     "za_chto": "полное покрытие кузова защитной плёнкой"
+    },
+    {
+     "company": "Vinyl Style",
+     "url": "http://vinylstyle.ru/price",
+     "price": "от 180000 руб.",
+     "za_chto": "полная оклейка автомобиля бронеплёнкой"
+    },
+    {
+     "company": "True Detailing",
+     "url": "https://truedetailing.ru/price",
+     "price": "от 220 000",
+     "za_chto": "полная оклейка кузова полиуретановой плёнкой"
+    }
+   ],
+   "kommentariy": "Взята полная оклейка защитной полиуретановой плёнкой (три студии). Смена цвета виниловой плёнкой дешевле: у REGAL от 80 000 ₽."
+  },
+  "бронепленка": {
+   "check": 52500,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "REGAL studio",
+     "url": "https://regalnsk.ru/protectfilm/",
+     "price": "Пакет Deluxe – 50000₽",
+     "za_chto": "капот, крылья, зеркала, бампер, фары, защита под дверные ручки"
+    },
+    {
+     "company": "OMEGA Detail",
+     "url": "https://omega-detail.ru/price-list",
+     "price": "капот от 15 000 ₽ + бампер от 15 000 ₽ + фары от 5 000 ₽ + крылья от 5 000 ₽",
+     "za_chto": "оклейка PPF: капот, бампер, фары, крылья"
+    },
+    {
+     "company": "Vinyl Style",
+     "url": "http://vinylstyle.ru/price",
+     "price": "от 55000 руб.",
+     "za_chto": "защита антигравийной бронеплёнкой, комплекс «Средний»"
+    },
+    {
+     "company": "True Detailing",
+     "url": "https://truedetailing.ru/price",
+     "price": "NAR PREMIUM от 85 000",
+     "za_chto": "комплексная защита зон риска (капот, передний бампер, оптика, передние крылья, стойки, часть крыши, зеркала)"
+    }
+   ],
+   "kommentariy": "Пакеты «перед» у четырёх студий; состав пакета у студий различается (с зеркалами, стойками), у OMEGA сложены элементы «от»."
+  },
+  "химчистка салона": {
+   "check": 14000,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "OMEGA Detail",
+     "url": "https://omega-detail.ru/price-list",
+     "price": "от 10 000 ₽",
+     "za_chto": "комплексная химчистка салона (без полного разбора)"
+    },
+    {
+     "company": "Vinyl Style",
+     "url": "http://vinylstyle.ru/price",
+     "price": "14000/18000/22000 руб. (I/II/III класс)",
+     "za_chto": "детейлинг-химчистка салона, взят II класс"
+    },
+    {
+     "company": "True Detailing",
+     "url": "https://truedetailing.ru/price",
+     "price": "от 18 000",
+     "za_chto": "химчистка салона, седан"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/dop-uslugi/",
+     "price": "от 7900 ₽",
+     "za_chto": "химчистка авто"
+    }
+   ],
+   "kommentariy": "Комплексная химчистка, цены «от» для седана; с разбором салона дороже (OMEGA – от 15 000 ₽)."
+  },
+  "антикор": {
+   "check": 27000,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "True Detailing",
+     "url": "https://truedetailing.ru/anticorrosion",
+     "price": "днище 15 000 ₽ + колёсные арки 12 000 ₽",
+     "za_chto": "антикор днища и арок, первый класс авто"
+    },
+    {
+     "company": "Антикор154",
+     "url": "https://antikor154.ru/price",
+     "price": "27000 руб.",
+     "za_chto": "антикоррозийный комплекс, седан (днище, арки, элементы ходовой)"
+    },
+    {
+     "company": "Dinitrol54",
+     "url": "https://dinitrol54.ru/",
+     "price": "45 000 ₽",
+     "za_chto": "комплексная обработка: кроссоверы, седаны, хэтчбеки (материалы и работы включены, со скрытыми полостями)"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/dop-uslugi/",
+     "price": "от 20000 ₽",
+     "za_chto": "антикор авто"
+    }
+   ],
+   "kommentariy": "Днище + арки для седана; у Dinitrol54 комплекс шире (со скрытыми полостями), у Reaktor – «от»."
+  },
+  "тонировка": {
+   "check": 3900,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "ТонировкаПрофи (54tonirovka.ru)",
+     "url": "https://54tonirovka.ru/price",
+     "price": "от 3 500 рублей",
+     "za_chto": "тонирование задней полусферы, класс седан / хэтчбэк"
+    },
+    {
+     "company": "Bitstop (федеральная сеть автостёкол, филиал в Новосибирске)",
+     "url": "https://novosibirsk.bitstop.ru/tonirovka/zadnij-polukrug/",
+     "price": "от 3900 рублей",
+     "za_chto": "тонировка заднего полукруга"
+    },
+    {
+     "company": "АвтоАзарт (сеть установочных центров, Новосибирск)",
+     "url": "https://azartservice.ru/tonirovka/novosibirsk",
+     "price": "от 5000",
+     "za_chto": "тонировка задней полусферы обычной / атермальной плёнкой"
+    }
+   ],
+   "kommentariy": "Цены «от» за заднюю полусферу седана обычной плёнкой."
+  },
+  "шумоизоляция автомобиля|шумоизоляция авто": {
+   "check": 8500,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Аудиохирургия (audio-h.ru)",
+     "url": "http://www.audio-h.ru/services/shumoizolyaciya-avtomobilya",
+     "price": "от 3500 рублей (за 1 дверь)",
+     "za_chto": "шумоизоляция двери, ×4 двери"
+    },
+    {
+     "company": "Dress4car Новосибирск",
+     "url": "https://novosibirsk.dress4car.ru/shumoizolyaciya/",
+     "price": "6 900 руб",
+     "za_chto": "шумоизоляция дверей"
+    },
+    {
+     "company": "СТО Автолаб (magicauto.ru)",
+     "url": "https://magicauto.ru/uslugi/tyuning/ustanovka-shumoizolyatsii/",
+     "price": "от 1500 до 3000 рублей за одну дверь",
+     "za_chto": "шумоизоляция двери, середина 2 250 ₽ ×4 двери"
+    },
+    {
+     "company": "АСТО (a-sto.ru)",
+     "url": "https://a-sto.ru/teplo-vibro-shumoizolyatsiya",
+     "price": "от 8000 рублей (двери)",
+     "za_chto": "шумоизоляция дверей"
+    }
+   ],
+   "kommentariy": "Цены «от»; не у всех источников ясно, входят ли материалы. У профильных студий 4 двери с материалами выходят в 14 000 ₽ и выше – медиана, вероятно, занижена."
+  },
+  "полировка фар": {
+   "check": 1400,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "OMEGA Detail",
+     "url": "https://omega-detail.ru/price-list",
+     "price": "от 1 000 ₽",
+     "za_chto": "полировка фар"
+    },
+    {
+     "company": "True Detailing",
+     "url": "https://truedetailing.ru/price",
+     "price": "от 2000",
+     "za_chto": "полировка фар"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/deteyling/",
+     "price": "от 1400 ₽",
+     "za_chto": "полировка фар"
+    }
+   ],
+   "kommentariy": "Цены «от»; на сайтах не уточнено, за одну фару или за пару."
+  },
+  "установка магнитолы": {
+   "check": 24850,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "XENON SHOP54",
+     "url": "https://xenonshop54.ru/catalog/shtatnye_golovnye_ustroystva_1/universalnye_golovnye_ustroystva/",
+     "price": "медиана каталога 23 450 руб. (12 универсальных ГУ на Android, 15 500–63 490) + установка штатного ГУ от 2500 руб.",
+     "za_chto": "магнитола Android + установка"
+    },
+    {
+     "company": "Teyes Sibir",
+     "url": "https://teyes-sibir.ru/teyes",
+     "price": "установка головного устройства от 4500 руб",
+     "za_chto": "установка; добавлена магнитола Teyes CC3L 22 950 руб. (nsib.teyes-russia.com)"
+    },
+    {
+     "company": "Аудиохирургия (audio-h.ru)",
+     "url": "http://www.audio-h.ru/services/ustanovka-zvuka",
+     "price": "от 800 рублей",
+     "za_chto": "установка головного устройства; добавлена магнитола 22 950 руб."
+    },
+    {
+     "company": "СТО Автолаб (magicauto.ru)",
+     "url": "https://magicauto.ru/uslugi/tyuning/ustanovka-akustiki/",
+     "price": "от 700 рублей",
+     "za_chto": "установка автомагнитолы; добавлена магнитола 22 950 руб."
+    }
+   ],
+   "kommentariy": "Оборудование + установка: у XENON SHOP54 медиана каталога ГУ на Android плюс установка; у остальных – цена установки «от» плюс магнитола Teyes CC3L 22 950 руб. из магазина Teyes Russia в Новосибирске (nsib.teyes-russia.com). Под конкретную модель авто нужна ещё рамка и проводка."
+  },
+  "установка сигнализации": {
+   "check": 31350,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "XENON SHOP54",
+     "url": "https://xenonshop54.ru/services/ustanovka-signalizatsiy-s-avtozapuskom/",
+     "price": "от 27 950 р.",
+     "za_chto": "StarLine S96 v2 ECO, стоимость с установкой"
+    },
+    {
+     "company": "Планар-Сибирь (установка-сигнализаций.рф)",
+     "url": "https://xn----7sbaf8abprpoei1m.xn--p1ai/services/ustanovka-avtosignalizacii/",
+     "price": "StarLine S96 v2 ECO 19 450 ₽ + установка автосигнализации от 11 900 ₽",
+     "za_chto": "сигнализация + установка"
+    },
+    {
+     "company": "Teyes Sibir",
+     "url": "https://teyes-sibir.ru/services/Alarm_installation",
+     "price": "от 9000 р",
+     "za_chto": "установка сигнализации с автозапуском, работа; добавлена StarLine S96 v2 ECO 19 450 ₽"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/additional_equipment/ustanovka-avtosignalizatsii-s-avtozapuskom/",
+     "price": "от 12 750 ₽",
+     "za_chto": "установка автосигнализации с автозапуском, работа; добавлена StarLine S96 v2 ECO 19 450 ₽"
+    },
+    {
+     "company": "Угона.нет Новосибирск",
+     "url": "https://nsk.ugona.net/catalog/alarm.html",
+     "price": "от 37900 руб. (цена с установкой)",
+     "za_chto": "StarLine S96 v2 ECO с установкой"
+    }
+   ],
+   "kommentariy": "Взята StarLine S96 v2 ECO как сигнализация среднего класса с автозапуском. У Угона.нет и XENON SHOP54 – готовая цена с установкой; у остальных к работе добавлена цена блока 19 450 ₽ (Планар-Сибирь)."
+  },
+  "автозвук": {
+   "check": 14485,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Teyes Sibir",
+     "url": "https://teyes-sibir.ru/services/installing_car_audio",
+     "price": "от 18 000 руб.",
+     "za_chto": "готовые решения автозвука"
+    },
+    {
+     "company": "Аудиохирургия (audio-h.ru)",
+     "url": "http://www.audio-h.ru/services/ustanovka-zvuka",
+     "price": "установка аудио-колонки (за 2 шт) от 1000 рублей + монтаж и подключение сабвуфера от 2000 рублей",
+     "za_chto": "работа; добавлен сабвуфер 10 735 ₽"
+    },
+    {
+     "company": "СТО Автолаб (magicauto.ru)",
+     "url": "https://magicauto.ru/uslugi/tyuning/ustanovka-akustiki/",
+     "price": "установка акустики от 300 рублей + установка активного сабвуфера от 1200 рублей",
+     "za_chto": "работа; добавлен сабвуфер 10 735 ₽"
+    },
+    {
+     "company": "АСТО (a-sto.ru)",
+     "url": "https://a-sto.ru/avtozvuk-i-multimedia",
+     "price": "установка сабвуфера от 1500 + установка усилителя с протяжкой проводов от 3000",
+     "za_chto": "работа; добавлен сабвуфер 10 735 ₽"
+    }
+   ],
+   "kommentariy": "Сомнительно: готовая цена комплекта есть только у Teyes Sibir («от 18 000»). У остальных – только работа, к ней добавлен сабвуфер 10 735 ₽ (медиана 12 позиций avtokasta.ru/nsk/sub); фронтальная акустика и усилитель как оборудование НЕ включены. Реальный чек выше."
+  },
+  "установка камеры заднего вида": {
+   "check": 6000,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Teyes Sibir",
+     "url": "https://teyes-sibir.ru/teyes",
+     "price": "от 4500 руб",
+     "za_chto": "установка камеры заднего вида; добавлена камера Teyes 3 550 руб. (nsib.teyes-russia.com)"
+    },
+    {
+     "company": "Угона.нет Новосибирск",
+     "url": "https://nsk.ugona.net/catalog/rework.html",
+     "price": "от 3000 руб.",
+     "za_chto": "установка камеры заднего вида; добавлена камера 3 000 ₽"
+    },
+    {
+     "company": "XENON SHOP54",
+     "url": "https://xenonshop54.ru/services/ustanovka-parktronikov/",
+     "price": "2500 рублей",
+     "za_chto": "установка нештатной камеры наружная; добавлена камера 3 000 ₽"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/additional_equipment/ustanovka-kamer-perednego-i-zadnego-vida/",
+     "price": "от 5 750 ₽",
+     "za_chto": "установка камер переднего и заднего вида; добавлена камера 3 000 ₽"
+    },
+    {
+     "company": "Ray54",
+     "url": "https://ray54.ru/services/ustanovka_dop_oborudovaniya/",
+     "price": "от 2 500 руб.",
+     "za_chto": "установка камеры заднего вида и парктроников; добавлена камера 3 000 ₽"
+    }
+   ],
+   "kommentariy": "Цены установки «от» плюс камера: 3 000 ₽ (Incar VDC-044/086 на avtokasta.ru/nsk/camera-zadnego-vida), у Teyes Sibir – камера Teyes 3 550 руб."
+  },
+  "установка автозапуска": {
+   "check": 12500,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Угона.нет Новосибирск",
+     "url": "https://nsk.ugona.net/catalog/avtozapusk.html",
+     "price": "от 14900 руб.",
+     "za_chto": "автозапуск двигателя StarLine СИГМА 15 (у других модулей 6 500–11 000 руб.)"
+    },
+    {
+     "company": "Автомастер (avtomaster54.ru)",
+     "url": "https://avtomaster54.ru/services/ustanovka-avtosignalizatsiy/",
+     "price": "от 3600 рублей",
+     "za_chto": "установка модуля автозапуска, работа; добавлен модуль 6 500 руб. (TEC ESM-250 в каталоге Угона.нет Новосибирск)"
+    }
+   ],
+   "kommentariy": "Мало источников с ценой именно модуля автозапуска: одна готовая цена (Угона.нет) и одна цена работы с добавленным модулем. Чаще автозапуск ставят вместе с сигнализацией – см. ключ «установка сигнализации»."
+  },
+  "установка парктроника": {
+   "check": 6600,
+   "basis": "ot",
+   "n": 6,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "СТО Автолаб (magicauto.ru)",
+     "url": "https://www.magicauto.ru/uslugi/tyuning/ustanovka-parktronikov/",
+     "price": "от 3800 рублей (цены указаны с установкой)",
+     "za_chto": "парктроники, 4 датчика, с установкой"
+    },
+    {
+     "company": "XENON SHOP54",
+     "url": "https://xenonshop54.ru/services/ustanovka-parktronikov/",
+     "price": "5500 рублей",
+     "za_chto": "установка датчиков парковки (4 датчика), работа; добавлен комплект 2 100 ₽"
+    },
+    {
+     "company": "Угона.нет Новосибирск",
+     "url": "https://nsk.ugona.net/catalog/rework.html",
+     "price": "от 3500 руб.",
+     "za_chto": "установка парковочного радара (4 датчика), базовая комплектация; добавлен комплект 2 100 ₽"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/additional_equipment/ustanovka-parktronika/",
+     "price": "от 5 750 ₽",
+     "za_chto": "установка парктроника, работа; добавлен комплект 2 100 ₽"
+    },
+    {
+     "company": "Teyes Sibir",
+     "url": "https://teyes-sibir.ru/teyes",
+     "price": "от 5500 руб",
+     "za_chto": "установка парктроников, работа; добавлен комплект 2 100 ₽"
+    },
+    {
+     "company": "Ray54",
+     "url": "https://ray54.ru/services/ustanovka_dop_oborudovaniya/",
+     "price": "от 2 500 руб.",
+     "za_chto": "установка камеры заднего вида и парктроников, работа; добавлен комплект 2 100 ₽"
+    }
+   ],
+   "kommentariy": "У Автолаба цена комплекта с установкой; у остальных – только работа, к ней добавлен комплект на 4 датчика 2 100 ₽ (разница у Автолаба между «с установкой» 3 800 и «установка устройства клиента» 1 700)."
+  },
+  "чип ключ|изготовление ключей для автомобиля": {
+   "check": 2975,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Гарант (novosibirsk.garant-spb.ru)",
+     "url": "https://novosibirsk.garant-spb.ru/izgotovlenie-avtomobilnykh-klyuchey",
+     "price": "чипованного ключа зажигания от 1500 руб. + программирование (привязка) ключей в авто от 1950 руб.",
+     "za_chto": "изготовление ключа с чипом и привязка"
+    },
+    {
+     "company": "Key54",
+     "url": "https://key54.ru/",
+     "price": "от 3 500 ₽",
+     "za_chto": "изготовление чип-ключей для автомобилей"
+    },
+    {
+     "company": "Автосервис Калининский",
+     "url": "https://xn----7sbbgarwcaalhdl5abg1breig.xn--p1ai/ключи",
+     "price": "от 2500р.",
+     "za_chto": "изготовление и программирование ключей (дубликаты – от 3500р.)"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/electronics/",
+     "price": "от 1000 ₽",
+     "za_chto": "изготовление и привязка чип-ключей"
+    }
+   ],
+   "kommentariy": "Цены «от» за ключ с чипом и привязку; смарт-ключи с кнопкой дороже (Key54 – от 8 000 ₽)."
+  },
+  "вскрытие автомобиля|вскрытие авто": {
+   "check": 1370,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Мастер замков (master-zamkov.com)",
+     "url": "https://master-zamkov.com/vskrytie-avto-novosibirsk",
+     "price": "от 3000₽",
+     "za_chto": "вскрытие импортных автомобилей (отечественных – от 2500₽)"
+    },
+    {
+     "company": "Замок-Центр",
+     "url": "https://novosibirsk.zamok-center.ru/uslugi/vskrytie-zamkov/avtomobilya/",
+     "price": "от 1 200",
+     "za_chto": "вскрытие: иномарки среднего класса"
+    },
+    {
+     "company": "Спасатель (nsk-spas.ru)",
+     "url": "https://nsk-spas.ru/",
+     "price": "от 800р.",
+     "za_chto": "аварийное вскрытие автомобиля, салон легкового автомобиля"
+    },
+    {
+     "company": "Служба вскрытия (…54.рф)",
+     "url": "https://xn--54-6kcip7chph8b.xn--p1ai/services/avariinoe-vskritie-avto-.html",
+     "price": "от 2 500 руб.",
+     "za_chto": "вскрытие легкового автомобиля"
+    },
+    {
+     "company": "С1 Новосибирск",
+     "url": "https://novosibirsk.vskritie-s1.ru/vskrytie-avto.php",
+     "price": "от 1370 рублей",
+     "za_chto": "вскрытие машин круглосуточно"
+    }
+   ],
+   "kommentariy": "Цены «от» с сайтов служб вскрытия; ночью и для премиальных марок дороже."
+  },
+  "чип тюнинг": {
+   "check": 8900,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Евро Чип Тюнинг (chip-tyuning-novosibirsk.ru)",
+     "url": "https://chip-tyuning-novosibirsk.ru/chip-tyuning-Changan",
+     "price": "от 9800 руб.",
+     "za_chto": "чип-тюнинг Stage 1"
+    },
+    {
+     "company": "Автовыхлоп54",
+     "url": "https://avtovyhlop54.ru/chiptuning",
+     "price": "от 10000 р.",
+     "za_chto": "чип-тюнинг Stage1"
+    },
+    {
+     "company": "Ray54",
+     "url": "https://ray54.ru/services/chip-tyuning/",
+     "price": "от 6 000 руб.",
+     "za_chto": "прошивки Евро-2, Стейдж 1-2"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/electronics/",
+     "price": "от 8000 ₽",
+     "za_chto": "чип-тюнинг"
+    }
+   ],
+   "kommentariy": "Цены «от» за Stage 1; для турбомоторов и премиальных марок 12–15 тыс. и выше."
+  },
+  "русификация": {
+   "check": 4603,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "ZB-service",
+     "url": "https://zb-service.ru/russ-vw",
+     "price": "от 3000 ₽",
+     "za_chto": "русификация щитка приборов Volkswagen"
+    },
+    {
+     "company": "ФастМобил Новосибирск",
+     "url": "https://nsk.fastmb.ru/rusifikatsiya-avtomobiley",
+     "price": "от 6206 руб.",
+     "za_chto": "русификация авто (меню, мультимедиа)"
+    }
+   ],
+   "kommentariy": "Два источника, цены «от» за один блок. Сомнительно: у профильных по китайским авто русификация стоит от 25 000 ₽ (см. ключ русификации китайских авто)."
+  },
+  "прошивка эбу|прошивка авто": {
+   "check": 6500,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Ray54",
+     "url": "https://ray54.ru/services/chip-tyuning/",
+     "price": "от 6 000 руб.",
+     "za_chto": "прошивки ЭБУ"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/electronics/",
+     "price": "от 8000 ₽",
+     "za_chto": "прошивка Евро-2"
+    },
+    {
+     "company": "Автовыхлоп54",
+     "url": "https://avtovyhlop54.ru/katalizator",
+     "price": "от 7000 р.",
+     "za_chto": "программное отключение систем экологии (Евро-2)"
+    },
+    {
+     "company": "А-Бренд",
+     "url": "https://autoservice154.ru/price",
+     "price": "от 4000 ₽",
+     "za_chto": "прошивка под Евро"
+    }
+   ],
+   "kommentariy": "Цены «от» за программную прошивку ЭБУ (Евро-2, коррекция)."
+  },
+  "удаление катализатора": {
+   "check": 9500,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Автовыхлоп54",
+     "url": "https://avtovyhlop54.ru/katalizator",
+     "price": "удаление катализатора от 1000 р. + установка пламегасителя от 2100 р. + Евро-2 от 7000 р.",
+     "za_chto": "удаление + пламегаситель + прошивка"
+    },
+    {
+     "company": "А-Бренд",
+     "url": "https://autoservice154.ru/price",
+     "price": "удаление катализатора от 1500 ₽ + установка пламегасителя от 2000 ₽ + прошивка под Евро от 4000 ₽",
+     "za_chto": "удаление + пламегаситель + прошивка"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/repair/repair_exhaust_system/",
+     "price": "удаление катализатора от 4500 ₽ + устранение ошибок катализатора (P0420, P0430) от 5000 ₽",
+     "za_chto": "удаление + программное устранение ошибок"
+    }
+   ],
+   "kommentariy": "Сложены строки прайсов «от»: удаление + установка пламегасителя + прошивка Евро-2 (у Reaktor – программное устранение ошибок). Сам пламегаситель как деталь может считаться отдельно."
+  },
+  "ремонт эбу": {
+   "check": 2500,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/electronics/",
+     "price": "от 5000 ₽",
+     "za_chto": "ремонт блока управления двигателем (ЭБУ)"
+    },
+    {
+     "company": "Кронос Авто",
+     "url": "https://kronosavto.ru/services/ehbu",
+     "price": "2500",
+     "za_chto": "ремонт электронного блока управления (ЭБУ)"
+    },
+    {
+     "company": "Автосервис СТО (автозвук-установка…рф)",
+     "url": "https://xn----7sbecabszcbw5aifbzkfefee.xn--p1ai/content/%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82-%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D1%8B%D1%85-%D0%B1%D0%BB%D0%BE%D0%BA%D0%BE%D0%B2-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8F-%D0%BE%D1%82-1500%D1%80-%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA",
+     "price": "от 2500 руб.",
+     "za_chto": "ремонт электронных блоков"
+    }
+   ],
+   "kommentariy": "Цены «от»; итог зависит от блока и неисправности."
+  },
+  "ремонт приборной панели": {
+   "check": 1890,
+   "basis": "ot",
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "Profi.ru (агрегатор)",
+     "url": "https://profi.ru/geo-nsk/remont/remont-pribornyh-panelei/price/",
+     "price": "от 1890 ₽ за усл.",
+     "za_chto": "ремонт приборных панелей (частные мастера)"
+    }
+   ],
+   "kommentariy": "Один источник – агрегатор (частные мастера). Сервисы Новосибирска цену ремонта приборной панели в открытом виде не публикуют."
+  },
+  "перетяжка салона": {
+   "check": 35000,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Перетяжка-Профи (peretyazhka54.ru)",
+     "url": "https://peretyazhka54.ru/ceny/",
+     "price": "35 000 (экокожа); 80 000 (натуральная кожа); 18 000 (автовелюр)",
+     "za_chto": "перетяжка салона (сидений), взята экокожа"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/deteyling/",
+     "price": "от 50000 ₽",
+     "za_chto": "перетяжка салона"
+    },
+    {
+     "company": "Profi.ru (агрегатор)",
+     "url": "https://profi.ru/geo-nsk/remont/avtoremont/peretyazhka-rulya/price/",
+     "price": "от 5350 ₽ за шт.",
+     "za_chto": "перетяжка сидений автомобиля, ×5 мест"
+    }
+   ],
+   "kommentariy": "Мало профильных ателье с открытым прайсом в городе: одно ателье (сеть «Перетяжка-Профи», сайт под Новосибирск), сеть Reaktor и агрегатор (цена за сиденье ×5). Натуральная кожа – от 80 000 ₽."
+  },
+  "перетяжка руля": {
+   "check": 4750,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Перетяжка-Профи (peretyazhka54.ru)",
+     "url": "https://peretyazhka54.ru/ceny/",
+     "price": "5 000",
+     "za_chto": "перетяжка руля (экокожа и натуральная кожа)"
+    },
+    {
+     "company": "Dress4car Новосибирск",
+     "url": "https://novosibirsk.dress4car.ru/peretyazhka/rulya",
+     "price": "3 000 руб; натуральная кожа (+1 500 руб)",
+     "za_chto": "перетяжка руля натуральной кожей"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/deteyling/",
+     "price": "от 10000 ₽",
+     "za_chto": "перетяжка руля"
+    },
+    {
+     "company": "Profi.ru (агрегатор)",
+     "url": "https://profi.ru/geo-nsk/remont/avtoremont/peretyazhka-rulya/price/",
+     "price": "от 3150 ₽ за усл.",
+     "za_chto": "перетяжка рулей"
+    }
+   ],
+   "kommentariy": "Смесь фиксированных цен и «от»; у Dress4car цена экокожи плюс доплата за натуральную кожу."
+  },
+  "перетяжка сидений": {
+   "check": 10700,
+   "basis": "ot",
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "Profi.ru (агрегатор)",
+     "url": "https://profi.ru/geo-nsk/remont/avtoremont/peretyazhka-rulya/price/",
+     "price": "от 5350 ₽ за шт.",
+     "za_chto": "перетяжка сидений автомобиля, ×2 сиденья"
+    }
+   ],
+   "kommentariy": "Только агрегатор (цена частных мастеров за одно сиденье ×2). Ателье Новосибирска цену за два передних сиденья не публикуют; у «Перетяжка-Профи» весь салон в экокоже – 35 000 ₽. Число ненадёжное, реальный чек ателье выше."
+  },
+  "перетяжка потолка": {
+   "check": 5580,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Перетяжка-Профи (peretyazhka54.ru)",
+     "url": "https://peretyazhka54.ru/ceny/",
+     "price": "8 000 (автовелюр); от 10 000 (экокожа)",
+     "za_chto": "перетяжка потолка, взят автовелюр"
+    },
+    {
+     "company": "Profi.ru (агрегатор)",
+     "url": "https://profi.ru/geo-nsk/remont/avtoremont/peretyazhka-rulya/price/",
+     "price": "от 3160 ₽ за усл.",
+     "za_chto": "перетяжка потолка автомобиля"
+    }
+   ],
+   "kommentariy": "Два источника: одно ателье и агрегатор. Сомнительно."
+  },
+  "перетяжка дверных карт": {
+   "check": 6000,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Перетяжка-Профи (peretyazhka54.ru)",
+     "url": "https://peretyazhka54.ru/ceny/",
+     "price": "от 3 000 (экокожа); от 5 000 (натуральная кожа)",
+     "za_chto": "перетяжка дверей (дверных карт, вставок)"
+    },
+    {
+     "company": "Dress4car Новосибирск",
+     "url": "https://novosibirsk.dress4car.ru/peretyazhka/dvernyh-kart",
+     "price": "1 500 руб",
+     "za_chto": "перетяжка дверных карт, ×4 двери"
+    },
+    {
+     "company": "Profi.ru (агрегатор)",
+     "url": "https://profi.ru/geo-nsk/remont/avtoremont/peretyazhka-rulya/price/",
+     "price": "от 1890 ₽ за шт.",
+     "za_chto": "перетяжка дверных карт, ×4 двери"
+    }
+   ],
+   "kommentariy": "Единица цены у «Перетяжка-Профи» не указана (за дверь или за комплект) – взято как написано; у Dress4car и агрегатора цена за одну карту ×4."
+  },
+  "перетяжка торпедо": {
+   "check": 2815,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Перетяжка-Профи (peretyazhka54.ru)",
+     "url": "https://peretyazhka54.ru/ceny/",
+     "price": "от 1 000",
+     "za_chto": "перетяжка торпеды (панели приборов), экокожа или натуральная кожа"
+    },
+    {
+     "company": "Profi.ru (агрегатор)",
+     "url": "https://profi.ru/geo-nsk/remont/avtoremont/peretyazhka-rulya/price/",
+     "price": "от 4630 ₽ за усл.",
+     "za_chto": "перетяжка торпед"
+    }
+   ],
+   "kommentariy": "Сомнительно: на сайте «Перетяжка-Профи» стоит «от 1 000» (похоже на заниженную заманку или опечатку), второй источник – агрегатор. Реальная перетяжка торпедо с демонтажем стоит кратно дороже."
+  },
+  "пошив чехлов": {
+   "check": 10000,
+   "basis": "tipovoy",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Amulett (Сибирский амулет)",
+     "url": "https://amulett-avtochehly.ru/",
+     "price": "14 000 ₽ (со скидкой, без скидки 28 000 ₽)",
+     "za_chto": "комплект чехлов из экокожи на заказ"
+    },
+    {
+     "company": "Dress4car Новосибирск",
+     "url": "https://novosibirsk.dress4car.ru/avtochekhly/",
+     "price": "медиана каталога 6 000 руб (18 комплектов, 4 500–6 000)",
+     "za_chto": "комплект авточехлов из экокожи"
+    }
+   ],
+   "kommentariy": "Два источника: ателье Amulett (цена со скидкой) и медиана каталога Dress4car. Каркасные чехлы дороже."
+  },
+  "ремонт сидений автомобиля": {
+   "check": 1555,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Перетяжка-Профи (peretyazhka54.ru)",
+     "url": "https://peretyazhka54.ru/ceny/",
+     "price": "от 1 500",
+     "za_chto": "зашить сиденье"
+    },
+    {
+     "company": "Profi.ru (агрегатор)",
+     "url": "https://profi.ru/geo-nsk/remont/remont-sidenii-avtomobilya/price/",
+     "price": "от 1610 ₽ за усл.",
+     "za_chto": "ремонт прожогов сидений автомобиля"
+    }
+   ],
+   "kommentariy": "Два источника: «зашить сиденье от 1 500» у ателье и цена ремонта прожога на агрегаторе. Сомнительно."
+  },
+  "автоателье": {
+   "check": 5500,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Перетяжка-Профи (peretyazhka54.ru)",
+     "url": "https://peretyazhka54.ru/ceny/",
+     "price": "перетяжка руля 5 000 + перетяжка ручки КПП от 1 000",
+     "za_chto": "руль + ручка КПП, экокожа"
+    },
+    {
+     "company": "Dress4car Новосибирск",
+     "url": "https://novosibirsk.dress4car.ru/peretyazhka/",
+     "price": "перетяжка руля 3 000 руб (+1 500 руб натуральная кожа) + перетяжка рычага и чехла КПП 1 000 руб",
+     "za_chto": "руль кожей + ручка КПП"
+    },
+    {
+     "company": "Profi.ru (агрегатор)",
+     "url": "https://profi.ru/geo-nsk/remont/avtoremont/peretyazhka-rulya/price/",
+     "price": "перетяжка рулей от 3150 ₽ + перетяжка ручек КПП от 940 ₽",
+     "za_chto": "руль + ручка КПП"
+    }
+   ],
+   "kommentariy": "Сложено: руль + ручка КПП. Вариант «два сиденья» в городе открыто не публикуют."
+  },
+  "шиномонтаж": {
+   "check": 3275,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Резиновая Подкова",
+     "url": "https://r-podkova.ru/service/tire/",
+     "price": "Стандарт, 4 колеса: 16\" – 3100 руб., 17\" – 3500 руб.",
+     "za_chto": "шиномонтаж комплекта, среднее R16 и R17"
+    },
+    {
+     "company": "Katki54",
+     "url": "https://katki54.ru/shinomontazh",
+     "price": "R16 – 2800, R17 – 3000 (за 4 колеса, балансировка включена)",
+     "za_chto": "шиномонтаж комплекта, среднее R16 и R17"
+    },
+    {
+     "company": "РМасла (rmasla.ru)",
+     "url": "https://www.rmasla.ru/sto/uslugi/shinomontazh/",
+     "price": "Стандарт: 16\" – 2 900 руб., 17\" – 3 600 руб.",
+     "za_chto": "шиномонтаж комплекта, среднее R16 и R17"
+    },
+    {
+     "company": "True Detailing",
+     "url": "https://truedetailing.ru/price",
+     "price": "Комплекс R16 – 3400, R17 – 3600 (седан, универсал)",
+     "za_chto": "шиномонтаж комплекта, среднее R16 и R17"
+    }
+   ],
+   "kommentariy": "Фиксированные цены комплекса за 4 колеса, среднее между R16 и R17, легковой авто (стандарт/седан)."
+  },
+  "развал схождение": {
+   "check": 1600,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "А-Бренд",
+     "url": "https://autoservice154.ru/price",
+     "price": "от 2600 ₽",
+     "za_chto": "развал-схождение всех колёс"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/diagnostics/",
+     "price": "от 1600 ₽",
+     "za_chto": "развал-схождение (регулировка углов установки колёс)"
+    },
+    {
+     "company": "СТО Автомаркет Е",
+     "url": "https://sto-nsk.ru/sxod-razval",
+     "price": "1600 ₽",
+     "za_chto": "развал-схождение"
+    },
+    {
+     "company": "Резиновая Подкова",
+     "url": "https://r-podkova.ru/service/tire/",
+     "price": "от 1350₽",
+     "za_chto": "развал-схождение"
+    }
+   ],
+   "kommentariy": "Цены «от»; у А-Бренд прямо указано «всех колёс», у остальных ось не уточнена."
+  },
+  "балансировка колес": {
+   "check": 800,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "True Detailing",
+     "url": "https://truedetailing.ru/price",
+     "price": "350 (за колесо)",
+     "za_chto": "балансировка, ×4 колеса"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/tire_fitting/",
+     "price": "от 161 ₽",
+     "za_chto": "балансировка колёс, за колесо, ×4"
+    },
+    {
+     "company": "СТО Автомаркет Е",
+     "url": "https://sto-nsk.ru/?en_title=price_list_for_tire_service",
+     "price": "150–250 (за колесо, по радиусу)",
+     "za_chto": "балансировка, взято 200 ₽ ×4 колеса"
+    }
+   ],
+   "kommentariy": "Цена за колесо ×4. Балансировку чаще продают в составе шиномонтажа, отдельная цена есть не у всех."
+  },
+  "покраска дисков": {
+   "check": 11500,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Ремонт колёс 54 (remontkoles54.ru)",
+     "url": "https://remontkoles54.ru/pokraska_diskov",
+     "price": "Диски 13\"-16\" 18 000 руб; диски 17\"-18\" 20 000 руб (за 4 диска)",
+     "za_chto": "покраска 4 дисков, среднее R16 и R17"
+    },
+    {
+     "company": "POLIMER-PRO",
+     "url": "https://xn----7sboclkddcltjcilhoctv.xn--p1ai/",
+     "price": "R16 в один цвет – 11000р.; R17 – 12000р.",
+     "za_chto": "порошковая покраска комплекта дисков с пескоструем, среднее"
+    },
+    {
+     "company": "Profi.ru (агрегатор)",
+     "url": "https://profi.ru/geo-nsk/remont/lokalnaya-pokraska-avtomobilya/price/",
+     "price": "от 2200 ₽ за шт.",
+     "za_chto": "порошковая покраска дисков, ×4"
+    }
+   ],
+   "kommentariy": "Два профильных сервиса с ценой за комплект (среднее R16 и R17) и агрегатор (цена за диск ×4). Разброс почти вдвое."
+  },
+  "правка дисков": {
+   "check": 1725,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Иванор",
+     "url": "https://nsk.ivanor.ru/services/remont-litykh-diskov-svarka-argonom/",
+     "price": "R16: 1400 / 1950 / 3000 (небольшое / среднее / сильное повреждение)",
+     "za_chto": "правка литого диска R16, взято среднее повреждение"
+    },
+    {
+     "company": "Сиб Полимер Колесо",
+     "url": "https://sp-koleso.ru/remont-diskov/",
+     "price": "1700 руб. / 2200 руб.",
+     "za_chto": "правка литого диска, взята вторая колонка"
+    },
+    {
+     "company": "True Detailing",
+     "url": "https://truedetailing.ru/price",
+     "price": "от 1500",
+     "za_chto": "правка литого диска"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/tire_fitting/",
+     "price": "от 500 ₽",
+     "za_chto": "правка, ремонт дисков, сварка аргоном"
+    }
+   ],
+   "kommentariy": "Цена за один литой диск R16–R17 при среднем повреждении; у True Detailing и Reaktor – «от»."
+  },
+  "сварка дисков": {
+   "check": 1500,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Сиб Полимер Колесо",
+     "url": "http://sp-koleso.ru/argonnaya-svarka/",
+     "price": "от 300 руб. / см",
+     "za_chto": "сварка аргоном, принята трещина 5 см"
+    },
+    {
+     "company": "Иванор",
+     "url": "https://nsk.ivanor.ru/services/remont-litykh-diskov-svarka-argonom/",
+     "price": "300 за 1 см; с обработкой – 400 за 1 см",
+     "za_chto": "сварка аргоном, принята трещина 5 см"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/tire_fitting/",
+     "price": "от 500 ₽",
+     "za_chto": "правка, ремонт дисков, сварка аргоном"
+    }
+   ],
+   "kommentariy": "Сварку считают за сантиметр шва (300–400 ₽/см); за диск принята трещина 5 см – это допущение. Правка и балансировка после сварки оплачиваются отдельно."
+  },
+  "ремонт шин": {
+   "check": 1500,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "True Detailing",
+     "url": "https://truedetailing.ru/price",
+     "price": "от 1500",
+     "za_chto": "варка бокового пореза"
+    },
+    {
+     "company": "Ремторгшина",
+     "url": "https://xn--80affnsiends3e.xn--p1ai/ceny-prajs",
+     "price": "800-2500",
+     "za_chto": "ремонт порезов (варка), взята середина"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/tire_fitting/",
+     "price": "от 1500 ₽",
+     "za_chto": "ремонт шин"
+    },
+    {
+     "company": "Profi.ru (агрегатор)",
+     "url": "https://profi.ru/geo-nsk/remont/remont-shin/price/",
+     "price": "от 630 ₽ за шт.",
+     "za_chto": "ремонт порезов шин"
+    }
+   ],
+   "kommentariy": "Цены «от» за один порез; у Ремторгшины вилка 800–2 500 ₽, взята середина."
+  },
+  "хранение шин": {
+   "check": 1800,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Резиновая Подкова",
+     "url": "https://r-podkova.ru/service/sezonnoe-khranenie-shin/",
+     "price": "3600 руб. (шины 13\"-16\" без дисков), 4200 руб. (17\"-22\"), за 6 месяцев",
+     "za_chto": "хранение комплекта шин 6 месяцев, среднее"
+    },
+    {
+     "company": "Аршина",
+     "url": "https://arshina.su/shinomontazh/hranenie-shin/",
+     "price": "от 1800 рублей за полгода (6 месяцев)",
+     "za_chto": "хранение 4 шин"
+    },
+    {
+     "company": "Белый Сервис (филиал в Новосибирске)",
+     "url": "https://novosibirsk.beliyservice.ru/catalog/shinomontazh/khranenie-shin/",
+     "price": "от 1699 руб",
+     "za_chto": "сезонное хранение шин и колёс"
+    }
+   ],
+   "kommentariy": "4 шины без дисков на 6 месяцев; у Резиновой Подковы фиксированный прайс вдвое выше «от» остальных."
+  },
+  "ремонт китайских автомобилей": {
+   "check": 11550,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Белый Сервис (филиал в Новосибирске)",
+     "url": "https://novosibirsk.beliyservice.ru/prices/geely/",
+     "price": "ТО Максимум 5W30: Geely от 11099 рублей (Haval – от 14099, Chery – от 10099)",
+     "za_chto": "ТО с маслом и запчастями, медиана трёх марок"
+    },
+    {
+     "company": "Evolution Car Service",
+     "url": "https://evolutioncarservice.ru/",
+     "price": "от 12 000 ₽",
+     "za_chto": "нулевое и плановое ТО (китайские электромобили и гибриды)"
+    }
+   ],
+   "kommentariy": "Два источника: пакет «ТО Максимум» Белого Сервиса (работа + масло + запчасти) и «ТО от 12 000 ₽» техцентра по китайским электромобилям и гибридам. Дилеры цен ТО не публикуют."
+  },
+  "русификация китайских автомобилей|русификация китайских авто": {
+   "check": 40000,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Teyes Sibir",
+     "url": "https://teyes-sibir.ru/services/Russification_of_cars",
+     "price": "От 50 000 руб",
+     "za_chto": "русификация + приложения, китайские автомобили"
+    },
+    {
+     "company": "Evolution Car Service",
+     "url": "https://evolutioncarservice.ru/rusifikaciya/",
+     "price": "от 25 000 ₽ (итог – в пределах 25 000–160 000 ₽)",
+     "za_chto": "русификация авто: меню, навигация, приборная панель"
+    },
+    {
+     "company": "Russification.ru (выезд мастера в Новосибирск)",
+     "url": "https://russification.ru/regions/novosibirsk/",
+     "price": "от 40 000 ₽",
+     "za_chto": "русификация под ключ, простые модели"
+    }
+   ],
+   "kommentariy": "Цены «от» за русификацию китайского авто; для премиальных моделей 80–160 тыс. Russification.ru – федеральный сервис с выездом в Новосибирск."
+  },
+  "ремонт хавал|ремонт haval|сервис хавал": {
+   "check": 13050,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Белый Сервис (филиал в Новосибирске)",
+     "url": "https://novosibirsk.beliyservice.ru/prices/haval/",
+     "price": "от 14099 рублей",
+     "za_chto": "ТО Максимум 5W30, Haval (цена включает работу и запчасти)"
+    },
+    {
+     "company": "Evolution Car Service",
+     "url": "https://evolutioncarservice.ru/",
+     "price": "от 12 000 ₽",
+     "za_chto": "нулевое и плановое ТО (в списке марок – гибриды Haval)"
+    }
+   ],
+   "kommentariy": "Два источника: Белый Сервис (пакет ТО с маслом и запчастями) и Evolution Car Service (ТО от 12 000 ₽, обслуживает гибриды Haval). Официальные дилеры Haval цен ТО на сайтах не дают."
+  },
+  "ремонт чери|ремонт chery|сервис чери": {
+   "check": 10099,
+   "basis": "ot",
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "Белый Сервис (филиал в Новосибирске)",
+     "url": "https://novosibirsk.beliyservice.ru/prices/chery/",
+     "price": "от 10099 рублей",
+     "za_chto": "ТО Максимум 5W30, Chery (цена включает работу и запчасти)"
+    }
+   ],
+   "kommentariy": "Один источник (пакет ТО Белого Сервиса). Дилеры Chery цен ТО не публикуют."
+  },
+  "ремонт джили|ремонт geely": {
+   "check": 11550,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Белый Сервис (филиал в Новосибирске)",
+     "url": "https://novosibirsk.beliyservice.ru/prices/geely/",
+     "price": "от 11099 рублей",
+     "za_chto": "ТО Максимум 5W30, Geely (цена включает работу и запчасти)"
+    },
+    {
+     "company": "Evolution Car Service",
+     "url": "https://evolutioncarservice.ru/",
+     "price": "от 12 000 ₽",
+     "za_chto": "нулевое и плановое ТО (в списке марок – Geely)"
+    }
+   ],
+   "kommentariy": "Два источника: Белый Сервис и Evolution Car Service (у второго – электромобили и гибриды Geely)."
+  },
+  "ремонт лисян|ремонт lixiang": {
+   "check": 22000,
+   "basis": "ot",
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "Evolution Car Service",
+     "url": "https://evolutioncarservice.ru/service/lixiang/",
+     "price": "ТО двигателя – от 22 000 ₽ (нулевое ТО – от 12 000 ₽)",
+     "za_chto": "техобслуживание LiXiang"
+    }
+   ],
+   "kommentariy": "Один источник: единственный техцентр города с открытой ценой. Взято «ТО двигателя от 22 000 ₽» как плановое ТО гибрида; нулевое ТО – от 12 000 ₽."
+  },
+  "ремонт зикр|ремонт zeekr": {
+   "check": 17000,
+   "basis": "ot",
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "Evolution Car Service",
+     "url": "https://evolutioncarservice.ru/service/zeekr/",
+     "price": "от 17 000 ₽",
+     "za_chto": "нулевое ТО ZEEKR: замена масла в редукторах, проверка систем кондиционирования"
+    }
+   ],
+   "kommentariy": "Один источник: нулевое ТО от 17 000 ₽ в Evolution Car Service."
+  },
+  "ремонт чанган": {
+   "check": 12000,
+   "basis": "ot",
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "Evolution Car Service",
+     "url": "https://evolutioncarservice.ru/",
+     "price": "от 12 000 ₽",
+     "za_chto": "нулевое и плановое ТО (в списке марок – Changan: Deepal, Qiyuan, гибридные UNI)"
+    }
+   ],
+   "kommentariy": "Один источник и общая строка «ТО от 12 000 ₽» (не отдельная цена на Changan); у Белого Сервиса страницы Changan нет."
+  },
+  "ремонт гибридов": {
+   "check": 10000,
+   "basis": "ot",
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "Evolution Car Service",
+     "url": "https://evolutioncarservice.ru/",
+     "price": "от 10 000 ₽",
+     "za_chto": "диагностика (с проверкой высоковольтной батареи)"
+    }
+   ],
+   "kommentariy": "СОМНИТЕЛЬНО: найдена только цена диагностики (от 10 000 ₽). Цен на ремонт высоковольтной батареи сервисы Новосибирска в открытом виде не публикуют; реальный заказ с ремонтом ВВБ стоит кратно дороже."
+  },
+  "ремонт стартера": {
+   "check": 2500,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "КАТОД",
+     "url": "https://katod.su/remont/repair-aggregates/starters/",
+     "price": "ремонт легкового стартера 1000 руб. + снятие-установка от 1500 руб.",
+     "za_chto": "ремонт стартера со снятием, работа"
+    },
+    {
+     "company": "Авто Лидер (sto-lider.ru)",
+     "url": "https://sto-lider.ru/remont-starterov/",
+     "price": "ремонт стартера 500-1500 + с/у от 800",
+     "za_chto": "ремонт стартера со снятием, работа"
+    },
+    {
+     "company": "NSK-Деталь",
+     "url": "https://nsk-detal.ru/remont-starterov/",
+     "price": "ремонт стартера от 1 000 руб. + снятие/установка от 1 500 руб.",
+     "za_chto": "ремонт стартера со снятием, работа"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/repair/repair_electrics/",
+     "price": "от 3069 ₽",
+     "za_chto": "ремонт стартера"
+    }
+   ],
+   "kommentariy": "Ремонт со снятием и установкой, только работа; запчасти (бендикс, щётки, втягивающее) отдельно."
+  },
+  "ремонт генератора": {
+   "check": 5200,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "КАТОД",
+     "url": "https://katod.su/remont/repair-aggregates/generators/",
+     "price": "ремонт легкового генератора 1 000 руб. + снятие-установка от 1 500 руб.",
+     "za_chto": "ремонт генератора со снятием, работа"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/repair/repair_electrics/",
+     "price": "от 5500 ₽",
+     "za_chto": "ремонт генератора"
+    },
+    {
+     "company": "Аршина",
+     "url": "https://arshina.su/prices/",
+     "price": "от 5 200 ₽",
+     "za_chto": "ремонт генератора, работа"
+    }
+   ],
+   "kommentariy": "Только работа; у КАТОД прайс за ремонт снятого генератора плюс снятие-установка, у остальных – цена «от» на автомобиле."
+  },
+  "ремонт турбины": {
+   "check": 6500,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "КАТОД",
+     "url": "https://katod.su/remont/repair-aggregates/turbines/",
+     "price": "5 500 – 7 500 руб. (легковые)",
+     "za_chto": "ремонт турбины, взят вариант с изменяемой геометрией 6 500, работа без запчастей"
+    },
+    {
+     "company": "BigLevel",
+     "url": "https://biglevel.ru/Novosibirsk/",
+     "price": "От 12000 руб",
+     "za_chto": "ремонт турбины (легковые)"
+    },
+    {
+     "company": "GODauto",
+     "url": "https://nsk.godauto.ru/turbine-repair/",
+     "price": "от 5000р.",
+     "za_chto": "ремонт турбины с геометрией (без геометрии – от 4000 руб.)"
+    }
+   ],
+   "kommentariy": "Цены «от» за ремонт, у КАТОД без запчастей (картридж отдельно). Реальный ремонт с картриджем – 15–20 тыс. и выше."
+  },
+  "ремонт радиатора автомобиля|пайка радиатора": {
+   "check": 1980,
+   "basis": "ot",
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "Profi.ru (агрегатор)",
+     "url": "https://profi.ru/geo-nsk/remont/paika-radiatorov-ohlazhdeniya/price/",
+     "price": "от 1980 ₽ за усл.",
+     "za_chto": "ремонт алюминиевых радиаторов (пайка радиаторов – от 300 ₽)"
+    }
+   ],
+   "kommentariy": "Один источник (агрегатор). Профильные мастерские города с открытым прайсом на пайку радиаторов без браузера не открылись."
+  },
+  "ремонт глушителя": {
+   "check": 2950,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Автовыхлоп54",
+     "url": "https://avtovyhlop54.ru/",
+     "price": "от 2000 рублей",
+     "za_chto": "замена гофры"
+    },
+    {
+     "company": "Аршина",
+     "url": "https://arshina.su/prices/",
+     "price": "от 2 950 ₽",
+     "za_chto": "замена гофры"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/repair/repair_exhaust_system/",
+     "price": "от 5520 ₽",
+     "za_chto": "замена гофры глушителя"
+    }
+   ],
+   "kommentariy": "Замена гофры, цены «от»; сама гофра может считаться отдельно."
+  },
+  "ремонт рулевой рейки|ремонт гур": {
+   "check": 13025,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Рейки54 (рейки54.рф)",
+     "url": "https://xn--54-mlcaa4aliirex.xn--p1ai/",
+     "price": "ремонт гидравлической рулевой рейки от 8 000 ₽ + замена рулевой рейки от 3 000 ₽",
+     "za_chto": "ремонт рейки со снятием и установкой"
+    },
+    {
+     "company": "Аршина",
+     "url": "https://arshina.su/prices/",
+     "price": "ремонт рулевой рейки от 6 650 ₽ + снятие/установка от 8 400 ₽",
+     "za_chto": "ремонт рейки со снятием и установкой, работа"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/repair/repair_steering/",
+     "price": "ремонт рулевых реек от 7000 ₽ + замена рулевой рейки от 8855 ₽",
+     "za_chto": "ремонт рейки со снятием и установкой"
+    },
+    {
+     "company": "Ремонт рулевых реек (ремонт-рулевых-реек.рф)",
+     "url": "https://xn--b1acebataretlbr6ak2b0g.xn--p1ai/",
+     "price": "от 8 000 ₽",
+     "za_chto": "гидравлические рейки (ГУР), ремонт"
+    }
+   ],
+   "kommentariy": "Ремонт + снятие/установка по строкам прайсов «от», ремкомплект отдельно; у второго профильного сайта не указано, входит ли снятие."
+  },
+  "ремонт форсунок": {
+   "check": 12000,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Forsunki.Snetkoff",
+     "url": "https://novosibirsk.forsunki.snetkoff.ru/",
+     "price": "ремонт форсунок Delphi от 2500 ₽, Bosch от 3500 ₽",
+     "za_chto": "ремонт дизельных форсунок, середина 3 000 ₽ ×4"
+    },
+    {
+     "company": "Дизель Стандарт",
+     "url": "https://diesel-std.ru/",
+     "price": "проверка форсунок Common Rail от 500 р. + ремонт от 2000 р.",
+     "za_chto": "проверка и ремонт, ×4 форсунки"
+    },
+    {
+     "company": "DieselPRO",
+     "url": "https://dieselpro.org/",
+     "price": "от 4000 р.",
+     "za_chto": "ремонт форсунок, ×4"
+    }
+   ],
+   "kommentariy": "Цена за одну форсунку ×4, только работа «от»; распылители и клапаны отдельно."
+  },
+  "ремонт тнвд": {
+   "check": 5750,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "DieselPRO",
+     "url": "https://dieselpro.org/",
+     "price": "дефектовка ТНВД с разбором 2 500 р. + ремонт ТНВД Common Rail от 5 000 р.",
+     "za_chto": "дефектовка и ремонт ТНВД, работа"
+    },
+    {
+     "company": "Дизель Стандарт",
+     "url": "https://diesel-std.ru/",
+     "price": "проверка ТНВД Common Rail от 2000 р. + ремонт от 2000 р.",
+     "za_chto": "проверка и ремонт ТНВД, работа"
+    }
+   ],
+   "kommentariy": "СОМНИТЕЛЬНО: два источника, стартовые цены «от» за проверку и ремонт без запчастей. Реальный ремонт ТНВД Common Rail с запчастями стоит в несколько раз дороже."
+  },
+  "ремонт пневмоподвески": {
+   "check": 21000,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "SAMRUS (nsk.sibairmatic.ru)",
+     "url": "https://nsk.sibairmatic.ru/price/",
+     "price": "18000 ₽",
+     "za_chto": "восстановленная пневмостойка Audi A8 D3, передняя; добавлена замена 3 000 ₽"
+    },
+    {
+     "company": "ПРОАВТО",
+     "url": "https://pro54auto.ru/diagnostika-i-remont-pnevmopodveski",
+     "price": "2 500 / 3 500",
+     "za_chto": "замена пневмобаллона (1 шт), работа, середина 3 000; добавлена стойка 18 000 ₽"
+    },
+    {
+     "company": "Reaktor (сеть автосервисов, Новосибирск)",
+     "url": "https://nsk.reaktor24.ru/service/repair/repair_chassis/",
+     "price": "от 7500 ₽",
+     "za_chto": "ремонт пневмоподвески"
+    }
+   ],
+   "kommentariy": "Замена одной пневмостойки: восстановленная стойка 18 000 ₽ (SAMRUS, пример Audi A8 D3) + работа 2 500–3 500 ₽ (ПРОАВТО). Цена стойки сильно зависит от модели."
+  }
+ }
+}

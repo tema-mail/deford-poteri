@@ -1,0 +1,3133 @@
+{
+ "city": "Минск",
+ "currency": "BYN",
+ "date": "2026-11-11",
+ "prices": {
+  "автосервис|сто минск": {
+   "check": 352,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "СТО Запад",
+     "url": "https://stozapad.by/ceny-na-uslugi/",
+     "price": "замена масла двигателя, масляного фильтра от 27; нижний рычаг передней подвески с/у от 36; стойка стабилизатора замена от 15",
+     "za_chto": "ТО (масло + фильтры) и ремонт ходовой (2 рычага + 2 стойки) с запчастями, среднее двух заказов"
+    },
+    {
+     "company": "24pds",
+     "url": "https://24pds.by/zamena-masla/",
+     "price": "Средний чек … около 200 руб.; полный комплект с воздушным, салонным и топливным фильтрами добавляет 60–150 руб.; замена рычага подвески от 72; стойки стабилизатора от 24",
+     "za_chto": "ТО под ключ и ремонт ходовой (2 рычага + 2 стойки) с запчастями, среднее двух заказов"
+    },
+    {
+     "company": "Евро Сервис+",
+     "url": "https://eurostar.by/tseny/",
+     "price": "замена масла двигателя и масляного фильтра от 40 BYN; замена нижнего рычага от 80 BYN; стойки стабилизатора от 35 BYN",
+     "za_chto": "ТО (масло + фильтры) и ремонт ходовой (2 рычага + 2 стойки) с запчастями, среднее двух заказов"
+    },
+    {
+     "company": "Эксперт Сервис",
+     "url": "https://expservice.by/pricelist/",
+     "price": "замена масла в двигателе и масляного фильтра 45 BYN; замена рычага подвески 72 BYN; замена стоек стабилизаторов 45 BYN",
+     "za_chto": "ТО (масло + фильтры) и ремонт ходовой (2 рычага + 2 стойки) с запчастями, среднее двух заказов"
+    }
+   ],
+   "kommentariy": "Средний чек заказ-наряда сайты не публикуют – число расчётное. По каждой СТО посчитаны два типовых заказа и взято их среднее: ТО = замена масла (работа + масло и фильтр 146 BYN) + комплект фильтров 105 BYN (середина «60–150 руб.» у 24pds); ремонт ходовой = 2 рычага + 2 стойки стабилизатора с запчастями 194 BYN (см. «ремонт ходовой»). Значения в расчёте, BYN: 287, 346, 358, 362."
+  },
+  "замена масла": {
+   "check": 186,
+   "basis": "tipovoy",
+   "n": 9,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "TEXX Service",
+     "url": "https://texx.by/uslugi/zamena-masla/",
+     "price": "34 руб. 99 коп.",
+     "za_chto": "Минск: замена масла в ДВС в л/а (работа)"
+    },
+    {
+     "company": "Т-Плюс",
+     "url": "https://www.tplus.by/our-services/reglamentnoe_to/zamena_masla/",
+     "price": "от 45 BYN",
+     "za_chto": "замена масла и фильтра в двигателе (работа)"
+    },
+    {
+     "company": "Да-кар Сервис",
+     "url": "https://sto.by/uslugi-sto/tehnicheskoe-obsluzhivanie/zamena-masla/",
+     "price": "20 руб.",
+     "za_chto": "замена масла двигателя, масляного фильтра (работа)"
+    },
+    {
+     "company": "24pds",
+     "url": "https://24pds.by/zamena-masla/",
+     "price": "Средний чек на седан или кроссовер с 4–5 л масла по допуску и масляным фильтром — около 200 руб., из них работа — 40 руб.",
+     "za_chto": "замена масла под ключ: работа + масло + фильтр"
+    },
+    {
+     "company": "Эксперт Сервис",
+     "url": "https://expservice.by/pricelist/",
+     "price": "45 BYN",
+     "za_chto": "замена масла в двигателе и масляного фильтра (работа)"
+    },
+    {
+     "company": "Rosso Corsa",
+     "url": "https://rosso-corsa.by/uslugi-sto/zamena-masla-dvigatelya/",
+     "price": "от 40 руб. за работу",
+     "za_chto": "замена масла в двигателе и масляного фильтра (работа)"
+    },
+    {
+     "company": "СТО Запад",
+     "url": "https://stozapad.by/ceny-na-uslugi/",
+     "price": "от 27",
+     "za_chto": "замена масла двигателя, масляного фильтра (работа)"
+    },
+    {
+     "company": "Евро Сервис+",
+     "url": "https://eurostar.by/tseny/",
+     "price": "от 40 BYN",
+     "za_chto": "замена масла двигателя и масляного фильтра (работа)"
+    },
+    {
+     "company": "Рулевой Эксперт",
+     "url": "https://rulexpert.by/tseny-na-remont-avto/",
+     "price": "35 руб",
+     "za_chto": "замена масла в двигателе (работа, 0,6 н/ч)"
+    },
+    {
+     "company": "Onliner Каталог (агрегатор, Минск)",
+     "url": "https://catalog.onliner.by/motor_oil?motornye-masla-5w-30",
+     "price": "медиана минимальных цен 50 популярных масел 5W-30 4 л – 125 BYN",
+     "za_chto": "материал: моторное масло 5W-30, 4 л"
+    },
+    {
+     "company": "AZA.by (магазин запчастей, Минск)",
+     "url": "https://aza.by/maslyanyiy-filtr/",
+     "price": "медиана 37 цен на странице каталога – 21 BYN",
+     "za_chto": "материал: масляный фильтр"
+    }
+   ],
+   "kommentariy": "Работа по прайсам СТО + материалы 146 BYN (масло 5W-30 4 л – 125 BYN, медиана Onliner; масляный фильтр – 21 BYN, медиана AZA.by); у 24pds взят их собственный чек под ключ. Значения в расчёте, BYN: 181, 191, 166, 200, 191, 186, 173, 186, 181."
+  },
+  "диагностика автомобиля|диагностика авто": {
+   "check": 35,
+   "basis": "tipovoy",
+   "n": 6,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Эксперт Сервис",
+     "url": "https://expservice.by/pricelist/",
+     "price": "45 BYN",
+     "za_chto": "компьютерная диагностика автомобиля"
+    },
+    {
+     "company": "СТО Запад",
+     "url": "https://stozapad.by/ceny-na-uslugi/",
+     "price": "от 32",
+     "za_chto": "компьютерная диагностика ЭБУ"
+    },
+    {
+     "company": "Аризона Сервис",
+     "url": "https://arizonaservice.by/price/",
+     "price": "от 35 руб.",
+     "za_chto": "компьютерная диагностика"
+    },
+    {
+     "company": "24pds",
+     "url": "https://24pds.by/price/",
+     "price": "от 48",
+     "za_chto": "компьютерная диагностика (считывание и расшифровка ошибок)"
+    },
+    {
+     "company": "Евро Сервис+",
+     "url": "https://eurostar.by/tseny/",
+     "price": "от 35 BYN",
+     "za_chto": "компьютерная диагностика двигателя (чтение кодов неисправностей)"
+    },
+    {
+     "company": "avto-elektrik.by",
+     "url": "https://avto-elektrik.by/tseny/",
+     "price": "20",
+     "za_chto": "компьютерная диагностика авто"
+    }
+   ],
+   "kommentariy": "Медиана цен компьютерной диагностики; часть цен дана с «от». Значения в расчёте, BYN: 45, 32, 35, 48, 35, 20."
+  },
+  "ремонт двигателя": {
+   "check": 547,
+   "basis": "ot",
+   "n": 10,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "APK Grup",
+     "url": "https://apkgrup.by/uslugi/remont-dvigatelya/zamena-tsepi-grm/",
+     "price": "от 600 руб.",
+     "za_chto": "замена цепи ГРМ (работа)"
+    },
+    {
+     "company": "СТО Garage (supersto.by)",
+     "url": "https://supersto.by/uslugi/remont-dvigatelya/zamena-czepi-grm/",
+     "price": "от 210 BYN",
+     "za_chto": "замена цепи ГРМ (работа)"
+    },
+    {
+     "company": "Duck Service",
+     "url": "https://duckservice.by/zamena-cepi-grm/",
+     "price": "от 210 руб.",
+     "za_chto": "замена цепи ГРМ (работа)"
+    },
+    {
+     "company": "Veni Motors",
+     "url": "https://venimotors.by/service/zamena-cepi-grm/",
+     "price": "от 250 рублей",
+     "za_chto": "замена цепи ГРМ (работа)"
+    },
+    {
+     "company": "Miura",
+     "url": "https://www.miura.by/zamena-tsepi-grm.html",
+     "price": "от 405 рублей",
+     "za_chto": "замена цепи ГРМ (работа)"
+    },
+    {
+     "company": "СТО Карпрайс",
+     "url": "https://sto.carprice.by/services/remont-dvigatelya/zamena-cepi-grm",
+     "price": "От 150 Руб.",
+     "za_chto": "замена цепи ГРМ (работа)"
+    },
+    {
+     "company": "24pds",
+     "url": "https://24pds.by/price/",
+     "price": "от 320",
+     "za_chto": "замена цепи ГРМ (работа); там же ремонт ГБЦ со снятием и установкой – от 560"
+    },
+    {
+     "company": "Евро Сервис+",
+     "url": "https://eurostar.by/tseny/",
+     "price": "от 900 BYN",
+     "za_chto": "замена цепи ГРМ (работа)"
+    },
+    {
+     "company": "CarCity",
+     "url": "https://carcity.by/uslugi/zamena-grm",
+     "price": "от 500",
+     "za_chto": "замена цепи ГРМ (работа)"
+    },
+    {
+     "company": "Эксперт Сервис",
+     "url": "https://expservice.by/pricelist/",
+     "price": "225 BYN",
+     "za_chto": "замена комплекта цепи ГРМ (работа); там же ремонт ГБЦ – 270 BYN"
+    },
+    {
+     "company": "A-M.by (магазин запчастей, Минск)",
+     "url": "https://a-m.by/komplekt-tsepi-grm/",
+     "price": "медиана 47 цен на странице каталога – 262 BYN",
+     "za_chto": "запчасти: комплект цепи ГРМ"
+    }
+   ],
+   "kommentariy": "Типовой заказ посчитан как замена цепи ГРМ: работа по прайсам СТО (почти везде «от») + комплект цепи 262 BYN (медиана каталога A-M.by). Ремонт ГБЦ с запчастями дороже; сумма – нижняя граница. Значения в расчёте, BYN: 862, 472, 472, 512, 667, 412, 582, 1162, 762, 487."
+  },
+  "ремонт акпп": {
+   "check": 600,
+   "basis": "ot",
+   "n": 8,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "TransGear",
+     "url": "https://transgear.by/price/",
+     "price": "Демонтаж/Монтаж АКПП 600 + Разборка/Сборка АКПП 800",
+     "za_chto": "работа капремонта АКПП, легковой, передний привод, без запчастей"
+    },
+    {
+     "company": "Miura",
+     "url": "https://www.miura.by/remont-akpp-avtomaticheskoy-korobki-peredach.html",
+     "price": "от 900 рублей",
+     "za_chto": "ремонт АКПП"
+    },
+    {
+     "company": "ЕвроТрансмиссия",
+     "url": "https://euro-transmission.by/",
+     "price": "от 700 руб. Без учета стоимости запчастей",
+     "za_chto": "ремонт АКПП (работа)"
+    },
+    {
+     "company": "remont-akpp.by",
+     "url": "https://remont-akpp.by/",
+     "price": "от 600 руб. Без учета стоимости запчастей",
+     "za_chto": "ремонт АКПП (работа)"
+    },
+    {
+     "company": "AKPP-Box",
+     "url": "https://akpp-box.by/",
+     "price": "от 600р",
+     "za_chto": "ремонт АКПП"
+    },
+    {
+     "company": "Автопро",
+     "url": "https://avtopro.by/content/122-remont-akpp-v-minske",
+     "price": "400-600 руб.",
+     "za_chto": "ремонт АКПП (разборка, установка новых з/ч, сборка) – работа"
+    },
+    {
+     "company": "GearPro",
+     "url": "https://gearpro.by/",
+     "price": "от 450 BYN",
+     "za_chto": "капитальный ремонт АКПП"
+    },
+    {
+     "company": "Интеравтотех",
+     "url": "https://www.interautotech.by/",
+     "price": "от 200 до 704 руб.",
+     "za_chto": "ремонт снятой АКПП любой сложности: разборка, дефектовка, сборка, регулировка (работа)"
+    }
+   ],
+   "kommentariy": "Сумму «под ключ» с запчастями минские сайты не публикуют: везде цена работы «от» без запчастей. Взята медиана этих «от» – нижняя граница; с запчастями капремонт выходит заметно дороже. Значения в расчёте, BYN: 1400, 900, 700, 600, 600, 400, 450, 200."
+  },
+  "замена ремня грм": {
+   "check": 326,
+   "basis": "ot",
+   "n": 11,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "СТО Карпрайс",
+     "url": "https://sto.carprice.by/services/remont-dvigatelya/zamena-remnya-grm",
+     "price": "От 120 Руб.",
+     "za_chto": "замена ремня ГРМ с роликами (работа)"
+    },
+    {
+     "company": "СТО Запад",
+     "url": "https://stozapad.by/ceny-na-uslugi/",
+     "price": "от 120",
+     "za_chto": "замена к-та ремня ГРМ (работа)"
+    },
+    {
+     "company": "Duck Service",
+     "url": "https://duckservice.by/zamena-remnya-grm/",
+     "price": "от 130 руб.",
+     "za_chto": "замена ремня ГРМ с роликами (работа)"
+    },
+    {
+     "company": "Veni Motors",
+     "url": "https://venimotors.by/service/zamena-grm/",
+     "price": "от 140 руб.",
+     "za_chto": "замена ремня ГРМ (работа)"
+    },
+    {
+     "company": "СТО Garage (supersto.by)",
+     "url": "https://supersto.by/uslugi/remont-dvigatelya/zamena-remnya-grm/",
+     "price": "от 140 BYN",
+     "za_chto": "замена ремня ГРМ (работа)"
+    },
+    {
+     "company": "Рулевой Эксперт",
+     "url": "https://rulexpert.by/zamena-grm/",
+     "price": "150 руб",
+     "za_chto": "замена комплекта ГРМ, 16-клапанный двигатель (работа)"
+    },
+    {
+     "company": "Эксперт Сервис",
+     "url": "https://expservice.by/pricelist/",
+     "price": "171 BYN",
+     "za_chto": "замена комплекта ГРМ (работа)"
+    },
+    {
+     "company": "24pds",
+     "url": "https://24pds.by/price/",
+     "price": "от 240",
+     "za_chto": "замена ремня ГРМ (комплект) – работа"
+    },
+    {
+     "company": "ОЛД-Моторс",
+     "url": "https://oldmotors.by/uslugi/zamena-remnya-grm/",
+     "price": "от 280 рублей",
+     "za_chto": "замена ремня ГРМ (работа)"
+    },
+    {
+     "company": "CarCity",
+     "url": "https://carcity.by/uslugi/zamena-grm",
+     "price": "от 300",
+     "za_chto": "замена ремня ГРМ (работа)"
+    },
+    {
+     "company": "Евро Сервис+",
+     "url": "https://eurostar.by/tseny/",
+     "price": "от 350 BYN",
+     "za_chto": "замена ремня и роликов ГРМ (работа)"
+    },
+    {
+     "company": "AZA.by (магазин запчастей, Минск)",
+     "url": "https://aza.by/komplekt-grm/",
+     "price": "медиана 44 цен на странице каталога – 163 BYN",
+     "za_chto": "запчасти: комплект ГРМ (ремень + ролики)"
+    },
+    {
+     "company": "A-M.by (магазин запчастей, Минск)",
+     "url": "https://a-m.by/komplekt-grm/",
+     "price": "медиана 52 цен на странице каталога – 189 BYN",
+     "za_chto": "запчасти: комплект ГРМ (ремень + ролики)"
+    }
+   ],
+   "kommentariy": "Работа по прайсам СТО (в основном «от») + комплект ГРМ 176 BYN (среднее медиан каталогов AZA.by 163 и A-M.by 189). Значения в расчёте, BYN: 296, 296, 306, 316, 316, 326, 347, 416, 456, 476, 526."
+  },
+  "замена сцепления": {
+   "check": 480,
+   "basis": "ot",
+   "n": 7,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "24pds",
+     "url": "https://24pds.by/remont-scepleniya/",
+     "price": "от 320 руб. … по прейскуранту, без запчастей",
+     "za_chto": "замена комплекта сцепления (работа)"
+    },
+    {
+     "company": "CarCity",
+     "url": "https://carcity.by/uslugi/remont-transmissii/zamena-scepleniya",
+     "price": "от 300",
+     "za_chto": "замена комплекта сцепления (работа)"
+    },
+    {
+     "company": "Евро Сервис+",
+     "url": "https://eurostar.by/zamena-stsepleniya/",
+     "price": "от 450 руб.",
+     "za_chto": "замена сцепления МКПП, легковые (работа)"
+    },
+    {
+     "company": "Эксперт Сервис",
+     "url": "https://expservice.by/zamena-komplekta-scepleniya/",
+     "price": "цена от 180 BYN",
+     "za_chto": "замена комплекта сцепления (работа)"
+    },
+    {
+     "company": "Duck Service",
+     "url": "https://duckservice.by/zamena-sczepleniya/",
+     "price": "от 140 руб.",
+     "za_chto": "замена комплекта сцепления (работа)"
+    },
+    {
+     "company": "СТО8",
+     "url": "https://sto8.by/remont-korobki/remont-sceplenija/",
+     "price": "Средний чек на замену сцепления составляет 180 рублей",
+     "za_chto": "демонтаж/монтаж КПП и замена диска, корзины, выжимного (работа)"
+    },
+    {
+     "company": "СТО Карпрайс",
+     "url": "https://sto.carprice.by/services/remont-transmissii/zamena-scepleniya",
+     "price": "От 140 Руб.",
+     "za_chto": "замена сцепления (работа)"
+    },
+    {
+     "company": "AZA.by (магазин запчастей, Минск)",
+     "url": "https://aza.by/komplekt-stsepleniya/",
+     "price": "медиана 38 цен на странице каталога – 287 BYN",
+     "za_chto": "запчасти: комплект сцепления"
+    },
+    {
+     "company": "A-M.by (магазин запчастей, Минск)",
+     "url": "https://a-m.by/komplekt-stsepleniya/",
+     "price": "медиана 45 цен на странице каталога – 313 BYN",
+     "za_chto": "запчасти: комплект сцепления"
+    }
+   ],
+   "kommentariy": "Работа по прайсам СТО (в основном «от») + комплект сцепления 300 BYN (среднее медиан каталогов AZA.by 287 и A-M.by 313). Двухмассовый маховик не включён. Значения в расчёте, BYN: 620, 600, 750, 480, 440, 480, 440."
+  },
+  "ремонт ходовой": {
+   "check": 405,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "СТО Запад",
+     "url": "https://stozapad.by/ceny-na-uslugi/",
+     "price": "нижний рычаг передней подвески с/у от 36; стойка стабилизатора передней подвески замена от 15",
+     "za_chto": "работа: 2 рычага + 2 стойки стабилизатора"
+    },
+    {
+     "company": "24pds",
+     "url": "https://24pds.by/price/",
+     "price": "замена рычага подвески от 72; замена стойки стабилизатора 1 шт от 24",
+     "za_chto": "работа: 2 рычага + 2 стойки стабилизатора"
+    },
+    {
+     "company": "Евро Сервис+",
+     "url": "https://eurostar.by/tseny/",
+     "price": "замена нижнего рычага передней подвески от 80 BYN; замена стойки стабилизатора передней подвески от 35 BYN",
+     "za_chto": "работа: 2 рычага + 2 стойки стабилизатора"
+    },
+    {
+     "company": "Эксперт Сервис",
+     "url": "https://expservice.by/pricelist/",
+     "price": "замена рычага подвески 72 BYN; замена стоек стабилизаторов 45 BYN",
+     "za_chto": "работа: 2 рычага + 2 стойки стабилизатора"
+    },
+    {
+     "company": "AZA.by (магазин запчастей, Минск)",
+     "url": "https://aza.by/ryichag-podveski/",
+     "price": "медианы каталога: рычаг подвески 72 BYN, стойка стабилизатора 31 BYN",
+     "za_chto": "запчасти"
+    },
+    {
+     "company": "A-M.by (магазин запчастей, Минск)",
+     "url": "https://a-m.by/ryichag-podveski/",
+     "price": "медианы каталога: рычаг подвески 53 BYN, стойка стабилизатора 39 BYN",
+     "za_chto": "запчасти"
+    }
+   ],
+   "kommentariy": "Типовой заказ собран из прайса: замена 2 передних рычагов и 2 стоек стабилизатора. Работа по каждой СТО + запчасти 194 BYN (рычаг 62 × 2, стойка 35 × 2 – средние медиан каталогов AZA.by и A-M.by). Готовую сумму «ремонт ходовой» сайты не публикуют. Значения в расчёте, BYN: 296, 386, 424, 428."
+  },
+  "автоэлектрик": {
+   "check": 162,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "iDIAGNOST",
+     "url": "https://idiagnost.by/",
+     "price": "70 BYN",
+     "za_chto": "поиск и устранение неисправности в электропроводке (1 час)"
+    },
+    {
+     "company": "SDA.by (выездной автоэлектрик)",
+     "url": "https://sda.by/price",
+     "price": "100 руб./час",
+     "za_chto": "поиск неисправности, почасовая работа"
+    },
+    {
+     "company": "volt24.by (выездной автоэлектрик)",
+     "url": "https://volt24.by/",
+     "price": "100 BYN / час",
+     "za_chto": "выезд, диагностика и первый час работы; далее по часам"
+    },
+    {
+     "company": "Аризона Сервис",
+     "url": "https://arizonaservice.by/price/",
+     "price": "Стоимость 1 нормо-часа — 85,00 руб.",
+     "za_chto": "нормо-час СТО (электрика считается по нормо-часу)"
+    }
+   ],
+   "kommentariy": "Часовая ставка с сайта × 1,75 часа (середина типового заказа 1,5–2 часа). Значения в расчёте, BYN: 122, 175, 175, 149."
+  },
+  "заправка автокондиционера|заправка кондиционера автомобиля|заправка кондиционера авто|ремонт кондиционера автомобиля": {
+   "check": 102,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Tyreg",
+     "url": "https://tyreg.by/services/zapravka-konditsionerov/",
+     "price": "итоговая стоимость заправки кондиционеров авто в Минске составит 99 рублей",
+     "za_chto": "пример расчёта на сайте: работа 35 руб. + фреон"
+    },
+    {
+     "company": "Климат-Сервис",
+     "url": "http://climatservis.by/",
+     "price": "135 руб.",
+     "za_chto": "заправка с вакуумированием"
+    },
+    {
+     "company": "Автоклимат",
+     "url": "http://autoklimat.by/page/zapravka_kondicionerov/",
+     "price": "Полный цикл заправки на нашем СТО вам будет стоить всего 89,10 руб. с НДС",
+     "za_chto": "полный цикл заправки с материалами для физлиц"
+    },
+    {
+     "company": "Veni Motors",
+     "url": "https://venimotors.by/service/zapravka-konditsionera/",
+     "price": "Заправка кондиционера (работа) 30 руб.; стоимость фреона – 15 руб. за 100 гр.",
+     "za_chto": "работа + 500 г фреона"
+    },
+    {
+     "company": "Т-Плюс",
+     "url": "https://www.tplus.by/our-services/obsluzhivanie_sistemy_konditsionirovaniya/zapravka_konditsionera/",
+     "price": "от 40 BYN",
+     "za_chto": "заправка кондиционера (без фреона) – в расчёт не вошло"
+    },
+    {
+     "company": "24pds",
+     "url": "https://24pds.by/price/",
+     "price": "от 48 + стоимость фреона по факту",
+     "za_chto": "заправка кондиционера, включая диагностику – в расчёт не вошло"
+    }
+   ],
+   "kommentariy": "В расчёт взяты только цены полной заправки с фреоном; у Veni Motors посчитано: работа 30 + 500 г фреона по 15 руб./100 г. Цены «от 35–48» без фреона в медиану не включены. Значения в расчёте, BYN: 99, 135, 89, 105."
+  },
+  "кузовной ремонт": {
+   "check": 450,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Kuzovnoy-remont-minsk.by",
+     "url": "https://kuzovnoy-remont-minsk.by/price/",
+     "price": "ремонт двери с покраской цена от 120уе",
+     "za_chto": "ремонт и покраска одной двери"
+    },
+    {
+     "company": "Альфа-Кузов",
+     "url": "https://alfa-kuzow.by/ceny/",
+     "price": "Покраска переднего крыла от 450BYN; норма-час 80 руб.",
+     "za_chto": "покраска одного крыла с подготовкой"
+    },
+    {
+     "company": "Кузов Хелп (pokrasim-auto.by)",
+     "url": "https://pokrasim-auto.by/ceny/",
+     "price": "Крыло переднее от 360 руб.",
+     "za_chto": "ремонт и покраска элемента: переднее крыло"
+    },
+    {
+     "company": "Miura",
+     "url": "https://www.miura.by/pokraska-dveri-kryshi.html",
+     "price": "от 600 рублей",
+     "za_chto": "покраска двери"
+    },
+    {
+     "company": "StoHelp (агрегатор заказов, Минск)",
+     "url": "https://stohelp.by/autoservices/minsk/remont-kuzova-svarka-pokraska",
+     "price": "Средняя цена по ремонту кузова, сварке, покраске авто — 661.77 руб. (BYN)",
+     "za_chto": "средняя цена заказа по Минску"
+    }
+   ],
+   "kommentariy": "Цены компаний – «от» за ремонт и окраску одного элемента (нижняя граница); средняя цена заказа у агрегатора StoHelp – 662 BYN. Цены в у.е. пересчитаны по курсу Нацбанка РБ на 11.11.2026: 1 USD = 3,0019 BYN. Значения в расчёте, BYN: 360, 450, 360, 600, 662."
+  },
+  "покраска автомобиля|покраска авто": {
+   "check": 285,
+   "basis": "ot",
+   "n": 8,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Miura",
+     "url": "https://www.miura.by/pokraska-dveri-kryshi.html",
+     "price": "от 600 рублей",
+     "za_chto": "покраска двери"
+    },
+    {
+     "company": "Автобрат",
+     "url": "https://avtobrat.by/Paint",
+     "price": "Переднее или заднее крыло от 150 бел. руб.",
+     "za_chto": "покраска крыла"
+    },
+    {
+     "company": "Покраска Авто Минск",
+     "url": "https://pokraska-avto-minsk.by/pokraska-kryla-tsena/",
+     "price": "Цена Покраски крыла от 50 у.е.",
+     "za_chto": "покраска крыла с расходными материалами"
+    },
+    {
+     "company": "Kuzovnoy-remont-minsk.by",
+     "url": "https://kuzovnoy-remont-minsk.by/price/",
+     "price": "Покраска Нового переднего крыла от 70 уе (без снятия и установки)",
+     "za_chto": "покраска крыла"
+    },
+    {
+     "company": "Кузов Хелп (pokrasim-auto.by)",
+     "url": "https://pokrasim-auto.by/ceny/",
+     "price": "Крыло переднее от 360 руб.; Дверь от 400 руб.",
+     "za_chto": "покраска крыла"
+    },
+    {
+     "company": "Белколор",
+     "url": "https://belkolor.by/ceny/",
+     "price": "Покраска двери от 400 руб.",
+     "za_chto": "покраска двери"
+    },
+    {
+     "company": "Автомэджик",
+     "url": "https://avtomagic.by/tseny/pokraska-avto-v-minske-tsena",
+     "price": "Крыло (переднее либо заднее) 150 руб.; Дверь 150 руб.",
+     "za_chto": "покраска крыла или двери"
+    },
+    {
+     "company": "Альфа-Кузов",
+     "url": "https://alfa-kuzow.by/ceny/",
+     "price": "Покраска переднего крыла от 450BYN; Покраска двери от 450 BYN",
+     "za_chto": "покраска крыла или двери"
+    }
+   ],
+   "kommentariy": "Покраска одной детали (крыло или дверь), почти все цены «от». Цены в у.е. пересчитаны по курсу Нацбанка РБ на 11.11.2026: 1 USD = 3,0019 BYN. Значения в расчёте, BYN: 600, 150, 150, 210, 360, 400, 150, 450."
+  },
+  "удаление вмятин": {
+   "check": 35,
+   "basis": "ot",
+   "n": 6,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Автотоп",
+     "url": "https://avtotop.by/deteiling/bespokrasochnoe-udalenie-vmyatin/",
+     "price": "4-10 см от 30 BYN",
+     "za_chto": "одна вмятина 4–10 см, первая категория сложности"
+    },
+    {
+     "company": "СТО Запад",
+     "url": "https://stozapad.by/uslugi/kuzovnye-raboty/bespokrasochnoe-udalenie-vmyatin/",
+     "price": "4-10 см от 30р.",
+     "za_chto": "одна вмятина 4–10 см, первая категория сложности"
+    },
+    {
+     "company": "Bezpokraski.by",
+     "url": "http://bezpokraski.by/",
+     "price": "3 - 10 см от 40 руб.",
+     "za_chto": "одна вмятина 3–10 см"
+    },
+    {
+     "company": "RD Detailing",
+     "url": "https://rddetailing.by/services/paintless-dent-repair",
+     "price": "Повреждение до 10 см (за 1 см диаметра): легковой от 25 BYN",
+     "za_chto": "вмятина 5 см: 5 × 25 BYN"
+    },
+    {
+     "company": "RianCar",
+     "url": "https://riancar.by/uslugi/bespokrasochnoe-udalenie-vmyatin/",
+     "price": "от 1 до 40 см. от 20 рублей",
+     "za_chto": "одна вмятина"
+    },
+    {
+     "company": "PDR центр (remontvmyatin.by)",
+     "url": "https://remontvmyatin.by/",
+     "price": "Средний деффект. Примерный размер: c ладонь – от 280 руб.",
+     "za_chto": "одна средняя вмятина размером с ладонь"
+    }
+   ],
+   "kommentariy": "Разброс большой: прайсы «от» дают 20–40 BYN за вмятину 4–10 см на простой панели, PDR-центр оценивает «средний дефект с ладонь» от 280 BYN. Медиана – нижняя граница. Значения в расчёте, BYN: 30, 30, 40, 125, 20, 280."
+  },
+  "покраска бампера": {
+   "check": 280,
+   "basis": "ot",
+   "n": 10,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Покраска Авто Минск",
+     "url": "https://pokraska-avto-minsk.by/tseny-na-pokrasku-bampera-avtomobilya/",
+     "price": "Полная покраска бампера от 90 у.е.",
+     "za_chto": "полная покраска бампера"
+    },
+    {
+     "company": "Белколор",
+     "url": "https://belkolor.by/ceny/",
+     "price": "Покраска бампера от 400 руб.",
+     "za_chto": "покраска бампера"
+    },
+    {
+     "company": "АвтоДвиж",
+     "url": "https://avtodvizh.by/pokraska-avto-minsk/pokraska-bampera-minsk/",
+     "price": "Стоимость покраски бампера с учетом материалов: от 290 руб.",
+     "za_chto": "покраска бампера с материалами"
+    },
+    {
+     "company": "pokraska-avto-v-minske.by",
+     "url": "https://pokraska-avto-v-minske.by/remont-i-pokraska-bampera",
+     "price": "Покраска переднего бампера от 400 руб.",
+     "za_chto": "покраска бампера"
+    },
+    {
+     "company": "K-T.by",
+     "url": "https://k-t.by/pokraska-bampera/",
+     "price": "Покраска бампера от 400 руб.",
+     "za_chto": "покраска бампера"
+    },
+    {
+     "company": "ФаворитАвто",
+     "url": "https://favoritauto.by/pokraska_bampera.html",
+     "price": "от 150 рублей (не включает снятие-установку детали, без учета стоимости лакокрасочных материалов для структурного покрытия)",
+     "za_chto": "покраска заднего бампера"
+    },
+    {
+     "company": "Автобрат",
+     "url": "https://avtobrat.by/Paint",
+     "price": "Бампер от 240 бел. руб.",
+     "za_chto": "покраска бампера"
+    },
+    {
+     "company": "Кузов Хелп (pokrasim-auto.by)",
+     "url": "https://pokrasim-auto.by/ceny/",
+     "price": "Бампер передний от 390 руб.",
+     "za_chto": "покраска бампера"
+    },
+    {
+     "company": "Автомэджик",
+     "url": "https://avtomagic.by/tseny/pokraska-avto-v-minske-tsena",
+     "price": "Бампер 150 руб.",
+     "za_chto": "покраска бампера"
+    },
+    {
+     "company": "Kuzovnoy-remont-minsk.by",
+     "url": "https://kuzovnoy-remont-minsk.by/price/",
+     "price": "Покраска нового бампера от 70уе (с материалом, без установки)",
+     "za_chto": "покраска бампера"
+    }
+   ],
+   "kommentariy": "Покраска одного бампера, почти все цены «от». Цены в у.е. пересчитаны по курсу Нацбанка РБ на 11.11.2026: 1 USD = 3,0019 BYN. Значения в расчёте, BYN: 270, 400, 290, 400, 400, 150, 240, 390, 150, 210."
+  },
+  "ремонт бампера": {
+   "check": 80,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "RS-Auto",
+     "url": "https://rs-auto.by/kuzovnoj-remont/remont-bamperov",
+     "price": "Ремонт переднего бампера от 150 BYN",
+     "za_chto": "ремонт бампера"
+    },
+    {
+     "company": "pokraska-avto-v-minske.by",
+     "url": "https://pokraska-avto-v-minske.by/remont-i-pokraska-bampera",
+     "price": "Ремонт бампера шт от 30 руб.",
+     "za_chto": "ремонт бампера без покраски"
+    },
+    {
+     "company": "Покраска Авто Минск",
+     "url": "https://pokraska-avto-minsk.by/tseny-na-pokrasku-bampera-avtomobilya/",
+     "price": "Ремонт бампера автомобиля от 50 у.е.",
+     "za_chto": "ремонт бампера"
+    },
+    {
+     "company": "Kuzovnoy-remont-minsk.by",
+     "url": "https://kuzovnoy-remont-minsk.by/price/",
+     "price": "Мелкий ремонт бампера от 20 уе",
+     "za_chto": "мелкий ремонт бампера"
+    },
+    {
+     "company": "Рядом.бел (агрегатор, Минск)",
+     "url": "https://рядом.бел/remont-bamperov-minsk",
+     "price": "Пайка бампера: пайка трещин, восстановление недостающих частей, восстановление крепления – От 40 руб. до 120 руб.",
+     "za_chto": "пайка трещины, середина диапазона"
+    }
+   ],
+   "kommentariy": "Ремонт пластика без покраски; цены «от», у агрегатора взята середина диапазона 40–120. Цены в у.е. пересчитаны по курсу Нацбанка РБ на 11.11.2026: 1 USD = 3,0019 BYN. Значения в расчёте, BYN: 150, 30, 150, 60, 80."
+  },
+  "локальная покраска": {
+   "check": 150,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Drive911",
+     "url": "https://drive911.by/lokalnaya-pokraska-avto-minsk",
+     "price": "Стоимость локальной покраски начинается от 80-120 BYN за элемент",
+     "za_chto": "локальная покраска одного элемента"
+    },
+    {
+     "company": "Miura",
+     "url": "https://www.miura.by/lokalnaya-pokraska-avto.html",
+     "price": "от 450 рублей",
+     "za_chto": "локальная покраска авто"
+    },
+    {
+     "company": "Покраска Авто Минск",
+     "url": "https://pokraska-avto-minsk.by/lokalnaya-pokraska-avtomobilya-tsena/",
+     "price": "Локальная покраска 1 элемента от 45 у.е.",
+     "za_chto": "локальная покраска одного элемента"
+    },
+    {
+     "company": "Avtokrivik",
+     "url": "https://avtokrivik.by/lokalnaya-pokraska-avto/",
+     "price": "Локальная покраска авто от 150 руб.",
+     "za_chto": "локальная покраска"
+    },
+    {
+     "company": "Kuzovnoy-remont-minsk.by",
+     "url": "https://kuzovnoy-remont-minsk.by/price/",
+     "price": "Локальная покраска крыла цена от 50 уе",
+     "za_chto": "локальная покраска крыла"
+    }
+   ],
+   "kommentariy": "Локальная покраска одного места, все цены «от». Цены в у.е. пересчитаны по курсу Нацбанка РБ на 11.11.2026: 1 USD = 3,0019 BYN. Значения в расчёте, BYN: 120, 450, 135, 150, 150."
+  },
+  "замена лобового стекла": {
+   "check": 255,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Влобовик",
+     "url": "https://vlobovik.by/ceny",
+     "price": "Замена под ключ, вместе со стеклом и работой, начинается от 220 BYN, на популярные модели — от 240 BYN",
+     "za_chto": "стекло + работа, популярные модели"
+    },
+    {
+     "company": "Стеклоавто",
+     "url": "https://autosteklo.by/zamena-lobovogo-stekla-v-minske",
+     "price": "Стекло и работа от 250 BYN",
+     "za_chto": "стекло + работа"
+    },
+    {
+     "company": "ДИТС Сервис",
+     "url": "https://dits-servis.by/",
+     "price": "Лобовое стекло с установкой 312 BYN",
+     "za_chto": "стекло с установкой, самая доступная из позиций на главной (есть 345, 1019, 1096 BYN)"
+    },
+    {
+     "company": "BelStekloExpert",
+     "url": "https://belstekloexpert.by/ceny/",
+     "price": "Kia Rio лобовое или боковое от 260 под ключ; Renault Logan от 240; Skoda Octavia от 300; VW Passat от 320",
+     "za_chto": "стекло + работа под ключ, массовая модель"
+    },
+    {
+     "company": "zamena-autostekla.by",
+     "url": "https://zamena-autostekla.by/ceny/",
+     "price": "Акция! Замена лобового стекла от 100 BYN 60 BYN",
+     "za_chto": "только работа – в расчёт не вошло"
+    }
+   ],
+   "kommentariy": "Стекло + работа для массовой модели; цены «от». Значения в расчёте, BYN: 240, 250, 312, 260."
+  },
+  "ремонт лобового стекла": {
+   "check": 42,
+   "basis": "ot",
+   "n": 6,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Miura",
+     "url": "https://www.miura.by/remont-lobovogo-stekla.html",
+     "price": "от 45 рублей (в зависимости от размера)",
+     "za_chto": "ремонт скола лобового стекла"
+    },
+    {
+     "company": "Автокруг",
+     "url": "https://автокруг.бел/zamena-avtostekol/",
+     "price": "Ремонт скола от 30 руб.",
+     "za_chto": "ремонт скола"
+    },
+    {
+     "company": "Влобовик",
+     "url": "https://vlobovik.by/uslugi/remont-skolov",
+     "price": "Ремонт скола стоит от 30 BYN",
+     "za_chto": "ремонт скола до 25 мм"
+    },
+    {
+     "company": "MaxGlass",
+     "url": "https://maxglass.by/skol",
+     "price": "Скол «полоска» цена от 50 руб.",
+     "za_chto": "ремонт одного скола"
+    },
+    {
+     "company": "СТО7",
+     "url": "https://www.sto7.by/remont-avtostekla/remont-skolov-lobovogo-stekla/",
+     "price": "Стоимость ремонта скола: от 56 руб",
+     "za_chto": "ремонт скола"
+    },
+    {
+     "company": "zamena-autostekla.by",
+     "url": "https://zamena-autostekla.by/ceny/",
+     "price": "Ремонт стандартного скола на лобовом стекле от 40 BYN (по акции 30 BYN)",
+     "za_chto": "ремонт стандартного скола"
+    }
+   ],
+   "kommentariy": "Ремонт одного скола, цены «от». Значения в расчёте, BYN: 45, 30, 30, 50, 56, 40."
+  },
+  "автостекла": {
+   "check": 260,
+   "basis": "ot",
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "BelStekloExpert",
+     "url": "https://belstekloexpert.by/ceny/",
+     "price": "Kia Rio лобовое или боковое от 260 под ключ",
+     "za_chto": "боковое стекло + работа под ключ"
+    },
+    {
+     "company": "Влобовик",
+     "url": "https://vlobovik.by/ceny",
+     "price": "Замена бокового стекла от 80 BYN; Замена заднего стекла от 120 BYN",
+     "za_chto": "только работа, без стекла – в расчёт не вошло"
+    },
+    {
+     "company": "ДИТС Сервис",
+     "url": "https://dits-servis.by/",
+     "price": "Замена бокового стекла От 80 BYN; Замена заднего стекла От 90 BYN",
+     "za_chto": "только работа, без стекла – в расчёт не вошло"
+    },
+    {
+     "company": "zamena-autostekla.by",
+     "url": "https://zamena-autostekla.by/ceny/",
+     "price": "Замена бокового стекла от 50 BYN",
+     "za_chto": "только работа, без стекла – в расчёт не вошло"
+    }
+   ],
+   "kommentariy": "Цену «стекло + работа» на боковое/заднее стекло публикует одна компания; остальные дают только работу (50–120 BYN) без стекла. Значения в расчёте, BYN: 260."
+  },
+  "детейлинг": {
+   "check": 1325,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Мегамойка",
+     "url": "https://megamoika.by/polirovka-avtomobilya/",
+     "price": "Полировка кузова и керамика одним комплексом от 1150 BYN",
+     "za_chto": "комплекс: полировка + керамика"
+    },
+    {
+     "company": "Автотоп",
+     "url": "https://avtotop.by/deteiling/polirovka-kuzova-avto/",
+     "price": "Легкая полировка кузова от 400 BYN; керамика, седан (срок службы порядка 12 месяцев) от 300 BYN",
+     "za_chto": "сумма двух позиций прайса: полировка + керамика"
+    },
+    {
+     "company": "VinylStudio",
+     "url": "https://vinylstudio.by/services/keramika-dlya-avto/",
+     "price": "Стандартная обработка кузова стоит от 1500 BYN",
+     "za_chto": "керамика кузова с подготовкой"
+    },
+    {
+     "company": "Detailing Center",
+     "url": "https://detailing-center.by/keramika",
+     "price": "Легковой автомобиль 4-5 метров от 1600 руб.",
+     "za_chto": "керамическое покрытие с подготовкой кузова"
+    }
+   ],
+   "kommentariy": "Комплекс «полировка + защитное покрытие»: готовый комплекс у Мегамойки, у Автотопа – сумма двух строк прайса, у двух студий – керамика с подготовкой кузова. Все цены «от». Значения в расчёте, BYN: 1150, 700, 1500, 1600."
+  },
+  "полировка автомобиля|полировка авто": {
+   "check": 675,
+   "basis": "ot",
+   "n": 6,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Polirovka-avto.by",
+     "url": "https://polirovka-avto.by/",
+     "price": "Средняя восстановительная полировка От 800 byn",
+     "za_chto": "восстановительная полировка кузова, первый класс авто"
+    },
+    {
+     "company": "Мегамойка",
+     "url": "https://megamoika.by/polirovka-avtomobilya/",
+     "price": "Восстановительная + твёрдый воск от 650",
+     "za_chto": "восстановительная полировка, первый класс авто"
+    },
+    {
+     "company": "NiceCar Center",
+     "url": "https://nicecar-center.by/polirovka-kuzova/",
+     "price": "восстановительная — от 700 руб.",
+     "za_chto": "восстановительная полировка кузова"
+    },
+    {
+     "company": "Автотоп",
+     "url": "https://avtotop.by/deteiling/polirovka-kuzova-avto/",
+     "price": "Полировка кузова глубокая со снятием повреждённого слоя лака от 700 BYN",
+     "za_chto": "глубокая (восстановительная) полировка"
+    },
+    {
+     "company": "Евро Сервис+",
+     "url": "http://eurostar.by/polirovka-avto/",
+     "price": "восстановительная полировка — от 300 руб.",
+     "za_chto": "восстановительная полировка кузова"
+    },
+    {
+     "company": "TEXX Detailing",
+     "url": "https://www.texx.by/texx-detailing-car-wash/spektr-uslug/polirovka-kuzova/",
+     "price": "Абразивная полировка от 650",
+     "za_chto": "абразивная полировка кузова"
+    }
+   ],
+   "kommentariy": "Восстановительная (абразивная) полировка кузова легкового авто, цены «от». Значения в расчёте, BYN: 800, 650, 700, 700, 300, 650."
+  },
+  "покрытие керамикой": {
+   "check": 650,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Автотоп",
+     "url": "https://avtotop.by/deteiling/pokrytie-avto-keramikoj/",
+     "price": "Седан: (срок службы порядка 6 месяцев) от 150 BYN; (срок службы порядка 12 месяцев) от 300 BYN",
+     "za_chto": "керамика, седан, состав на 12 месяцев"
+    },
+    {
+     "company": "VinylStudio",
+     "url": "https://vinylstudio.by/services/keramika-dlya-avto/",
+     "price": "Стандартная обработка кузова стоит от 1500 BYN",
+     "za_chto": "керамика кузова"
+    },
+    {
+     "company": "СТО Запад",
+     "url": "https://stozapad.by/uslugi/pokrytie-avto-keramikoj/",
+     "price": "Седан, керамическая полировка в 1 слой от 300 руб.; в 2 слоя от 500 руб.",
+     "za_chto": "середина между 1 и 2 слоями"
+    },
+    {
+     "company": "Мегамойка",
+     "url": "https://megamoika.by/detejling/keramicheskoe-pokrytie/",
+     "price": "от 650 руб. (5 этапов, включая сушку ультрафиолетом)",
+     "za_chto": "керамическое покрытие кузова"
+    },
+    {
+     "company": "Detailing Center",
+     "url": "https://detailing-center.by/keramika",
+     "price": "Легковой автомобиль 4-5 метров от 1600 руб.",
+     "za_chto": "керамическое покрытие, седан"
+    }
+   ],
+   "kommentariy": "Разброс 300–1600 BYN: дешёвые цены – 1 слой бюджетного состава, дорогие – с подготовкой кузова. Все «от». Значения в расчёте, BYN: 300, 1500, 400, 650, 1600."
+  },
+  "оклейка пленкой": {
+   "check": 5800,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "New Style",
+     "url": "https://new-style.by/",
+     "price": "Оклейка кузова авто целиком оценивается от 6000 руб.",
+     "za_chto": "полная оклейка кузова"
+    },
+    {
+     "company": "AutoStyling",
+     "url": "https://autostyling.by/price.html",
+     "price": "Полная оклейка кузова автомобиля виниловой пленкой от 5800 р.",
+     "za_chto": "полная оклейка винилом"
+    },
+    {
+     "company": "Мегамойка",
+     "url": "https://megamoika.by/okleyka-auto/polnaya-okleyka/",
+     "price": "Смена цвета винилом: все элементы кузова от 5000 BYN; весь кузов прозрачным полиуретаном от 5500 BYN",
+     "za_chto": "полная оклейка, смена цвета"
+    }
+   ],
+   "kommentariy": "Полная оклейка кузова, цены «от». Значения в расчёте, BYN: 6000, 5800, 5000."
+  },
+  "бронепленка": {
+   "check": 1828,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Автотоп",
+     "url": "https://avtotop.by/deteiling/okleyka-avto-plenkoy/",
+     "price": "Капот целиком от 420 BYN; Передний бампер от 520 BYN; Переднее крыло от 240 BYN; Фары от 105 BYN",
+     "za_chto": "сумма: капот + бампер + 2 крыла + фары"
+    },
+    {
+     "company": "Мегамойка",
+     "url": "https://megamoika.by/ceny-na-uslugi/ceny-okleyka-avto/",
+     "price": "Капот целиком от 600 BYN; Передний бампер от 600 BYN; Переднее крыло целиком, 1 шт. от 200 BYN; Фары головного света, 2 шт. от 105 BYN",
+     "za_chto": "сумма: капот + бампер + 2 крыла + фары"
+    },
+    {
+     "company": "Francev DTL (okleika.by)",
+     "url": "https://okleika.by/czeny/",
+     "price": "Капот целиком ≈ 650 BYN; Передний бампер ≈ 720 BYN; Крылья целиком ≈ 720 BYN; Передняя оптика ≈ 150 BYN",
+     "za_chto": "сумма: капот + бампер + крылья + оптика; готовый пакет «Зона Риска (Стандарт)» – от 1250 BYN"
+    },
+    {
+     "company": "New Style",
+     "url": "https://new-style.by/",
+     "price": "Капот целиком от 600 рублей; Передний бампер от 600 рублей; Крылья передние полностью от 600 рублей; Фары от 150 рублей",
+     "za_chto": "сумма: капот + бампер + крылья + фары"
+    }
+   ],
+   "kommentariy": "Сумма четырёх позиций прайса каждой студии: капот целиком, передний бампер, передние крылья целиком, фары. Цены элементов «от». Значения в расчёте, BYN: 1525, 1705, 2240, 1950."
+  },
+  "химчистка салона": {
+   "check": 350,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Автотоп",
+     "url": "https://avtotop.by/deteiling/khimchistka-salona-avto/",
+     "price": "Полная химчистка салона (седан) от 350 BYN",
+     "za_chto": "полная химчистка, седан"
+    },
+    {
+     "company": "Мегамойка",
+     "url": "https://megamoika.by/himchistka-salona/",
+     "price": "ЛЕГКОВОЙ АВТОМОБИЛЬ — от 199 РУБ.",
+     "za_chto": "химчистка салона, легковой"
+    },
+    {
+     "company": "Kwoter",
+     "url": "https://kwoter.by/uslugi/interer/ximchistka-salona-avtomobilya",
+     "price": "Полная химчистка авто + обработка спец. средствами 400 руб.",
+     "za_chto": "полная химчистка"
+    },
+    {
+     "company": "CleanAuto",
+     "url": "https://cleanauto.by/himchistka/",
+     "price": "Химчистка всего салона авто от 350 р.",
+     "za_chto": "химчистка всего салона"
+    },
+    {
+     "company": "Detailing Pro",
+     "url": "https://detailing-pro.by/services/khimchistka-avto/khimchistka-salona/",
+     "price": "Базовая химчистка салона от 450 руб.",
+     "za_chto": "базовая химчистка салона"
+    }
+   ],
+   "kommentariy": "Комплексная химчистка салона легкового авто, цены в основном «от». Значения в расчёте, BYN: 350, 199, 400, 350, 450."
+  },
+  "антикор": {
+   "check": 675,
+   "basis": "ot",
+   "n": 6,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "АнтикорТут",
+     "url": "https://antikortut.by/",
+     "price": "Днище + арки: днище без разбора · 4 арки от 900 BYN",
+     "za_chto": "днище + 4 арки"
+    },
+    {
+     "company": "Позит",
+     "url": "https://antikor.pozit.by/",
+     "price": "днище и арки. Комплексная от 700 руб.",
+     "za_chto": "комплексная: днище и арки"
+    },
+    {
+     "company": "Antikor-Minsk",
+     "url": "https://antikor-minsk.by/",
+     "price": "Базовый полный комплекс от 400 BYN",
+     "za_chto": "базовый полный комплекс"
+    },
+    {
+     "company": "NiceCar Center",
+     "url": "https://nicecar-center.by/antikorrozijnaya-obrabotka/",
+     "price": "Пакет «Стандартный» — от 1000 руб.",
+     "za_chto": "стандартный пакет антикора"
+    },
+    {
+     "company": "Антикор Сервис (antikor-pro.by)",
+     "url": "https://antikor-pro.by/",
+     "price": "Легковые автомобили: мойка и сушка, обработка днища и колесных арок. Стоимость: от 400 до 600 р",
+     "za_chto": "днище и арки, середина диапазона"
+    },
+    {
+     "company": "Альфа-Кузов",
+     "url": "https://alfa-kuzow.by/ceny/",
+     "price": "Обработка днища антикоррозийным составом от 650 BYN",
+     "za_chto": "обработка днища"
+    }
+   ],
+   "kommentariy": "Антикор днища и арок легкового авто, цены «от». Значения в расчёте, BYN: 900, 700, 400, 1000, 500, 650."
+  },
+  "тонировка": {
+   "check": 240,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Detailing4me",
+     "url": "https://detailing4me.by/tonirovka-zadney-polusfery-minsk-ceny/",
+     "price": "Задняя полусфера от 400 BYN",
+     "za_chto": "тонировка задней полусферы"
+    },
+    {
+     "company": "Мегамойка",
+     "url": "https://megamoika.by/uslugi/tonirovka-avto/zadnyaya-polusfera/",
+     "price": "Задняя полусфера, седан от 200 BYN",
+     "za_chto": "тонировка задней полусферы, седан"
+    },
+    {
+     "company": "Автотоп",
+     "url": "https://avtotop.by/deteiling/tonirovka-stekol-avto/",
+     "price": "задняя полусфера от 240 руб.",
+     "za_chto": "тонировка задней полусферы, первый класс авто"
+    }
+   ],
+   "kommentariy": "Тонировка задней полусферы седана, цены «от». Значения в расчёте, BYN: 400, 200, 240."
+  },
+  "шумоизоляция автомобиля|шумоизоляция авто": {
+   "check": 620,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Автотоп",
+     "url": "https://avtotop.by/deteiling/shumoizolyatsiya-dverej/",
+     "price": "Шумоизоляция двери (1 шт.) от 200 BYN",
+     "za_chto": "4 двери × 200"
+    },
+    {
+     "company": "СТО Garage (supersto.by)",
+     "url": "https://supersto.by/uslugi/dopolnitelnye/shumoizolyacziya-avtomobilya/",
+     "price": "Шумоизоляция одной двери от 50 BYN",
+     "za_chto": "4 двери × 50"
+    },
+    {
+     "company": "VinylStudio",
+     "url": "https://vinylstudio.by/services/shumoizolyatsiya-dverej-avtomobilya/",
+     "price": "Цена шумоизоляции дверей машины начинается от 1100 BYN",
+     "za_chto": "комплексная звуко- и виброизоляция дверей"
+    },
+    {
+     "company": "Antishum.by",
+     "url": "https://antishum.by/uslugi/shumoizolyatsiya-dverej",
+     "price": "Шумоизоляция дверей автомобиля. Цена - 110 BYN",
+     "za_chto": "4 двери × 110 (цена принята за одну дверь)"
+    },
+    {
+     "company": "Pro-Line",
+     "url": "https://www.pro-line.by/uslugi/shumoizolyatsiya/shumoizolyatsiya-dverey-avtomobilya/",
+     "price": "пакет Lite (в 2 слоя) от 150 р.; Standart (в 2-3 слоя) от 250 р.; Premium (в 4-5 слоя) от 300 р.",
+     "za_chto": "единица (дверь или комплект) на сайте не указана – в расчёт не вошло"
+    }
+   ],
+   "kommentariy": "Цена за дверь умножена на 4. У Antishum.by единица не названа – принята за одну дверь, это допущение. Разброс 200–1100 BYN, все «от». Значения в расчёте, BYN: 800, 200, 1100, 440."
+  },
+  "полировка фар": {
+   "check": 100,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Мегамойка",
+     "url": "https://megamoika.by/polirovka-avtomobilya/polirovka-far/",
+     "price": "лёгкая полировка фар (за шт.) – акция 24,99 руб.; шлифовка фар за одну фару от 59 руб.",
+     "za_chto": "2 фары × 24,99"
+    },
+    {
+     "company": "Автотоп",
+     "url": "https://avtotop.by/deteiling/polirovka-far/",
+     "price": "Легкая (2 фары) от 60 BYN; Глубокая (2 фары) от 200 BYN",
+     "za_chto": "лёгкая полировка пары фар"
+    },
+    {
+     "company": "Shine Detailing",
+     "url": "https://detailing-minsk.by/polirovka/far/",
+     "price": "Полировка фар 100 (150 для второго класса авто)",
+     "za_chto": "полировка фар"
+    },
+    {
+     "company": "Kwoter",
+     "url": "https://kwoter.by/uslugi/eksterer/polirovka-far",
+     "price": "Полировка фар от 100 руб.",
+     "za_chto": "полировка фар"
+    },
+    {
+     "company": "Francev DTL (okleika.by)",
+     "url": "https://okleika.by/czeny/",
+     "price": "Полировка фар / фонарей 120 BYN; средняя полировка (одна фара) 80 BYN",
+     "za_chto": "полировка фар"
+    }
+   ],
+   "kommentariy": "Полировка пары фар; где цена за одну фару – умножено на 2. Значения в расчёте, BYN: 50, 60, 100, 100, 120."
+  },
+  "установка магнитолы": {
+   "check": 520,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Cardecor",
+     "url": "https://www.cardecor.by/uslugi/android-multimedia/",
+     "price": "Установка Android-мультимедиа в Минске — от 540 BYN",
+     "za_chto": "Android-мультимедиа с подбором устройства и подключением"
+    },
+    {
+     "company": "Veni Motors",
+     "url": "https://venimotors.by/service/ustanovka-magnitoly/",
+     "price": "Установка/подключение Android магнитолы от 150 р.",
+     "za_chto": "работа + магнитола 391 BYN"
+    },
+    {
+     "company": "AutoShum",
+     "url": "https://www.autoshum.by/services/multimedia/ustanovka_magnitoly/",
+     "price": "Установка автомагнитолы 2 din - от 110 руб.; штатной магнитолы - от 110 руб.",
+     "za_chto": "работа + магнитола 391 BYN"
+    },
+    {
+     "company": "Pro-Line",
+     "url": "https://www.pro-line.by/uslugi/avtozvuk/ustanovka-magnitol/",
+     "price": "Установка 2 Din автомагнитолы от 100 р.",
+     "za_chto": "работа + магнитола 391 BYN"
+    },
+    {
+     "company": "Onliner Каталог (агрегатор, Минск)",
+     "url": "https://catalog.onliner.by/caraudio",
+     "price": "ACV AD-7002 – 365 BYN; ACV AD-9701 – 417 BYN",
+     "za_chto": "оборудование: Android-магнитолы"
+    },
+    {
+     "company": "Audio Hi-Fi (магазин, Минск)",
+     "url": "https://audiohifi.by/avtomagnitola/",
+     "price": "Incar ADF-7709 – 356 руб.; Incar TSA-7090 (Android 10) – 920 руб.",
+     "za_chto": "оборудование: Android-магнитолы"
+    }
+   ],
+   "kommentariy": "Установка по прайсу («от») + магнитола на Android 391 BYN – медиана четырёх моделей (365, 417, 356, 920) из Onliner и магазина Audio Hi-Fi. У Cardecor цена дана сразу за решение. Значения в расчёте, BYN: 540, 541, 501, 491."
+  },
+  "установка сигнализации": {
+   "check": 820,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "ACDC Service",
+     "url": "https://acdcservice.by/ceny-stoimost-ustanovka-avtozapuska-na-avto/",
+     "price": "Starline AS90 под ключ с установкой от 840 BYN (E67 LoRa ECO – от 1100, S96 ECO – от 1200)",
+     "za_chto": "сигнализация с автозапуском под ключ"
+    },
+    {
+     "company": "Signalka.by",
+     "url": "https://signalka.by/ustanovka-avtosignalizacii-minsk/",
+     "price": "Установка сигнализации с автозапуском 180 руб.",
+     "za_chto": "работа + сигнализация 640 BYN"
+    },
+    {
+     "company": "Energy Centre",
+     "url": "https://energys.by/services/avtoelektrika/remont_avtosignalizatsii/",
+     "price": "Установка автосигнализации с подключением охранных функций, автозапуска … Цена со скидкой: 160 руб.",
+     "za_chto": "работа + сигнализация 640 BYN"
+    },
+    {
+     "company": "Onliner Каталог (агрегатор, Минск)",
+     "url": "https://catalog.onliner.by/caralarm",
+     "price": "медиана минимальных цен 40 сигнализаций с автозапуском – 640 BYN (StarLine A93 V3 – 446, S66 – 646, S96 – 926)",
+     "za_chto": "оборудование: сигнализация с автозапуском"
+    }
+   ],
+   "kommentariy": "Установка по прайсу + сигнализация с автозапуском 640 BYN (медиана поиска по каталогу Onliner). У ACDC Service цена сразу под ключ. Значения в расчёте, BYN: 840, 820, 800."
+  },
+  "автозвук": {
+   "check": 1004,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Sound Level",
+     "url": "https://soundlevel.by/pricing/",
+     "price": "Замена динамиков от 130 руб; Установка сабвуфера от 130 руб",
+     "za_chto": "работа: фронтальная акустика + сабвуфер; плюс оборудование 824 BYN"
+    },
+    {
+     "company": "СТО Garage (supersto.by)",
+     "url": "https://supersto.by/uslugi/dopolnitelnye/ustanovka-avtozvuka/",
+     "price": "Установка акустики от 70 BYN; Установка сабвуфера от 90 BYN",
+     "za_chto": "работа: акустика + сабвуфер; плюс оборудование 824 BYN"
+    },
+    {
+     "company": "Bosston Studio",
+     "url": "https://bosston.by/avtozvuk/ustanovka-sabvufera/",
+     "price": "Акустика от 50 BYN; Сабвуфер от 130 BYN",
+     "za_chto": "работа: акустика + сабвуфер; плюс оборудование 824 BYN"
+    },
+    {
+     "company": "Onliner Каталог (агрегатор, Минск)",
+     "url": "https://catalog.onliner.by/carspeakers",
+     "price": "автоакустика: медиана 50 популярных – 229 BYN; активный сабвуфер: медиана 50 – 595 BYN",
+     "za_chto": "оборудование: фронтальная акустика + активный сабвуфер"
+    }
+   ],
+   "kommentariy": "Готовый комплект под ключ сайты не публикуют. Посчитано: установка фронтальной акустики и сабвуфера по прайсу («от») + оборудование 824 BYN (акустика 229 + активный сабвуфер 595, медианы каталога Onliner). Три четверти суммы – оборудование, поэтому число зависит от класса техники. Значения в расчёте, BYN: 1084, 984, 1004."
+  },
+  "установка камеры заднего вида": {
+   "check": 172,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "АсАвтоМастер",
+     "url": "https://asautomaster.by/kamery-zadnego-vida/",
+     "price": "Установка камеры заднего вида — цена от 80 руб., включая прокладку проводов, настройку и тест",
+     "za_chto": "работа + камера 92 BYN"
+    },
+    {
+     "company": "СТО Garage (supersto.by)",
+     "url": "https://supersto.by/uslugi/dopolnitelnye/ustanovka-kamery-zadnego-vida/",
+     "price": "Цена установки камеры заднего вида от 60 рублей",
+     "za_chto": "работа + камера 92 BYN"
+    },
+    {
+     "company": "Energy Centre",
+     "url": "https://energys.by/services/avtoelektrika/ustanovka_kamery_zadnego_vida/",
+     "price": "Цена со скидкой: 80 руб.",
+     "za_chto": "работа + камера 92 BYN"
+    },
+    {
+     "company": "Эксперт Сервис",
+     "url": "https://expservice.by/pricelist/",
+     "price": "Установка камеры заднего вида 81 BYN",
+     "za_chto": "работа + камера 92 BYN"
+    },
+    {
+     "company": "Onliner Каталог (агрегатор, Минск)",
+     "url": "https://catalog.onliner.by/parkingradar",
+     "price": "камера заднего вида: медиана минимальных цен 50 моделей – 92 BYN",
+     "za_chto": "оборудование: камера заднего вида"
+    }
+   ],
+   "kommentariy": "Установка по прайсу + камера 92 BYN (медиана поиска по каталогу Onliner). Значения в расчёте, BYN: 172, 152, 172, 173."
+  },
+  "установка автозапуска": {
+   "check": 526,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "ACDC Service",
+     "url": "https://acdcservice.by/ceny-stoimost-ustanovka-avtozapuska-na-avto/",
+     "price": "Starline AS90 под ключ с установкой от 840 BYN. Автозапуск для авто старше 2002 г.в.",
+     "za_chto": "автозапуск под ключ"
+    },
+    {
+     "company": "Signalka.by",
+     "url": "https://signalka.by/ustanovka-avtosignalizacii-minsk/",
+     "price": "Установка сигнализации с автозапуском 180 руб.",
+     "za_chto": "работа + система начального уровня 346 BYN"
+    },
+    {
+     "company": "Energy Centre",
+     "url": "https://energys.by/services/avtoelektrika/remont_avtosignalizatsii/",
+     "price": "Установка автосигнализации с подключением охранных функций, автозапуска … 160 руб.",
+     "za_chto": "работа + система начального уровня 346 BYN"
+    },
+    {
+     "company": "Onliner Каталог (агрегатор, Минск)",
+     "url": "https://catalog.onliner.by/caralarm",
+     "price": "системы с автозапуском: нижняя четверть цен – 346 BYN (StarLine A90 Eco – 414, Centurion S9 – 294)",
+     "za_chto": "оборудование: система автозапуска начального уровня"
+    }
+   ],
+   "kommentariy": "Отдельную цену «модуль автозапуска + установка» публикует только ACDC Service. У двух других взята установка сигнализации с автозапуском + система начального уровня 346 BYN (нижняя четверть цен Onliner). Расчёт приблизительный. Значения в расчёте, BYN: 840, 526, 506."
+  },
+  "установка парктроника": {
+   "check": 221,
+   "basis": "ot",
+   "n": 7,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "СТО-Мастер",
+     "url": "https://sto-master.by/uslugi/parktroniki",
+     "price": "Стоимость комплектов парктроников с установкой: 4 точки задний бампер от 300р.",
+     "za_chto": "комплект 4 датчика с установкой"
+    },
+    {
+     "company": "Energy Centre",
+     "url": "https://energys.by/services/avtoelektrika/ustanovka_parktronikov/",
+     "price": "Цена со скидкой: 120 руб.",
+     "za_chto": "работа + комплект 121 BYN"
+    },
+    {
+     "company": "Veni Motors",
+     "url": "https://venimotors.by/service/ustanovka-parktronikov/",
+     "price": "от 100 рублей",
+     "za_chto": "работа + комплект 121 BYN"
+    },
+    {
+     "company": "СТО8",
+     "url": "https://sto8.by/ustanovka-dop-oborudovanija/ustanovka-parktronikov/",
+     "price": "Стоимость услуги: от 96 руб.",
+     "za_chto": "работа + комплект 121 BYN"
+    },
+    {
+     "company": "СТО7",
+     "url": "https://sto7.by/ustanovka-dop-oborudovanija/ustanovka-parktronikov/",
+     "price": "Стоимость услуги: от 200 руб.",
+     "za_chto": "работа + комплект 121 BYN"
+    },
+    {
+     "company": "Эксперт Сервис",
+     "url": "https://expservice.by/pricelist/",
+     "price": "Установка парктроника 81 BYN",
+     "za_chto": "работа + комплект 121 BYN"
+    },
+    {
+     "company": "Wild West",
+     "url": "https://wildwest.by/ustanovka-avtozapuska/",
+     "price": "Установка парктроников от 100 руб.",
+     "za_chto": "работа + комплект 121 BYN"
+    },
+    {
+     "company": "Onliner Каталог (агрегатор, Минск)",
+     "url": "https://catalog.onliner.by/parkingradar",
+     "price": "парктроник на 4 датчика: медиана 25 моделей – 121 BYN (ParkMaster 4FJ40 – 118)",
+     "za_chto": "оборудование: комплект парктроника, 4 датчика"
+    }
+   ],
+   "kommentariy": "Установка по прайсу («от») + комплект на 4 датчика 121 BYN (медиана поиска по каталогу Onliner). У СТО-Мастер цена сразу с комплектом. Значения в расчёте, BYN: 300, 241, 221, 217, 321, 202, 221."
+  },
+  "чип ключ|изготовление ключей для автомобиля": {
+   "check": 95,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "iKey.by",
+     "url": "https://ikey.by/izgotovlenie-chip-klyuchey/",
+     "price": "Программирование выкидного чип-ключа с кнопками дистанционного управления от 99 руб.",
+     "za_chto": "дубликат чип-ключа с программированием"
+    },
+    {
+     "company": "AutoKey911",
+     "url": "https://autokey911.by/izgotovlenie/izgotovlenie-dublikatov-klyucha/",
+     "price": "Дубликат электронного ключа для автомобиля от 80 руб.",
+     "za_chto": "дубликат электронного ключа"
+    },
+    {
+     "company": "Minsk100.by",
+     "url": "https://minsk100.by/izgotovlenie-klyuchej/chip-klyuchi/",
+     "price": "корпус без электроники от 35 BYN, чип от 60 … Нарезка лезвия от 25",
+     "za_chto": "корпус + чип + нарезка"
+    },
+    {
+     "company": "Vskritie.by",
+     "url": "https://vskritie.by/uslugi/izgotovlenie-dublikatov-klyuchej/izgotovlenie-klyuchej-dlya-avtomobilya",
+     "price": "Изготовление автоключей с чипом от 80 руб.",
+     "za_chto": "ключ с чипом"
+    },
+    {
+     "company": "Deal.by (агрегатор, Минск)",
+     "url": "https://minsk.deal.by/aktivnyy-otdykh/Dublikat-klyucha-avto-s-chipom.html",
+     "price": "Изготовление автоключей с чипом. Услуга от 95 руб.",
+     "za_chto": "ключ с чипом"
+    }
+   ],
+   "kommentariy": "Дубликат ключа с чипом, цены «от»; смарт-ключи дороже (от 160–400 BYN). Значения в расчёте, BYN: 99, 80, 120, 80, 95."
+  },
+  "вскрытие автомобиля|вскрытие авто": {
+   "check": 55,
+   "basis": "ot",
+   "n": 7,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Chipik.by",
+     "url": "https://chipik.by/services/auto/vskrytie-avto/",
+     "price": "Вскрытие авто импортного производства от 50 BYN",
+     "za_chto": "вскрытие иномарки"
+    },
+    {
+     "company": "Замок-сервис",
+     "url": "https://zamok-service.by/vskrytie-avto.html",
+     "price": "Вскрытие импортного автомобиля от 50 рублей",
+     "za_chto": "вскрытие иномарки"
+    },
+    {
+     "company": "Pro-Unlock",
+     "url": "https://pro-unlock.by/vskrytie-avto/",
+     "price": "Вскрытие иномарок эконом-класса (Kia, Hyundai, Renault) от 55",
+     "za_chto": "вскрытие иномарки"
+    },
+    {
+     "company": "DoorLockServis",
+     "url": "https://doorlockservis.by/vskrytie-avto/",
+     "price": "Вскрыть авто импортного производства от 60 BYN",
+     "za_chto": "вскрытие иномарки"
+    },
+    {
+     "company": "ZamokService.by",
+     "url": "https://zamokservice.by/vskrytie-avto",
+     "price": "Вскрытие автомобиля: двери, багажник, капот от 65 BYN",
+     "za_chto": "вскрытие автомобиля"
+    },
+    {
+     "company": "Отмычка",
+     "url": "https://отмычка.бел/vskryitie-avto",
+     "price": "цена от 45 руб.",
+     "za_chto": "вскрытие авто"
+    },
+    {
+     "company": "Vskritie.by",
+     "url": "https://vskritie.by/uslugi/vskrytie-avto-minsk",
+     "price": "Вскрытие авто в Минске — цена от 60 руб.",
+     "za_chto": "вскрытие авто"
+    }
+   ],
+   "kommentariy": "Аварийное вскрытие иномарки, цены «от». Значения в расчёте, BYN: 50, 50, 55, 60, 65, 45, 60."
+  },
+  "чип тюнинг": {
+   "check": 200,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Автотерапия (chip-tuning.by)",
+     "url": "https://chip-tuning.by/ceny/",
+     "price": "Чип-тюнинг Stage 1 от 350 руб.",
+     "za_chto": "Stage 1"
+    },
+    {
+     "company": "24pds",
+     "url": "https://24pds.by/chip-tyuning/",
+     "price": "Чип-тюнинг (Stage 1, оптимизация заводского ПО) от 192 руб.",
+     "za_chto": "Stage 1"
+    },
+    {
+     "company": "Автоклиник",
+     "url": "https://autoclinic.by/proshivka-stage-12/",
+     "price": "Прошивка STAGE 1(2) от 200 BYN",
+     "za_chto": "Stage 1"
+    },
+    {
+     "company": "AutoWorld.by",
+     "url": "https://autoworld.by/flashing-ebu/",
+     "price": "Чип-тюнинг от 250 BYN",
+     "za_chto": "чип-тюнинг"
+    },
+    {
+     "company": "avto-elektrik.by",
+     "url": "https://avto-elektrik.by/tseny/",
+     "price": "Чип тюнинг двигателя от 150",
+     "za_chto": "чип-тюнинг двигателя"
+    }
+   ],
+   "kommentariy": "Stage 1, цены «от». Сайт chip-tyuning-minsk.by с ценой «от 9800 р.» не взят: это российский шаблон с рублями РФ. Значения в расчёте, BYN: 350, 192, 200, 250, 150."
+  },
+  "русификация": {
+   "check": 500,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "СТО-Мастер",
+     "url": "https://sto-master.by/uslugi/rusifikatsiya",
+     "price": "Стоимость русификации авто – от 250р.",
+     "za_chto": "русификация мультимедиа или приборной панели"
+    },
+    {
+     "company": "East Motors",
+     "url": "https://eastmotors.by/rusifikaciya/",
+     "price": "Базовая русификация: русификация мультимедийной системы (обновление электронных блоков) от 500 BYN",
+     "za_chto": "русификация мультимедиа"
+    },
+    {
+     "company": "ГудАвтоТрейд",
+     "url": "https://goodtrade.by/sto/russification/",
+     "price": "12 моделей • от 650 BYN",
+     "za_chto": "русификация Geely, Deepal, Changan"
+    }
+   ],
+   "kommentariy": "Русификация одного блока, цены «от». Значения в расчёте, BYN: 250, 500, 650."
+  },
+  "прошивка эбу|прошивка авто": {
+   "check": 150,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "24pds",
+     "url": "https://24pds.by/pereproshivka-ebu/",
+     "price": "Стоимость: от 144 руб.",
+     "za_chto": "перепрошивка и адаптация ЭБУ"
+    },
+    {
+     "company": "АвтоЭлектрик Минск (авто-электрик.бел)",
+     "url": "https://авто-электрик.бел/services/udalenie-jekologii/proshivka-evro-2/",
+     "price": "Стоимость от 150 BYN",
+     "za_chto": "прошивка ЭБУ (Евро-2)"
+    },
+    {
+     "company": "Вексата (dvskpp.by)",
+     "url": "https://dvskpp.by/p229879020-remont-proshivka-ebu.html",
+     "price": "Ремонт, прошивка ЭБУ от 80 руб.",
+     "za_chto": "прошивка ЭБУ"
+    },
+    {
+     "company": "AutoWorld.by",
+     "url": "https://autoworld.by/flashing-ebu/",
+     "price": "Перенос прошивки от 150 BYN",
+     "za_chto": "перенос прошивки ЭБУ"
+    },
+    {
+     "company": "Эксперт Сервис",
+     "url": "https://expservice.by/pricelist/",
+     "price": "Прошивка блоков управления 180 BYN",
+     "za_chto": "прошивка блока управления"
+    }
+   ],
+   "kommentariy": "Прошивка (обновление, коррекция) ЭБУ двигателя, в основном «от». Значения в расчёте, BYN: 144, 150, 80, 150, 180."
+  },
+  "удаление катализатора": {
+   "check": 450,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Дэтюн-авто",
+     "url": "https://detunauto.by/uslugi/zamena-katalizatora-i-ustanovka-plamegasitelja/",
+     "price": "Замена катализатора и установка пламегасителя от 500р",
+     "za_chto": "удаление катализатора с пламегасителем"
+    },
+    {
+     "company": "Service Point",
+     "url": "https://servicepoint.by/udaleniye-katalizatora/",
+     "price": "Замена / Удаление катализатора - от 280 руб.; Программное удаление катализатора - от 300 руб.",
+     "za_chto": "механическое удаление + программное"
+    },
+    {
+     "company": "APK Grup",
+     "url": "https://apkgrup.by/uslugi/remont-vyhlopnoj-sistemy/udalenie-katalizatora/",
+     "price": "Комплексная услуга (удаление + пламегаситель + обманка лямбда-зонда) стоит от 300 руб. «под ключ»",
+     "za_chto": "удаление + пламегаситель + обманка"
+    },
+    {
+     "company": "RS-Auto",
+     "url": "https://rs-auto.by/remont-vyhlopnoj-sistemy/udalenie-katalizatora",
+     "price": "Удаление катализатора с заменой на пламегаситель от 80 BYN; Прошивка ЭБУ с отключением контроля катализатора от 320 BYN",
+     "za_chto": "удаление с пламегасителем + прошивка"
+    },
+    {
+     "company": "МПД ТехСервис",
+     "url": "https://sto-ts.by/uslugi-sto/remont-glushitelej/udalenie-katalizatora.html",
+     "price": "Замена катализатора на пламегаситель от 90 руб.",
+     "za_chto": "только работа без прошивки – в расчёт не вошло"
+    }
+   ],
+   "kommentariy": "Удаление с пламегасителем и прошивкой или обманкой; где прошивка в прайсе отдельной строкой – суммировано. Цены «от». Значения в расчёте, BYN: 500, 580, 300, 400."
+  },
+  "ремонт эбу": {
+   "check": 100,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Miura",
+     "url": "https://www.miura.by/remont-ebu.html",
+     "price": "Ремонт ЭБУ от 405 рублей",
+     "za_chto": "ремонт ЭБУ"
+    },
+    {
+     "company": "avto-elektrik.by",
+     "url": "https://avto-elektrik.by/services/remont-ebu/",
+     "price": "Ремонт ЭБУ автомобиля в Минске | Цена от 50 руб",
+     "za_chto": "ремонт ЭБУ"
+    },
+    {
+     "company": "Рядом.бел (агрегатор, Минск)",
+     "url": "https://рядом.бел/remont-ebu-minsk",
+     "price": "Ремонт блоков управления: От 100 руб.; От 80 руб.; Ремонт ЭБУ От 360 руб. до 1800 руб.",
+     "za_chto": "три компании в агрегаторе, взята средняя из трёх нижних границ"
+    },
+    {
+     "company": "24pds",
+     "url": "https://24pds.by/avtoelektrika/ebu/",
+     "price": "диагностика от 48 руб.; ремонт самого блока считаем по смете",
+     "za_chto": "цены ремонта нет – в расчёт не вошло"
+    }
+   ],
+   "kommentariy": "Разброс от 50 до 405 BYN и выше: большинство сервисов считает ремонт ЭБУ по смете после диагностики. Число – нижняя граница, надёжность низкая. Значения в расчёте, BYN: 405, 50, 100."
+  },
+  "ремонт приборной панели": {
+   "check": 80,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "avto-elektrik.by",
+     "url": "https://avto-elektrik.by/services/remont-pribornoj-paneli/",
+     "price": "Ремонт приборной панели от 100 рублей",
+     "za_chto": "ремонт приборной панели"
+    },
+    {
+     "company": "Energy Centre",
+     "url": "https://energys.by/services/avtoelektrika/remont-i-korrektsiya-pribornoy-paneli/",
+     "price": "Цена со скидкой: 30 руб.",
+     "za_chto": "ремонт приборной панели"
+    },
+    {
+     "company": "Сэрца Аўто",
+     "url": "https://сэрцааўто.бел/uslugi/pribornye-paneli-indikaciya/remont-displeya-priborki",
+     "price": "Ремонт дисплея приборки 80 руб (общий ремонт панели и индикации – от 25 руб.)",
+     "za_chto": "ремонт дисплея приборной панели"
+    },
+    {
+     "company": "Redsale.by (агрегатор, Минск)",
+     "url": "https://redsale.by/remont-avto/elektronika/remont-pribornoy",
+     "price": "Ремонт приборной панели от 80 руб.",
+     "za_chto": "ремонт приборной панели"
+    }
+   ],
+   "kommentariy": "Типовая неисправность (дисплей, подсветка, стрелки), цены «от». Значения в расчёте, BYN: 100, 30, 80, 80."
+  },
+  "перетяжка салона": {
+   "check": 1000,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Avtoshik",
+     "url": "https://avtoshik.by/uslugi/peretyazhka-salona/",
+     "price": "перетяжка салона (5 мест) от 1500 руб.",
+     "za_chto": "перетяжка сидений салона полностью"
+    },
+    {
+     "company": "RS-Auto",
+     "url": "https://rs-auto.by/peretyazhka-salona-avto/pereshivka-sidenij",
+     "price": "Перетяжка всех сидений от 1000 BYN",
+     "za_chto": "перетяжка всех сидений"
+    },
+    {
+     "company": "СТО Запад",
+     "url": "https://stozapad.by/uslugi/peretyazhka-sidenij-avtomobilya/",
+     "price": "Перетяжка сиденья от 200 руб.",
+     "za_chto": "5 мест × 200"
+    },
+    {
+     "company": "Asalon",
+     "url": "https://asalon.by/peretiajka-sidenii/",
+     "price": "ПЕРЕТЯЖКА СИДЕНЬЯ от 120 BYN",
+     "za_chto": "5 мест × 120"
+    }
+   ],
+   "kommentariy": "Перетяжка сидений салона целиком; где цена за одно сиденье – умножено на 5 мест. Цены «от» (экокожа), натуральная кожа дороже. Значения в расчёте, BYN: 1500, 1000, 1000, 600."
+  },
+  "перетяжка руля": {
+   "check": 200,
+   "basis": "ot",
+   "n": 6,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Автотоп",
+     "url": "https://avtotop.by/remont-salona/peretyashka-pokraska-rulya/",
+     "price": "Перетяжка руля натуральной кожей от 200 BYN (экокожей от 100)",
+     "za_chto": "перетяжка руля натуральной кожей"
+    },
+    {
+     "company": "Avtoshik",
+     "url": "https://avtoshik.by/uslugi/peretyazhka-salona/peretyazhka-rulya/",
+     "price": "перетяжка руля от 240 руб.",
+     "za_chto": "перетяжка руля"
+    },
+    {
+     "company": "RS-Auto",
+     "url": "https://rs-auto.by/peretyazhka-salona-avto/pereshivka-rulja",
+     "price": "Экокожа от 130 BYN",
+     "za_chto": "перетяжка руля экокожей"
+    },
+    {
+     "company": "Golden Fox (remont-salona.by)",
+     "url": "https://remont-salona.by/uslugi/peretyazhka-salona/peretyazhka-rulya.html",
+     "price": "в натуральной коже — от 195 BYN",
+     "za_chto": "перетяжка руля натуральной кожей"
+    },
+    {
+     "company": "Opletka.by",
+     "url": "https://opletka.by/",
+     "price": "Повторение оригинальной, заводской обтяжки руля от 320р.",
+     "za_chto": "перетяжка руля кожей"
+    },
+    {
+     "company": "СТО Запад",
+     "url": "https://stozapad.by/uslugi/pereshivka-rulja/",
+     "price": "Перетяжка руля натуральной кожей от 200 руб.",
+     "za_chto": "перетяжка руля натуральной кожей, снятие руля входит"
+    }
+   ],
+   "kommentariy": "Перетяжка руля кожей, цены «от». Значения в расчёте, BYN: 200, 240, 130, 195, 320, 200."
+  },
+  "перетяжка сидений": {
+   "check": 410,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Avtoshik",
+     "url": "https://avtoshik.by/uslugi/peretyazhka-salona/peretyazhka-sidenij/",
+     "price": "автомобиль (за одно сидение) от 260 руб.",
+     "za_chto": "2 сиденья × 260"
+    },
+    {
+     "company": "RS-Auto",
+     "url": "https://rs-auto.by/peretyazhka-salona-avto/pereshivka-sidenij",
+     "price": "Перетяжка сиденья от 210 BYN",
+     "za_chto": "2 сиденья × 210"
+    },
+    {
+     "company": "СТО Запад",
+     "url": "https://stozapad.by/uslugi/peretyazhka-sidenij-avtomobilya/",
+     "price": "Перетяжка сиденья от 200 руб.",
+     "za_chto": "2 сиденья × 200"
+    },
+    {
+     "company": "Asalon",
+     "url": "https://asalon.by/peretiajka-sidenii/",
+     "price": "ПЕРЕТЯЖКА СИДЕНЬЯ от 120 BYN",
+     "za_chto": "2 сиденья × 120"
+    }
+   ],
+   "kommentariy": "Цена за одно сиденье × 2, цены «от». Значения в расчёте, BYN: 520, 420, 400, 240."
+  },
+  "перетяжка потолка": {
+   "check": 236,
+   "basis": "ot",
+   "n": 7,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Автотоп",
+     "url": "https://avtotop.by/remont-salona/peretyazhka-potolka-v-avtomobile/",
+     "price": "Перетяжка потолка (седан) от 250 BYN",
+     "za_chto": "потолок, седан"
+    },
+    {
+     "company": "RS-Auto",
+     "url": "https://rs-auto.by/peretyazhka-salona-avto/potolok",
+     "price": "Перетяжка потолка (седан) БЕЗ ЛЮКА от 210 BYN",
+     "za_chto": "потолок, седан без люка"
+    },
+    {
+     "company": "Asalon",
+     "url": "https://asalon.by/peretiajka-potolka/",
+     "price": "Перетяжка потолка от 160 BYN",
+     "za_chto": "потолок"
+    },
+    {
+     "company": "Avtoshik",
+     "url": "https://avtoshik.by/uslugi/peretyazhka-salona/peretyazhka-potolka/",
+     "price": "Перетяжка потолка от 320 руб.",
+     "za_chto": "потолок"
+    },
+    {
+     "company": "СТО Запад",
+     "url": "https://stozapad.by/uslugi/peretyazhka-potolka-avtomobilya/",
+     "price": "Перетяжка потолка (седан) БЕЗ ЛЮКА от 200 руб.",
+     "za_chto": "потолок, седан без люка"
+    },
+    {
+     "company": "Автоателье D2",
+     "url": "https://www.d2.by/services/remont-salona-avto/potolok",
+     "price": "Перетяжка потолка автомобиля от 580 руб",
+     "za_chto": "потолок"
+    },
+    {
+     "company": "StoHelp (агрегатор заказов, Минск)",
+     "url": "https://stohelp.by/autoservices/minsk/tjuning-avtomobilej/peretjazhka-potolka",
+     "price": "Средняя цена по перетяжке потолка авто — 235.60 руб. (BYN)",
+     "za_chto": "средняя цена заказа"
+    }
+   ],
+   "kommentariy": "Перетяжка потолка легкового авто; цены компаний «от», у агрегатора – средняя по заказам. Значения в расчёте, BYN: 250, 210, 160, 320, 200, 580, 236."
+  },
+  "перетяжка дверных карт": {
+   "check": 310,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "СТО Запад",
+     "url": "https://stozapad.by/uslugi/peretjazhka-dvernyh-kart/",
+     "price": "Перетяжка дверной карты от 80 руб.",
+     "za_chto": "4 карты × 80"
+    },
+    {
+     "company": "Автотоп",
+     "url": "https://avtotop.by/remont-salona/peretyazhka-dvernych-kart/",
+     "price": "Перетяжка дверной карты от 80 BYN",
+     "za_chto": "4 карты × 80"
+    },
+    {
+     "company": "RS-Auto",
+     "url": "https://rs-auto.by/peretyazhka-salona-avto/dvernye-karty",
+     "price": "Перетяжка дверных карт (4 шт) от 300 BYN",
+     "za_chto": "4 дверные карты"
+    },
+    {
+     "company": "Golden Fox (remont-salona.by)",
+     "url": "https://remont-salona.by/uslugi/peretyazhka-salona/peretyazhka-dvernyh-kart.html",
+     "price": "Одна дверная карта — от 75 BYN",
+     "za_chto": "4 карты × 75"
+    }
+   ],
+   "kommentariy": "Четыре дверные карты (вставки); цена за одну × 4. Цены «от». Значения в расчёте, BYN: 320, 320, 300, 300."
+  },
+  "перетяжка торпедо": {
+   "check": 1200,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Автотоп",
+     "url": "https://avtotop.by/remont-salona/remont-torpedy-avtomobilya/",
+     "price": "Перетяжка торпеды кожей (полностью) от 1200 BYN",
+     "za_chto": "торпедо кожей полностью"
+    },
+    {
+     "company": "RS-Auto",
+     "url": "https://rs-auto.by/peretyazhka-salona-avto/torpedo",
+     "price": "Перетяжка торпеды кожей (полностью) от 1250 BYN",
+     "za_chto": "торпедо кожей полностью"
+    },
+    {
+     "company": "СТО Запад",
+     "url": "https://stozapad.by/uslugi/peretyazhka-torpedy/",
+     "price": "Перетяжка торпеды кожей (полностью) от 1200 руб.",
+     "za_chto": "торпедо кожей полностью"
+    },
+    {
+     "company": "Golden Fox (remont-salona.by)",
+     "url": "https://remont-salona.by/ceny",
+     "price": "Перетяжка верха торпедо, кожа от 800; Полная перетяжка торпедо, экокожа от 800",
+     "za_chto": "верх торпедо кожей или полностью экокожей"
+    },
+    {
+     "company": "Автоателье D2",
+     "url": "https://www.d2.by/services/remont-salona-avto/peretyazhka-sideniy",
+     "price": "Перетяжка передней панели от 890 руб.",
+     "za_chto": "перетяжка передней панели"
+    }
+   ],
+   "kommentariy": "Перетяжка торпедо кожей, цены «от». Значения в расчёте, BYN: 1200, 1250, 1200, 800, 890."
+  },
+  "пошив чехлов": {
+   "check": 230,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Golden Fox (remont-salona.by)",
+     "url": "https://remont-salona.by/uslugi/poshiv-chehlov.html",
+     "price": "Пошив модельных чехлов — от 250 BYN за комплект",
+     "za_chto": "комплект модельных чехлов"
+    },
+    {
+     "company": "Avtoshik",
+     "url": "https://avtoshik.by/uslugi/poshiv-avtochehlov/poshiv-avtochehlov/",
+     "price": "Пошив авточехлов от 1600 руб. цена за комплект на весь автомобиль, включая монтаж",
+     "za_chto": "комплект на весь автомобиль с монтажом"
+    },
+    {
+     "company": "Autochehly.by",
+     "url": "https://autochehly.by/poshiv-chekhlov-na-avto",
+     "price": "ПОШИВ АВТО ЧЕХЛОВ НА ЗАКАЗ … ОТ 220 РУБ.",
+     "za_chto": "комплект чехлов на заказ"
+    },
+    {
+     "company": "ГолденАвто (gla.by)",
+     "url": "https://www.gla.by/",
+     "price": "Цена на модельные авточехлы начинается — от 220 BYN",
+     "za_chto": "комплект модельных чехлов"
+    },
+    {
+     "company": "Chehlov.by",
+     "url": "https://chehlov.by/",
+     "price": "Чехлы на автомобильные сиденья … от 230 рублей",
+     "za_chto": "комплект чехлов"
+    }
+   ],
+   "kommentariy": "Комплект чехлов на салон, цены «от». У Avtoshik цена в разы выше (комплект с монтажом, по сути перешив). Значения в расчёте, BYN: 250, 1600, 220, 220, 230."
+  },
+  "ремонт сидений автомобиля": {
+   "check": 60,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Golden Fox (remont-salona.by)",
+     "url": "https://remont-salona.by/uslugi/remont-salona/remont-sidenii.html",
+     "price": "Ремонт сиденья, ткань от 50 BYN; прожоги: в ткани от 30 BYN, в коже от 40 BYN",
+     "za_chto": "локальный ремонт сиденья"
+    },
+    {
+     "company": "Автотоп",
+     "url": "https://avtotop.by/remont-salona/remont-sidenij/",
+     "price": "Ремонт порезов сиденья (кожа) от 50 BYN; (ткань) от 40 BYN",
+     "za_chto": "ремонт пореза, кожа"
+    },
+    {
+     "company": "RS-Auto",
+     "url": "https://rs-auto.by/peretyazhka-salona-avto/remont-sidenij",
+     "price": "Ремонт сиденья (кожа) от 70 BYN; (ткань) от 60 BYN",
+     "za_chto": "ремонт сиденья, кожа"
+    },
+    {
+     "company": "СТО Запад",
+     "url": "https://stozapad.by/uslugi/peretyazhka-salona-avtomobilya/",
+     "price": "Ремонт сиденья (кожа) от 60 руб.; (ткань) от 50 руб.",
+     "za_chto": "ремонт сиденья, кожа"
+    },
+    {
+     "company": "Автоателье D2",
+     "url": "https://www.d2.by/services/remont-salona-avto/peretyazhka-sideniy",
+     "price": "Замена поврежденного элемента на сиденье авто от 100 руб.",
+     "za_chto": "замена повреждённого элемента сиденья"
+    }
+   ],
+   "kommentariy": "Локальный ремонт сиденья (порез, прожог, замена элемента), цены «от». Значения в расчёте, BYN: 50, 50, 70, 60, 100."
+  },
+  "автоателье": {
+   "check": 310,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "СТО Запад",
+     "url": "https://stozapad.by/uslugi/pereshivka-rulja/",
+     "price": "руль натуральной кожей от 200 руб.; перетяжка сиденья от 200 руб.",
+     "za_chto": "среднее двух заказов: руль + ручка КПП и 2 сиденья"
+    },
+    {
+     "company": "Avtoshik",
+     "url": "https://avtoshik.by/uslugi/peretyazhka-salona/peretyazhka-rulya/",
+     "price": "перетяжка руля от 240 руб.; автомобиль (за одно сидение) от 260 руб.",
+     "za_chto": "среднее двух заказов: руль + ручка КПП и 2 сиденья"
+    },
+    {
+     "company": "RS-Auto",
+     "url": "https://rs-auto.by/peretyazhka-salona-avto/pereshivka-rulja",
+     "price": "руль, экокожа от 130 BYN; перетяжка сиденья от 210 BYN",
+     "za_chto": "среднее двух заказов: руль + ручка КПП и 2 сиденья"
+    },
+    {
+     "company": "Golden Fox (remont-salona.by)",
+     "url": "https://remont-salona.by/ceny",
+     "price": "руль в натуральной коже от 195 BYN; Перетяжка ручки КПП от 45",
+     "za_chto": "руль + ручка КПП"
+    }
+   ],
+   "kommentariy": "Средний заказ ателье сайты не публикуют – число расчётное: по каждой компании среднее двух заказов «руль + ручка КПП» и «два сиденья»; ручка КПП – 45 BYN по прайсу Golden Fox. Цены «от». Значения в расчёте, BYN: 322, 402, 298, 240."
+  },
+  "шиномонтаж": {
+   "check": 79,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Ангел дорог",
+     "url": "https://angeldorog.by/tseny-na-shinomontazh/",
+     "price": "«Переобувка» 4-х колес со снятием с а/м: R16 – 80р. 0к.; R17-18 – 108р. 0к.",
+     "za_chto": "комплекс на 4 колеса, среднее R16 и R17"
+    },
+    {
+     "company": "24pds",
+     "url": "https://24pds.by/shinomontaj/",
+     "price": "Комплекс «переобувка», 4 колеса R16: 76 руб. / 88 руб.; R17: 84 руб. / 96 руб.",
+     "za_chto": "комплекс на 4 колеса, среднее R16–R17 по двум колонкам прайса"
+    },
+    {
+     "company": "Car Service Club",
+     "url": "https://carserviceclub.by/services/shinomontazh/",
+     "price": "За 4 колеса: 48 | 54 | 62 | 67 | 76 | 84 | 96 (по радиусам)",
+     "za_chto": "комплекс на 4 колеса, R16–R17 (четвёртая и пятая колонки)"
+    },
+    {
+     "company": "Эксперт Сервис",
+     "url": "https://expservice.by/pricelist/",
+     "price": "Шиномонтаж R-16 54 BYN; Шиномонтаж R-17 72 BYN",
+     "za_chto": "шиномонтаж комплекта, среднее R16 и R17"
+    }
+   ],
+   "kommentariy": "Комплекс «переобувка» 4 колёс с балансировкой, среднее между R16 и R17 в прайсе каждой компании. У Car Service Club радиусы колонок определены по порядку (R13…R19) – допущение. Значения в расчёте, BYN: 94, 86, 72, 63."
+  },
+  "развал схождение": {
+   "check": 80,
+   "basis": "tipovoy",
+   "n": 7,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "3D развал-схождение (3drazvalsxod.by)",
+     "url": "https://3drazvalsxod.by/prices/",
+     "price": "Две оси 45 BYN",
+     "za_chto": "две оси, легковой"
+    },
+    {
+     "company": "1km.by",
+     "url": "https://1km.by/razval-skhozhdeniya-3d/",
+     "price": "Развал-схождение 3Д 2 ОСИ от 90.00",
+     "za_chto": "две оси"
+    },
+    {
+     "company": "Римбат",
+     "url": "https://sto-rimbat.by/uslugi/3d-razval-skhozhdenie/",
+     "price": "2 оси - 70,00 р.",
+     "za_chto": "две оси, легковой"
+    },
+    {
+     "company": "24pds",
+     "url": "https://24pds.by/price/",
+     "price": "Развал-схождение, легковой автомобиль, 2 оси от 64",
+     "za_chto": "две оси, легковой"
+    },
+    {
+     "company": "Евро Сервис+",
+     "url": "https://eurostar.by/tseny/",
+     "price": "Развал-схождение: легковой автомобиль, две оси от 80 BYN",
+     "za_chto": "две оси, легковой"
+    },
+    {
+     "company": "Эксперт Сервис",
+     "url": "https://expservice.by/pricelist/",
+     "price": "Развал-схождение 81 BYN",
+     "za_chto": "развал-схождение"
+    },
+    {
+     "company": "Miura",
+     "url": "https://www.miura.by/razval-shozhdenie.html",
+     "price": "Развал-схождение 1 ось (легковой а/м) от 63 руб.",
+     "za_chto": "2 оси × 63"
+    }
+   ],
+   "kommentariy": "Развал-схождение двух осей легкового авто. Значения в расчёте, BYN: 45, 90, 70, 64, 80, 81, 126."
+  },
+  "балансировка колес": {
+   "check": 36,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Tyreg",
+     "url": "https://tyreg.by/services/balansirovka-koles/",
+     "price": "Стоимость балансировки колес комплекта R15 от 40 руб.",
+     "za_chto": "комплект 4 колеса"
+    },
+    {
+     "company": "Energy Centre",
+     "url": "https://energys.by/services/shinomontazh/balansirovka/",
+     "price": "Цена со скидкой: 5 руб.",
+     "za_chto": "4 колеса × 5"
+    },
+    {
+     "company": "Miura",
+     "url": "https://www.miura.by/balansirovka-koles.html",
+     "price": "Балансировка колеса, 1 шт от 9 рублей",
+     "za_chto": "4 колеса × 9"
+    },
+    {
+     "company": "Римбат",
+     "url": "https://sto-rimbat.by/uslugi/shinomontazh/balansirovka-koles/",
+     "price": "Балансировка колес в Минске, цена: от 4,50р.",
+     "za_chto": "4 колеса × 4,50"
+    },
+    {
+     "company": "Эксперт Сервис",
+     "url": "https://expservice.by/pricelist/",
+     "price": "Балансировка колеса (1-но колесо) 18 BYN",
+     "za_chto": "4 колеса × 18"
+    }
+   ],
+   "kommentariy": "Цена за одно колесо × 4; цены «от» (малые радиусы). Значения в расчёте, BYN: 40, 20, 36, 18, 72."
+  },
+  "покраска дисков": {
+   "check": 450,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Polymerka.by",
+     "url": "https://polymerka.by/",
+     "price": "R16 - 400р; R17 - 450р",
+     "za_chto": "полимерная покраска комплекта, среднее R16 и R17"
+    },
+    {
+     "company": "4diska.by",
+     "url": "https://4diska.by/pricing/",
+     "price": "16\" от 450; 17\" от 500",
+     "za_chto": "покраска комплекта, среднее R16 и R17"
+    },
+    {
+     "company": "Профшиномонтаж",
+     "url": "https://profshinomontaj.by/services/pokraska-diskov/",
+     "price": "Литые диски: R16 400 р.; R17 450 р.",
+     "za_chto": "порошковая покраска комплекта, среднее R16 и R17"
+    },
+    {
+     "company": "Рядом.бел (агрегатор, Минск)",
+     "url": "https://рядом.бел/pokraska-diskov-minsk",
+     "price": "R13-R16 От 450 руб.; R17 От 500 руб. Порошковая полимерная покраска",
+     "za_chto": "комплект, среднее R16 и R17"
+    }
+   ],
+   "kommentariy": "Порошковая покраска комплекта из 4 дисков, среднее R16 и R17. На сайтах цена дана на радиус без слова «комплект» – по уровню цен это комплект из 4 дисков; допущение. Значения в расчёте, BYN: 425, 475, 425, 475."
+  },
+  "правка дисков": {
+   "check": 50,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Pravkadiskov.by",
+     "url": "https://pravkadiskov.by/",
+     "price": "Правка литых дисков, за 1 диск от 50 BYN",
+     "za_chto": "правка одного литого диска"
+    },
+    {
+     "company": "Профшиномонтаж",
+     "url": "https://profshinomontaj.by/services/pravka-diskov/",
+     "price": "Правка литого диска от 50 р.",
+     "za_chto": "правка одного литого диска"
+    },
+    {
+     "company": "ШинЛэнд",
+     "url": "https://shinland.by/uslugi/pravkairaskatka",
+     "price": "Правка легкосплавного диска «литые диски» от 35 руб",
+     "za_chto": "правка одного литого диска"
+    },
+    {
+     "company": "Т-Плюс",
+     "url": "https://tplus.by/our-services/shinomontazh/pravka_litykh_diskov/",
+     "price": "Стоимость от: от 38 BYN",
+     "za_chto": "правка литого диска"
+    },
+    {
+     "company": "24pds",
+     "url": "https://24pds.by/shinomontaj/pravka-lityh-diskov/",
+     "price": "Правка литого диска, гидравлический пресс (простой изгиб обода) 60.00 руб.",
+     "za_chto": "правка одного литого диска"
+    }
+   ],
+   "kommentariy": "Правка одного литого диска, цены «от». Значения в расчёте, BYN: 50, 50, 35, 38, 60."
+  },
+  "сварка дисков": {
+   "check": 50,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "K-T.by",
+     "url": "https://k-t.by/argonnaya-svarka/",
+     "price": "Сварка автомобильных дисков аргоном От 50 руб.",
+     "za_chto": "аргонная сварка диска"
+    },
+    {
+     "company": "Профшиномонтаж",
+     "url": "https://profshinomontaj.by/services/argonodugovaya-svarka/",
+     "price": "Сварка диска от 50 р.",
+     "za_chto": "аргонная сварка диска"
+    },
+    {
+     "company": "Kuzovnoy-remont.by",
+     "url": "https://kuzovnoy-remont.by/svarka-avtomobilnykh-diskov-argonom/",
+     "price": "Сварка дисков аргоном в Минске — от 50 BYN",
+     "za_chto": "аргонная сварка диска"
+    },
+    {
+     "company": "ШинЛэнд",
+     "url": "https://shinland.by/uslugi/argonnayasvarka",
+     "price": "Аргонно-дуговая сварка 1 см. 15 руб",
+     "za_chto": "трещина 4 см × 15"
+    }
+   ],
+   "kommentariy": "Аргонная сварка одного диска, цены «от»; у ШинЛэнд посчитана трещина 4 см. Значения в расчёте, BYN: 50, 50, 50, 60."
+  },
+  "ремонт шин": {
+   "check": 45,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "ShinaMinsk",
+     "url": "https://shinaminsk.by/remont-shin/",
+     "price": "Сварка боковых порезов шины (вулканизация) от 14,60 руб.",
+     "za_chto": "ремонт бокового пореза"
+    },
+    {
+     "company": "24pds",
+     "url": "https://24pds.by/shinomontaj/remont-prokola-shiny/",
+     "price": "Ремонт бокового пореза (без стоимости заплатки TL) 35 руб.",
+     "za_chto": "ремонт бокового пореза"
+    },
+    {
+     "company": "R100",
+     "url": "https://r100.by/nashi-uslugi/remont-bokovyh-porezov-shin/",
+     "price": "Горячая вулканизация: от 30 до 80 рублей (холодная: от 15 до 50)",
+     "za_chto": "горячая вулканизация, середина диапазона"
+    },
+    {
+     "company": "Tyreg",
+     "url": "https://tyreg.by/services/remont-bokovykh-porezov-shin/",
+     "price": "Горячая вулканизация от 100,00",
+     "za_chto": "горячая вулканизация бокового пореза"
+    }
+   ],
+   "kommentariy": "Ремонт одного бокового пореза; разброс 15–100 BYN зависит от способа (холодная или горячая вулканизация). Значения в расчёте, BYN: 15, 35, 55, 100."
+  },
+  "хранение шин": {
+   "check": 94,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "GoodWay",
+     "url": "https://goodway.by/sezonnoe-hranenie-shin/",
+     "price": "4 шины «на сезон» (до 6 месяцев) – 80 руб.",
+     "za_chto": "4 шины, до 6 месяцев"
+    },
+    {
+     "company": "Автоцентр Сезоны",
+     "url": "https://sezony.by/uslugi/hranenie/",
+     "price": "108 BYN с НДС за 180 дней хранения одного комплекта (4 шины или 4 колеса в сборе)",
+     "za_chto": "комплект, 180 дней"
+    },
+    {
+     "company": "Corpys",
+     "url": "https://www.corpys.by/hranenie-shin",
+     "price": "Сезонное хранение - 70 рублей за полгода",
+     "za_chto": "комплект, полгода (при переобувке у них)"
+    },
+    {
+     "company": "Т-Плюс",
+     "url": "https://tplus.by/our-services/sezonnoe_khranenie/sezonnoe_khranenie_shin/",
+     "price": "Сезонное хранение шин (4 шт./3 месяца) от 61,2 BYN",
+     "za_chto": "4 шины, 6 месяцев = 2 × 61,2"
+    }
+   ],
+   "kommentariy": "Хранение комплекта из 4 шин на 6 месяцев; у Т-Плюс цена за 3 месяца удвоена. Значения в расчёте, BYN: 80, 108, 70, 122."
+  },
+  "ремонт китайских автомобилей": {
+   "check": 450,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Haval – официальный дилер (greatwall.by)",
+     "url": "https://greatwall.by/ceny-na-to",
+     "price": "Стоимость ТО, рублей: HAVAL JOLION (4х2 АТ) 680 | 860 | 790 | 840 | 1180 | 970 | 1010 | 840; F7 / F7x (1.5л) 550 | 610 | 930 | 1180 | 780 | 1010 | 650 | 1180",
+     "za_chto": "медиана восьми ТО (10–115 тыс. км) для Jolion АТ – 850, для F7 1.5 – 855"
+    },
+    {
+     "company": "Geely – официальный дилер (geely-minsk.by)",
+     "url": "https://geely-minsk.by/upload/medialibrary/fbc/83lr0rp5eux0wljoj5t1bmdl75e2tehp/Stoimost-TO-GEELY-_2_.pdf",
+     "price": "COOLRAY (SX-11): 480 | 480 | 550 | 783 | 480 | 654 | 480 | 783 | 882 | 983; ATLAS PRO 6АКПП: 477 | 477 | 531 | 780 | 477 | 531 | 477 | 780 | 1146 | 1033",
+     "za_chto": "медиана ТО-1…ТО-10: Coolray – 602, Atlas Pro – 531, среднее 567"
+    },
+    {
+     "company": "Эксперт Сервис",
+     "url": "https://expservice.by/haval/",
+     "price": "Замена масла в двигателе и масляного фильтра 45 BYN; воздушного фильтра 18 BYN; салонного фильтра 18 BYN",
+     "za_chto": "работы ТО + расходники 251 BYN"
+    },
+    {
+     "company": "Rosso Corsa",
+     "url": "https://rosso-corsa.by/remont-auto/haval-jolion/",
+     "price": "Замена масла двигателя от 40 рублей; воздушного фильтра от 12 рублей; салонного фильтра от 18 рублей",
+     "za_chto": "работы ТО + расходники 251 BYN"
+    }
+   ],
+   "kommentariy": "Типовое ТО китайского кроссовера: у дилеров Haval и Geely – медиана по сетке ТО; у двух независимых СТО – работы по прайсу + расходники. Расходники 251 BYN: масло 5W-30 4 л – 125 (медиана Onliner), масляный фильтр – 21 (медиана AZA.by), воздушный и салонный фильтры – 105 (середина «60–150 руб.» у 24pds). У дилера ТО в 1,7–2,6 раза дороже, чем у независимых. Значения в расчёте, BYN: 850, 567, 332, 321."
+  },
+  "русификация китайских автомобилей|русификация китайских авто": {
+   "check": 600,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "ГудАвтоТрейд",
+     "url": "https://goodtrade.by/sto/russification/",
+     "price": "12 моделей • от 650 BYN (Changan Deepal S05 – 900 BYN)",
+     "za_chto": "русификация меню, приборной панели и голосовых подсказок"
+    },
+    {
+     "company": "NPCIM",
+     "url": "https://npcim.by/rusifikacziya-kitajskix-avto.html",
+     "price": "Русификация китайских авто. Цена: от 420 BYN",
+     "za_chto": "русификация китайского авто"
+    },
+    {
+     "company": "Mars Cars Service",
+     "url": "https://marscars.by/services/adaptacziya-avtomobilya-dlya-belarusi/rusifikacziya-avtomobilya/",
+     "price": "BYD от 450 BYN, Zeekr от 700 BYN, Geely от 800 BYN, Changan от 600 BYN, DongFeng от 600 BYN, Deepal от 600 BYN, Voyah от 800 BYN",
+     "za_chto": "медиана по маркам"
+    },
+    {
+     "company": "Avtosoft",
+     "url": "https://avtosoft.by/",
+     "price": "цена от 600 руб за авто при постоянном объёме",
+     "za_chto": "русификация под ключ"
+    },
+    {
+     "company": "East Motors",
+     "url": "https://eastmotors.by/rusifikaciya/",
+     "price": "Комплексная русификация … от 800 BYN",
+     "za_chto": "полная русификация мультимедиа с приложениями, SIM и интернетом"
+    }
+   ],
+   "kommentariy": "Русификация под ключ, цены «от». Значения в расчёте, BYN: 650, 420, 600, 600, 800."
+  },
+  "ремонт хавал|ремонт haval|сервис хавал": {
+   "check": 332,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Haval – официальный дилер (greatwall.by)",
+     "url": "https://greatwall.by/ceny-na-to",
+     "price": "Стоимость ТО, рублей: HAVAL JOLION (4х2 АТ) 680 | 860 | 790 | 840 | 1180 | 970 | 1010 | 840; F7 / F7x (1.5л) 550 | 610 | 930 | 1180 | 780 | 1010 | 650 | 1180",
+     "za_chto": "медиана восьми ТО (10–115 тыс. км) для Jolion АТ – 850, для F7 1.5 – 855"
+    },
+    {
+     "company": "Эксперт Сервис",
+     "url": "https://expservice.by/haval/",
+     "price": "Замена масла в двигателе и масляного фильтра 45 BYN; воздушного фильтра 18 BYN; салонного фильтра 18 BYN",
+     "za_chto": "работы ТО + расходники 251 BYN"
+    },
+    {
+     "company": "Rosso Corsa",
+     "url": "https://rosso-corsa.by/remont-auto/haval-jolion/",
+     "price": "Замена масла двигателя от 40 рублей; воздушного фильтра от 12 рублей; салонного фильтра от 18 рублей",
+     "za_chto": "работы ТО + расходники 251 BYN"
+    }
+   ],
+   "kommentariy": "Типовое ТО Haval: дилер – медиана по сетке ТО; независимые СТО – работы по прайсу + расходники. Расходники 251 BYN: масло 5W-30 4 л – 125 (медиана Onliner), масляный фильтр – 21 (медиана AZA.by), воздушный и салонный фильтры – 105 (середина «60–150 руб.» у 24pds). Дилерская цена (850) в 2,6 раза выше независимых. Значения в расчёте, BYN: 850, 332, 321."
+  },
+  "ремонт чери|ремонт chery|сервис чери": {
+   "check": 326,
+   "basis": "tipovoy",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Эксперт Сервис",
+     "url": "https://expservice.by/chery/",
+     "price": "Замена масла в двигателе и масляного фильтра 45 BYN; воздушного фильтра 18 BYN; салонного фильтра 18 BYN",
+     "za_chto": "работы ТО + расходники 251 BYN"
+    },
+    {
+     "company": "Rosso Corsa",
+     "url": "https://rosso-corsa.by/remont-auto/chery-tiggo-9/",
+     "price": "Замена масла двигателя от 40 рублей (стоимость указана за замену масла и фильтра); воздушного фильтра от 12 рублей; салонного фильтра от 18 рублей",
+     "za_chto": "работы ТО + расходники 251 BYN"
+    }
+   ],
+   "kommentariy": "Дилерскую сетку цен ТО Chery найти не удалось (у atlantm.by на странице Chery цен нет). Два независимых СТО: работы по прайсу со страниц Chery + расходники. Расходники 251 BYN: масло 5W-30 4 л – 125 (медиана Onliner), масляный фильтр – 21 (медиана AZA.by), воздушный и салонный фильтры – 105 (середина «60–150 руб.» у 24pds). Значения в расчёте, BYN: 332, 321."
+  },
+  "ремонт джили|ремонт geely": {
+   "check": 450,
+   "basis": "tipovoy",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Geely – официальный дилер (geely-minsk.by)",
+     "url": "https://geely-minsk.by/upload/medialibrary/fbc/83lr0rp5eux0wljoj5t1bmdl75e2tehp/Stoimost-TO-GEELY-_2_.pdf",
+     "price": "COOLRAY (SX-11): 480 | 480 | 550 | 783 | 480 | 654 | 480 | 783 | 882 | 983; ATLAS PRO 6АКПП: 477 | 477 | 531 | 780 | 477 | 531 | 477 | 780 | 1146 | 1033",
+     "za_chto": "медиана ТО-1…ТО-10: Coolray – 602, Atlas Pro – 531, среднее 567"
+    },
+    {
+     "company": "Эксперт Сервис",
+     "url": "https://expservice.by/geely/",
+     "price": "Замена масла в двигателе и масляного фильтра 45 BYN; воздушного фильтра 18 BYN; салонного фильтра 18 BYN",
+     "za_chto": "работы ТО + расходники 251 BYN"
+    }
+   ],
+   "kommentariy": "Типовое ТО Geely: дилер – медиана по сетке ТО (Coolray, Atlas Pro); независимая СТО – работы по прайсу + расходники. Расходники 251 BYN: масло 5W-30 4 л – 125 (медиана Onliner), масляный фильтр – 21 (медиана AZA.by), воздушный и салонный фильтры – 105 (середина «60–150 руб.» у 24pds). Значения в расчёте, BYN: 567, 332."
+  },
+  "ремонт лисян|ремонт lixiang": {
+   "check": 306,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Miura",
+     "url": "https://www.miura.by/zamena-masla-v-dvigatele/lixiang-li-auto/",
+     "price": "Замена масла в двигателе Lixiang (Li Auto) от 45 рублей",
+     "za_chto": "работа + расходники 251 BYN"
+    },
+    {
+     "company": "China Car Service",
+     "url": "https://chinacarservice.by/services/lixang/l7/",
+     "price": "Техническое обслуживание от 65 р.",
+     "za_chto": "работа ТО Lixiang L7 + расходники 251 BYN"
+    },
+    {
+     "company": "Lixiang Minsk (lixiangminsk.by)",
+     "url": "https://lixiangminsk.by/",
+     "price": "Замена салонного фильтра 50 BYN; Замена масла в редукторе 50 BYN; Замена антифриза от 100 BYN",
+     "za_chto": "отдельные работы ТО, цены замены масла ДВС на сайте нет – в расчёт не вошло"
+    }
+   ],
+   "kommentariy": "Готовую цену ТО Li Auto минские сервисы не публикуют. Взята работа «от» + расходники как для обычного ТО. Расходники 251 BYN: масло 5W-30 4 л – 125 (медиана Onliner), масляный фильтр – 21 (медиана AZA.by), воздушный и салонный фильтры – 105 (середина «60–150 руб.» у 24pds). Для L7/L9 расходники дороже, реальный чек выше – число занижено. Значения в расчёте, BYN: 296, 316."
+  },
+  "ремонт зикр|ремонт zeekr": {
+   "check": 200,
+   "basis": "ot",
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "Zeekr Minsk (zeekrminsk.by)",
+     "url": "https://zeekrminsk.by/",
+     "price": "Компьютерная диагностика от 100 BYN; Замена салонного фильтра 50 BYN; Замена масла в редукторе 50 BYN",
+     "za_chto": "работы типового ТО электромобиля: диагностика + салонный фильтр + масло в редукторе, без расходников"
+    },
+    {
+     "company": "Miura",
+     "url": "https://www.miura.by/zamena-masla-v-reduktore/zeekr/",
+     "price": "Замена масла в редукторе Zeekr от 36 рублей",
+     "za_chto": "отдельная работа, не ТО – в расчёт не вошло"
+    },
+    {
+     "company": "MotorSpace Service",
+     "url": "https://motorspace.by/services/maintenance-repair/",
+     "price": "Ориентировочный диапазон стоимости регламентного ТО: все модели BYD 230–800 BYN; электромобили Deepal 230–900 BYN",
+     "za_chto": "ТО других китайских электромобилей, не Zeekr – в расчёт не вошло, для ориентира"
+    }
+   ],
+   "kommentariy": "Готовую цену ТО Zeekr с расходниками минские сервисы не публикуют (atlantm.by, electro-car-service.by – без цен). Число собрано из трёх работ прайса одного профильного сервиса, без расходников – нижняя граница. Для ориентира: у MotorSpace регламентное ТО китайских электромобилей BYD и Deepal – 230–900 BYN. Значения в расчёте, BYN: 200."
+  },
+  "ремонт чанган": {
+   "check": 310,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Rosso Corsa",
+     "url": "https://rosso-corsa.by/remont-auto/changan/",
+     "price": "Замена масла двигателя от 40 рублей; воздушного фильтра от 12 рублей; салонного фильтра от 18 рублей",
+     "za_chto": "работы ТО + расходники 251 BYN"
+    },
+    {
+     "company": "Profi-bel.by (агрегатор, Минск)",
+     "url": "https://profi-bel.by/remont/avtoremont/tehnicheskoe-obsluzhivanie-avtomobilei/to-changan/",
+     "price": "ТО changan от 300 руб. за усл.",
+     "za_chto": "ТО Changan"
+    }
+   ],
+   "kommentariy": "Дилерская сетка ТО на changan.by не опубликована. Одна независимая СТО (работы + расходники) и агрегатор. Расходники 251 BYN: масло 5W-30 4 л – 125 (медиана Onliner), масляный фильтр – 21 (медиана AZA.by), воздушный и салонный фильтры – 105 (середина «60–150 руб.» у 24pds). Значения в расчёте, BYN: 321, 300."
+  },
+  "ремонт гибридов": {
+   "check": 250,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "1km.by",
+     "url": "https://1km.by/remont-gibridnykh-dvigateley/",
+     "price": "Ремонт гибридных двигателей Минске цена от 270 BYN",
+     "za_chto": "ремонт гибридной установки"
+    },
+    {
+     "company": "Vag Elektrik",
+     "url": "https://vagelektrik.by/prices",
+     "price": "ремонт высоковольтной системы 250 — 3 000 руб.; диагностика высоковольтной и низковольтной системы 120 — 220 руб.",
+     "za_chto": "нижняя граница ремонта высоковольтной системы"
+    },
+    {
+     "company": "DieselJP",
+     "url": "https://dieseljp.by/services/remont_elektromobiley_i_gibridov/remont_vysokovoltnoy_batarei/",
+     "price": "Ремонт высоковольтной батареи. Стоимость от: 40 руб.",
+     "za_chto": "ремонт высоковольтной батареи"
+    }
+   ],
+   "kommentariy": "Профильные сервисы (hybrid-service.by, marscars.by, eastservice.by, monoauto.by) цен на ремонт ВВБ не публикуют. Найдены только нижние границы «от»; реальный ремонт батареи с заменой ячеек стоит кратно дороже (у Vag Elektrik до 3 000 руб.). Число ненадёжное. Значения в расчёте, BYN: 270, 250, 40."
+  },
+  "ремонт стартера": {
+   "check": 80,
+   "basis": "ot",
+   "n": 6,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Автостандарт",
+     "url": "https://astd.by/remont-starterov/",
+     "price": "Ремонт стартера 12V (разборка, дефектовка, замена отбракованных деталей, сборка) 49,90 руб",
+     "za_chto": "ремонт стартера, работа"
+    },
+    {
+     "company": "БелАстр",
+     "url": "https://belastr.by/starter-repair/",
+     "price": "Ремонт стартера от 100.00",
+     "za_chto": "ремонт стартера"
+    },
+    {
+     "company": "СТО8",
+     "url": "https://sto8.by/avtoelektrik/remont-starterov/",
+     "price": "Ремонт стартеров авто в Минске. Цена от 136 руб!",
+     "za_chto": "ремонт стартера"
+    },
+    {
+     "company": "Автопро",
+     "url": "https://avtopro.by/content/130-remont-starterov",
+     "price": "Ремонт стартеров в Минске: цена от 80 руб.",
+     "za_chto": "ремонт стартера"
+    },
+    {
+     "company": "Belturbo",
+     "url": "https://belturbo.by/repair-starters/",
+     "price": "капитальный ремонт стартера от 60 BYN",
+     "za_chto": "ремонт стартера"
+    },
+    {
+     "company": "Эксперт Сервис",
+     "url": "https://expservice.by/pricelist/",
+     "price": "Ремонт стартера 81 BYN",
+     "za_chto": "ремонт стартера"
+    }
+   ],
+   "kommentariy": "Ремонт стартера, в основном работа без запчастей и без снятия/установки; цены «от». Значения в расчёте, BYN: 50, 100, 136, 80, 60, 81."
+  },
+  "ремонт генератора": {
+   "check": 60,
+   "basis": "ot",
+   "n": 7,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "1km.by",
+     "url": "https://1km.by/remont-generatora/",
+     "price": "Ремонт генератора в Минске цена от 135 BYN",
+     "za_chto": "ремонт генератора"
+    },
+    {
+     "company": "AutoUnit",
+     "url": "https://autounit.by/services/remont-generatora",
+     "price": "Переборка генератора 12V от 40 BYN",
+     "za_chto": "переборка генератора"
+    },
+    {
+     "company": "Minsk100.by",
+     "url": "https://minsk100.by/remont-generatora/",
+     "price": "Ремонт генератора в Минске: цена от 43 руб. (снятие и установка от 67,00 руб.)",
+     "za_chto": "ремонт генератора, работа"
+    },
+    {
+     "company": "СТО Garage (supersto.by)",
+     "url": "https://supersto.by/uslugi/remont-elektrooborudovaniya/remont-generatorov/",
+     "price": "Ремонт генераторов от 60 BYN",
+     "za_chto": "ремонт генератора"
+    },
+    {
+     "company": "Energy Centre",
+     "url": "https://energys.by/services/avtoelektrika/remont_generatora/",
+     "price": "Ремонт генератора в Минске цена от 80 руб",
+     "za_chto": "ремонт генератора"
+    },
+    {
+     "company": "СТО Карпрайс",
+     "url": "https://sto.carprice.by/services/remont-elektrooborudovaniya/remont-generatora",
+     "price": "Ремонт генератора От 29 Руб.",
+     "za_chto": "ремонт генератора"
+    },
+    {
+     "company": "Эксперт Сервис",
+     "url": "https://expservice.by/pricelist/",
+     "price": "Ремонт генераторов 81 BYN",
+     "za_chto": "ремонт генератора"
+    }
+   ],
+   "kommentariy": "Ремонт генератора, в основном работа без запчастей; цены «от». Значения в расчёте, BYN: 135, 40, 43, 60, 80, 29, 81."
+  },
+  "ремонт турбины": {
+   "check": 180,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Турбосервис",
+     "url": "https://turboservice.by/prices/tseny-na-remont-turbin",
+     "price": "Легковые автомобили: от 300 до 1000 бел. руб.",
+     "za_chto": "ремонт турбины легкового авто, нижняя граница"
+    },
+    {
+     "company": "Турбовектор",
+     "url": "https://turbovector.by/price/",
+     "price": "Замена ремкомплекта турбин от 150 рублей (ремонт турбины от 80 рублей)",
+     "za_chto": "ремонт с заменой ремкомплекта"
+    },
+    {
+     "company": "Belturbo",
+     "url": "https://belturbo.by/repair-turbochargers/",
+     "price": "Замена картриджа — от 180 BYN, сам картридж входит в эту сумму",
+     "za_chto": "замена картриджа турбины"
+    },
+    {
+     "company": "SMTurbo",
+     "url": "https://smturbo.by/remont/remont-turbin",
+     "price": "Стандартный ремонт турбины (замена ремкомплекта) от 460 BYN; капитальный ремонт или замена картриджа от 610 BYN",
+     "za_chto": "стандартный ремонт турбины"
+    },
+    {
+     "company": "THelp",
+     "url": "https://thelp.by/remont-turbin/",
+     "price": "Ремонт турбин в Минске — от 150 BYN",
+     "za_chto": "ремонт турбины"
+    }
+   ],
+   "kommentariy": "Ремонт снятой турбины, цены «от»; у Турбосервиса диапазон для легковых 300–1000. Снятие и установка – отдельно (у Belturbo 250 BYN). Значения в расчёте, BYN: 300, 150, 180, 460, 150."
+  },
+  "ремонт радиатора автомобиля|пайка радиатора": {
+   "check": 35,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Да-кар Сервис",
+     "url": "https://sto.by/uslugi-sto/remont-a-m/remont-radiatorov-ohlazhdeniya-argon-pajka/",
+     "price": "Ремонт радиатора охлаждения (соты, пластик) 100,00 руб.",
+     "za_chto": "ремонт радиатора охлаждения"
+    },
+    {
+     "company": "StoHelp (агрегатор заказов, Минск)",
+     "url": "https://stohelp.by/autoservices/minsk/kondicioner-otoplenie-ohlazhdenie/remont-radiatorov",
+     "price": "Средняя цена по ремонту радиаторов авто — 114.38 руб. (BYN)",
+     "za_chto": "средняя цена заказа"
+    },
+    {
+     "company": "Реинбел",
+     "url": "https://reinbel.by/p88879646-pajka-radiatora-magistrali.html",
+     "price": "Пайка радиатора и магистрали холодильной установки 35 руб. /услуга",
+     "za_chto": "пайка радиатора"
+    },
+    {
+     "company": "Аргон Мастерс",
+     "url": "https://argonmasters.by/remont/",
+     "price": "Ремонт радиаторов от 10,00 BYN",
+     "za_chto": "ремонт радиатора"
+    },
+    {
+     "company": "K-T.by",
+     "url": "https://k-t.by/argonnaya-svarka/",
+     "price": "Сварка радиаторов От 20 руб.",
+     "za_chto": "сварка радиатора аргоном"
+    }
+   ],
+   "kommentariy": "Разброс 10–114 BYN: нижние цены – за одну пайку «от», верхние – ремонт радиатора целиком (Да-кар Сервис 100, средняя у агрегатора 114). Значения в расчёте, BYN: 100, 114, 35, 10, 20."
+  },
+  "ремонт глушителя": {
+   "check": 130,
+   "basis": "ot",
+   "n": 7,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "АсАвтоМастер",
+     "url": "https://asautomaster.by/zamena_gofry_glushitelya/",
+     "price": "установка от 120 BYN и бюджетная гофра от 40 BYN — от 160 BYN",
+     "za_chto": "замена гофры: работа + гофра"
+    },
+    {
+     "company": "CarCity",
+     "url": "https://carcity.by/uslugi/zamena-gofry-glushitelya",
+     "price": "Замена гофры глушителя от 100; Сварка глушителя от 40",
+     "za_chto": "работа + гофра 40 BYN"
+    },
+    {
+     "company": "МПД ТехСервис",
+     "url": "https://sto-ts.by/uslugi-sto/remont-glushitelej/zamena-gofry-glushitelya.html",
+     "price": "Замена гофры глушителя под днищем от 90 руб.",
+     "za_chto": "работа + гофра 40 BYN"
+    },
+    {
+     "company": "APK Grup",
+     "url": "https://apkgrup.by/uslugi/remont-vyhlopnoj-sistemy/zamena-gofry-glushitelya/",
+     "price": "Замена гофры глушителя (работа) от 120 руб.; Гофра глушителя (запчасть) от 40 руб.",
+     "za_chto": "работа + гофра"
+    },
+    {
+     "company": "Miura",
+     "url": "https://www.miura.by/zamena-gofry-glushitelya.html",
+     "price": "Замена гофры глушителя от 90 рублей",
+     "za_chto": "работа + гофра 40 BYN"
+    },
+    {
+     "company": "Альфа-Кузов",
+     "url": "https://alfa-kuzow.by/ceny/",
+     "price": "Замена гофры от 90 BYN; Ремонт глушителя (сварной шов) от 35 BYN",
+     "za_chto": "работа + гофра 40 BYN"
+    },
+    {
+     "company": "Эксперт Сервис",
+     "url": "https://expservice.by/pricelist/",
+     "price": "Замена гофры глушителя 54 BYN",
+     "za_chto": "работа + гофра 40 BYN"
+    }
+   ],
+   "kommentariy": "Замена гофры: работа по прайсу («от») + гофра 40 BYN (цена бюджетной гофры у АсАвтоМастер и APK Grup). Значения в расчёте, BYN: 160, 140, 130, 160, 130, 130, 94."
+  },
+  "ремонт рулевой рейки|ремонт гур": {
+   "check": 376,
+   "basis": "ot",
+   "n": 6,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "АвтоРесурсСервис",
+     "url": "https://avtoresurs.by/tseny/",
+     "price": "Ремонт рулевой рейки с ГУ (снятие и установка), легковой автомобиль от 700 руб.",
+     "za_chto": "ремонт рейки со снятием и установкой"
+    },
+    {
+     "company": "1km.by",
+     "url": "https://1km.by/remont-rulevoy-reyki/",
+     "price": "Ремонт рулевой рейки цена от 450 BYN",
+     "za_chto": "ремонт рулевой рейки"
+    },
+    {
+     "company": "SiasAuto",
+     "url": "https://siasauto.by/services/remont-rulevyh-reek/",
+     "price": "Снятие и установка рулевой рейки от 120 рублей; Полная переборка рулевой рейки от 240 до 350 рублей",
+     "za_chto": "снятие/установка + полная переборка (середина диапазона)"
+    },
+    {
+     "company": "Рулевой Эксперт",
+     "url": "https://rulexpert.by/",
+     "price": "Ремонт рулевой рейки гидравлической от 280 руб",
+     "za_chto": "ремонт гидравлической рейки"
+    },
+    {
+     "company": "СТО Запад",
+     "url": "https://stozapad.by/uslugi/remont-rulevogo-upravleniya/remont-rulevyh-reek/",
+     "price": "Востановление рулевой рейки от 220 руб.",
+     "za_chto": "восстановление рейки"
+    },
+    {
+     "company": "СТО Garage (supersto.by)",
+     "url": "https://supersto.by/uslugi/remont-rulevogo-upravleniya/remont-rulevoj-rejki/",
+     "price": "Цены ремонта рулевой рейки начинается от 336 рублей",
+     "za_chto": "ремонт рулевой рейки"
+    }
+   ],
+   "kommentariy": "Ремонт рулевой рейки; у части компаний снятие/установка входит (АвтоРесурсСервис, SiasAuto), у части – нет. Цены «от». Значения в расчёте, BYN: 700, 450, 415, 280, 220, 336."
+  },
+  "ремонт форсунок": {
+   "check": 280,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "ProInjector",
+     "url": "https://proinjector.by/price",
+     "price": "Ремонт одной форсунки от 80 BYN. Диагностика на стенде с кодированием входит в стоимость",
+     "za_chto": "4 форсунки × 80"
+    },
+    {
+     "company": "Belturbo",
+     "url": "https://belturbo.by/remont-forsunok/",
+     "price": "Базовая диагностика на стенде стоит от 20 BYN … Ремонт форсунки стоит от 50 BYN, пьезофорсунки — от 100 BYN",
+     "za_chto": "4 × (диагностика 20 + ремонт 50)"
+    },
+    {
+     "company": "Top Craft",
+     "url": "https://topcraft.by/uslugi/remont-forsunok/",
+     "price": "Ремонт форсунки системы CR (Common Rail) от 50",
+     "za_chto": "4 форсунки × 50"
+    },
+    {
+     "company": "Автосити",
+     "url": "http://sto-avtocity.by/remont-forsunok/",
+     "price": "Переборка и регулировка форсунки одного цилиндра от 15 р.",
+     "za_chto": "4 форсунки × 15"
+    },
+    {
+     "company": "NasosForsunka.by",
+     "url": "https://nasosforsunka.by/price.html",
+     "price": "Ремонт и регулировка насос-форсунки (без учёта стоимости запчастей) 150",
+     "za_chto": "4 насос-форсунки × 150"
+    }
+   ],
+   "kommentariy": "Цена за одну форсунку × 4; без запчастей (распылители, клапаны) и без снятия/установки. Цены «от». Значения в расчёте, BYN: 320, 280, 200, 60, 600."
+  },
+  "ремонт тнвд": {
+   "check": 94,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "24pds",
+     "url": "https://24pds.by/remont-tnvd/",
+     "price": "Диагностика и ремонт ТНВД от 96; Снятие и установка ТНВД от 288",
+     "za_chto": "ремонт + снятие/установка"
+    },
+    {
+     "company": "Дизель-Сервис (remont-diesel.by)",
+     "url": "https://remont-diesel.by/services/tnvd-i-forsunki/remont-tnvd/",
+     "price": "Ремонт ТНВД Бош от 45 р.; Делфи от 50 р.",
+     "za_chto": "ремонт ТНВД, работа"
+    },
+    {
+     "company": "SMTurbo",
+     "url": "https://smturbo.by/remont-tnvd",
+     "price": "Ремонт ТНВД Bosch от 45 BYN",
+     "za_chto": "ремонт ТНВД, работа"
+    },
+    {
+     "company": "Эксперт Сервис",
+     "url": "https://expservice.by/pricelist/",
+     "price": "Ремонт ТНВД 144 BYN",
+     "za_chto": "ремонт ТНВД"
+    }
+   ],
+   "kommentariy": "Разброс 45–384 BYN: «от 45» – минимальная работа по снятому насосу, 384 – ремонт со снятием и установкой. Запчасти не включены, число – нижняя граница. Значения в расчёте, BYN: 384, 45, 45, 144."
+  },
+  "ремонт пневмоподвески": {
+   "check": 620,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Energy Centre",
+     "url": "https://energys.by/services/podveska/zamena_pnevmostoyki/",
+     "price": "Замена пневмостойки в Минске, цена от 120 руб",
+     "za_chto": "работа + пневмобаллон 520 BYN"
+    },
+    {
+     "company": "СТО Garage (supersto.by)",
+     "url": "https://supersto.by/uslugi/remont-podveski/remont-pnevmopodveski/",
+     "price": "Цена ремонта пневмоподвески начинается от 100 рублей",
+     "za_chto": "работа + пневмобаллон 520 BYN"
+    },
+    {
+     "company": "Эксперт Сервис",
+     "url": "https://expservice.by/pricelist/",
+     "price": "Замена пневмостойки 45 BYN; Замена пневмоподушки 45 BYN",
+     "za_chto": "работа + пневмобаллон 520 BYN"
+    },
+    {
+     "company": "АвтоМеханика (магазин пневмоподвески, Минск)",
+     "url": "https://automehanika.by/product-category/air-suspension/air-springs/",
+     "price": "Пневмобаллон задний Mercedes C-Класс W205 – 640,00 Br; Пневмобаллон передний Audi A6 Allroad – 400,00 Br",
+     "za_chto": "запчасть: пневмобаллон, среднее двух позиций – 520 BYN"
+    }
+   ],
+   "kommentariy": "Работа по прайсу («от») + один пневмобаллон 520 BYN (среднее двух позиций каталога АвтоМеханика: 640 и 400). Пневмостойка в сборе дороже баллона – число ближе к нижней границе. Значения в расчёте, BYN: 640, 620, 565."
+  }
+ }
+}
