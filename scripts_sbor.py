@@ -6,8 +6,8 @@ try:
     import certifi; CTX = ssl.create_default_context(cafile=certifi.where())
 except Exception:
     CTX = ssl.create_default_context()
-REGIONS = {"rf": 225, "msk": 213, "nsk": 65, "krs": 62}
-SERVICE_REGIONS = ("nsk", "krs")  # тест на двух городах (решение 11.11.2026), остальные – по заявке
+REGIONS = {"rf": 225, "msk": 213, "nsk": 65, "krs": 62, "mnsk": 157}
+SERVICE_REGIONS = ("nsk", "krs", "mnsk")  # тест на трёх городах (решения 11.11.2026), остальные – по заявке
 CAR_REGIONS = ("rf", "msk", "nsk")
 NICHES = json.loads(pathlib.Path(__file__).with_name("niches.json").read_text())
 # запрос услуги может быть суммой формулировок через «|»: в Вордстате «авто» и «автомобиль» – разные слова

@@ -8,10 +8,10 @@ INFO = re.compile(r"своими руками|\bкак\b|почему|что т�
   r"закон|правил|штраф|пошлин|утильсбор|калькулятор|таможенн|как привезти|мультфильм|песня|смотреть|авито|avito|дром|drom|авто\.ру|auto\.ru|"
   r"сканер|пылесос|купить|детск|бензинов|инвертор|сварочн|электростанц|после|интервал|периодичн|\bсам\b|инструкц|гараж|obd|elm|"
   r"допуст|процент|гост|светопропуск|разрешен|запрет|ключ|набор|съемник|приспособлен|чертеж|книга|руководств|пленка для|пленку|на машине|чердак|в армению|в турцию|в беларусь|"
-  r"можно ли|нужно ли|зачем|стоит ли|\bчем\b|плюсы|минусы|последств|герметик|холодн|программ|выкройк|материал|баллон|паст|зубн|состав|средств|торрент|скутер|мотоцикл|диван|мебел")
+  r"можно ли|нужно ли|зачем|стоит ли|\bчем\b|плюсы|минусы|последств|герметик|холодн|программ|выкройк|материал|баллон|паст|зубн|состав|средств|торрент|скутер|мотоцикл|диван|мебел|помещен|тонн")
 HOT = re.compile(r"цен|стоимост|сколько стоит|рядом|недорог|услуг|сервис|центр|мастерск|запис|адрес|телефон|круглосуточ|выезд|"
   r"под заказ|под ключ|заказать|доставк|москв|спб|петербург|новосибирск|екатеринбург|краснодар|казан|нижн|самар|омск|уфа|"
-  r"красноярск|перм|воронеж|ростов|челябинск|тюмен|барнаул|иркутск|владивосток|хабаровск|\bв$|\bна$")
+  r"красноярск|перм|воронеж|ростов|челябинск|тюмен|барнаул|иркутск|владивосток|хабаровск|минск|гомел|брест|витебск|гродно|могилев|\bв$|\bна$")
 SOFT = ("замена масла", "замена ремня", "замена сцепления", "замена тормозных", "тонировка", "установка", "полировка фар")  # нейтральные формулировки часто «сам»
 CAR_OK = ("купить",)  # для машин «купить авто из…» – покупатель, а не мусор
 STOP = {"для", "в", "на", "из", "и", "с", "по"}
@@ -42,15 +42,48 @@ def load_sum(reg, key):
     """Услуга = сумма формулировок через «|»; примеры «как ищут» – от самой частой."""
     parts = [x for x in (load(reg, ph) for ph in key.split("|")) if x]
     if not parts: return None
-    total, hot = sum(x["total"] for x in parts), sum(x["hot"] for x in parts)
+    k = REGION_K.get(reg, 1)
+    total, hot = round(k * sum(x["total"] for x in parts)), round(k * sum(x["hot"] for x in parts))
     return {"total": total, "share": round(hot / total, 2) if total else 0, "hot": hot, "top": max(parts, key=lambda x: x["total"])["top"]}
-NAMES = {"rf": "Россия", "msk": "Москва", "nsk": "Новосибирск", "krs": "Красноярск"}
+NAMES = {"rf": "Россия", "msk": "Москва", "nsk": "Новосибирск", "krs": "Красноярск", "mnsk": "Минск"}
+# Минск: Вордстат видит только Яндекс, а в Беларуси основной поиск – Google. Замера Google нет (Планировщик ключевых слов
+# требует рабочий аккаунт Google Ads), поэтому досчитываем по доле поисковиков в Беларуси: StatCounter, октябрь 2026 –
+# Google 58,16 %, Яндекс 38,85 %. Спрос = Яндекс × (1 + 58,16 / 38,85). Сверка: Метрика Evolution Service Минск за год –
+# из поиска Google 1 961 визит, Яндекс 944 (отношение 2,1), то есть коэффициент осторожный. На странице – одна цифра.
+REGION_K = {"mnsk": round(1 + 58.16 / 38.85, 3)}
+# Чеки в niches.json – в российских рублях; для Минска пересчёт по курсу НБРБ на 11.11.2026 (100 RUB = 3,6399 BYN).
+CURRENCY = {"mnsk": {"sign": "BYN", "rate": 0.036399}}
+SRC = {"nsk": "Вордстат Яндекса, октябрь 2026", "krs": "Вордстат Яндекса, октябрь 2026", "mnsk": "поиск Яндекса и Google, октябрь 2026"}
 out = {"regions": {r: NAMES[r] for r in SERVICE_REGIONS}, "carRegions": {r: NAMES[r] for r in CAR_REGIONS}, "niches": NICHES,
+       "currency": CURRENCY, "src": SRC,
        "services": {}, "cars": {}, "date": "октябрь 2026, Вордстат (XMLRiver), снято 11.11.2026"}
 for key in SERVICE_KEYS:
     out["services"][key] = {r: load_sum(r, key) for r in SERVICE_REGIONS}
 for ph in CARS:
     out["cars"][ph] = {r: load(r, ph, cars=True) for r in CAR_REGIONS}
+# Средние чеки по прайсам города (data/prices/<город>.json, собирает аналитик рынка с источниками).
+# Нет файла, файл кривой или в чужой валюте – города нет в checks, фронт пишет «оценка по рынку» и берёт чек из niches.json.
+# Файл есть, а услуги в нём нет – фронт берёт оценку и помечает её звёздочкой. Один кривой чек сборку не роняет.
+PRICE_CUR = {r: (CURRENCY[r]["sign"] if r in CURRENCY else "RUB") for r in SERVICE_REGIONS}
+def read_prices(r):
+    f = pathlib.Path(f"data/prices/{r}.json")
+    if not f.exists(): return None
+    try: doc = json.loads(f.read_text())
+    except ValueError as e: print(f"ЦЕНЫ {r}: файл не читается ({e}) – город без цен"); return None
+    if not isinstance(doc, dict) or not isinstance(doc.get("prices"), dict): print(f"ЦЕНЫ {r}: нет словаря prices – город без цен"); return None
+    if doc.get("currency") != PRICE_CUR[r]: print(f"ЦЕНЫ {r}: валюта файла {doc.get('currency')!r}, нужна {PRICE_CUR[r]!r} – город без цен"); return None
+    ok, bad = {}, []
+    for k, v in doc["prices"].items():
+        if k not in SERVICE_KEYS: bad.append(k); continue
+        if not isinstance(v, dict) or v.get("status") not in ("ok", "malo"): continue
+        c, n = v.get("check"), v.get("n")
+        if isinstance(c, bool) or not isinstance(c, (int, float)) or round(c) < 1: continue
+        ok[k] = {"v": round(c), "n": n if isinstance(n, int) and not isinstance(n, bool) else 0, "b": "ot" if v.get("basis") == "ot" else "t"}
+    weak = sum(1 for x in ok.values() if x["n"] < 2 or x["b"] == "ot")
+    print(f"цены {r}: {len(ok)} из {len(SERVICE_KEYS)} услуг (из них по одному прайсу или «от»: {weak}), чужих ключей: {bad}")
+    return ok
+CHECKS = {r: p for r in SERVICE_REGIONS for p in [read_prices(r)] if p}
+out["checks"] = CHECKS
 pathlib.Path("site").mkdir(exist_ok=True)
 pathlib.Path("site/data.js").write_text("window.DATA=" + json.dumps(out, ensure_ascii=False) + ";\n")
 none = sum(1 for g in ("services", "cars") for p in out[g].values() for v in p.values() if v is None)
