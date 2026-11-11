@@ -11,7 +11,24 @@
 .p-count small { display: block; font: 600 15px/1.4 var(--font); color: var(--muted); letter-spacing: 0; margin-top: 6px; }
 .p-box { border: 2px solid var(--ink); padding: 18px; display: grid; gap: 10px; align-content: start; }
 .p-row { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; }
-.p-row select { min-height: 44px; border: 1px solid var(--ink); padding: 0 10px; font: inherit; background: #fff; }
+.p-row select { min-height: 44px; border: 1px solid var(--ink); padding: 0 10px; font: inherit; background: #fff; max-width: 100%; }
+.p-row label { display: grid; gap: 4px; max-width: 100%; min-width: 0; }
+.p-row label select { width: 100%; }
+.w-stack > *, .p-box > * { min-width: 0; }
+.p-city { min-height: 44px; border: 1px solid var(--ink); background: transparent; padding: 0 14px; font: inherit; font-weight: 600; color: inherit; }
+.p-lose { display: grid; gap: 2px; background: var(--fill); padding: 12px; }
+.p-lose b { font-size: clamp(26px, 3.2vw, 34px); line-height: 1.1; }
+.p-lose span { font-size: 13px; color: var(--muted); }
+.p-mini { font-size: 14px; }
+.p-mini th, .p-mini td { padding: 6px 8px; }
+.p-niche:not(.open) .p-mini tbody tr:nth-child(n+4) { display: none; }
+.p-niche > summary { cursor: pointer; display: grid; gap: 8px; list-style: none; }
+.p-niche > summary::-webkit-details-marker { display: none; }
+.p-niche > summary h3::after { content: " ▾"; color: var(--muted); }
+.p-niche[open] > summary h3::after { content: ""; }
+.p-niche[open] { gap: 8px; }
+.p-niche-note { font-size: 13px; color: var(--muted); }
+.p-niche .w-actions .w-btn { min-height: 44px; padding: 0 14px; font-size: 15px; }
 .p-chips { display: flex; flex-wrap: wrap; gap: 6px; }
 .p-chips label { border: 1px solid var(--line); padding: 6px 10px; font-size: 14px; cursor: pointer; display: inline-flex; gap: 6px; align-items: center; }
 .p-chips input:checked + span { font-weight: 700; }
@@ -21,17 +38,14 @@
 .p-res b { font-size: clamp(22px, 3.4vw, 32px); line-height: 1.1; }
 .p-res span { font-size: 13px; color: var(--muted); }
 .p-formula { font: 13px/1.6 var(--mono); background: var(--fill2); border: 1px dashed var(--line); padding: 10px 12px; }
-.p-cut:not(.open) tbody tr:nth-child(n+11), .p-cut:not(.open) > label:nth-child(n+13) { display: none; }
-.p-more { justify-self: start; }
 .w-table td.n, .w-table th.n { text-align: right; white-space: nowrap; }
-.w-table td small { color: var(--muted); }
 .p-states { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
-@media (max-width: 760px) { .p-res { grid-template-columns: 1fr 1fr; } .p-states { grid-template-columns: 1fr; } .w-table .w-hide-m { display: none; } }
+@media (max-width: 760px) { .p-res { grid-template-columns: 1fr 1fr; } .p-states { grid-template-columns: 1fr; } }
 </style>
 </head>
 <body>
 <div class="w-bar"><div class="w-wrap">
-  <b>Прототип · Дефорд · SEO-сайт для автосервиса · v1 11.11.2026</b>
+  <b>Прототип · Дефорд · SEO-сайт для автосервиса · v2 11.11.2026</b>
   <label><input type="checkbox" id="t-logic"> Логика блоков</label>
   <label><input type="checkbox" id="t-notes"> Комментарии дизайнеру</label>
   <label><input type="checkbox" id="t-seo"> SEO страницы</label>
@@ -40,7 +54,7 @@
   <a href="../" style="color:#fff">← отчёт</a>
 </div></div>
 
-<script type="application/json" id="w-seo">{"title": "Сайт для автосервиса с продвижением – клиенты из поиска | Дефорд", "description": "Покажем, сколько клиентов в вашем городе ищут ремонт каждый день и сколько из них уходит к конкурентам. Сайт со страницей под каждую услугу и марку.", "h1": "Каждый день ваш автосервис теряет клиентов, которые уже ищут ремонт", "zapros": "сайт для автосервиса", "schema": "Organization, Service, FAQPage", "links": ["/avtoprodazha/ – соседняя ниша", "/services/website/ – сайт под ключ", "/cases/ – кейсы"]}</script>
+<script type="application/json" id="w-seo">{"title": "Сайт для автосервиса с продвижением – клиенты из поиска | Дефорд", "description": "Покажем, сколько клиентов в вашем городе ищут ваши услуги каждый день и сколько из них уходит к конкурентам. Сайт со страницей под каждую услугу и марку.", "h1": "Каждый день ваш автосервис теряет клиентов, которые уже ищут ваши услуги", "zapros": "сайт для автосервиса", "schema": "Organization, Service, FAQPage", "links": ["/avtoservis/uslugi/ – все услуги и поиск", "/avtoprodazha/ – соседняя ниша", "/cases/ – кейсы"]}</script>
 <div class="w-seo" id="w-seo-box"></div>
 
 <header class="w-header w-block" data-n="0" data-name="Шапка" data-question="Кто это и как связаться?" data-proof="телефон, Telegram, Макс">
@@ -53,50 +67,55 @@
 </header>
 
 <main>
-  <section class="w-block" data-n="1" data-name="Первый экран" data-question="Про меня ли это и что я теряю?" data-proof="живой счётчик по спросу Вордстата в городе" data-next="Это правда столько людей ищут?">
+  <section class="w-block" data-n="1" data-name="Первый экран" data-question="Про меня ли это и что я теряю?" data-proof="живой счётчик по спросу Вордстата в городе посетителя" data-next="Сколько теряет именно моя ниша?">
     <div class="w-wrap">
       <div class="w-hero">
         <div class="w-stack">
-          <h1>Каждый день ваш автосервис теряет клиентов, которые уже ищут ремонт</h1>
-          <p>В <b class="js-city-in">Новосибирске</b> ремонт, ТО и диагностику ищут <b class="js-month">…</b> раз в месяц. Это люди с поломкой и деньгами: им нужно сегодня. Они звонят тем, кого нашли в поиске. Нет сайта со страницей под их услугу – звонят не вам.</p>
+          <div class="p-row"><span class="w-muted">Ваш город:</span><button class="p-city js-city-btn" type="button">Новосибирск ▾</button></div>
+          <h1>Каждый день ваш автосервис теряет клиентов, которые уже ищут ваши услуги</h1>
+          <p>В <b class="js-city-in">Новосибирске</b> ваши услуги ищут <b class="js-month">…</b> раз в месяц: от замены масла и кузовного до керамики, русификации и перетяжки салона. Это люди с задачей и деньгами. Они звонят тем, кого нашли в поиске. Нет сайта со страницей под их услугу – звонят не вам.</p>
           <ul>
-            <li><b>Горячие</b> – ищут конкретную работу, а не «как поменять масло своими руками»</li>
+            <li><b>Горячие</b> – ищут, кто сделает, а не «как сделать своими руками»</li>
             <li><b>Бесплатные</b> – клиент из поиска не стоит денег за клик, как в Директе</li>
             <li><b>Каждый день</b> – спрос не заканчивается, его забирают конкуренты</li>
           </ul>
-          <div class="w-actions"><a class="w-btn" href="#kalkulyator">Посчитать потери моего сервиса</a><a class="w-btn ghost" href="#zayavka">Получить разбор</a></div>
+          <div class="w-actions"><a class="w-btn" href="#nishi">Сколько теряет моя ниша</a><a class="w-btn ghost" href="uslugi/">Найти свою услугу</a></div>
           <p class="w-hint">Расчёт – на цифрах Вордстата по вашему городу, без звонка и регистрации</p>
         </div>
         <div class="p-box">
-          <span class="w-muted"><span id="today-l">Сегодня с 8:00</span> в <span class="js-city-in">Новосибирске</span> автосервисы без SEO-сайта упустили</span>
-          <div class="p-count"><span id="today">…</span><small>горячих поисков ремонта и обслуживания</small></div>
-          <span class="w-muted">Счётчик идёт в течение дня. Город меняется ниже.</span>
+          <span class="w-muted"><span id="today-l">Сегодня с 8:00</span> в <span class="js-city-in">Новосибирске</span> автобизнес без сайта в поиске упустил</span>
+          <div class="p-count"><span id="today">…</span><small>горячих поисков автоуслуг</small></div>
+          <span class="w-muted">Счётчик идёт в течение дня.</span>
         </div>
       </div>
-      <p class="w-note">Счётчик – главный крючок экрана: цифра растёт вживую (раз в несколько секунд +1). Город определять по IP или выбором; в прототипе – список ниже.</p>
+      <p class="w-note">Город определяется сам (на бою – своим сервером, IP посетителя наружу не отдаём). Не определился или города нет в списке – окно выбора; «Другой город» – заявка с нишей. Счётчик растёт вживую.</p>
     </div>
   </section>
 
-  <section class="w-block" data-n="2" data-name="Спрос в городе" data-question="Это правда столько людей ищут?" data-proof="таблица Вордстата по 39 услугам, доля горячих формулировок" data-next="Сколько из них мог бы получить мой сервис?">
+  <section class="w-block" id="nishi" data-n="2" data-name="Потери по нишам" data-question="Сколько теряет именно моя ниша?" data-proof="Вордстат по городу: до 10 главных услуг в каждой из 9 ниш" data-next="А сколько теряю лично я?">
     <div class="w-wrap w-stack">
-      <h2>Сколько раз в месяц ищут ремонт в вашем городе – по каждой услуге</h2>
-      <div class="p-row"><label>Город <select id="city"></select></label><span class="w-muted js-src"></span></div>
-      <p class="w-muted">«Горячие» – без формулировок «своими руками», «как», «почему», «видео», «вакансии», «оборудование». Их мы считаем по каждому запросу отдельно.</p>
-      <div class="w-table-wrap"><table class="w-table p-cut" id="tbl"><thead><tr><th>Услуга</th><th class="n">Ищут в месяц</th><th class="n">Горячих</th><th class="n">В день</th><th class="w-hide-m">Как ищут</th></tr></thead><tbody></tbody></table></div>
-      <button class="w-btn ghost p-more" type="button" data-for="tbl">Показать все услуги</button>
-      
+      <h2>Сколько клиентов и денег проходит мимо – по нишам</h2>
+      <div class="p-row"><span class="w-muted">Город:</span><button class="p-city js-city-btn" type="button">Новосибирск ▾</button><span class="w-muted js-src"></span></div>
+      <p class="w-muted">Найдите свою нишу. В карточке – три самые искомые услуги; «Смотреть все» покажет до десяти. Сумма – сколько в месяц уходит тем, у кого сайт стоит в топе, если у вас сайта нет.</p>
+      <div class="w-grid" id="niches" style="--cols:3;--cols-m:1"></div>
+      <p class="w-note">Карточка ниши: крупно сумма потерь, под ней три услуги, кнопка раскрывает до десяти. На телефоне ниши свёрнуты до названия и суммы, раскрыта первая. Порядок ниш – по сумме потерь в городе.</p>
     </div>
   </section>
 
-  <section class="w-block" id="kalkulyator" data-n="3" data-name="Калькулятор потерь" data-question="Сколько из них мог бы получить мой сервис?" data-proof="формула открыта, чек правит сам владелец" data-next="Почему у меня есть лендинг, а клиентов из поиска нет?">
+  <section class="w-block w-cta-strip" data-n="2а" data-name="Плашка: все услуги" data-question="Моей услуги нет в карточках" data-proof="отдельная страница со всеми услугами и поиском">
+    <div class="w-wrap"><div class="w-cta"><p>Не нашли свою услугу? Вбейте её в поиск – покажем, сколько клиентов вы теряете именно на ней</p><a class="w-btn" href="uslugi/">Все услуги и поиск</a></div></div>
+  </section>
+
+  <section class="w-block" id="kalkulyator" data-n="3" data-name="Калькулятор потерь" data-question="А сколько теряю лично я?" data-proof="формула открыта, услуги и чек правит сам владелец" data-next="Почему у меня есть лендинг, а клиентов из поиска нет?">
     <div class="w-wrap w-stack">
-      <h2>Сколько клиентов и денег проходит мимо вашего сервиса</h2>
+      <h2>Посчитайте по своим услугам и своему чеку</h2>
       <div class="p-box">
-        <div class="p-row"><b>1. Что у вас сейчас</b>
-          <select id="state"><option value="none">Сайта нет</option><option value="landing">Есть лендинг на одну страницу</option><option value="weak">Сайт есть, но не продвигается</option></select></div>
-        <div><b>2. Какие работы делаете</b> <span class="w-muted">(по умолчанию – обычный сервис по ремонту; отметьте свои, чек – оценка по рынку, впишите свой)</span></div>
-        <div class="p-chips p-cut" id="chips"></div>
-        <button class="w-btn ghost p-more" type="button" data-for="chips">Все работы</button>
+        <div class="p-row">
+          <label><b>1. Ниша</b> <select id="niche"></select></label>
+          <label><b>2. Что у вас сейчас</b> <select id="state"><option value="none">Сайта нет</option><option value="landing">Есть лендинг на одну страницу</option><option value="weak">Сайт есть, но не продвигается</option></select></label>
+        </div>
+        <div><b>3. Ваши услуги</b> <span class="w-muted">(снимите лишние; чек – оценка по рынку, впишите свой)</span></div>
+        <div class="p-chips" id="chips"></div>
         <div class="p-res">
           <div><b id="r-cl">…</b><span>клиентов в месяц уходят к другим</span></div>
           <div><b id="r-m">…</b><span>₽ в месяц выручки мимо вас</span></div>
@@ -104,24 +123,24 @@
           <div><b id="r-y">…</b><span>₽ за год</span></div>
         </div>
         <details><summary>Как считаем</summary>
-          <p class="p-formula">горячие поиски × 50% переходят на сайты (остальные – карты, агрегаторы; для «автосервис», «шиномонтаж», «автоэлектрик» – 25%) × 20% достаются сайту в топ-3 × 8% звонят или пишут × 60% доезжают до сервиса × средний чек.<br>Лендинг забирает ≈15% этого, сайт без продвижения ≈10%, без сайта – 0.</p>
+          <p class="p-formula">горячие поиски × 50% переходят на сайты (остальные – карты, агрегаторы; для «автосервис», «шиномонтаж», «автоэлектрик» – 25%) × 20% достаются сайту в топ-3 × 8% звонят или пишут × 60% доезжают × средний чек.<br>Лендинг забирает ≈15% этого, сайт без продвижения ≈10%, без сайта – 0.</p>
           <p class="w-ask">[запросить: подтвердить коэффициенты на Метрике EV Sibir и TEYES Sibir – переходы из поиска, звонки, записи]</p>
         </details>
       </div>
-      <p class="w-note">Результат крупно, цифры пересчитываются сразу. Под результатом – кнопка «Получить этот расчёт по моему сервису» (ведёт в форму, расчёт подставляется в заявку).</p>
+      <p class="w-note">Результат крупно, пересчёт сразу. Кнопка «Посчитать мою» в карточке ниши приводит сюда с уже выбранной нишей.</p>
     </div>
   </section>
 
   <section class="w-block w-cta-strip" data-n="3а" data-name="Плашка после калькулятора" data-question="Хочу точный расчёт" data-proof="расчёт по услугам и маркам сервиса">
-    <div class="w-wrap"><div class="w-cta"><p>Пришлём расчёт по вашему сервису: ваши услуги, марки и район – и кто из конкурентов забирает этих клиентов</p><a class="w-btn" href="#zayavka">Получить расчёт</a></div></div>
+    <div class="w-wrap"><div class="w-cta"><p>Пришлём расчёт по вашему бизнесу: ваши услуги, марки и район – и кто из конкурентов забирает этих клиентов</p><a class="w-btn" href="#zayavka">Получить расчёт</a></div></div>
   </section>
 
   <section class="w-block" data-n="4" data-name="Почему не работает то, что есть" data-question="Почему у меня есть лендинг, а клиентов из поиска нет?" data-proof="как поиск подбирает страницу под запрос" data-next="Как сайт забирает этих клиентов?">
     <div class="w-wrap w-stack">
       <h2>Карты, лендинг и «просто сайт» не ловят поиск по услугам</h2>
       <div class="p-states">
-        <article class="w-card"><h3>Сайта нет</h3><p>Клиент видит вас только на картах, рядом с десятком соседей. Кто ищет «ремонт вариатора ниссан», попадает на сайты сервисов, где есть такая страница.</p></article>
-        <article class="w-card"><h3>Лендинг на одну страницу</h3><p>Одна страница – один запрос. Поиск показывает страницу, которая отвечает ровно на вопрос. «Ремонт АКПП», «замена ГРМ», «сервис Haval» – это разные страницы, а у лендинга их нет.</p></article>
+        <article class="w-card"><h3>Сайта нет</h3><p>Клиент видит вас только на картах, рядом с десятком соседей. Кто ищет «керамика на авто цена» или «ремонт вариатора ниссан», попадает на сайты, где есть такая страница.</p></article>
+        <article class="w-card"><h3>Лендинг на одну страницу</h3><p>Одна страница – один запрос. Поиск показывает страницу, которая отвечает ровно на вопрос. «Полировка», «оклейка плёнкой», «русификация Zeekr» – это разные страницы, а у лендинга их нет.</p></article>
         <article class="w-card"><h3>Сайт без продвижения</h3><p>Страницы есть, но стоят на третьей странице выдачи. Туда доходит 1 человек из 100. Сайт есть – клиентов с него нет.</p></article>
       </div>
     </div>
@@ -131,19 +150,19 @@
     <div class="w-wrap w-stack">
       <h2>Страница под каждую услугу и марку – и каждая ловит свой запрос</h2>
       <ol class="w-steps" style="--cols:4">
-        <li><b>Человек ищет</b><span>«ремонт акпп новосибирск»</span></li>
-        <li><b>Видит вашу страницу</b><span>/services/akpp-repair/ – цена, сроки, гарантия, фото работ</span></li>
+        <li><b>Человек ищет</b><span>свою задачу: «перетяжка руля», «чип-тюнинг», «ремонт акпп»</span></li>
+        <li><b>Видит вашу страницу</b><span>/services/&lt;услуга&gt;/ – цена, сроки, гарантия, фото работ</span></li>
         <li><b>Звонит или пишет</b><span>кнопка звонка, Telegram, Макс, запись</span></li>
         <li><b>Видите в кабинете</b><span>откуда пришёл и с какой страницы</span></li>
       </ol>
-      <div class="w-media" data-alt="схема сайта автосервиса: услуги, марки, работы">Схема: главная → услуги (АКПП, ГРМ, ходовая…) → марки (Toyota, Haval, BMW…) → работы с фото. Каждая страница – свой запрос из таблицы выше</div>
+      <div class="w-media" data-alt="схема сайта автосервиса: услуги, марки, работы">Схема: главная → услуги вашей ниши → марки → работы с фото. Каждая страница – свой запрос из карточки ниши</div>
     </div>
   </section>
 
   <section class="w-block" data-n="6" data-name="Поиск против рекламы" data-question="Почему не просто включить Директ?" data-proof="цена клика в нише" data-next="Почему вам верить?">
     <div class="w-wrap w-stack">
       <h2>В Директе за этого же клиента платите каждый раз. Из поиска он приходит бесплатно</h2>
-      <p>Реклама нужна для быстрого старта, пока сайт растёт: заявки с первой недели. Но каждый клик стоит <span class="w-ask">[запросить у Дениса: цена клика по «ремонт акпп», «автосервис» в НСК]</span>. Сайт в топе приводит тех же людей без оплаты за клик – месяц за месяцем.</p>
+      <p>Реклама нужна для быстрого старта, пока сайт растёт: заявки с первой недели. Но каждый клик стоит <span class="w-ask">[запросить у Дениса: цена клика по главным запросам ниш в НСК и Красноярске]</span>. Сайт в топе приводит тех же людей без оплаты за клик – месяц за месяцем.</p>
     </div>
   </section>
 
@@ -154,7 +173,7 @@
         <article class="w-card"><div class="w-media small">Скрин Метрики EV Sibir: заявки из поиска по месяцам</div><h3>EV Sibir – сервис электро и гибридов</h3><p><span class="w-ask">[запросить: заявок из поиска в месяц, рост за полгода]</span></p></article>
         <article class="w-card"><div class="w-media small">Скрин Метрики TEYES Sibir: звонки и заявки из поиска</div><h3>TEYES Sibir – установочный центр</h3><p><span class="w-ask">[запросить: заявок из поиска в месяц, страницы-лидеры]</span></p></article>
       </div>
-      <p class="w-ask">[запросить: кейсы клиентов-автосервисов – GRAFIT и другие, что можно показывать]</p>
+      <p class="w-ask">[запросить: кейсы клиентов по нишам – что можно показывать]</p>
     </div>
   </section>
 
@@ -164,27 +183,29 @@
 
   <section class="w-block" data-n="8" data-name="Цена" data-question="Сколько стоит и что входит?" data-proof="состав и вход" data-next="Что меня ещё останавливает?">
     <div class="w-wrap w-stack">
-      <h2>Сайт с продвижением окупается одним ремонтом АКПП в месяц</h2>
+      <h2>Сайт с продвижением окупается одним-двумя заказами в месяц</h2>
       <ul><li>Страницы под ваши услуги и марки по спросу вашего города</li><li>Кабинет заявок: откуда пришёл клиент</li><li>Яндекс Бизнес и карты – заявки с первых недель</li><li>Ведение и рост позиций</li></ul>
-      <p><b>Вход – от 35 000 ₽</b>, сайт под ключ <span class="w-ask">[запросить: цена и состав для автосервиса, ведение в месяц, рассрочка]</span></p>
+      <p><b>Вход – от 35 000 ₽</b>, сайт под ключ <span class="w-ask">[запросить: цена и состав по нишам, ведение в месяц, рассрочка]</span></p>
     </div>
   </section>
 
-  <section class="w-block" data-n="9" data-name="Вопросы" data-question="Что меня ещё останавливает?" data-proof="возражения владельцев сервисов" data-next="Как сделать первый шаг?">
-    <div class="w-wrap w-stack w-faq"><h2>Что спрашивают владельцы сервисов</h2>
-      <details><summary>У меня и так очередь, зачем мне сайт?</summary><p>Очередь сегодня – не очередь в мае. Сайт даёт поток на дорогие работы (АКПП, двигатель, кузов), а не только на шиномонтаж в сезон.</p></details>
+  <section class="w-block" data-n="9" data-name="Вопросы" data-question="Что меня ещё останавливает?" data-proof="возражения владельцев" data-next="Как сделать первый шаг?">
+    <div class="w-wrap w-stack w-faq"><h2>Что спрашивают владельцы</h2>
+      <details><summary>У меня и так запись на неделю вперёд, зачем мне сайт?</summary><p>Запись сегодня – не запись в межсезонье. Сайт даёт поток на дорогие работы вашей ниши, а не только на то, что и так идёт по сарафану.</p></details>
       <details><summary>Когда пойдут клиенты из поиска?</summary><p><span class="w-ask">[запросить: реальный срок выхода в топ по нашим сервисам]</span>. До этого заявки дают Яндекс Бизнес и Директ.</p></details>
+      <details><summary>Моего города нет в списке</summary><p>Снимем спрос по вашему городу и нише по заявке и пришлём расчёт. Нажмите на город вверху страницы и выберите «Другой город».</p></details>
       <details><summary>Откуда цифры?</summary><p>Вордстат Яндекса по вашему городу за прошлый месяц. Мы убираем «своими руками» и прочие не-покупательские запросы.</p></details>
     </div>
   </section>
 
-  <section class="w-block" id="zayavka" data-n="10" data-name="Заявка" data-question="Как сделать первый шаг?" data-proof="расчёт потерь по своему сервису">
+  <section class="w-block" id="zayavka" data-n="10" data-name="Заявка" data-question="Как сделать первый шаг?" data-proof="расчёт потерь по своему бизнесу">
     <div class="w-wrap">
       <form class="w-form" onsubmit="event.preventDefault()">
-        <h2>Получите расчёт: сколько клиентов уходит от вашего сервиса</h2>
+        <h2>Получите расчёт: сколько клиентов уходит от вас</h2>
         <label class="w-field">Имя<input id="f-name" autocomplete="name"></label>
         <label class="w-field">Телефон<input id="f-phone" inputmode="tel" placeholder="+7 (___) ___-__-__"></label>
-        <label class="w-field">Сайт или название сервиса<input id="f-site"></label>
+        <label class="w-field">Ниша<select id="f-niche"></select></label>
+        <label class="w-field">Сайт или название<input id="f-site"></label>
         <label class="w-check"><input type="checkbox" data-agree> <span>Согласен на обработку <a href="#">персональных данных</a></span></label>
         <button class="w-btn" type="submit" disabled>Получить расчёт</button>
         <p class="w-hint">Пришлём расчёт в Telegram или Макс</p>
@@ -192,7 +213,7 @@
           <p><b>Заявка принята.</b></p>
           <p>Расчёт пришлём: <span class="w-ask">[запросить: срок ответа]</span></p>
           <p>Срочно – <a href="tel:+79537777891">позвонить</a> или <a href="https://t.me/Artem1Galimov">написать в Telegram</a></p>
-          <p>Подготовьте: список работ, марки, средний чек</p>
+          <p>Подготовьте: список услуг, марки, средний чек</p>
         </div>
       </form>
     </div>
@@ -204,56 +225,70 @@
 
 <script src="../data.js"></script>
 <script src="../calc.js"></script>
+<script src="../city.js"></script>
 <script>
 (function () {
-  var P = window.POTERI, fmt = P.fmt, city = document.getElementById('city');
-  var IN = { rf: 'России', msk: 'Москве', spb: 'Петербурге', nsk: 'Новосибирске', ekb: 'Екатеринбурге', krd: 'Краснодаре' };
-  Object.keys(P.D.regions).filter(function (r) { return r !== 'rf'; }).forEach(function (r) {
-    var o = document.createElement('option'); o.value = r; o.textContent = P.D.regions[r]; city.appendChild(o);
-  });
-  city.value = 'nsk';
-  var checks = {}, chosen = {};
-  P.SERVICES.forEach(function (s) { checks[s[0]] = s[2]; chosen[s[0]] = P.BASE.indexOf(s[0]) >= 0; });
-  function draw() {
-    var r = city.value, rows = P.serviceRows(r), hot = 0;
-    document.querySelectorAll('.js-city-in').forEach(function (e) { e.textContent = IN[r]; });
+  var P = window.POTERI, C = window.CITY, fmt = P.fmt, N = P.D.niches;
+  var checks = {}, off = {}, $ = function (id) { return document.getElementById(id); };
+  var nicheSel = $('niche'), opts = N.map(function (n) { return '<option value="' + n.id + '">' + n.name + '</option>'; }).join('');
+  nicheSel.innerHTML = opts; $('f-niche').innerHTML = opts;
+
+  function drawTop() {
+    var r = C.current(), hot = P.cityTotal(r, 'none').hot, dp = P.dayPart();
+    document.querySelectorAll('.js-city-in').forEach(function (e) { e.textContent = P.CITY_IN[r]; });
     document.querySelector('.js-src').textContent = 'Источник: ' + P.D.date;
-    document.querySelector('#tbl tbody').innerHTML = rows.map(function (x) {
-      return '<tr><td>' + x.name + (x.sub ? ' <small>(входит в другие)</small>' : '') + '</td><td class="n">' + fmt(x.total) + '</td><td class="n"><b>' + fmt(x.hot) + '</b></td><td class="n">' + fmt(x.hot / 30) +
-        '</td><td class="w-hide-m"><small>' + x.top.slice(0, 3).join(' · ') + '</small></td></tr>';
-    }).join('');
-    rows.forEach(function (x) { if (!x.sub) hot += x.hot; });
     document.querySelector('.js-month').textContent = fmt(hot);
     // Счётчик: горячие поиски за прошедшую часть дня, которые ушли на сайты в топе.
-    var perDay = hot * P.MODEL.servis.sites / 30, dp = P.dayPart();
-    document.getElementById('today').textContent = fmt(perDay * dp.part);
-    document.getElementById('today-l').textContent = dp.label;
-    var st = document.getElementById('state').value, cl = 0, money = 0;
-    rows.forEach(function (x) {
-      if (!chosen[x.q]) return;
-      var c = P.lost(P.clientsServis(x.hot, x.q), st); cl += c; money += c * checks[x.q];
-    });
-    document.getElementById('r-cl').textContent = fmt(cl);
-    document.getElementById('r-m').textContent = fmt(money);
-    document.getElementById('r-d').textContent = fmt(money / 30);
-    document.getElementById('r-y').textContent = fmt(money * 12);
+    $('today').textContent = fmt(hot * P.MODEL.servis.sites / 30 * dp.part);
+    $('today-l').textContent = dp.label;
   }
-  var chips = document.getElementById('chips');
-  var inBase = function (s) { return P.BASE.indexOf(s[0]) >= 0 ? 0 : 1; };
-  chips.innerHTML = P.SERVICES.slice().sort(function (a, b) { return inBase(a) - inBase(b); }).map(function (s) {
-    return '<label><input type="checkbox"' + (P.BASE.indexOf(s[0]) >= 0 ? ' checked' : '') + ' data-q="' + s[0] + '"><span>' + s[1] + '</span><input class="p-chk" type="number" min="0" step="500" value="' + s[2] + '" data-c="' + s[0] + '" aria-label="Средний чек ' + s[1] + '"> ₽</label>';
-  }).join('');
-  chips.addEventListener('change', function (e) { if (e.target.dataset.q) { chosen[e.target.dataset.q] = e.target.checked; draw(); } });
-  chips.addEventListener('input', function (e) {
+  function drawNiches() {
+    var r = C.current();
+    var cards = N.map(function (n) { var rows = P.nicheRows(n, r, 'none'); return { n: n, rows: rows.slice(0, 10), t: P.sum(rows) }; })
+      .sort(function (a, b) { return b.t.money - a.t.money; });
+    var wide = window.matchMedia('(min-width: 761px)').matches;
+    $('niches').innerHTML = cards.map(function (c, i) {
+      // на телефоне ниши свёрнуты до названия и суммы (открыта первая), на широком экране раскрыты
+      return '<details class="w-card p-niche"' + (wide || i === 0 ? ' open' : '') + '><summary><h3>' + c.n.name + '</h3>' +
+        '<div class="p-lose"><b>' + P.money(c.t.money) + '</b><span>в месяц проходит мимо без сайта в поиске</span></div></summary>' +
+        '<p class="w-muted">' + fmt(c.t.hot) + ' горячих поисков в месяц · клиентов: ≈ ' + P.num(c.t.clients) + '</p>' +
+        (c.n.note ? '<p class="p-niche-note">' + c.n.note + '</p>' : '') +
+        '<table class="w-table p-mini"><thead><tr><th>Услуга</th><th class="n">Ищут</th><th class="n">Мимо вас</th></tr></thead><tbody>' +
+        c.rows.map(function (x) { return '<tr><td>' + x.name + '</td><td class="n">' + fmt(x.hot) + '</td><td class="n">' + P.money(x.money) + '</td></tr>'; }).join('') +
+        '</tbody></table><div class="w-actions">' +
+        (c.rows.length > 3 ? '<button class="w-btn ghost js-all" type="button" data-n="' + c.rows.length + '">Смотреть все ' + c.rows.length + '</button>' : '') +
+        '<a class="w-btn" href="#kalkulyator" data-pick="' + c.n.id + '">Посчитать мою</a></div></details>';
+    }).join('');
+  }
+  function niche() { return N.filter(function (n) { return n.id === nicheSel.value; })[0]; }
+  function drawChips() {
+    $('chips').innerHTML = niche().services.map(function (s) {
+      var v = checks[s[0]] != null ? checks[s[0]] : s[2];
+      return '<label><input type="checkbox"' + (off[s[0]] ? '' : ' checked') + ' data-q="' + s[0] + '"><span>' + s[1] + '</span><input class="p-chk" type="number" min="0" step="500" value="' + v + '" data-c="' + s[0] + '" aria-label="Средний чек: ' + s[1] + '"> ₽</label>';
+    }).join('');
+  }
+  function drawCalc() {
+    var rows = P.nicheRows(niche(), C.current(), $('state').value, checks).filter(function (x) { return !off[x.q]; }), t = P.sum(rows);
+    $('r-cl').textContent = P.num(t.clients);
+    $('r-m').textContent = fmt(t.money);
+    $('r-d').textContent = fmt(t.money / 30);
+    $('r-y').textContent = fmt(t.money * 12);
+  }
+  $('niches').addEventListener('click', function (e) {
+    var all = e.target.closest('.js-all'), pick = e.target.closest('[data-pick]');
+    if (all) { var card = all.closest('.p-niche'); card.classList.toggle('open'); all.textContent = card.classList.contains('open') ? 'Свернуть' : 'Смотреть все ' + all.dataset.n; }
+    if (pick) { nicheSel.value = pick.dataset.pick; $('f-niche').value = pick.dataset.pick; drawChips(); drawCalc(); }
+  });
+  $('chips').addEventListener('change', function (e) { if (e.target.dataset.q) { off[e.target.dataset.q] = !e.target.checked; drawCalc(); } });
+  $('chips').addEventListener('input', function (e) {
     var q = e.target.dataset.c; if (!q) return;
-    var v = parseInt(e.target.value, 10); checks[q] = v > 0 ? v : 0; draw();
+    var v = parseInt(e.target.value, 10); checks[q] = v > 0 ? v : 0; drawCalc();
   });
-  city.addEventListener('change', draw);
-  document.getElementById('state').addEventListener('change', draw);
-  document.querySelectorAll('.p-more').forEach(function (b) {
-    b.addEventListener('click', function () { var el = document.getElementById(b.dataset.for); el.classList.toggle('open'); b.textContent = el.classList.contains('open') ? 'Свернуть' : (b.dataset.for === 'tbl' ? 'Показать все услуги' : 'Все работы'); });
-  });
-  draw(); setInterval(draw, 20000);
+  nicheSel.addEventListener('change', function () { drawChips(); drawCalc(); });
+  $('state').addEventListener('change', drawCalc);
+  function drawAll() { drawTop(); drawNiches(); drawCalc(); }
+  C.onChange(drawAll);
+  drawChips(); drawAll(); setInterval(drawTop, 20000);
 })();
 </script>
 <script src="../proto.js"></script>
