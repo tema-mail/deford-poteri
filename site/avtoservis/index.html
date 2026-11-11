@@ -286,7 +286,7 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head>
         <div><b>3. Ваши услуги</b> <span class="w-muted">(снимите лишние; <span id="chk-src">чек – оценка по рынку, впишите свой</span>)</span></div>
         <div class="p-chips" id="chips"></div>
         <p class="w-muted" id="est" hidden>* – оценка: цен на эту услугу в прайсах города не нашли</p>
-        <p class="w-muted" id="weak" hidden>° – цена по одному прайсу или «от»: скорее нижняя граница</p>
+        <p class="w-muted" id="weak" hidden>° – в прайсах цена «от» или только работа без запчастей: это нижняя граница, ваш реальный чек выше</p>
         <div class="p-res">
           <div><b id="r-cl">…</b><span>клиентов в месяц уходят к другим</span></div>
           <div><b id="r-m">…</b><span><span class="js-cur">₽</span> в месяц выручки мимо вас</span></div>
@@ -365,6 +365,7 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head>
       <details><summary>У меня и так запись на неделю вперёд, зачем мне сайт?</summary><p>Запись сегодня – не запись в межсезонье. Сайт даёт поток на дорогие работы вашей ниши, а не только на то, что и так идёт по сарафану.</p></details>
       <details><summary>Когда пойдут клиенты из поиска?</summary><p><span class="w-ask">[запросить: реальный срок выхода в топ по нашим сервисам]</span>. До этого заявки дают карты и контекстная реклама.</p></details>
       <details><summary>Моего города нет в списке</summary><p>Снимем спрос по вашему городу и нише по заявке и пришлём расчёт. Нажмите на город вверху страницы и выберите «Другой город».</p></details>
+      <details><summary>Откуда цены на услуги?</summary><p>Медиана цен из прайсов сервисов вашего города. В прайсах часто стоит цена «от» или только работа без запчастей, поэтому расчёт осторожный: впишите свой средний чек – и увидите свою цифру.</p></details>
       <details><summary>Откуда цифры?</summary><p>Статистика поисковых запросов по вашему городу за прошлый месяц. Мы убираем «своими руками» и прочие не-покупательские запросы.</p></details>
     </div>
   </section>
@@ -432,12 +433,12 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head>
         '<a class="w-btn" href="#kalkulyator" data-pick="' + c.n.id + '">Посчитать мою</a></div></details>';
     }).join('');
   }
-  var MARK = { '': '', est: '<b class="js-mark" title="оценка: цен в прайсах города не нашли">*</b>', weak: '<b class="js-mark" title="один прайс или цена «от»">°</b>' };
+  var MARK = { '': '', est: '<b class="js-mark" title="оценка: цен в прайсах города не нашли">*</b>', weak: '<b class="js-mark" title="цена «от», только работа или один прайс – нижняя граница">°</b>' };
   function niche() { return N.filter(function (n) { return n.id === nicheSel.value; })[0]; }
   function drawChips() {
     var r = C.current(), rub = P.sign(r) === '₽', notes = niche().services.map(function (s) { return P.checkNote(s, r); });
     // чеки: средние по прайсам города, если они собраны; иначе честно «оценка по рынку»
-    $('chk-src').textContent = P.hasPrices(r) ? 'чек – средний по прайсам сервисов города, впишите свой' : 'чек – оценка по рынку, впишите свой';
+    $('chk-src').textContent = P.hasPrices(r) ? 'цена – медиана прайсов сервисов города, впишите свой средний чек' : 'чек – оценка по рынку, впишите свой';
     $('est').hidden = notes.indexOf('est') < 0; $('weak').hidden = notes.indexOf('weak') < 0;
     $('chips').innerHTML = niche().services.map(function (s) {
       var v = checks[s[0]] != null ? checks[s[0]] : P.baseCheck(s, r);
