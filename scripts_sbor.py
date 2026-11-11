@@ -1,4 +1,4 @@
-"""Съём Вордстата через XMLRiver: услуги автосервиса и пригон авто по странам.
+"""Съём Вордстата через XMLRiver: услуги автосервиса по нишам (niches.json) и пригон авто по странам.
 Один поток, ошибка = «нет данных», без повторов. Сырьё – data/raw/<регион>/<запрос>.json."""
 import os, json, ssl, time, urllib.parse, urllib.request, pathlib, sys
 U, K = os.environ.get("XMLRIVER_USER", ""), os.environ.get("XMLRIVER_KEY", "")
@@ -6,16 +6,13 @@ try:
     import certifi; CTX = ssl.create_default_context(cafile=certifi.where())
 except Exception:
     CTX = ssl.create_default_context()
-REGIONS = {"rf": 225, "msk": 213, "spb": 2, "nsk": 65, "ekb": 54, "krd": 35}
+REGIONS = {"rf": 225, "msk": 213, "nsk": 65, "krs": 62}
+SERVICE_REGIONS = ("nsk", "krs")  # тест на двух городах (решение 11.11.2026), остальные – по заявке
 CAR_REGIONS = ("rf", "msk", "nsk")
-SERVICES = ["автосервис", "ремонт акпп", "ремонт вариатора", "замена масла", "техническое обслуживание автомобиля",
-  "диагностика автомобиля", "развал схождение", "шиномонтаж", "кузовной ремонт", "покраска автомобиля",
-  "ремонт двигателя", "капитальный ремонт двигателя", "автоэлектрик", "ремонт ходовой", "замена ремня грм",
-  "замена тормозных колодок", "заправка кондиционера автомобиля", "ремонт турбины", "ремонт стартера",
-  "ремонт генератора", "ремонт рулевой рейки", "замена сцепления", "ремонт форсунок", "ремонт глушителя",
-  "установка сигнализации", "тонировка", "шумоизоляция автомобиля", "полировка автомобиля", "химчистка салона автомобиля",
-  "детейлинг", "оклейка автомобиля пленкой", "установка магнитолы", "ремонт китайских автомобилей", "ремонт гибридов",
-  "ремонт электромобилей", "ремонт бмв", "ремонт мерседес", "ремонт тойота", "сервис хавал", "сервис чери"]
+NICHES = json.loads(pathlib.Path(__file__).with_name("niches.json").read_text())
+# запрос услуги может быть суммой формулировок через «|»: в Вордстате «авто» и «автомобиль» – разные слова
+SERVICE_KEYS = list(dict.fromkeys(s[0] for n in NICHES for s in n["services"]))
+SERVICES = list(dict.fromkeys(part for key in SERVICE_KEYS for part in key.split("|")))
 CARS = []
 for c in ["китая", "кореи", "японии", "германии", "европы", "оаэ", "сша", "киргизии", "беларуси", "грузии", "казахстана", "армении"]:
     CARS += [f"авто из {c}", f"автомобили из {c}", f"машину из {c}"]
@@ -27,7 +24,7 @@ def main():
     n = err = 0
     for reg, rid in REGIONS.items():
         d = pathlib.Path(f"data/raw/{reg}"); d.mkdir(parents=True, exist_ok=True)
-        for ph in SERVICES + (CARS if reg in CAR_REGIONS else []):
+        for ph in (SERVICES if reg in SERVICE_REGIONS else []) + (CARS if reg in CAR_REGIONS else []):
             f = d / (ph.replace(" ", "_") + ".json")
             if f.exists(): continue
             try:
