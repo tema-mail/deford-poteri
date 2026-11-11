@@ -1,9 +1,9 @@
 /* Город посетителя: сам определяется по IP, иначе – окно с выбором. Данные сняты только по городам из DATA.regions
-   (тест: Новосибирск и Красноярск); для остальных – заявка «снимем по вашему городу» с выбором ниши.
+   (тест: Новосибирск, Красноярск, Минск); для остальных – заявка «снимем по вашему городу» с выбором ниши.
    Кнопки города на странице: любой элемент .js-city-btn. Подписка: CITY.onChange(fn). Подключать до proto.js. */
 (function () {
   var D = window.DATA, KEY = 'poteri-city', ASKED = 'poteri-city-asked', subs = [];
-  var EN = { novosibirsk: 'nsk', krasnoyarsk: 'krs' };
+  var EN = { novosibirsk: 'nsk', krasnoyarsk: 'krs', minsk: 'mnsk' };
   var store = {
     get: function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
     set: function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
