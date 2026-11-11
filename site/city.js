@@ -3,7 +3,10 @@
    Кнопки города на странице: любой элемент .js-city-btn. Подписка: CITY.onChange(fn). Подключать до proto.js. */
 (function () {
   var D = window.DATA, KEY = 'poteri-city', ASKED = 'poteri-city-asked', subs = [];
-  var EN = { novosibirsk: 'nsk', krasnoyarsk: 'krs', minsk: 'mnsk' };
+  var EN = { moscow: 'msk', 'saint petersburg': 'spb', 'st petersburg': 'spb', 'st. petersburg': 'spb', novosibirsk: 'nsk', yekaterinburg: 'ekb',
+    ekaterinburg: 'ekb', kazan: 'kzn', krasnoyarsk: 'krs', 'nizhniy novgorod': 'nnov', 'nizhny novgorod': 'nnov', chelyabinsk: 'chel',
+    samara: 'sam', ufa: 'ufa', 'rostov-on-don': 'rnd', 'rostov-na-donu': 'rnd', krasnodar: 'krd', omsk: 'oms', voronezh: 'vrn', perm: 'perm',
+    volgograd: 'vlg', minsk: 'mnsk' };
   var store = {
     get: function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
     set: function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
@@ -16,7 +19,7 @@
   css.textContent = '.c-back{position:fixed;inset:0;z-index:90;background:rgba(0,0,0,.55);display:none;align-items:center;justify-content:center;padding:16px}' +
     '.c-back.open{display:flex}.c-win{background:#fff;color:#141414;border:2px solid #141414;max-width:440px;width:100%;max-height:92vh;overflow:auto;padding:20px;display:grid;gap:12px;position:relative}' +
     '.c-x{position:absolute;right:8px;top:6px;border:0;background:none;font-size:26px;line-height:1;cursor:pointer;color:inherit;min-width:44px;min-height:44px}' +
-    '.c-list{display:grid;gap:8px}.c-list .w-btn{justify-content:space-between}.c-other{display:none}.c-win.other .c-other{display:grid}.c-win.other .c-list{display:none}' +
+    '.c-list{display:grid;grid-template-columns:1fr 1fr;gap:8px}.c-list .w-btn{justify-content:space-between;min-height:44px;padding:0 12px;font-size:15px}.c-list .c-wide{grid-column:1/-1}.c-win{max-width:520px}.c-other{display:none}.c-win.other .c-other{display:grid}.c-win.other .c-list{display:none}' +
     '.c-win .w-form{border:0;padding:0;max-width:none}.c-other.sent .w-success{display:block}.c-other.sent .w-field,.c-other.sent .w-check,.c-other.sent [type=submit],.c-other.sent .w-hint{display:none}' +
     '.js-city-btn{cursor:pointer;white-space:nowrap}html[data-theme=dark] .c-win{background:#1f2125;color:#e4e4e2;border-color:#3a3c42}';
   document.head.appendChild(css);
@@ -29,8 +32,8 @@
     '<h3>В каком городе ваш бизнес?</h3>' +
     '<p class="w-muted">Покажем, сколько клиентов ищут ваши услуги и сколько уходит мимо – именно в вашем городе.</p>' +
     '<div class="c-list">' + Object.keys(D.regions).map(function (r) {
-      return '<button class="w-btn ghost" type="button" data-city="' + r + '">' + D.regions[r] + '<span>→</span></button>';
-    }).join('') + '<button class="w-btn ghost" type="button" data-city="other">Другой город<span>▾</span></button></div>' +
+      return '<button class="w-btn ghost" type="button" data-city="' + r + '">' + D.regions[r] + '</button>';
+    }).join('') + '<button class="w-btn ghost c-wide" type="button" data-city="other">Другой город<span>▾</span></button></div>' +
     '<form class="w-form c-other">' +
       '<p><b>По вашему городу снимем спрос отдельно.</b> Оставьте заявку – пришлём расчёт потерь по вашей нише.</p>' +
       '<label class="w-field">Город<input autocomplete="address-level2"></label>' +
