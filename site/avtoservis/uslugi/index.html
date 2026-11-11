@@ -219,14 +219,14 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head>
 </header>
 
 <main>
-  <section class="w-block" data-n="1" data-name="Поиск по услугам" data-question="Сколько я теряю на своей услуге?" data-proof="Вордстат по городу, все услуги из 9 ниш, чек правит владелец" data-next="Что с этим делать?">
+  <section class="w-block" data-n="1" data-name="Поиск по услугам" data-question="Сколько я теряю на своей услуге?" data-proof="спрос в поиске по городу, все услуги из 9 ниш, чек правит владелец" data-next="Что с этим делать?">
     <div class="w-wrap w-stack">
       <h1>Вбейте свою услугу – покажем, сколько клиентов вы на ней теряете</h1>
       <div class="p-row"><span class="w-muted">Город:</span><button class="p-city js-city-btn" type="button">Новосибирск ▾</button>
         <label>Что у вас сейчас <select id="state"><option value="none">Сайта нет</option><option value="landing">Есть лендинг на одну страницу</option><option value="weak">Сайт есть, но не продвигается</option></select></label></div>
       <div class="p-find"><input class="p-search" id="q" type="search" placeholder="Керамика, ГРМ, русификация…" aria-label="Поиск услуги" autocomplete="off"><button class="w-btn" id="find" type="button">Найти</button></div>
       <div class="p-sum" id="sum">…</div>
-      <div class="w-table-wrap"><table class="w-table" id="tbl"><thead><tr><th>Услуга</th><th class="n">Ищут<span class="w-hide-m"> в месяц</span></th><th class="n w-hide-m">Клиентов мимо</th><th class="n">Мимо вас<span class="w-hide-m"> в месяц</span></th><th class="n"><span class="w-hide-m">Ваш </span>чек, ₽</th></tr></thead><tbody></tbody></table></div>
+      <div class="w-table-wrap"><table class="w-table" id="tbl"><thead><tr><th>Услуга</th><th class="n">Ищут<span class="w-hide-m"> в месяц</span></th><th class="n w-hide-m">Клиентов мимо</th><th class="n">Мимо вас<span class="w-hide-m"> в месяц</span></th><th class="n"><span class="w-hide-m">Ваш </span>чек, <span class="js-cur">₽</span></th></tr></thead><tbody></tbody></table></div>
       <button class="w-btn ghost p-more" id="more" type="button">Показать все услуги</button>
       <div class="w-actions"><a class="w-btn" href="../#zayavka">Получить расчёт по моим услугам</a><a class="w-btn ghost" href="../#nishi">Потери по нишам</a></div>
       <div class="p-empty" id="empty" hidden>
@@ -234,7 +234,7 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head>
         <a class="w-btn" href="../#zayavka">Снять спрос по моей услуге</a>
       </div>
       <p class="w-muted js-src"></p>
-      <p class="w-note">Поиск – главный элемент экрана, фильтрует на лету. Без запроса – 15 услуг с самыми большими потерями и кнопка «Показать все». Чек меняется прямо в строке.</p>
+      <p class="w-note">Поиск – главный элемент экрана, фильтрует на лету. Без запроса – 15 услуг с самыми большими потерями и кнопка «Показать все». Чек меняется прямо в строке; по умолчанию – средний по прайсам города (если они собраны), где прайсов не нашли – подпись «оценка», один прайс или цена «от» – подпись «от».</p>
     </div>
   </section>
 
@@ -271,6 +271,7 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head>
       return main.some(function (h) { return h.indexOf(st) === 0 || (st.length >= 5 && h.indexOf(st) > 0); }) || extra.some(function (h) { return h.indexOf(st) === 0; });
     });
   }
+  var NOTE = { '': '', est: '<small class="js-mark" title="цен в прайсах города не нашли">оценка</small>', weak: '<small class="js-mark" title="один прайс или цена «от»">от</small>' };
   function rows() { return P.allRows(C.current(), $('state').value, checks).sort(function (a, b) { return b.money - a.money; }); }
   // Поиск ступенями: по названию услуги и её запросу; пусто – по примерам «как ищут»; пусто – по названию ниши.
   function search(all, words) {
@@ -284,30 +285,33 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head>
   function paintSum(found) {
     var t = P.sum(last.searching ? found : found.filter(function (x) { return !x.sub; }));
     $('sum').textContent = found.length ? (last.searching ? 'Найдено услуг: ' : 'Услуг в списке: ') + found.length + ' · в ' + P.CITY_IN[C.current()] +
-      ' мимо вас ' + P.money(t.money) + ' в месяц · клиентов: ≈ ' + P.num(t.clients) : 'Ничего не нашли по запросу «' + $('q').value + '»';
+      ' мимо вас ' + P.money(t.money, C.current()) + ' в месяц · клиентов: ≈ ' + P.num(t.clients) : 'Ничего не нашли по запросу «' + $('q').value + '»';
   }
   function draw() {
-    var words = toWords($('q').value), all = rows();
+    var words = toWords($('q').value), all = rows(), r = C.current(), rub = P.sign(r) === '₽';
     var found = words.length ? search(all, words) : all;
     var shown = words.length || showAll ? found : found.slice(0, LIMIT);
     last = { keys: {}, searching: !!words.length }; found.forEach(function (x) { last.keys[x.q] = 1; });
+    var nicheSvc = {}; P.D.niches.forEach(function (n) { n.services.forEach(function (sv) { nicheSvc[sv[0]] = sv; }); });
     document.querySelector('#tbl tbody').innerHTML = shown.map(function (x) {
       return '<tr data-q="' + x.q + '"><td>' + x.name + '<small>' + x.nicheName + '</small></td><td class="n">' + fmt(x.hot) + '</td><td class="n w-hide-m js-cl">' +
-        P.num(x.clients) + '</td><td class="n js-m"><b>' + P.money(x.money) + '</b></td><td class="n"><input class="p-chk" type="number" min="0" step="500" value="' +
-        x.check + '" aria-label="Средний чек: ' + x.name + '"></td></tr>';
+        P.num(x.clients) + '</td><td class="n js-m"><b>' + P.money(x.money, r) + '</b></td><td class="n"><input class="p-chk" type="number" min="0" step="' + (rub ? 500 : 10) + '" value="' +
+        x.check + '" aria-label="Средний чек: ' + x.name + '">' + (checks[x.q] == null ? NOTE[P.checkNote(nicheSvc[x.q], r)] : '') + '</td></tr>';
     }).join('');
     $('tbl').hidden = !found.length; $('empty').hidden = !!found.length;
     $('more').hidden = !!words.length || found.length <= LIMIT;
     $('more').textContent = showAll ? 'Свернуть' : 'Показать все услуги (' + found.length + ')';
     paintSum(found);
-    document.querySelector('.js-src').textContent = 'Источник: ' + P.D.date + '. «Ищут» – горячие формулировки, без «своими руками» и прочего.';
+    document.querySelector('.js-src').textContent = 'Источник: ' + P.src(r) + '. «Ищут» – горячие формулировки, без «своими руками» и прочего.';
+    document.querySelectorAll('.js-cur').forEach(function (e) { e.textContent = P.sign(r); });
   }
   // Правка чека: поле ввода не перерисовываем – меняем сумму строки и общий итог.
   $('tbl').addEventListener('input', function (e) {
     if (!e.target.classList.contains('p-chk')) return;
     var tr = e.target.closest('tr'), v = parseInt(e.target.value, 10); checks[tr.dataset.q] = v > 0 ? v : 0;
-    var all = rows(), x = all.filter(function (r) { return r.q === tr.dataset.q; })[0];
-    if (x) tr.querySelector('.js-m').innerHTML = '<b>' + P.money(x.money) + '</b>';
+    var all = rows(), x = all.filter(function (r) { return r.q === tr.dataset.q; })[0], mark = tr.querySelector('.js-mark');
+    if (mark) mark.remove(); // чек вписан руками – это уже не оценка
+    if (x) tr.querySelector('.js-m').innerHTML = '<b>' + P.money(x.money, C.current()) + '</b>';
     paintSum(all.filter(function (r) { return last.keys[r.q]; }));
   });
   $('q').addEventListener('input', draw);
@@ -315,7 +319,9 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head>
   $('q').addEventListener('keydown', function (e) { if (e.key === 'Enter') $('find').click(); });
   $('state').addEventListener('change', draw);
   $('more').addEventListener('click', function () { showAll = !showAll; draw(); });
-  C.onChange(draw);
+  var lastSign = P.sign(C.current());
+  // чеки, вписанные в рублях, для города с другой валютой не годятся – возвращаем оценки
+  C.onChange(function (r) { if (P.sign(r) !== lastSign) { checks = {}; lastSign = P.sign(r); } draw(); });
   draw();
 })();
 </script>

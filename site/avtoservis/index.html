@@ -173,6 +173,7 @@ header.w-block > .w-logic { margin: 8px auto; max-width: var(--wrap); }
 .p-chips { display: flex; flex-wrap: wrap; gap: 6px; }
 .p-chips label { border: 1px solid var(--line); padding: 6px 10px; font-size: 14px; cursor: pointer; display: inline-flex; gap: 6px; align-items: center; }
 .p-chips input:checked + span { font-weight: 700; }
+[hidden] { display: none !important; }
 .p-chk { width: 88px; min-height: 30px; border: 1px solid var(--line); padding: 0 6px; font: inherit; font-size: 14px; }
 .p-res { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
 .p-res div { background: var(--fill); padding: 14px; display: grid; gap: 4px; }
@@ -213,7 +214,7 @@ if(!t){var h=new Date().getHours();t=(h>=19||h<7||(matchMedia&&matchMedia('(pref
 document.documentElement.setAttribute('data-theme',t)})();</script></head>
 <body>
 <div class="w-bar"><div class="w-wrap">
-  <b>Прототип · Дефорд · SEO-сайт для автосервиса · v2 11.11.2026</b>
+  <b>Прототип · Дефорд · SEO-сайт для автосервиса · v3 11.11.2026</b>
   <label><input type="checkbox" id="t-logic"> Логика блоков</label>
   <label><input type="checkbox" id="t-notes"> Комментарии дизайнеру</label>
   <label><input type="checkbox" id="t-seo"> SEO страницы</label>
@@ -235,7 +236,7 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head>
 </header>
 
 <main>
-  <section class="w-block" data-n="1" data-name="Первый экран" data-question="Про меня ли это и что я теряю?" data-proof="живой счётчик по спросу Вордстата в городе посетителя" data-next="Сколько теряет именно моя ниша?">
+  <section class="w-block" data-n="1" data-name="Первый экран" data-question="Про меня ли это и что я теряю?" data-proof="живой счётчик по спросу в поиске в городе посетителя" data-next="Сколько теряет именно моя ниша?">
     <div class="w-wrap">
       <div class="w-hero">
         <div class="w-stack">
@@ -248,7 +249,7 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head>
             <li><b>Каждый день</b> – спрос не заканчивается, его забирают конкуренты</li>
           </ul>
           <div class="w-actions"><a class="w-btn" href="#nishi">Сколько теряет моя ниша</a><a class="w-btn ghost" href="uslugi/">Найти свою услугу</a></div>
-          <p class="w-hint">Расчёт – на цифрах Вордстата по вашему городу, без звонка и регистрации</p>
+          <p class="w-hint">Расчёт – на статистике поиска по вашему городу, без звонка и регистрации</p>
         </div>
         <div class="p-box">
           <span class="w-muted"><span id="today-l">Сегодня с 8:00</span> в <span class="js-city-in">Новосибирске</span> автобизнес без сайта в поиске упустил</span>
@@ -260,13 +261,13 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head>
     </div>
   </section>
 
-  <section class="w-block" id="nishi" data-n="2" data-name="Потери по нишам" data-question="Сколько теряет именно моя ниша?" data-proof="Вордстат по городу: до 10 главных услуг в каждой из 9 ниш" data-next="А сколько теряю лично я?">
+  <section class="w-block" id="nishi" data-n="2" data-name="Потери по нишам" data-question="Сколько теряет именно моя ниша?" data-proof="спрос в поиске по городу: до 10 главных услуг в каждой из 9 ниш" data-next="А сколько теряю лично я?">
     <div class="w-wrap w-stack">
       <h2>Сколько клиентов и денег проходит мимо – по нишам</h2>
       <div class="p-row"><span class="w-muted">Город:</span><button class="p-city js-city-btn" type="button">Новосибирск ▾</button><span class="w-muted js-src"></span></div>
       <p class="w-muted">Найдите свою нишу. В карточке – три самые искомые услуги; «Смотреть все» покажет до десяти. Сумма – сколько в месяц уходит тем, у кого сайт стоит в топе, если у вас сайта нет.</p>
       <div class="w-grid" id="niches" style="--cols:3;--cols-m:1"></div>
-      <p class="w-note">Карточка ниши: крупно сумма потерь, под ней три услуги, кнопка раскрывает до десяти. На телефоне ниши свёрнуты до названия и суммы, раскрыта первая. Порядок ниш – по сумме потерь в городе.</p>
+      <p class="w-note">Карточка ниши: крупно сумма потерь, под ней три услуги, кнопка раскрывает до десяти. На телефоне ниши свёрнуты до названия и суммы, раскрыта первая. Порядок ниш – по сумме потерь в городе. Минск: суммы в BYN; спрос Google досчитан от Яндекса по доле поисковиков в Беларуси (×2,5) – заменить замером, когда будет рабочий Планировщик Google Ads.</p>
     </div>
   </section>
 
@@ -274,7 +275,7 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head>
     <div class="w-wrap"><div class="w-cta"><p>Не нашли свою услугу? Вбейте её в поиск – покажем, сколько клиентов вы теряете именно на ней</p><a class="w-btn" href="uslugi/">Все услуги и поиск</a></div></div>
   </section>
 
-  <section class="w-block" id="kalkulyator" data-n="3" data-name="Калькулятор потерь" data-question="А сколько теряю лично я?" data-proof="формула открыта, услуги и чек правит сам владелец" data-next="Почему у меня есть лендинг, а клиентов из поиска нет?">
+  <section class="w-block" id="kalkulyator" data-n="3" data-name="Калькулятор потерь" data-question="А сколько теряю лично я?" data-proof="формула открыта, чек – средний по прайсам города (где собраны), услуги и чек правит сам владелец" data-next="Почему у меня есть лендинг, а клиентов из поиска нет?">
     <div class="w-wrap w-stack">
       <h2>Посчитайте по своим услугам и своему чеку</h2>
       <div class="p-box">
@@ -282,13 +283,15 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head>
           <label><b>1. Ниша</b> <select id="niche"></select></label>
           <label><b>2. Что у вас сейчас</b> <select id="state"><option value="none">Сайта нет</option><option value="landing">Есть лендинг на одну страницу</option><option value="weak">Сайт есть, но не продвигается</option></select></label>
         </div>
-        <div><b>3. Ваши услуги</b> <span class="w-muted">(снимите лишние; чек – оценка по рынку, впишите свой)</span></div>
+        <div><b>3. Ваши услуги</b> <span class="w-muted">(снимите лишние; <span id="chk-src">чек – оценка по рынку, впишите свой</span>)</span></div>
         <div class="p-chips" id="chips"></div>
+        <p class="w-muted" id="est" hidden>* – оценка: цен на эту услугу в прайсах города не нашли</p>
+        <p class="w-muted" id="weak" hidden>° – цена по одному прайсу или «от»: скорее нижняя граница</p>
         <div class="p-res">
           <div><b id="r-cl">…</b><span>клиентов в месяц уходят к другим</span></div>
-          <div><b id="r-m">…</b><span>₽ в месяц выручки мимо вас</span></div>
-          <div><b id="r-d">…</b><span>₽ в день</span></div>
-          <div><b id="r-y">…</b><span>₽ за год</span></div>
+          <div><b id="r-m">…</b><span><span class="js-cur">₽</span> в месяц выручки мимо вас</span></div>
+          <div><b id="r-d">…</b><span><span class="js-cur">₽</span> в день</span></div>
+          <div><b id="r-y">…</b><span><span class="js-cur">₽</span> за год</span></div>
         </div>
         <details><summary>Как считаем</summary>
           <p class="p-formula">горячие поиски × 50% переходят на сайты (остальные – карты, агрегаторы; для «автосервис», «шиномонтаж», «автоэлектрик» – 25%) × 20% достаются сайту в топ-3 × 8% звонят или пишут × 60% доезжают × средний чек.<br>Лендинг забирает ≈15% этого, сайт без продвижения ≈10%, без сайта – 0.</p>
@@ -329,8 +332,8 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head>
 
   <section class="w-block" data-n="6" data-name="Поиск против рекламы" data-question="Почему не просто включить Директ?" data-proof="цена клика в нише" data-next="Почему вам верить?">
     <div class="w-wrap w-stack">
-      <h2>В Директе за этого же клиента платите каждый раз. Из поиска он приходит бесплатно</h2>
-      <p>Реклама нужна для быстрого старта, пока сайт растёт: заявки с первой недели. Но каждый клик стоит <span class="w-ask">[запросить у Дениса: цена клика по главным запросам ниш в НСК и Красноярске]</span>. Сайт в топе приводит тех же людей без оплаты за клик – месяц за месяцем.</p>
+      <h2>В рекламе за этого же клиента платите каждый раз. Из поиска он приходит бесплатно</h2>
+      <p>Реклама нужна для быстрого старта, пока сайт растёт: заявки с первой недели. Но каждый клик стоит <span class="w-ask">[запросить у Дениса: цена клика по главным запросам ниш – Директ в НСК и Красноярске, Google Ads в Минске]</span>. Сайт в топе приводит тех же людей без оплаты за клик – месяц за месяцем.</p>
     </div>
   </section>
 
@@ -352,17 +355,17 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head>
   <section class="w-block" data-n="8" data-name="Цена" data-question="Сколько стоит и что входит?" data-proof="состав и вход" data-next="Что меня ещё останавливает?">
     <div class="w-wrap w-stack">
       <h2>Сайт с продвижением окупается одним-двумя заказами в месяц</h2>
-      <ul><li>Страницы под ваши услуги и марки по спросу вашего города</li><li>Кабинет заявок: откуда пришёл клиент</li><li>Яндекс Бизнес и карты – заявки с первых недель</li><li>Ведение и рост позиций</li></ul>
-      <p><b>Вход – от 35 000 ₽</b>, сайт под ключ <span class="w-ask">[запросить: цена и состав по нишам, ведение в месяц, рассрочка]</span></p>
+      <ul><li>Страницы под ваши услуги и марки по спросу вашего города</li><li>Кабинет заявок: откуда пришёл клиент</li><li>Карты и реклама – заявки с первых недель</li><li>Ведение и рост позиций</li></ul>
+      <p><b>Вход – от 35 000 ₽</b>, сайт под ключ <span class="w-ask">[запросить: цена и состав по нишам, ведение в месяц, рассрочка; цены для Беларуси в BYN]</span></p>
     </div>
   </section>
 
   <section class="w-block" data-n="9" data-name="Вопросы" data-question="Что меня ещё останавливает?" data-proof="возражения владельцев" data-next="Как сделать первый шаг?">
     <div class="w-wrap w-stack w-faq"><h2>Что спрашивают владельцы</h2>
       <details><summary>У меня и так запись на неделю вперёд, зачем мне сайт?</summary><p>Запись сегодня – не запись в межсезонье. Сайт даёт поток на дорогие работы вашей ниши, а не только на то, что и так идёт по сарафану.</p></details>
-      <details><summary>Когда пойдут клиенты из поиска?</summary><p><span class="w-ask">[запросить: реальный срок выхода в топ по нашим сервисам]</span>. До этого заявки дают Яндекс Бизнес и Директ.</p></details>
+      <details><summary>Когда пойдут клиенты из поиска?</summary><p><span class="w-ask">[запросить: реальный срок выхода в топ по нашим сервисам]</span>. До этого заявки дают карты и контекстная реклама.</p></details>
       <details><summary>Моего города нет в списке</summary><p>Снимем спрос по вашему городу и нише по заявке и пришлём расчёт. Нажмите на город вверху страницы и выберите «Другой город».</p></details>
-      <details><summary>Откуда цифры?</summary><p>Вордстат Яндекса по вашему городу за прошлый месяц. Мы убираем «своими руками» и прочие не-покупательские запросы.</p></details>
+      <details><summary>Откуда цифры?</summary><p>Статистика поисковых запросов по вашему городу за прошлый месяц. Мы убираем «своими руками» и прочие не-покупательские запросы.</p></details>
     </div>
   </section>
 
@@ -404,7 +407,8 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head>
   function drawTop() {
     var r = C.current(), hot = P.cityTotal(r, 'none').hot, dp = P.dayPart();
     document.querySelectorAll('.js-city-in').forEach(function (e) { e.textContent = P.CITY_IN[r]; });
-    document.querySelector('.js-src').textContent = 'Источник: ' + P.D.date;
+    document.querySelector('.js-src').textContent = 'Источник: ' + P.src(r);
+    document.querySelectorAll('.js-cur').forEach(function (e) { e.textContent = P.sign(r); });
     document.querySelector('.js-month').textContent = fmt(hot);
     // Счётчик: горячие поиски за прошедшую часть дня, которые ушли на сайты в топе.
     $('today').textContent = fmt(hot * P.MODEL.servis.sites / 30 * dp.part);
@@ -418,21 +422,26 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head>
     $('niches').innerHTML = cards.map(function (c, i) {
       // на телефоне ниши свёрнуты до названия и суммы (открыта первая), на широком экране раскрыты
       return '<details class="w-card p-niche"' + (wide || i === 0 ? ' open' : '') + '><summary><h3>' + c.n.name + '</h3>' +
-        '<div class="p-lose"><b>' + P.money(c.t.money) + '</b><span>в месяц проходит мимо без сайта в поиске</span></div></summary>' +
+        '<div class="p-lose"><b>' + P.money(c.t.money, r) + '</b><span>в месяц проходит мимо без сайта в поиске</span></div></summary>' +
         '<p class="w-muted">' + fmt(c.t.hot) + ' горячих поисков в месяц · клиентов: ≈ ' + P.num(c.t.clients) + '</p>' +
         (c.n.note ? '<p class="p-niche-note">' + c.n.note + '</p>' : '') +
         '<table class="w-table p-mini"><thead><tr><th>Услуга</th><th class="n">Ищут</th><th class="n">Мимо вас</th></tr></thead><tbody>' +
-        c.rows.map(function (x) { return '<tr><td>' + x.name + '</td><td class="n">' + fmt(x.hot) + '</td><td class="n">' + P.money(x.money) + '</td></tr>'; }).join('') +
+        c.rows.map(function (x) { return '<tr><td>' + x.name + '</td><td class="n">' + fmt(x.hot) + '</td><td class="n">' + P.money(x.money, r) + '</td></tr>'; }).join('') +
         '</tbody></table><div class="w-actions">' +
         (c.rows.length > 3 ? '<button class="w-btn ghost js-all" type="button" data-n="' + c.rows.length + '">Смотреть все ' + c.rows.length + '</button>' : '') +
         '<a class="w-btn" href="#kalkulyator" data-pick="' + c.n.id + '">Посчитать мою</a></div></details>';
     }).join('');
   }
+  var MARK = { '': '', est: '<b class="js-mark" title="оценка: цен в прайсах города не нашли">*</b>', weak: '<b class="js-mark" title="один прайс или цена «от»">°</b>' };
   function niche() { return N.filter(function (n) { return n.id === nicheSel.value; })[0]; }
   function drawChips() {
+    var r = C.current(), rub = P.sign(r) === '₽', notes = niche().services.map(function (s) { return P.checkNote(s, r); });
+    // чеки: средние по прайсам города, если они собраны; иначе честно «оценка по рынку»
+    $('chk-src').textContent = P.hasPrices(r) ? 'чек – средний по прайсам сервисов города, впишите свой' : 'чек – оценка по рынку, впишите свой';
+    $('est').hidden = notes.indexOf('est') < 0; $('weak').hidden = notes.indexOf('weak') < 0;
     $('chips').innerHTML = niche().services.map(function (s) {
-      var v = checks[s[0]] != null ? checks[s[0]] : s[2];
-      return '<label><input type="checkbox"' + (off[s[0]] ? '' : ' checked') + ' data-q="' + s[0] + '"><span>' + s[1] + '</span><input class="p-chk" type="number" min="0" step="500" value="' + v + '" data-c="' + s[0] + '" aria-label="Средний чек: ' + s[1] + '"> ₽</label>';
+      var v = checks[s[0]] != null ? checks[s[0]] : P.baseCheck(s, r);
+      return '<label><input type="checkbox"' + (off[s[0]] ? '' : ' checked') + ' data-q="' + s[0] + '"><span>' + s[1] + '</span><input class="p-chk" type="number" min="0" step="' + (rub ? 500 : 10) + '" value="' + v + '" data-c="' + s[0] + '" aria-label="Средний чек: ' + s[1] + '"> ' + P.sign(r) + MARK[checks[s[0]] != null ? '' : P.checkNote(s, r)] + '</label>';
     }).join('');
   }
   function drawCalc() {
@@ -450,12 +459,19 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head>
   $('chips').addEventListener('change', function (e) { if (e.target.dataset.q) { off[e.target.dataset.q] = !e.target.checked; drawCalc(); } });
   $('chips').addEventListener('input', function (e) {
     var q = e.target.dataset.c; if (!q) return;
-    var v = parseInt(e.target.value, 10); checks[q] = v > 0 ? v : 0; drawCalc();
+    var v = parseInt(e.target.value, 10), mark = e.target.parentNode.querySelector('.js-mark'); checks[q] = v > 0 ? v : 0;
+    if (mark) mark.remove(); // чек вписан руками – это уже не оценка
+    drawCalc();
   });
   nicheSel.addEventListener('change', function () { drawChips(); drawCalc(); });
   $('state').addEventListener('change', drawCalc);
   function drawAll() { drawTop(); drawNiches(); drawCalc(); }
-  C.onChange(drawAll);
+  var lastSign = P.sign(C.current());
+  C.onChange(function (r) {
+    // чеки, вписанные в рублях, для города с другой валютой не годятся – возвращаем оценки
+    if (P.sign(r) !== lastSign) { checks = {}; lastSign = P.sign(r); }
+    drawChips(); drawAll();
+  });
   drawChips(); drawAll(); setInterval(drawTop, 20000);
 })();
 </script>
