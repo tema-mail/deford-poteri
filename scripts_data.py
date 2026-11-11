@@ -40,12 +40,20 @@ def load(reg, ph, cars=False):
     return {"total": total, "share": round(share, 2), "hot": round(total * share), "top": top}
 def load_sum(reg, key):
     """Услуга = сумма формулировок через «|»; примеры «как ищут» – от самой частой."""
-    parts = [x for x in (load(reg, ph) for ph in key.split("|")) if x]
+    # «сто минск» и подобные формулировки с названием другого города считаем только в своём городе
+    phs = [ph for ph in key.split("|") if "минск" not in ph or reg == "mnsk"]
+    parts = [x for x in (load(reg, ph) for ph in phs) if x]
     if not parts: return None
     k = REGION_K.get(reg, 1)
     total, hot = round(k * sum(x["total"] for x in parts)), round(k * sum(x["hot"] for x in parts))
     return {"total": total, "share": round(hot / total, 2) if total else 0, "hot": hot, "top": max(parts, key=lambda x: x["total"])["top"]}
-NAMES = {"rf": "Россия", "msk": "Москва", "nsk": "Новосибирск", "krs": "Красноярск", "mnsk": "Минск"}
+NAMES = {"rf": "Россия", "msk": "Москва", "spb": "Санкт-Петербург", "nsk": "Новосибирск", "ekb": "Екатеринбург", "kzn": "Казань",
+         "krs": "Красноярск", "nnov": "Нижний Новгород", "chel": "Челябинск", "sam": "Самара", "ufa": "Уфа", "rnd": "Ростов-на-Дону",
+         "krd": "Краснодар", "oms": "Омск", "vrn": "Воронеж", "perm": "Пермь", "vlg": "Волгоград", "mnsk": "Минск"}
+# Предложный падеж для текстов «в Москве»: фронт берёт отсюда
+CITY_IN = {"msk": "Москве", "spb": "Петербурге", "nsk": "Новосибирске", "ekb": "Екатеринбурге", "kzn": "Казани", "krs": "Красноярске",
+           "nnov": "Нижнем Новгороде", "chel": "Челябинске", "sam": "Самаре", "ufa": "Уфе", "rnd": "Ростове-на-Дону", "krd": "Краснодаре",
+           "oms": "Омске", "vrn": "Воронеже", "perm": "Перми", "vlg": "Волгограде", "mnsk": "Минске"}
 # Минск: Вордстат видит только Яндекс, а в Беларуси основной поиск – Google. Замера Google нет (Планировщик ключевых слов
 # требует рабочий аккаунт Google Ads), поэтому досчитываем по доле поисковиков в Беларуси: StatCounter, октябрь 2026 –
 # Google 58,16 %, Яндекс 38,85 %. Спрос = Яндекс × (1 + 58,16 / 38,85). Сверка: Метрика Evolution Service Минск за год –
@@ -53,9 +61,10 @@ NAMES = {"rf": "Россия", "msk": "Москва", "nsk": "Новосибир
 REGION_K = {"mnsk": round(1 + 58.16 / 38.85, 3)}
 # Чеки в niches.json – в российских рублях; для Минска пересчёт по курсу НБРБ на 11.11.2026 (100 RUB = 3,6399 BYN).
 CURRENCY = {"mnsk": {"sign": "BYN", "rate": 0.036399}}
-SRC = {"nsk": "Вордстат Яндекса, октябрь 2026", "krs": "Вордстат Яндекса, октябрь 2026", "mnsk": "поиск Яндекса и Google, октябрь 2026"}
+SRC = {r: "Вордстат Яндекса, октябрь 2026" for r in NAMES}
+SRC["mnsk"] = "поиск Яндекса и Google, октябрь 2026"
 out = {"regions": {r: NAMES[r] for r in SERVICE_REGIONS}, "carRegions": {r: NAMES[r] for r in CAR_REGIONS}, "niches": NICHES,
-       "currency": CURRENCY, "src": SRC,
+       "currency": CURRENCY, "src": SRC, "cityIn": CITY_IN,
        "services": {}, "cars": {}, "date": "октябрь 2026, Вордстат (XMLRiver), снято 11.11.2026"}
 for key in SERVICE_KEYS:
     out["services"][key] = {r: load_sum(r, key) for r in SERVICE_REGIONS}
