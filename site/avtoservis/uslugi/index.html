@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Прототип – Дефорд · Все услуги: сколько клиентов вы теряете</title>
+<style>/* Комплект чёрно-белого прототипа (маркетолог → site-prototype).
+   Прототип показывает смысл, текст, порядок и действие – не дизайн. Цвета только серые; дизайнер делает визуал после «да» владельца.
+   Блок: <section class="w-block" data-n="1" data-name="Первый экран" data-question="вопрос клиента" data-proof="опора"> */
+:root {
+  --ink: #141414; --muted: #5f5f5f; --line: #b9b9b9; --fill: #ececec; --fill2: #f6f6f6; --paper: #ffffff;
+  --note: #fff6c8; --note-line: #c9b44a; --ask: #7a1f1f;
+  --font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mono: ui-monospace, Menlo, Consolas, monospace;
+  --wrap: 1180px;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.55 var(--font); }
+img { max-width: 100%; }
+a { color: var(--ink); }
+h1, h2, h3 { margin: 0; line-height: 1.2; text-wrap: balance; }
+h1 { font-size: clamp(28px, 4.2vw, 46px); }
+h2 { font-size: clamp(22px, 3vw, 32px); }
+h3 { font-size: 18px; }
+p { margin: 0; }
+.w-wrap { max-width: var(--wrap); margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.w-stack { display: grid; gap: 14px; }
+.w-muted { color: var(--muted); }
+
+/* Панель прототипа: переключатели «Логика» и «Комментарии» */
+.w-bar { position: sticky; top: 0; z-index: 50; background: var(--ink); color: #fff; font: 13px/1.3 var(--mono); }
+.w-bar .w-wrap { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; padding-block: 8px; }
+.w-bar b { font-weight: 600; }
+.w-bar label { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
+
+/* Блок и его подпись логики */
+.w-block { border-top: 1px dashed var(--line); padding-block: 40px; position: relative; }
+.w-logic { display: none; font: 12.5px/1.45 var(--mono); background: var(--fill2); border: 1px solid var(--line); padding: 8px 10px; margin-bottom: 18px; }
+body.show-logic .w-logic { display: block; }
+.w-logic b { font-weight: 700; }
+.w-note { display: none; background: var(--note); border: 1px dashed var(--note-line); padding: 8px 10px; font-size: 13.5px; margin-top: 12px; }
+body.show-notes .w-note { display: block; }
+.w-note::before { content: "Дизайнеру: "; font-weight: 700; }
+.w-seo { display: none; font: 13px/1.5 var(--mono); background: #eef3ff; border: 1px solid #8aa0d6; padding: 12px 14px; margin: 12px auto; max-width: var(--wrap); }
+body.show-seo .w-seo { display: block; }
+.w-seo table { border-collapse: collapse; width: 100%; }
+.w-seo td { border-top: 1px solid #c9d4ee; padding: 4px 6px; vertical-align: top; }
+.w-seo td:first-child { white-space: nowrap; font-weight: 700; width: 1%; }
+.w-seo .bad { color: var(--ask); font-weight: 700; }
+.w-seo ul { margin: 0; padding-left: 18px; }
+.w-ask { color: var(--ask); font-weight: 600; background: #f7e9e9; padding: 0 4px; }
+
+/* Место под фото/видео/схему: роль, а не «картинка» */
+.w-media { background: repeating-linear-gradient(45deg, var(--fill), var(--fill) 10px, var(--fill2) 10px, var(--fill2) 20px);
+  border: 1px solid var(--line); min-height: 220px; display: grid; place-items: center; text-align: center; padding: 16px;
+  color: var(--muted); font-size: 14px; }
+.w-media::before { content: "▣ "; }
+.w-media.small { min-height: 120px; }
+
+/* Кнопки */
+.w-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 22px; border: 2px solid var(--ink);
+  background: var(--ink); color: #fff; font-weight: 600; text-decoration: none; border-radius: 6px; cursor: pointer; font-size: 16px; }
+.w-btn.ghost { background: transparent; color: var(--ink); }
+.w-btn[disabled] { opacity: .45; cursor: not-allowed; }
+.w-hint { font-size: 13px; color: var(--muted); }
+
+/* Шапка */
+.w-header .w-wrap { display: flex; flex-wrap: wrap; gap: 10px 20px; align-items: center; justify-content: space-between; padding-block: 12px; }
+.w-logo { border: 2px solid var(--ink); padding: 6px 10px; font-weight: 700; }
+.w-descr { font-size: 13.5px; color: var(--muted); max-width: 34ch; }
+.w-contacts-top { display: grid; gap: 2px; font-size: 14px; text-align: right; }
+.w-nav { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 14.5px; border-top: 1px solid var(--line); padding-block: 8px; }
+
+/* Первый экран */
+.w-hero { display: grid; grid-template-columns: 1.1fr .9fr; gap: 32px; align-items: center; }
+.w-hero ul { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
+.w-actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+
+/* Сетки и карточки */
+.w-grid { display: grid; grid-template-columns: repeat(var(--cols, 3), minmax(0, 1fr)); gap: 14px; }
+.w-card { border: 1px solid var(--line); padding: 16px; display: grid; gap: 8px; align-content: start; min-width: 0; }
+.w-card .w-media { min-height: 140px; }
+.w-price { font-weight: 700; }
+
+/* Этапы */
+.w-steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(var(--cols, 4), minmax(0, 1fr)); gap: 14px; counter-reset: st; }
+.w-steps li { border: 1px solid var(--line); padding: 14px; counter-increment: st; display: grid; gap: 6px; }
+.w-steps li::before { content: counter(st); font-weight: 700; font-size: 22px; }
+
+/* Таблица */
+.w-table-wrap { overflow-x: auto; }
+.w-table { width: 100%; border-collapse: collapse; font-size: 15px; }
+.w-table th, .w-table td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+.w-table th { background: var(--fill2); }
+
+/* FAQ */
+.w-faq details { border: 1px solid var(--line); padding: 12px 14px; }
+.w-faq details + details { border-top: 0; }
+.w-faq summary { font-weight: 600; cursor: pointer; }
+
+/* Форма */
+.w-form { border: 2px solid var(--ink); padding: 18px; display: grid; gap: 12px; max-width: 520px; }
+.w-field { display: grid; gap: 4px; font-size: 14px; }
+.w-field input, .w-field select { min-height: 44px; border: 1px solid var(--ink); padding: 0 10px; font: inherit; background: #fff; }
+.w-check { display: flex; gap: 8px; align-items: flex-start; font-size: 13.5px; }
+
+/* Полоса призыва */
+.w-cta { background: var(--fill); padding: 24px; display: flex; flex-wrap: wrap; gap: 14px; align-items: center; justify-content: space-between; }
+/* Плашка призыва между блоками: section.w-block.w-cta-strip с одной строкой предложения и кнопкой или мини-формой (карточка prizyv-mezhdu-blokami) */
+.w-block.w-cta-strip { padding-block: 16px; }
+.w-cta-strip .w-cta { padding: 14px 18px; }
+.w-cta-strip .w-cta p { margin: 0; font-weight: 600; }
+
+/* Состояние формы после отправки (карточка stranica-spasibo-sleduyushchiy-shag): видно по переключателю «После отправки» */
+.w-success { display: none; border: 2px dashed var(--ink); padding: 14px; background: var(--fill); }
+.w-success p { margin: 0 0 6px; }
+body.show-success .w-success { display: block; }
+
+/* Подвал */
+.w-footer { background: var(--fill2); border-top: 1px solid var(--line); padding-block: 28px; font-size: 14px; }
+
+/* Липкая панель действий на телефоне */
+.w-sticky { display: none; }
+header.w-block { padding-block: 0; border-top: 0; }
+header.w-block > .w-logic { margin: 8px auto; max-width: var(--wrap); }
+
+@media (max-width: 760px) {
+  .w-hide-m { display: none !important; }
+  /* Мобильная шапка: логотип, короткий дескриптор и «Меню»; звонок и мессенджеры – в липкой панели снизу */
+  .w-header .w-wrap { flex-wrap: nowrap; padding-block: 8px; gap: 10px; }
+  .w-header .w-contacts-top, .w-header .w-wrap > .w-btn, .w-nav { display: none !important; }
+  .w-header .w-descr { font-size: 12px; line-height: 1.3; }
+  .w-header > div.w-wrap:has(> .w-logo)::after { content: "☰ Меню"; margin-left: auto; border: 1px solid var(--ink); padding: 6px 10px; font-size: 13px; white-space: nowrap; }
+  .w-hero .w-media, .w-block[data-n="1"] .w-media:first-of-type { min-height: 160px; }
+  .w-bar .w-wrap { padding-block: 4px; gap: 4px 10px; font-size: 11px; }
+  .w-hero { grid-template-columns: 1fr; }
+  .w-grid { grid-template-columns: repeat(var(--cols-m, 2), minmax(0, 1fr)); }
+  .w-steps { grid-template-columns: 1fr; }
+  .w-contacts-top { text-align: left; }
+  .w-block { padding-block: 28px; }
+  .w-sticky { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; position: fixed; left: 0; right: 0; bottom: 0; z-index: 40;
+    padding: 8px max(12px, env(safe-area-inset-right, 0px)) calc(8px + env(safe-area-inset-bottom, 0px)) max(12px, env(safe-area-inset-left, 0px));
+    background: #fff; border-top: 1px solid var(--line); }
+  body { padding-bottom: 72px; }
+}
+@media (max-width: 420px) { .w-grid.one-m { grid-template-columns: 1fr; } }
+</style>
+<style>
+.p-row { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; }
+.p-row select { min-height: 44px; border: 1px solid var(--ink); padding: 0 10px; font: inherit; background: #fff; max-width: 100%; }
+.p-row label { display: grid; gap: 4px; max-width: 100%; min-width: 0; }
+.p-row label select { width: 100%; }
+.w-stack > *, .p-box > * { min-width: 0; }
+.p-city { min-height: 44px; border: 1px solid var(--ink); background: transparent; padding: 0 14px; font: inherit; font-weight: 600; color: inherit; }
+.p-search { width: 100%; min-height: 56px; border: 2px solid var(--ink); padding: 0 16px; font: inherit; font-size: 18px; background: #fff; }
+.p-find { display: flex; gap: 8px; }
+.p-find .p-search { flex: 1; min-width: 0; }
+.p-find .w-btn { min-height: 56px; }
+.p-sum { background: var(--fill); padding: 12px 14px; font-weight: 600; }
+.p-chk { width: 92px; min-height: 34px; border: 1px solid var(--line); padding: 0 6px; font: inherit; font-size: 14px; }
+.w-table td.n, .w-table th.n { text-align: right; white-space: nowrap; }
+.w-table td small { color: var(--muted); display: block; }
+.p-empty { border: 2px dashed var(--ink); padding: 16px; display: grid; gap: 10px; justify-items: start; }
+.p-more { justify-self: start; }
+[hidden] { display: none !important; }
+@media (max-width: 760px) { .w-table .w-hide-m { display: none; } .w-table { font-size: 13.5px; } .w-table th, .w-table td { padding: 6px; } .p-chk { width: 68px; padding: 0 4px; } }
+</style>
+<style data-tema-v1>
+html[data-theme=dark]{color-scheme:dark}
+html[data-theme=dark] body{background:#141518!important;color:#e4e4e2!important}
+html[data-theme=dark] a{color:#8ab8ff}
+html[data-theme=dark] .w-btn:not(.ghost){background:#e4e4e2!important;color:#141518!important;border-color:#e4e4e2!important}
+html[data-theme=dark] .w-btn.ghost{background:transparent!important;color:#e4e4e2!important;border-color:#e4e4e2!important}
+html[data-theme=dark] :is(.t,.box,.card,details,.kit,.nav,.code button,button,.btn,textarea,input,select){background:#1f2125!important;color:#e4e4e2!important;border-color:#3a3c42!important}
+html[data-theme=dark] button.main,html[data-theme=dark] .nav a,html[data-theme=dark] .step span{background:#e4e4e2!important;color:#141518!important}
+html[data-theme=dark] :is(.chip,.int,code,th){background:#2a2d33!important;color:#e4e4e2!important}
+html[data-theme=dark] :is(.flag,.note){background:#3a3220!important;color:#f1e6c8!important}
+html[data-theme=dark] .ready{background:#1f3320!important;color:#d6ecd0!important}
+html[data-theme=dark] .stop{background:#3b2222!important;color:#f3d6d3!important}
+html[data-theme=dark] :is(td,th,details[open] summary){border-color:#33363c!important}
+html[data-theme=dark] :is(.sub,.meta,.top,small,.ex small,details){color:#a9abb0!important}
+html[data-theme=dark] :is(h1,h2,h3,.day,dt,summary){color:#f2f2f0!important}
+/* комплект ч/б прототипа marketolog/prototip (w-*, p-*) – светлые плашки и панели */
+html[data-theme=dark] :is(.w-sticky,.w-header,.w-footer,.w-bar){background:#141518!important}
+html[data-theme=dark] :is(.w-card,.w-cta,.w-success,.w-logic,.w-media,.w-steps li,.w-faq details,.w-form,.w-table th,.p-box,.p-res div,.p-flag,.p-formula,.p-chips label){background:#1f2125!important;color:#e4e4e2!important;border-color:#3a3c42!important}
+html[data-theme=dark] :is(.w-muted,.w-hint,.w-descr,.p-res span,.p-flag span,.w-table td small){color:#a9abb0!important}
+html[data-theme=dark] .w-ask{background:#3b2222!important;color:#f3b4ad!important}
+html[data-theme=dark] .w-note{background:#3a3220!important;color:#f1e6c8!important}
+html[data-theme=dark] :is(.w-block,.w-table td,.w-table th){border-color:#3a3c42!important}
+html[data-theme=dark] img{filter:brightness(.92)}
+#tema-btn{position:fixed;right:14px;bottom:14px;z-index:99;width:44px;height:44px;border-radius:50%;border:1px solid #ccc;background:#fff;color:#111;font-size:20px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.15)}
+html[data-theme=dark] #tema-btn{background:#2a2d33!important;color:#f2f2f0!important;border-color:#44474e!important}
+</style><script>(function(){var t;try{t=localStorage.getItem('tema')}catch(e){}
+if(!t){var h=new Date().getHours();t=(h>=19||h<7||(matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches))?'dark':'light'}
+document.documentElement.setAttribute('data-theme',t)})();</script></head>
+<body>
+<div class="w-bar"><div class="w-wrap">
+  <b>Прототип · Дефорд · Все услуги и поиск · v1 11.11.2026</b>
+  <label><input type="checkbox" id="t-logic"> Логика блоков</label>
+  <label><input type="checkbox" id="t-notes"> Комментарии дизайнеру</label>
+  <label><input type="checkbox" id="t-seo"> SEO страницы</label>
+  <label><input type="checkbox" id="t-success"> После отправки</label>
+  <span>Меток «запросить»: <b id="ask-count">0</b></span>
+  <a href="../" style="color:#fff">← по нишам</a>
+</div></div>
+
+<script type="application/json" id="w-seo">{"title": "Сколько клиентов вы теряете на каждой услуге автосервиса | Дефорд", "description": "Вбейте свою услугу и посмотрите, сколько раз в месяц её ищут в вашем городе и сколько клиентов уходит к тем, у кого сайт в топе.", "h1": "Вбейте свою услугу – покажем, сколько клиентов вы на ней теряете", "zapros": "спрос на услуги автосервиса", "schema": "Organization", "links": ["/avtoservis/ – потери по нишам", "/avtoservis/#zayavka – заявка на расчёт"]}</script>
+<div class="w-seo" id="w-seo-box"></div>
+
+<header class="w-header w-block" data-n="0" data-name="Шапка" data-question="Кто это и как связаться?" data-proof="телефон">
+  <div class="w-wrap">
+    <span class="w-logo">DEFORD</span>
+    <span class="w-descr">Сайты для автосервисов, которые приводят клиентов из поиска</span>
+    <span class="w-contacts-top"><a href="tel:+79537777891">+7 953 777-78-91</a></span>
+    <a class="w-btn ghost" href="../">Потери по нишам</a>
+  </div>
+</header>
+
+<main>
+  <section class="w-block" data-n="1" data-name="Поиск по услугам" data-question="Сколько я теряю на своей услуге?" data-proof="Вордстат по городу, все услуги из 9 ниш, чек правит владелец" data-next="Что с этим делать?">
+    <div class="w-wrap w-stack">
+      <h1>Вбейте свою услугу – покажем, сколько клиентов вы на ней теряете</h1>
+      <div class="p-row"><span class="w-muted">Город:</span><button class="p-city js-city-btn" type="button">Новосибирск ▾</button>
+        <label>Что у вас сейчас <select id="state"><option value="none">Сайта нет</option><option value="landing">Есть лендинг на одну страницу</option><option value="weak">Сайт есть, но не продвигается</option></select></label></div>
+      <div class="p-find"><input class="p-search" id="q" type="search" placeholder="Керамика, ГРМ, русификация…" aria-label="Поиск услуги" autocomplete="off"><button class="w-btn" id="find" type="button">Найти</button></div>
+      <div class="p-sum" id="sum">…</div>
+      <div class="w-table-wrap"><table class="w-table" id="tbl"><thead><tr><th>Услуга</th><th class="n">Ищут<span class="w-hide-m"> в месяц</span></th><th class="n w-hide-m">Клиентов мимо</th><th class="n">Мимо вас<span class="w-hide-m"> в месяц</span></th><th class="n"><span class="w-hide-m">Ваш </span>чек, ₽</th></tr></thead><tbody></tbody></table></div>
+      <button class="w-btn ghost p-more" id="more" type="button">Показать все услуги</button>
+      <div class="w-actions"><a class="w-btn" href="../#zayavka">Получить расчёт по моим услугам</a><a class="w-btn ghost" href="../#nishi">Потери по нишам</a></div>
+      <div class="p-empty" id="empty" hidden>
+        <p><b>Такой услуги в списке пока нет.</b> Оставьте заявку – снимем спрос по ней в вашем городе и пришлём расчёт.</p>
+        <a class="w-btn" href="../#zayavka">Снять спрос по моей услуге</a>
+      </div>
+      <p class="w-muted js-src"></p>
+      <p class="w-note">Поиск – главный элемент экрана, фильтрует на лету. Без запроса – 15 услуг с самыми большими потерями и кнопка «Показать все». Чек меняется прямо в строке.</p>
+    </div>
+  </section>
+
+  <section class="w-block" data-n="2" data-name="Что дальше" data-question="Что с этим делать?" data-proof="расчёт по своему бизнесу и разбор по нишам">
+    <div class="w-wrap"><div class="w-cta"><p>Пришлём расчёт по всем вашим услугам сразу – и покажем, кто из конкурентов забирает этих клиентов</p>
+      <div class="w-actions"><a class="w-btn" href="../#zayavka">Получить расчёт</a><a class="w-btn ghost" href="../#nishi">Потери по нишам</a></div></div></div>
+  </section>
+</main>
+
+<footer class="w-footer"><div class="w-wrap w-stack"><span>Дефорд · +7 953 777-78-91 · <a href="https://t.me/Artem1Galimov">Telegram</a> · <a href="https://max.ru/u/f9LHodD0cOKS6C3PPXRh8eHyRKrJiSTUcpsOsnbQDl6Cp3LSE-Xu-dNig7c">Макс</a></span></div></footer>
+<div class="w-sticky"><a class="w-btn" href="tel:+79537777891">Позвонить</a><a class="w-btn ghost" href="../#zayavka">Расчёт</a></div>
+
+<script src="../../data.js"></script>
+<script src="../../calc.js"></script>
+<script src="../../city.js"></script>
+<script>
+(function () {
+  var P = window.POTERI, C = window.CITY, fmt = P.fmt, $ = function (id) { return document.getElementById(id); };
+  var checks = {}, showAll = false, LIMIT = 15, last = { keys: {}, searching: false };
+  var norm = function (s) { return String(s).toLowerCase().replace(/ё/g, 'е').trim(); };
+  var toWords = function (s) { return norm(s).split(/[^a-zа-я0-9]+/).filter(Boolean); };
+  // Основы слова из поиска: без окончания («плёнка» → «пленк», «фара» → «фар», «руль» → «рул»)
+  // и вариант с беглой гласной («потолок» → «потолк», «ремень» → «ремн»).
+  function stems(w) {
+    var s = w.length >= 4 ? w.replace(/(ами|ями|ой|ей|ия|ие|ий|ый|ая|ов|ев|ам|ям|ах|ях|а|я|ы|и|у|ю|е|о|ь|й)$/, '') : w;
+    var m = s.match(/^(.+[^аеиоуыэюя])[ое]([^аеиоуыэюя])$/);
+    return m ? [s, m[1] + m[2]] : [s];
+  }
+  // Слово найдено, если с его основы начинается слово названия или примера запроса; длинная основа (от 5 букв)
+  // ищется в названии и как часть слова («плёнка» → «бронеплёнка»). Слова короче трёх букв – только целиком.
+  function hasWord(w, main, extra) {
+    if (w.length < 3) return main.concat(extra).indexOf(w) >= 0;
+    return stems(w).some(function (st) {
+      return main.some(function (h) { return h.indexOf(st) === 0 || (st.length >= 5 && h.indexOf(st) > 0); }) || extra.some(function (h) { return h.indexOf(st) === 0; });
+    });
+  }
+  function rows() { return P.allRows(C.current(), $('state').value, checks).sort(function (a, b) { return b.money - a.money; }); }
+  // Поиск ступенями: по названию услуги и её запросу; пусто – по примерам «как ищут»; пусто – по названию ниши.
+  function search(all, words) {
+    var by = function (pick) { return all.filter(function (x) { var hay = pick(x); return words.every(function (w) { return hasWord(w, hay[0], hay[1]); }); }); };
+    var found = by(function (x) { return [toWords(x.name + ' ' + x.q), []]; });
+    if (!found.length) found = by(function (x) { return [[], toWords(x.top.join(' '))]; });
+    if (!found.length) found = by(function (x) { return [toWords(x.nicheName), []]; });
+    return found;
+  }
+  // Итог: при поиске – всё найденное; без поиска – город целиком без услуг, которые входят в другие запросы (марки).
+  function paintSum(found) {
+    var t = P.sum(last.searching ? found : found.filter(function (x) { return !x.sub; }));
+    $('sum').textContent = found.length ? (last.searching ? 'Найдено услуг: ' : 'Услуг в списке: ') + found.length + ' · в ' + P.CITY_IN[C.current()] +
+      ' мимо вас ' + P.money(t.money) + ' в месяц · клиентов: ≈ ' + P.num(t.clients) : 'Ничего не нашли по запросу «' + $('q').value + '»';
+  }
+  function draw() {
+    var words = toWords($('q').value), all = rows();
+    var found = words.length ? search(all, words) : all;
+    var shown = words.length || showAll ? found : found.slice(0, LIMIT);
+    last = { keys: {}, searching: !!words.length }; found.forEach(function (x) { last.keys[x.q] = 1; });
+    document.querySelector('#tbl tbody').innerHTML = shown.map(function (x) {
+      return '<tr data-q="' + x.q + '"><td>' + x.name + '<small>' + x.nicheName + '</small></td><td class="n">' + fmt(x.hot) + '</td><td class="n w-hide-m js-cl">' +
+        P.num(x.clients) + '</td><td class="n js-m"><b>' + P.money(x.money) + '</b></td><td class="n"><input class="p-chk" type="number" min="0" step="500" value="' +
+        x.check + '" aria-label="Средний чек: ' + x.name + '"></td></tr>';
+    }).join('');
+    $('tbl').hidden = !found.length; $('empty').hidden = !!found.length;
+    $('more').hidden = !!words.length || found.length <= LIMIT;
+    $('more').textContent = showAll ? 'Свернуть' : 'Показать все услуги (' + found.length + ')';
+    paintSum(found);
+    document.querySelector('.js-src').textContent = 'Источник: ' + P.D.date + '. «Ищут» – горячие формулировки, без «своими руками» и прочего.';
+  }
+  // Правка чека: поле ввода не перерисовываем – меняем сумму строки и общий итог.
+  $('tbl').addEventListener('input', function (e) {
+    if (!e.target.classList.contains('p-chk')) return;
+    var tr = e.target.closest('tr'), v = parseInt(e.target.value, 10); checks[tr.dataset.q] = v > 0 ? v : 0;
+    var all = rows(), x = all.filter(function (r) { return r.q === tr.dataset.q; })[0];
+    if (x) tr.querySelector('.js-m').innerHTML = '<b>' + P.money(x.money) + '</b>';
+    paintSum(all.filter(function (r) { return last.keys[r.q]; }));
+  });
+  $('q').addEventListener('input', draw);
+  $('find').addEventListener('click', function () { draw(); $('sum').scrollIntoView({ block: 'start', behavior: 'smooth' }); });
+  $('q').addEventListener('keydown', function (e) { if (e.key === 'Enter') $('find').click(); });
+  $('state').addEventListener('change', draw);
+  $('more').addEventListener('click', function () { showAll = !showAll; draw(); });
+  C.onChange(draw);
+  draw();
+})();
+</script>
+<script src="../../proto.js"></script>
+<script data-tema-v1>(function(){var b=document.createElement('button');b.id='tema-btn';b.type='button';
+function upd(){var d=document.documentElement.getAttribute('data-theme')==='dark';b.textContent=d?'☀':'☾';b.title=d?'Светлая тема':'Тёмная тема';b.setAttribute('aria-label',b.title)}
+b.onclick=function(){var n=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';document.documentElement.setAttribute('data-theme',n);try{localStorage.setItem('tema',n)}catch(e){}upd()};
+upd();document.body.appendChild(b)})();</script></body>
+</html>
