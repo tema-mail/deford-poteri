@@ -8,217 +8,825 @@
    "n": 0,
    "status": "net",
    "sources": [],
-   "kommentariy": "не успел собрать"
+   "kommentariy": "не найдено цен на догруз/машину по Минску (сайты перевозчиков – только внутренние тарифы, bel-gruz.com: по Минску от 40 руб./час, за городом 1–1,4 руб./км)"
   },
   "ремонт телевизоров": {
    "basis": "tipovoy",
    "n": 0,
    "status": "net",
    "sources": [],
-   "kommentariy": "не успел собрать"
+   "kommentariy": "не найдено минских прайсов с ценами (поиск и угаданные сайты сервисов без цен)"
   },
   "химчистка ковров|стирка ковров": {
+   "check": 90,
    "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "himchistka-kovrov.by",
+     "url": "https://himchistka-kovrov.by/",
+     "price": "от 11 руб/кв.м (11–20 руб./м² по типу ковра); в отзывах «цена химчистки составила 100 / 85 / 55 рублей»",
+     "za_chto": "ковёр 2×3 м = 6 м² × 13 ≈ 80; фактические чеки 55–100"
+    }
+   ],
+   "kommentariy": "Один сайт: тариф 11–20 руб./м² и три чека клиентов 55, 85, 100. Медиана чеков 85 → 90."
   },
   "адвокат": {
-   "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 500,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "juristi.by",
+     "url": "https://juristi.by/services/advokat-po-razvodam/",
+     "price": "консультация от 60; судебные документы от 150; представительство от 200 р.",
+     "za_chto": "≈ 410"
+    },
+    {
+     "company": "Allford Morisson (по сниппету поиска)",
+     "url": "https://allfordmorisson.by/uslugi/advocate-po-semeynym-delam/razdel-imushestva-suprugov/",
+     "price": "представительство от 450,00; отзыв на иск от 350,00",
+     "za_chto": "≈ 570"
+    },
+    {
+     "company": "Легвард (myfin.by)",
+     "url": "https://myfin.by/katalog/uridiceskie-kompanii/legvard",
+     "price": "консультация 100; претензия 80–130; ходатайства/жалобы 150–250 бел. руб.",
+     "za_chto": "≈ 400"
+    }
+   ],
+   "kommentariy": "Типовой заказ – ведение простого гражданского дела. Цены «от»; реальный гонорар адвоката по делу часто 800–1500. Сомнительно."
   },
   "регистрация ип|регистрация ооо": {
-   "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 250,
+   "basis": "ot",
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "Легвард (myfin.by)",
+     "url": "https://myfin.by/katalog/uridiceskie-kompanii/legvard",
+     "price": "подготовка документов для регистрации юрлица от 300,00; ИП от 150,00 бел. руб.",
+     "za_chto": "среднее ИП/ООО ≈ 225 + госпошлина (1 б.в. = 45 для ООО)"
+    }
+   ],
+   "kommentariy": "Один источник: ООО ≈ 345 с пошлиной, ИП ≈ 150–170. Смешанно ≈ 250."
   },
   "юрист по разводу|раздел имущества": {
-   "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 500,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "juristi.by",
+     "url": "https://juristi.by/services/advokat-po-razvodam/",
+     "price": "устная консультация от 60; исковое заявление от 150; представительство в суде от 200 р.",
+     "za_chto": "консультация + иск + суд = 410"
+    },
+    {
+     "company": "Allford Morisson (по сниппету поиска)",
+     "url": "https://allfordmorisson.by/uslugi/advocate-po-semeynym-delam/razdel-imushestva-suprugov/",
+     "price": "консультация от 120; представительство по разделу имущества и разводу от 450,00",
+     "za_chto": "консультация + суд = 570"
+    },
+    {
+     "company": "Легвард (myfin.by)",
+     "url": "https://myfin.by/katalog/uridiceskie-kompanii/legvard",
+     "price": "консультация 1 час 100; составление ходатайств от 150 до 250 бел. руб.",
+     "za_chto": "консультация + 2 документа ≈ 400"
+    }
+   ],
+   "kommentariy": "Типовое дело: консультация + иск + представительство. Медиана [400,410,570] = 410; цены «от», взято 500."
   },
   "оценка недвижимости|оценка имущества": {
    "basis": "tipovoy",
    "n": 0,
    "status": "net",
    "sources": [],
-   "kommentariy": "не успел собрать"
+   "kommentariy": "прайсов оценщиков Минска не нашёл; НКА даёт бесплатную онлайн-оценку квартир (не услуга оценщика)"
   },
   "бюро переводов|перевод документов": {
-   "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 50,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "ЛингвоБел",
+     "url": "https://www.lingvo.by/",
+     "price": "от 20 руб. за страницу на русский, от 25 на иностранный",
+     "za_chto": "2 страницы + нотариальное заверение ≈ 45–55"
+    },
+    {
+     "company": "Translate.by",
+     "url": "https://translate.by/",
+     "price": "письменный перевод от 20 BYN за страницу; паспорт от 22 BYN",
+     "za_chto": "паспорт + заверение ≈ 40–50"
+    },
+    {
+     "company": "Perevodchik.by",
+     "url": "https://perevodchik.by/",
+     "price": "нотариальные переводы от 55 BYN без НДС",
+     "za_chto": "один документ с нотариусом"
+    }
+   ],
+   "kommentariy": "Типовой заказ – перевод 1–2 документов с нотариальным заверением. Медиана ≈ 50. Стоимость заверения нотариусом в цитатах не указана – оценка."
   },
   "агентство недвижимости|риэлтор": {
+   "check": 5500,
    "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Бюро городской недвижимости – продавец",
+     "url": "https://buro-realt.by/stoimost-uslug-agentstva-po-prodaze-i-pokupke-nedvizimosti",
+     "price": "2,2% при объекте 6 600–7 500 б.в.",
+     "za_chto": "≈ 7 260"
+    },
+    {
+     "company": "Бюро городской недвижимости – покупатель",
+     "url": "https://buro-realt.by/stoimost-uslug-agentstva-po-prodaze-i-pokupke-nedvizimosti",
+     "price": "45 + 10 + 30 б.в.",
+     "za_chto": "≈ 3 825"
+    },
+    {
+     "company": "realt.by",
+     "url": "https://realt.by/sale/flats/",
+     "price": "медиана продажи 1–2-комн. $96–135 тыс.",
+     "za_chto": "база для процента"
+    }
+   ],
+   "kommentariy": "Типовая сделка с квартирой: среднее между стороной продавца (≈7 260) и покупателя (≈3 825) ≈ 5 500."
   },
   "продать квартиру": {
+   "check": 7000,
    "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Бюро городской недвижимости (тарифы по постановлению Совмина)",
+     "url": "https://buro-realt.by/stoimost-uslug-agentstva-po-prodaze-i-pokupke-nedvizimosti",
+     "price": "содействие в продаже: свыше 6 600 до 7 500 б.в. – 2,2% от стоимости объекта",
+     "za_chto": "квартира ≈ $110 000 ≈ 330 000 BYN = 7 333 б.в. (б.в. 45 руб.) → 2,2% ≈ 7 260"
+    },
+    {
+     "company": "realt.by, 360 объявлений продажи Минска",
+     "url": "https://realt.by/sale/flats/",
+     "price": "медиана 1-комн. $95 750, 2-комн. $135 196",
+     "za_chto": "типовая квартира ≈ $110 000 × 2,9987"
+    },
+    {
+     "company": "Феникс-Реалт (по сниппету поиска)",
+     "url": "https://agent1.by/services/realtor-sevice-fees",
+     "price": "предельный тариф 3% до 4 200 б.в., снижается до 1% свыше 16 500 б.в.",
+     "za_chto": "подтверждает шкалу"
+    }
+   ],
+   "kommentariy": "Комиссия продавца по шкале тарифов (проценты от стоимости), квартира ≈ $110 000 → ≈ 7 260, округлено 7 000. Это предельные тарифы; агентства могут брать меньше."
   },
   "купить квартиру": {
+   "check": 3800,
    "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 2,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "Бюро городской недвижимости",
+     "url": "https://buro-realt.by/stoimost-uslug-agentstva-po-prodaze-i-pokupke-nedvizimosti",
+     "price": "подбор вариантов (квартира) 45 б.в.; согласование условий 10 б.в.; помощь в оформлении документов 30 б.в.",
+     "za_chto": "85 б.в. × 45 = 3 825"
+    },
+    {
+     "company": "realt.by",
+     "url": "https://realt.by/sale/flats/",
+     "price": "медиана 1-комн. $95 750, 2-комн. $135 196",
+     "za_chto": "для справки о стоимости объекта"
+    }
+   ],
+   "kommentariy": "Пакет услуг покупателю по тарифам в базовых величинах: 85 б.в. ≈ 3 825 → 3 800. По сути один источник тарифа."
   },
   "снять квартиру": {
+   "check": 900,
    "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "realt.by, 90 объявлений долгосрочной аренды Минска",
+     "url": "https://realt.by/rent/flat-for-long/",
+     "price": "медиана 1-комн. $600, 2-комн. $750 в месяц",
+     "za_chto": "1-комн. ≈ 1 800 BYN/мес"
+    },
+    {
+     "company": "Бюро городской недвижимости (тарифы)",
+     "url": "https://buro-realt.by/stoimost-uslug-agentstva-po-prodaze-i-pokupke-nedvizimosti",
+     "price": "наем: оформление документов 5 б.в.; содействие 5 б.в.; согласование 10 б.в.; подбор (по шкале)",
+     "za_chto": "≈ 20 б.в. ≈ 900"
+    },
+    {
+     "company": "Обзоры рынка аренды (поиск)",
+     "url": "https://els24.com/article/728-pravila-sema-kak-arendovat-kvartiru-cherez-agentstvo-nedvizhimosti/",
+     "price": "комиссия 50–100% месячной платы",
+     "za_chto": "50% от 1 800 = 900"
+    }
+   ],
+   "kommentariy": "Комиссия нанимателю: 50% месячной платы за 1-комн. ≈ 900; по тарифам ≈ 20 б.в. = 900. Источник 50–100% – общий (не по Минску)."
   },
   "гостиница|гостиницы|отель": {
+   "check": 520,
    "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Куфар Путешествия, 19 гостиниц Минска",
+     "url": "https://travel.kufar.by/l/minsk/arendovat/hotel-na-sutki",
+     "price": "медиана 260 руб./сутки (от 160 «Вояж» до 870 «Дипсервис»; Турист 216, Орбита 210, Спутник 180, Беларусь 280, Планета 230, Виктория 236)",
+     "za_chto": "2 ночи × 260 = 520"
+    },
+    {
+     "company": "Гостиница «Минск»",
+     "url": "https://www.hotelminsk.by/",
+     "price": "Стоимость номера от 355,00 BYN",
+     "za_chto": "2 ночи ≈ 710"
+    },
+    {
+     "company": "Аква-Минск",
+     "url": "https://www.relax.by/cat/tourism/hotels/",
+     "price": "Однокомнатный двухместный номер 210 руб.",
+     "za_chto": "2 ночи = 420"
+    },
+    {
+     "company": "Полонез",
+     "url": "https://www.relax.by/cat/tourism/hotels/",
+     "price": "Проживание в двухместном номере 429 руб./сутки",
+     "za_chto": "2 ночи = 858"
+    },
+    {
+     "company": "Гостиница «Славянская» (Островок)",
+     "url": "https://ostrovok.ru/rooms/gostinitsa_slavyanskaya/",
+     "price": "от 5 986 ₽",
+     "za_chto": "≈ 218 BYN по курсу НБРБ 3,6459/100 RUB; 2 ночи ≈ 436"
+    }
+   ],
+   "kommentariy": "Стандартный номер, 2 ночи. Ночь: медиана по 19 гостиницам Куфара = 260, прочие источники 210–429 → 2 × 260 = 520. Ориентир 195 похож на цену одной ночи эконом-уровня."
   },
   "хостел": {
+   "check": 60,
    "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Green Hostel (Куфар)",
+     "url": "https://travel.kufar.by/l/minsk/arendovat/hotel-na-sutki",
+     "price": "26 руб./сутки",
+     "za_chto": "койко-место"
+    },
+    {
+     "company": "Hostel Park (Куфар)",
+     "url": "https://travel.kufar.by/l/minsk/arendovat/hotel-na-sutki",
+     "price": "26 руб./сутки",
+     "za_chto": "койко-место"
+    },
+    {
+     "company": "9 Level (Яндекс Карты, через поиск)",
+     "url": "https://maps.yango.com/en-ae/org/9_level/222467282021",
+     "price": "койко-место 35–40 byn",
+     "za_chto": "койко-место"
+    },
+    {
+     "company": "Monro (Яндекс Карты, через поиск)",
+     "url": "https://yandex.com/maps/org/monro/229967112757/",
+     "price": "койко-место 20–40 byn",
+     "za_chto": "койко-место"
+    }
+   ],
+   "kommentariy": "Койко-место, 2 ночи: ночь ≈ 30 (медиана 26–37) → 60. Цены 9 Level и Monro – из сниппета поиска по карточкам, не открывал."
   },
   "мини отель": {
+   "check": 350,
    "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "«У Фонтана» (Куфар)",
+     "url": "https://travel.kufar.by/l/minsk/arendovat/hotel-na-sutki",
+     "price": "192 руб./сутки",
+     "za_chto": "2 ночи = 384"
+    },
+    {
+     "company": "Гостиница «Вояж» (Куфар)",
+     "url": "https://travel.kufar.by/l/minsk/arendovat/hotel-na-sutki",
+     "price": "160 руб./сутки",
+     "za_chto": "2 ночи = 320"
+    },
+    {
+     "company": "Green City Hotel (Куфар)",
+     "url": "https://travel.kufar.by/l/minsk/arendovat/hotel-na-sutki",
+     "price": "260 руб./сутки",
+     "za_chto": "2 ночи = 520"
+    },
+    {
+     "company": "«ЭкоДом» (Куфар)",
+     "url": "https://travel.kufar.by/l/minsk/arendovat/hotel-na-sutki",
+     "price": "65 руб./сутки",
+     "za_chto": "2 ночи = 130"
+    }
+   ],
+   "kommentariy": "Небольшие гостиницы, 2 ночи. Ночь: медиана [65,160,192,260]=176 → 2 × 176 ≈ 350."
   },
   "квартира на сутки|квартиры на сутки|посуточно": {
+   "check": 275,
    "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "realt.by, 180 объявлений Минска",
+     "url": "https://realt.by/rent/flat-for-day/",
+     "price": "медиана 154 руб./сутки (1-комн. 132, 2-комн. 176)",
+     "za_chto": "2 суток ≈ 308"
+    },
+    {
+     "company": "Куфар Путешествия, 33 квартиры Минска",
+     "url": "https://travel.kufar.by/l/minsk/arendovat/kvartiru-na-sutki",
+     "price": "медиана 120 руб./сутки (80–313)",
+     "za_chto": "2 суток = 240"
+    }
+   ],
+   "kommentariy": "Квартира 2 суток. Сутки: среднее медиан realt 154 и Куфар 120 ≈ 137 → 275. На realt в цене может быть сервисная надбавка (все цены кратны 11)."
   },
   "апартаменты": {
+   "check": 350,
    "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "realt.by, 2-комнатные посуточно",
+     "url": "https://realt.by/rent/flat-for-day/",
+     "price": "медиана 2-комн. 176 руб./сутки (63 объявления)",
+     "za_chto": "2 суток = 352"
+    },
+    {
+     "company": "Апартаменты SimHouse (Куфар)",
+     "url": "https://travel.kufar.by/l/minsk/arendovat/hotel-na-sutki",
+     "price": "200 руб./сутки",
+     "za_chto": "2 суток = 400"
+    },
+    {
+     "company": "Aparton (Куфар)",
+     "url": "https://travel.kufar.by/l/minsk/arendovat/hotel-na-sutki",
+     "price": "213 руб./сутки",
+     "za_chto": "2 суток = 426"
+    }
+   ],
+   "kommentariy": "Апартаменты = квартира/апарт-отель уровнем выше, 2 суток. Медиана ночи [176,200,213]=200 → 400; взято 350 ближе к массовым 2-комн."
   },
   "агроусадьба|агроусадьбы": {
+   "check": 350,
    "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Куфар Путешествия, агроусадьбы Минской обл.",
+     "url": "https://travel.kufar.by/l/arendovat/dom-na-sutki/agrousadba",
+     "price": "медиана 332 руб./сутки (12 объявлений, 240–570); Минский р-н 380–550",
+     "za_chto": "1 сутки"
+    },
+    {
+     "company": "Добры густ (Логойский р-н)",
+     "url": "https://www.relax.by/cat/tourism/cottages/",
+     "price": "Аренда дома 400 руб./сутки будни, 800 выходные",
+     "za_chto": "1 сутки"
+    },
+    {
+     "company": "Юхновский хутор (Минский р-н)",
+     "url": "https://www.relax.by/cat/tourism/cottages/",
+     "price": "Аренда маленького дома от 300 руб./сутки",
+     "za_chto": "1 сутки"
+    }
+   ],
+   "kommentariy": "Сутки усадьбы на компанию. Медиана [300,332,400]=332 → 350; в выходные и в Минском р-не 500–800."
   },
   "база отдыха|базы отдыха": {
+   "check": 800,
    "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Юхновский хутор",
+     "url": "https://www.relax.by/cat/tourism/cottages/",
+     "price": "Аренда большого дома от 800 руб./сутки",
+     "za_chto": "сутки на компанию"
+    },
+    {
+     "company": "Силичи",
+     "url": "https://www.relax.by/cat/tourism/cottages/",
+     "price": "Аренда большого дома от 800; дома от 300; комплекса от 1500 руб.",
+     "za_chto": "сутки, большой дом"
+    },
+    {
+     "company": "Олимпийский (загородный)",
+     "url": "https://www.relax.by/cat/tourism/hotels/",
+     "price": "Аренда коттеджа пн–чт 1 300, пятница 2 000 руб.",
+     "za_chto": "сутки"
+    },
+    {
+     "company": "Добры густ",
+     "url": "https://www.relax.by/cat/tourism/cottages/",
+     "price": "Аренда дома 400 (будни) / 800 (выходные) руб./сутки",
+     "za_chto": "сутки"
+    }
+   ],
+   "kommentariy": "Сутки дома на компанию на базе отдыха. Медиана [600,800,800,1300]=800."
   },
   "коттедж на сутки|дом на сутки|снять дом": {
+   "check": 360,
    "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "realt.by, 60 объявлений «коттедж на сутки»",
+     "url": "https://realt.by/rent/cottage-for-day/",
+     "price": "медиана 385 руб./сутки (квартиль 242–660)",
+     "za_chto": "1 сутки"
+    },
+    {
+     "company": "Куфар Путешествия, дома Минской обл.",
+     "url": "https://travel.kufar.by/l/arendovat/dom-na-sutki",
+     "price": "медиана 335 руб./сутки (18 объявлений)",
+     "za_chto": "1 сутки"
+    }
+   ],
+   "kommentariy": "Медиана [335,385]=360."
   },
   "баня на сутки|баня с бассейном": {
+   "check": 220,
    "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Matski Grand",
+     "url": "https://www.relax.by/list/saunas-russkaja-banya/minsk/",
+     "price": "Аренда сауны 100 руб./час; на день 1 200 руб.",
+     "za_chto": "3 часа = 300"
+    },
+    {
+     "company": "Силичи",
+     "url": "https://www.relax.by/list/saunas-russkaja-banya/minsk/",
+     "price": "Посещение бани (до 6 гостей) 210; с чаном 310 руб.",
+     "za_chto": "визит"
+    },
+    {
+     "company": "Вераги",
+     "url": "https://www.relax.by/list/saunas-russkaja-banya/minsk/",
+     "price": "Баня (3 часа) 130 руб.",
+     "za_chto": "визит"
+    },
+    {
+     "company": "Высокий Берег",
+     "url": "https://www.relax.by/list/saunas-russkaja-banya/minsk/",
+     "price": "Баня и купель 250 руб./3 часа",
+     "za_chto": "визит"
+    },
+    {
+     "company": "Добры густ",
+     "url": "https://www.relax.by/list/saunas-russkaja-banya/minsk/",
+     "price": "Баня с вениками 200 руб.",
+     "za_chto": "визит"
+    }
+   ],
+   "kommentariy": "Типовой заказ – баня/сауна на компанию на 3 часа: медиана [130,200,210,250,300]=210 → 220. Баня именно «на сутки» – 1 200 (Matski)."
   },
   "санатории|санаторий": {
-   "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 2200,
+   "basis": "ot",
+   "n": 6,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "«Нарочанка» (Минская обл.), myfin.by",
+     "url": "https://myfin.by/article/money/otdyh-v-belorusskih-sanatoriah-2026-vo-skolko-obojdetsa-poezdka-vesnoj-i-letom-43170",
+     "price": "От 180 рублей в сутки (1 гость), проживание, питание, некоторые процедуры",
+     "za_chto": "10 дней = 1 800"
+    },
+    {
+     "company": "«Ружанский», myfin.by",
+     "url": "https://myfin.by/article/money/otdyh-v-belorusskih-sanatoriah-2026-vo-skolko-obojdetsa-poezdka-vesnoj-i-letom-43170",
+     "price": "От 172 рублей в сутки (1 гость)",
+     "za_chto": "10 дней = 1 720"
+    },
+    {
+     "company": "«Веста» (Минская обл.), myfin.by",
+     "url": "https://myfin.by/article/money/otdyh-v-belorusskih-sanatoriah-2026-vo-skolko-obojdetsa-poezdka-vesnoj-i-letom-43170",
+     "price": "От 323 рублей в сутки (1 гость)",
+     "za_chto": "10 дней = 3 230"
+    },
+    {
+     "company": "«Плисса», myfin.by",
+     "url": "https://myfin.by/article/money/otdyh-v-belorusskih-sanatoriah-2026-vo-skolko-obojdetsa-poezdka-vesnoj-i-letom-43170",
+     "price": "От 504 рублей за 2 суток (1 гость)",
+     "za_chto": "252/сутки → 2 520"
+    },
+    {
+     "company": "«Альфа Радон», myfin.by",
+     "url": "https://myfin.by/article/money/otdyh-v-belorusskih-sanatoriah-2026-vo-skolko-obojdetsa-poezdka-vesnoj-i-letom-43170",
+     "price": "От 378 рублей в сутки (1 гость)",
+     "za_chto": "10 дней = 3 780"
+    },
+    {
+     "company": "putevka.com, санатории Минской обл. (по сниппету)",
+     "url": "https://www.putevka.com/belarus/Minskaya-oblast/cashback_sanatorii",
+     "price": "минимум от 2 017 ₽ за взрослого в сутки (октябрь 2026)",
+     "za_chto": "≈ 74 BYN/сутки по курсу 3,6459/100 RUB → 735; вероятно без лечения"
+    }
+   ],
+   "kommentariy": "Путёвка на 10 дней на одного. Сутки: медиана [74,172,180,252,323,378]=216 → ≈ 2 200. Цены «от», сезон влияет сильно."
   },
   "спа|спа центр": {
+   "check": 150,
    "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Body Dream",
+     "url": "https://www.relax.by/list/spa-programmy/minsk/",
+     "price": "Антистресс 180; балийский спа-ритуал 160 руб.",
+     "za_chto": "одна программа"
+    },
+    {
+     "company": "SPA Paradise",
+     "url": "https://www.relax.by/list/spa-programmy/minsk/",
+     "price": "VIP-программа «Полное расслабление» 150 руб.",
+     "za_chto": "одна программа"
+    },
+    {
+     "company": "Эгоист&ка",
+     "url": "https://www.relax.by/list/spa-programmy/minsk/",
+     "price": "Спа-уход для тела 2 часа 140 руб.",
+     "za_chto": "одна программа"
+    },
+    {
+     "company": "EFFLEURAGE",
+     "url": "https://www.relax.by/list/spa-programmy/minsk/",
+     "price": "Спа-ритуал 160 руб./120 мин.",
+     "za_chto": "одна программа"
+    },
+    {
+     "company": "Мни меня",
+     "url": "https://www.relax.by/list/spa-programmy/minsk/",
+     "price": "Спа-релакс (60 мин) 150 руб.",
+     "za_chto": "одна программа"
+    }
+   ],
+   "kommentariy": "Одна спа-программа. Медиана [140,150,150,160,170]=150."
   },
   "детский лагерь|летний лагерь": {
+   "check": 760,
    "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Республиканский центр по оздоровлению (через news.mail.ru)",
+     "url": "https://news.mail.ru/society/71040348/",
+     "price": "путевка в востребованные загородные лагеря ≈ 760 руб. (полная стоимость, до удешевления)",
+     "za_chto": "смена ~18–21 день"
+    },
+    {
+     "company": "Green Hill",
+     "url": "https://www.relax.by/cat/kids/razvitie/",
+     "price": "Лагерь дневного пребывания 651,77 руб.",
+     "za_chto": "смена дневного лагеря (частный)"
+    }
+   ],
+   "kommentariy": "Полная стоимость смены. Медиана [652,760] ≈ 700; взято 760 (загородный). С господдержкой родители платят ≈ 460."
   },
   "банкетный зал|банкет": {
-   "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 3900,
+   "basis": "ot",
+   "n": 7,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Август",
+     "url": "https://www.relax.by/list/wedding-restaurants/minsk/",
+     "price": "Свадебный банкет от 100 руб./чел.",
+     "za_chto": "×30 = 3 000"
+    },
+    {
+     "company": "Корчма Старовиленская",
+     "url": "https://www.relax.by/list/wedding-restaurants/minsk/",
+     "price": "от 120 руб./чел.",
+     "za_chto": "×30 = 3 600"
+    },
+    {
+     "company": "Виктория Платинум",
+     "url": "https://www.relax.by/list/wedding-restaurants/minsk/",
+     "price": "от 130 руб./чел.",
+     "za_chto": "×30 = 3 900"
+    },
+    {
+     "company": "Троицкий Холл",
+     "url": "https://www.relax.by/list/wedding-restaurants/minsk/",
+     "price": "от 130 руб./чел.",
+     "za_chto": "×30 = 3 900"
+    },
+    {
+     "company": "Okna",
+     "url": "https://www.relax.by/list/wedding-restaurants/minsk/",
+     "price": "Свадебный банкет от 140 руб./чел.",
+     "za_chto": "×30 = 4 200"
+    },
+    {
+     "company": "Полонез / Аква-Минск",
+     "url": "https://www.relax.by/cat/tourism/hotels/",
+     "price": "Проведение банкета от 150 руб./чел.",
+     "za_chto": "×30 = 4 500"
+    },
+    {
+     "company": "Усадьба (ул. Филимонова)",
+     "url": "https://www.relax.by/list/wedding-restaurants/minsk/",
+     "price": "от 200 руб./чел.",
+     "za_chto": "×30 = 6 000"
+    }
+   ],
+   "kommentariy": "Банкет на 30 гостей: медиана «от» на человека 130 → 3 900. Цены только «от»."
   },
   "аренда зала для праздника|зал для дня рождения": {
-   "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 360,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Okna",
+     "url": "https://www.relax.by/list/wedding-restaurants/minsk/",
+     "price": "Аренда зала почасовая от 60 руб./час",
+     "za_chto": "4 часа = 240"
+    },
+    {
+     "company": "QUVALDA",
+     "url": "https://www.relax.by/cat/holiday/agencies/",
+     "price": "Аренда большого зала (до 15 чел.) от 190 руб.",
+     "za_chto": "вечер"
+    },
+    {
+     "company": "Golf Park",
+     "url": "https://www.relax.by/cat/kids/entertainment/",
+     "price": "Частичная аренда парка на 1 час 120 руб.",
+     "za_chto": "3 часа = 360"
+    },
+    {
+     "company": "Усадьба (ул. Филимонова)",
+     "url": "https://www.relax.by/list/wedding-restaurants/minsk/",
+     "price": "Аренда зала от 800 руб.",
+     "za_chto": "вечер"
+    },
+    {
+     "company": "Просто вкусно",
+     "url": "https://www.relax.by/list/wedding-restaurants/minsk/",
+     "price": "Аренда площадки 900 руб.",
+     "za_chto": "вечер"
+    }
+   ],
+   "kommentariy": "Аренда зала на праздник (3–4 часа, без еды). Медиана [190,240,360,800,900]=360. Цены «от»."
   },
   "ведущий на свадьбу|тамада": {
-   "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 800,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Виталий Почобут",
+     "url": "https://www.relax.by/cat/holiday/tamada/",
+     "price": "Базовая программа: ведущий, диджей, оборудование от 810; ведение мероприятия от 1200 руб.",
+     "za_chto": "свадьба"
+    },
+    {
+     "company": "QUVALDA",
+     "url": "https://www.relax.by/cat/holiday/agencies/",
+     "price": "Проведение свадьбы от 800 руб.",
+     "za_chto": "свадьба"
+    },
+    {
+     "company": "Обзор myfin.by (старый, по сниппету)",
+     "url": "https://myfin.by/article/money/skolko-stoit-sdelat-svadbu-v-belarusi-s-agentstvom-i-samomu",
+     "price": "ведущий от 300 руб., если работает один",
+     "za_chto": "устарело, не в медиане"
+    }
+   ],
+   "kommentariy": "Ведущий (часто с диджеем) на свадебный день. Медиана [800,810,1200]=810 → 800. Цены «от»."
   },
   "организация свадьбы|свадебное агентство": {
-   "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 800,
+   "basis": "ot",
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "QUVALDA",
+     "url": "https://www.relax.by/cat/holiday/agencies/",
+     "price": "Проведение свадьбы от 800 руб.",
+     "za_chto": "организация/проведение"
+    }
+   ],
+   "kommentariy": "Один источник с ценой «от»; агентства Минска цены не публикуют. Полная свадьба под ключ на 30 гостей по журналистике – $10–15 тыс. (с банкетом). Сомнительно."
   },
   "кейтеринг": {
-   "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 2400,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Дворец Республики",
+     "url": "https://www.relax.by/cat/holiday/katering/",
+     "price": "Кейтеринг (фуршет) от 80 руб./чел.",
+     "za_chto": "×30 = 2 400"
+    },
+    {
+     "company": "Вестфалия",
+     "url": "https://www.relax.by/cat/holiday/katering/",
+     "price": "Организация кейтеринга от 80 руб.",
+     "za_chto": "×30 = 2 400"
+    },
+    {
+     "company": "Magic Catering",
+     "url": "https://www.relax.by/cat/holiday/agencies/",
+     "price": "Проведение банкета от 160 руб./чел.",
+     "za_chto": "×30 = 4 800"
+    }
+   ],
+   "kommentariy": "Фуршет на 30 человек: медиана 80 руб./чел. × 30 = 2 400. Цены «от»."
   },
   "фотограф|фотосессия": {
-   "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 120,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Yuri & Anna Photo",
+     "url": "https://www.relax.by/cat/holiday/photovideo/",
+     "price": "Индивидуальная съемка от 100 руб.; свадебный пакет 5 от 600",
+     "za_chto": "индивидуальная фотосессия"
+    },
+    {
+     "company": "Фотопрогулка в Минске (Tripster, по сниппету)",
+     "url": "https://experience.tripster.ru/experience/Minsk/2729-fotosessii/",
+     "price": "30 минут 3 100 ₽",
+     "za_chto": "≈ 113 BYN по курсу 3,6459/100 RUB"
+    },
+    {
+     "company": "Фотостудии Минска (myfin.by, по сниппету)",
+     "url": "https://myfin.by/article/zhizn/skolko-stoit-semka-v-fotostudii-sobrali-varianty-s-klassnymi-intererami-41331",
+     "price": "аренда зала 1 час 65 рублей",
+     "za_chto": "+ фотограф от 100 → ≈ 165"
+    }
+   ],
+   "kommentariy": "Индивидуальная фотосессия 1 час. Медиана [100,113,165] = 113 → 120. Свадебная съёмка 600–1 200."
   },
   "аниматор на день рождения|аниматоры": {
+   "check": 140,
    "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Спорт Парк",
+     "url": "https://www.relax.by/cat/kids/feast/",
+     "price": "Праздничный инструктор «Лайт» 130, «Мега» 150, «Турбо» 250 руб.",
+     "za_chto": "программа с аниматором"
+    },
+    {
+     "company": "Golf Park",
+     "url": "https://www.relax.by/cat/kids/feast/",
+     "price": "Программа с ведущим-инструктором «Стандарт» 140 руб.",
+     "za_chto": "программа"
+    },
+    {
+     "company": "Титан",
+     "url": "https://www.relax.by/cat/kids/feast/",
+     "price": "Детская программа «Киндер пати» 300 руб.",
+     "za_chto": "программа с площадкой"
+    }
+   ],
+   "kommentariy": "Аниматор/инструктор на праздник ≈ 1 час. Медиана [130,140,150] = 140. Выездные аниматоры на дом не найдены с ценами."
   },
   "фитнес клуб|фитнес центр": {
    "check": 150,
@@ -287,11 +895,19 @@
    "kommentariy": "Абонемент в тренажёрный зал на месяц. Медиана [100,120,125,150]=122,5 → 120."
   },
   "персональный тренер": {
-   "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 320,
+   "basis": "ot",
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "Lifestyle (по обзору myfin.by)",
+     "url": "https://myfin.by/article/zhizn/v-minske-otkrylsa-umnyj-fitnes-centr-posmotreli-cto-vnutri-37566",
+     "price": "занятие с инструктором от 39 рублей (по сниппету)",
+     "za_chto": "8 тренировок ≈ 312"
+    }
+   ],
+   "kommentariy": "Пакет 8 персональных тренировок ≈ 8 × 40 = 320. Один источник, без даты – сомнительно."
   },
   "бассейн": {
    "check": 140,
@@ -354,60 +970,244 @@
    "kommentariy": "Абонемент на месяц, 8–12 занятий. Медиана [90,150,180,199] = 165."
   },
   "школа танцев|танцы для взрослых": {
-   "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 100,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "International Dance House",
+     "url": "https://www.relax.by/cat/active/dancing/",
+     "price": "Абонемент на 8 занятий 160 руб.; на занятия танцами от 100 руб.",
+     "za_chto": "месяц"
+    },
+    {
+     "company": "Dance Line",
+     "url": "https://www.relax.by/cat/active/dancing/",
+     "price": "Абонемент на 1 месяц (12 занятий) от 70 руб.; 8 занятий студенческий от 45",
+     "za_chto": "месяц"
+    },
+    {
+     "company": "Bee Happy Studio",
+     "url": "https://www.relax.by/cat/health/ioga/",
+     "price": "Абонемент на 1 месяц (8 занятий) от 50 руб.",
+     "za_chto": "месяц"
+    }
+   ],
+   "kommentariy": "Месячный абонемент 8–12 занятий. Медиана [50,70,160] = 70; с учётом «от» взято 100."
   },
   "спортивные секции|секции для детей": {
+   "check": 150,
    "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Max Mirnyi Center",
+     "url": "https://www.relax.by/cat/kids/razvitie/",
+     "price": "Теннис для детей, 4 занятия 140; 8 занятий 275 руб.",
+     "za_chto": "месяц"
+    },
+    {
+     "company": "Теннисный центр «Аква-Минск»",
+     "url": "https://www.relax.by/cat/active/pools/",
+     "price": "Абонемент по плаванию детский (1 раз в неделю) 150 руб.",
+     "za_chto": "месяц"
+    },
+    {
+     "company": "Кафедра плавания",
+     "url": "https://www.relax.by/cat/active/pools/",
+     "price": "обучение детей от 5 лет 25 руб./занятие (2 раза в неделю)",
+     "za_chto": "8 занятий = 200"
+    },
+    {
+     "company": "Мандарин",
+     "url": "https://www.relax.by/cat/health/fitness/",
+     "price": "8 занятий в группе синхронного плавания 136 руб.",
+     "za_chto": "месяц"
+    }
+   ],
+   "kommentariy": "Месяц секции. Медиана [136,140,150,200,275]=150."
   },
   "детский центр|развивающий центр": {
+   "check": 160,
    "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Next Level",
+     "url": "https://www.relax.by/cat/kids/razvitie/",
+     "price": "Абонемент в развивающий центр на 1 месяц от 160 руб.",
+     "za_chto": "месяц"
+    },
+    {
+     "company": "Центр из обзора myfin.by («Мама, я сам!»)",
+     "url": "https://myfin.by/article/zhizn/skolko-stoat-zanatia-v-razvivaskah-dla-detej-posmotreli-na-ceny-v-minske-41803",
+     "price": "месячный абонемент (8 занятий) 180 рублей",
+     "za_chto": "месяц"
+    },
+    {
+     "company": "Центр из обзора myfin.by («Вместе с мамой/папой»)",
+     "url": "https://myfin.by/article/zhizn/skolko-stoat-zanatia-v-razvivaskah-dla-detej-posmotreli-na-ceny-v-minske-41803",
+     "price": "месячный абонемент (4 занятия) 120 рублей",
+     "za_chto": "месяц"
+    }
+   ],
+   "kommentariy": "Абонемент на месяц. Медиана [120,160,180]=160. Обзор myfin без даты на странице – цены могли вырасти."
   },
   "развивающие занятия для детей": {
+   "check": 140,
    "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Центр из обзора myfin.by",
+     "url": "https://myfin.by/article/zhizn/skolko-stoat-zanatia-v-razvivaskah-dla-detej-posmotreli-na-ceny-v-minske-41803",
+     "price": "4 занятия по 50 минут 90 рублей",
+     "za_chto": "месяц 1 раз/нед"
+    },
+    {
+     "company": "Центр из обзора myfin.by",
+     "url": "https://myfin.by/article/zhizn/skolko-stoat-zanatia-v-razvivaskah-dla-detej-posmotreli-na-ceny-v-minske-41803",
+     "price": "Уроки английского с 3 лет 135 рублей за 4 занятия",
+     "za_chto": "месяц"
+    },
+    {
+     "company": "Центр из обзора myfin.by",
+     "url": "https://myfin.by/article/zhizn/skolko-stoat-zanatia-v-razvivaskah-dla-detej-posmotreli-na-ceny-v-minske-41803",
+     "price": "«Мама, я сам!» 8 занятий 180 рублей",
+     "za_chto": "месяц 2 раза/нед"
+    },
+    {
+     "company": "Next Level",
+     "url": "https://www.relax.by/cat/kids/razvitie/",
+     "price": "Абонемент на 1 месяц от 160 руб.",
+     "za_chto": "месяц"
+    }
+   ],
+   "kommentariy": "Месяц занятий по одному направлению. Медиана [90,135,160,180]=147 → 140."
   },
   "подготовка к школе": {
+   "check": 160,
    "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Центр из обзора myfin.by",
+     "url": "https://myfin.by/article/zhizn/skolko-stoat-zanatia-v-razvivaskah-dla-detej-posmotreli-na-ceny-v-minske-41803",
+     "price": "8 занятий программы «Подготовка к школе» 160 рублей",
+     "za_chto": "месяц"
+    },
+    {
+     "company": "ORTUS",
+     "url": "https://www.relax.by/cat/kids/razvitie/",
+     "price": "Подготовка к школе 44 руб. (занятие)",
+     "za_chto": "8 занятий = 352"
+    },
+    {
+     "company": "Avatar",
+     "url": "https://www.relax.by/cat/kids/razvitie/",
+     "price": "Абонемент на 1 месяц (4 занятия) по подготовке к школе от 52 руб.",
+     "za_chto": "8 занятий ≈ 104"
+    }
+   ],
+   "kommentariy": "Месяц (8 занятий). Медиана [104,160,352]=160."
   },
   "логопед": {
+   "check": 400,
    "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "ORTUS",
+     "url": "https://www.relax.by/cat/kids/razvitie/",
+     "price": "Логопедическое занятие с логомассажем 50 руб.; консультация с заключением 62 руб.",
+     "za_chto": "8 занятий = 400 (+ консультация)"
+    },
+    {
+     "company": "Next Level",
+     "url": "https://www.relax.by/cat/kids/razvitie/",
+     "price": "Консультация логопеда 70 руб.; логоритмика 60 руб.",
+     "za_chto": "8 занятий логоритмики = 480"
+    }
+   ],
+   "kommentariy": "Типовой заказ – курс на месяц, 2 занятия в неделю (8 × 50–60). Медиана ≈ 440, взято 400. Разовое занятие 50–70."
   },
   "частный детский сад": {
-   "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 1200,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "relax.by, платные детские сады (по сниппету поиска)",
+     "url": "https://www.relax.by/cat/kids/kindergartens/",
+     "price": "программа полного дня (8:30–18:30) от 1190 руб.; полное пребывание с 5-разовым питанием от 1200 руб.",
+     "za_chto": "месяц"
+    },
+    {
+     "company": "blizko.by (по сниппету поиска)",
+     "url": "https://blizko.by/categories/detskie-sady/options/chastnyy-detskiy-sad",
+     "price": "полный день от 1100 руб. в месяц",
+     "za_chto": "месяц"
+    },
+    {
+     "company": "Green Hill",
+     "url": "https://www.relax.by/cat/kids/kindergartens/",
+     "price": "Абонемент 12 посещений в месяц полный день с питанием от 800 руб.",
+     "za_chto": "неполный месяц; полный пакет 790 € (≈ 2 606 BYN) по сниппету erudo.by"
+    }
+   ],
+   "kommentariy": "Полный день на месяц: медиана [1100,1190,1200] ≈ 1 200. Премиум – до 2 600."
   },
   "детский праздник|день рождения ребенка": {
+   "check": 370,
    "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 6,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Скаут Парк",
+     "url": "https://www.relax.by/cat/kids/feast/",
+     "price": "Программа Дня Рождения 490 руб./3 часа",
+     "za_chto": "праздник"
+    },
+    {
+     "company": "QUVALDA",
+     "url": "https://www.relax.by/cat/kids/feast/",
+     "price": "Пакет для маленькой компании 370 руб.",
+     "za_chto": "праздник"
+    },
+    {
+     "company": "Flash Park",
+     "url": "https://www.relax.by/cat/kids/feast/",
+     "price": "ДР в батутном центре 3 часа 329–379 руб.",
+     "za_chto": "≈ 350"
+    },
+    {
+     "company": "Монополия",
+     "url": "https://www.relax.by/cat/kids/feast/",
+     "price": "Тариф «Start» 450 руб.",
+     "za_chto": "праздник"
+    },
+    {
+     "company": "Титан",
+     "url": "https://www.relax.by/cat/kids/feast/",
+     "price": "«Киндер пати» 300 руб.",
+     "za_chto": "праздник"
+    },
+    {
+     "company": "Quest Zone",
+     "url": "https://www.relax.by/cat/kids/feast/",
+     "price": "ДР в стиле Гарри Поттер от 580 руб.",
+     "za_chto": "праздник"
+    }
+   ],
+   "kommentariy": "Готовая программа ДР на компанию. Медиана [300,350,370,450,490,580]=410; без премиальных – 370."
   },
   "курсы английского|английский язык курсы": {
    "check": 250,
@@ -437,11 +1237,25 @@
    "kommentariy": "Месяц групповых занятий. Медиана [240,245,256] = 245 → 250."
   },
   "репетитор": {
+   "check": 200,
    "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Репетитор из обзора myfin.by",
+     "url": "https://myfin.by/article/money/podgotovka-k-ct-i-postupleniu-skolko-stoat-zanatia-u-repetitorov-v-minske-43202",
+     "price": "30 рублей за 60 минут (по сниппету)",
+     "za_chto": "8 занятий = 240"
+    },
+    {
+     "company": "minsk.repetitors.info (анкета)",
+     "url": "https://minsk.repetitors.info/repetitor/p/BanazadeAA/",
+     "price": "английский 20–25 руб./60 мин. (по сниппету)",
+     "za_chto": "8 занятий ≈ 180"
+    }
+   ],
+   "kommentariy": "Месяц занятий, 2 раза в неделю: медиана ≈ 210 → 200. Цены из сниппетов поиска."
   },
   "подготовка к цт|подготовка к цэ|курсы цт": {
    "check": 250,
@@ -531,25 +1345,79 @@
    "kommentariy": "Курс-профессия целиком. Медиана [640,2390,2840,3600]=2615 → 2600."
   },
   "курсы бухгалтера|бухгалтерские курсы": {
-   "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 480,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Древо знаний (по сниппету поиска)",
+     "url": "https://yandex.com.ge/navi/org/drevo_znaniy/198574452539",
+     "price": "курс 64 часа (1,5–2 месяца) 479 Br",
+     "za_chto": "курс целиком; дата цены не указана"
+    },
+    {
+     "company": "Inatriol",
+     "url": "https://www.relax.by/cat/education/professional-courses/",
+     "price": "1С:Бухгалтерия 8 от 125 руб.",
+     "za_chto": "только модуль 1С – не курс бухгалтера"
+    },
+    {
+     "company": "Онлайн-курсы на myfin.by",
+     "url": "https://myfin.by/education/finansy/accountant",
+     "price": "бухгалтерский учет: сразу 268 / 858 / 2 268 BYN (со скидкой 60–65%)",
+     "za_chto": "онлайн, не минские"
+    }
+   ],
+   "kommentariy": "Очный курс бухгалтера целиком ≈ 480 (Древо знаний); онлайн-программы 268–2 268. Медиана [268,479,858]=479 → 480."
   },
   "курсы маникюра|курсы парикмахера": {
+   "check": 530,
    "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "BeautyArt",
+     "url": "https://www.relax.by/cat/education/beautyschool/",
+     "price": "Базовый курс «Парикмахер — для себя» (группа 3–6 человек) 530 руб.; индивидуально 890 руб.",
+     "za_chto": "курс целиком (групповой)"
+    }
+   ],
+   "kommentariy": "Курс целиком. Цен на курсы маникюра в Минске не нашёл; один источник по парикмахерскому курсу «для себя» – профессиональный курс дороже."
   },
   "салон красоты": {
+   "check": 80,
    "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Zhukovskaya",
+     "url": "https://www.relax.by/list/manicure-manikyur-s-gely-lakom/minsk/",
+     "price": "маникюр с покрытием 80; женская стрижка от 70; коррекция+окрашивание бровей 45 руб.",
+     "za_chto": "типовая процедура ≈ 70–80"
+    },
+    {
+     "company": "ICON",
+     "url": "https://www.relax.by/list/parikmaherskie-zhenskaja-strizhka/minsk/",
+     "price": "стрижка женская 95; маникюр с покрытием 90 руб.",
+     "za_chto": "≈ 90"
+    },
+    {
+     "company": "Шоколад",
+     "url": "https://www.relax.by/list/manicure-manikyur-s-gely-lakom/minsk/",
+     "price": "маникюр + покрытие 80; стрижка женская (средний волос) 70 руб.",
+     "za_chto": "≈ 75"
+    },
+    {
+     "company": "SPA Paradise",
+     "url": "https://www.relax.by/list/manicure-manikyur-s-gely-lakom/minsk/",
+     "price": "маникюр с покрытием 79; стрижка модельная от 52 руб.",
+     "za_chto": "≈ 65"
+    }
+   ],
+   "kommentariy": "Одна типовая процедура (маникюр с покрытием или стрижка). Медиана по салонам ≈ 75–80; окрашивание (≈190) тянет средний чек вверх."
   },
   "парикмахерская|парикмахер": {
    "check": 50,
@@ -1113,11 +1981,19 @@
    "kommentariy": "Одна процедура = глубокое бикини ~50; визит с двумя зонами 90–100. Взято 50 по одной зоне."
   },
   "тату салон|сделать тату": {
-   "basis": "tipovoy",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 120,
+   "basis": "ot",
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "INTUITION",
+     "url": "https://www.relax.by/cat/health/tattoo/",
+     "price": "Татуировка 5x5 от 80 руб.; 10x10 от 120 руб.",
+     "za_chto": "небольшая тату 10×10"
+    }
+   ],
+   "kommentariy": "Один салон с ценами; студии Минска (inkppl.com) цены не публикуют. Работы крупнее – 200–400+. Сомнительно."
   }
  }
 }
