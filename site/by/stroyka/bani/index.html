@@ -411,6 +411,7 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head>
 (function () {
   var P = window.POTERI, C = window.CITY, fmt = P.fmt, N = P.D.niches;
   var checks = {}, off = {}, $ = function (id) { return document.getElementById(id); };
+  N.forEach(function (n) { n.services.forEach(function (s) { if (s[3] === 'sub') off[s[0]] = true; }); });
   var nicheSel = $('niche'), opts = N.map(function (n) { return '<option value="' + n.id + '">' + n.name + '</option>'; }).join('');
   nicheSel.innerHTML = opts; $('f-niche').innerHTML = opts;
 
@@ -426,7 +427,7 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head>
   }
   function drawNiches() {
     var r = C.current();
-    var cards = N.map(function (n) { var rows = P.nicheRows(n, r, 'none'); return { n: n, rows: rows.slice(0, 10), t: P.sum(rows) }; })
+    var cards = N.map(function (n) { var rows = P.nicheRows(n, r, 'none'); return { n: n, rows: rows, t: P.sum(rows.filter(function (x) { return !x.sub; })) }; })
       .sort(function (a, b) { return b.t.money - a.t.money; });
     var wide = window.matchMedia('(min-width: 761px)').matches;
     $('niches').innerHTML = cards.map(function (c, i) {

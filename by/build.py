@@ -150,6 +150,11 @@ def page(seg_id, only=None):
     t = rep(t, '<script src="../data.js"></script>\n<script src="../calc.js"></script>\n<script src="../city.js"></script>',
             f'<script src="{"../" if only else ""}data.js"></script>\n{filt}<script src="{up}calc.js"></script>\n<script src="{up}city.js"></script>')
     t = rep(t, '<script src="../proto.js"></script>', f'<script src="{up}proto.js"></script>')
+    # вложенные запросы (флаг sub: «дом под ключ» внутри «строительство дома») в суммы не идут:
+    # карточка раздела считает без них, в калькуляторе они выключены, пока владелец не отметит сам
+    t = rep(t, "return { n: n, rows: rows.slice(0, 10), t: P.sum(rows) };", "return { n: n, rows: rows, t: P.sum(rows.filter(function (x) { return !x.sub; })) };")
+    t = rep(t, "var checks = {}, off = {}, $ = function (id) { return document.getElementById(id); };",
+            "var checks = {}, off = {}, $ = function (id) { return document.getElementById(id); };\n  N.forEach(function (n) { n.services.forEach(function (s) { if (s[3] === 'sub') off[s[0]] = true; }); });")
     # навигация по разделам сегмента – под первым экраном
     nav = "".join(f'<a class="w-btn ghost" href="{"../" if only else ""}{n["id"]}/">{html.escape(n["name"])}</a>' for n in s["niches"] if n["id"] != only)
     navblk = (f'  <section class="w-block" data-n="1а" data-name="Разделы" data-question="Где моя услуга?" data-proof="отдельная страница на каждый раздел">\n'
