@@ -6,12 +6,13 @@
   var EN = { moscow: 'msk', 'saint petersburg': 'spb', 'st petersburg': 'spb', 'st. petersburg': 'spb', novosibirsk: 'nsk', yekaterinburg: 'ekb',
     ekaterinburg: 'ekb', kazan: 'kzn', krasnoyarsk: 'krs', 'nizhniy novgorod': 'nnov', 'nizhny novgorod': 'nnov', chelyabinsk: 'chel',
     samara: 'sam', ufa: 'ufa', 'rostov-on-don': 'rnd', 'rostov-na-donu': 'rnd', krasnodar: 'krd', omsk: 'oms', voronezh: 'vrn', perm: 'perm',
-    volgograd: 'vlg', minsk: 'mnsk' };
+    volgograd: 'vlg', minsk: 'mnsk', gomel: 'gomel', homyel: 'gomel', brest: 'brest', vitebsk: 'vitebsk', viciebsk: 'vitebsk',
+    grodno: 'grodno', hrodna: 'grodno', mogilev: 'mogilev', mahilyow: 'mogilev', mogilyov: 'mogilev' };
   var store = {
     get: function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
     set: function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
   };
-  var saved = store.get(KEY), cur = saved && D.regions[saved] ? saved : 'nsk';
+  var saved = store.get(KEY), cur = saved && D.regions[saved] ? saved : (D.defaultRegion || 'nsk');
   var known = cur === saved;            // город выбран человеком или определён раньше
   var asked = store.get(ASKED) === '1'; // окно уже показывали: само больше не всплывает, только по кнопке города
 
@@ -24,7 +25,7 @@
     '.js-city-btn{cursor:pointer;white-space:nowrap}html[data-theme=dark] .c-win{background:#1f2125;color:#e4e4e2;border-color:#3a3c42}';
   document.head.appendChild(css);
 
-  var niches = D.niches.map(function (n) { return '<option>' + n.name + '</option>'; }).join('') + '<option>Продажа и пригон авто</option><option>Другое</option>';
+  var niches = D.niches.map(function (n) { return '<option>' + n.name + '</option>'; }).join('') + (D.noAutoSale ? '' : '<option>Продажа и пригон авто</option>') + '<option>Другое</option>';
   var back = document.createElement('div');
   back.className = 'c-back';
   back.innerHTML = '<div class="c-win" role="dialog" aria-modal="true" aria-label="Выбор города">' +

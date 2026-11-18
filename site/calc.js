@@ -6,6 +6,8 @@
     servis: { sites: 0.5, top: 0.2, conv: 0.08, close: 0.6 },
     avto: { sites: 0.6, top: 0.1, conv: 0.03, close: 0.1, margin: 150000 }
   };
+  // Своя модель сегмента (Беларусь: магазины – конверсия в заказ), задаётся в data.js; без неё – как было.
+  if (D.model) Object.keys(D.model).forEach(function (k) { MODEL.servis[k] = D.model[k]; });
   // Сколько потенциала поиска забирает бизнес в каждом состоянии (допущение, сверим на своих сайтах).
   var STATES = {
     none: { name: 'Сайта нет', take: 0 },
@@ -51,7 +53,8 @@
 
   // Клиентов в месяц, которых приносит сайт в топ-3 при данном горячем спросе.
   // Запросы «рядом» (автосервис, шиномонтаж, автоэлектрик) – в основном карты: на сайты уходит вдвое меньше.
-  function clientsServis(hot, maps) { var m = MODEL.servis; return hot * (maps ? m.sites / 2 : m.sites) * m.top * m.conv * m.close; }
+  // close ниши – своя доля «обратился → заказал» (дом заказывают реже, чем стрижку); нет – из модели.
+  function clientsServis(hot, maps, close) { var m = MODEL.servis; return hot * (maps ? m.sites / 2 : m.sites) * m.top * m.conv * (close || m.close); }
   function dealsAvto(hot) { var m = MODEL.avto; return hot * m.sites * m.top * m.conv * m.close; }
   // Сколько из этого уходит мимо в выбранном состоянии.
   function lost(potential, state) { return potential * (1 - STATES[state].take); }
@@ -61,7 +64,7 @@
     return niche.services.map(function (s) {
       var d = get('services', s[0], region), check = checks && checks[s[0]] != null ? checks[s[0]] : baseCheck(s, region);
       if (!d) return null;
-      var cl = lost(clientsServis(d.hot, s[3] === 'maps'), state || 'none');
+      var cl = lost(clientsServis(d.hot, s[3] === 'maps', niche.close), state || 'none');
       return { q: s[0], name: s[1], check: check, maps: s[3] === 'maps', sub: s[3] === 'sub', total: d.total, hot: d.hot, top: d.top || [],
         clients: cl, money: cl * check, niche: niche.id, nicheName: niche.short };
     }).filter(Boolean).sort(function (a, b) { return b.hot - a.hot; });

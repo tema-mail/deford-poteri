@@ -1,0 +1,1445 @@
+{
+ "city": "Минск",
+ "currency": "BYN",
+ "date": "2026-11-18",
+ "kurs": "НБРБ на 18.11.2026: 1 USD = 2,9987 BYN, 1 EUR = 3,2989 BYN",
+ "prices": {
+  "строительство домов|строительство дома": {
+   "check": 193500,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "СтройДом (dom-stroy.by)",
+     "url": "https://dom-stroy.by/building/gazoblok/",
+     "price": "Стоимость строительства от 1 600 руб./м2",
+     "za_chto": "дом из газоблока под ключ, 1 600 × 120 м² = 192 000 BYN"
+    },
+    {
+     "company": "stroitelstvo-domov-rb.by",
+     "url": "https://stroitelstvo-domov-rb.by/",
+     "price": "Проект 120 м² – от 165 000 BYN",
+     "za_chto": "готовый проект 120 м² под ключ, цена карточки проекта"
+    },
+    {
+     "company": "stroi.by",
+     "url": "https://stroi.by/uslugi/stroitelstvo-domov-iz-gazosilikatnyh-blokov/",
+     "price": "Дом под ключ от 950 $ за м2",
+     "za_chto": "950 $ × 120 м² × 2,9987 = 341 900 BYN"
+    },
+    {
+     "company": "ENKINS (enkins.by)",
+     "url": "https://enkins.by/karkasnye-doma/",
+     "price": "120 м² – от 195 000 BYN (внешнезаконченный дом)",
+     "za_chto": "каркасный дом 120 м², внешнезаконченный, цена с сайта"
+    }
+   ],
+   "kommentariy": "Типовой заказ – дом 120 м² из блоков под ключ (самый частый вариант). Цены «от» за м² умножены на 120 м², у проектов взят ближайший к 120 м². Медиана по 4 компаниям. Внимание: dom-stroy.by и stroitelstvo-domov-rb.by оба подписаны «СтройДом» – возможно, одна компания, тогда независимых источников на один меньше."
+  },
+  "дом под ключ": {
+   "check": 242200,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "СтройДом (dom-stroy.by)",
+     "url": "https://dom-stroy.by/building/gazoblok/",
+     "price": "Стоимость строительства от 1 600 руб./м2",
+     "za_chto": "1 600 × 120 м² = 192 000 BYN"
+    },
+    {
+     "company": "stroitelstvo-domov-rb.by",
+     "url": "https://stroitelstvo-domov-rb.by/",
+     "price": "Проект 120 м² – от 165 000 BYN",
+     "za_chto": "готовый проект 120 м² под ключ"
+    },
+    {
+     "company": "stroi.by",
+     "url": "https://stroi.by/uslugi/stroitelstvo-domov-iz-gazosilikatnyh-blokov/",
+     "price": "Дом под ключ от 950 $ за м2",
+     "za_chto": "950 $ × 120 × 2,9987 = 341 900 BYN"
+    },
+    {
+     "company": "karkasnyi-dom.by (статья 2026)",
+     "url": "https://karkasnyi-dom.by/stati/ceny/skolko-stoit-karkasnyj-dom-minsk/",
+     "price": "Дом 120 м²: $85 000 – $110 000",
+     "za_chto": "середина 97 500 $ × 2,9987 = 292 400 BYN, каркас под ключ"
+    }
+   ],
+   "kommentariy": "Дом 120 м² под ключ. Цены за м² × 120 м². Медиана по 4 источникам; разброс 165–342 тыс. BYN – зависит от комплектации. Внимание: dom-stroy.by и stroitelstvo-domov-rb.by оба подписаны «СтройДом» – возможно, одна компания, тогда независимых источников на один меньше."
+  },
+  "каркасный дом|каркасные дома": {
+   "check": 198000,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "ENKINS (enkins.by)",
+     "url": "https://enkins.by/karkasnye-doma/",
+     "price": "120 м² – от 195 000 BYN",
+     "za_chto": "внешнезаконченный дом 120 м²"
+    },
+    {
+     "company": "stroitelstvo-domov-rb.by",
+     "url": "https://stroitelstvo-domov-rb.by/karkasnye-doma/",
+     "price": "112 м² – от 190 000 BYN; 129 м² – от 207 000 BYN",
+     "za_chto": "проекты под ключ, интерполяция на 120 м² ≈ 198 000 BYN"
+    },
+    {
+     "company": "karkasnyi-dom.by (статья 2026)",
+     "url": "https://karkasnyi-dom.by/stati/ceny/skolko-stoit-karkasnyj-dom-minsk/",
+     "price": "Дом 120 м²: $85 000 – $110 000",
+     "za_chto": "середина 97 500 $ × 2,9987"
+    }
+   ],
+   "kommentariy": "Каркасный дом 120 м² под ключ / внешнезаконченный. Медиана по 3 источникам."
+  },
+  "дом из бруса|дома из бруса": {
+   "check": 216000,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "СтройДом (dom-stroy.by)",
+     "url": "https://dom-stroy.by/building/brus/",
+     "price": "Стоимость строительства от 1 800 руб./м2",
+     "za_chto": "1 800 × 120 = 216 000 BYN"
+    },
+    {
+     "company": "stroitelstvo-domov-rb.by",
+     "url": "https://stroitelstvo-domov-rb.by/",
+     "price": "Дома из бруса от 801 BYN/м2",
+     "za_chto": "801 × 120 = 96 120 BYN (нижняя планка)"
+    },
+    {
+     "company": "Woodplace (woodplace.by)",
+     "url": "https://woodplace.by/",
+     "price": "от 900 $/м² (клееный брус)",
+     "za_chto": "900 $ × 120 × 2,9987 = 323 900 BYN; цена из выдачи поиска, страницу не открывал"
+    }
+   ],
+   "kommentariy": "Дом из бруса 120 м² под ключ, цена «от» за м² × 120. Медиана по 3; woodplace – клееный брус премиум. Внимание: dom-stroy.by и stroitelstvo-domov-rb.by оба подписаны «СтройДом» – возможно, одна компания, тогда независимых источников на один меньше."
+  },
+  "дом из газосиликата|дом из газоблока": {
+   "check": 206400,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "СтройДом (dom-stroy.by)",
+     "url": "https://dom-stroy.by/building/gazoblok/",
+     "price": "Стоимость строительства от 1 600 руб./м2",
+     "za_chto": "1 600 × 120 = 192 000 BYN"
+    },
+    {
+     "company": "stroitelstvo-domov-rb.by",
+     "url": "https://stroitelstvo-domov-rb.by/",
+     "price": "Из газосиликата от 1720 BYN/м2",
+     "za_chto": "1 720 × 120 = 206 400 BYN"
+    },
+    {
+     "company": "stroi.by",
+     "url": "https://stroi.by/uslugi/stroitelstvo-domov-iz-gazosilikatnyh-blokov/",
+     "price": "коробка от 290 $, тёплый контур от 560 $, под чистовую от 780 $, под ключ от 950 $ за м2",
+     "za_chto": "под ключ 950 $ × 120 × 2,9987 = 341 900 BYN"
+    }
+   ],
+   "kommentariy": "Дом 120 м² из газосиликата под ключ, «от» за м² × 120. Медиана по 3. Внимание: dom-stroy.by и stroitelstvo-domov-rb.by оба подписаны «СтройДом» – возможно, одна компания, тогда независимых источников на один меньше."
+  },
+  "строительство коттеджей|строительство коттеджа": {
+   "check": 288000,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "СтройДом (dom-stroy.by)",
+     "url": "https://dom-stroy.by/building/gazoblok/",
+     "price": "от 1 600 руб./м2",
+     "za_chto": "1 600 × 180 = 288 000 BYN"
+    },
+    {
+     "company": "stroitelstvo-domov-rb.by",
+     "url": "https://stroitelstvo-domov-rb.by/",
+     "price": "Проект 182 м² – от 201 000 BYN",
+     "za_chto": "готовый проект 182 м²"
+    },
+    {
+     "company": "stroi.by",
+     "url": "https://stroi.by/uslugi/stroitelstvo-domov-iz-gazosilikatnyh-blokov/",
+     "price": "под ключ от 950 $ за м2",
+     "za_chto": "950 $ × 180 × 2,9987 = 512 800 BYN"
+    }
+   ],
+   "kommentariy": "Коттедж 180 м² под ключ, «от» за м² × 180. Медиана по 3. Внимание: dom-stroy.by и stroitelstvo-domov-rb.by оба подписаны «СтройДом» – возможно, одна компания, тогда независимых источников на один меньше."
+  },
+  "проект дома|проекты домов": {
+   "check": 7200,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Archidom (archidom.by)",
+     "url": "https://archidom.by/individual/",
+     "price": "от 4 000 BYN (дом до 200 м²)",
+     "za_chto": "АР + КР, дом до 200 м²"
+    },
+    {
+     "company": "Домпроект (domproekt.by)",
+     "url": "https://domproekt.by/individualnyij-proekt.html",
+     "price": "Строительный проект от 80 BYN 1 м2, от 5 500 BYN",
+     "za_chto": "80 × 150 = 12 000 BYN"
+    },
+    {
+     "company": "Лидер-Строй (lider-stroy.by)",
+     "url": "https://lider-stroy.by/proekty_domov_pod_klyuch",
+     "price": "Полный комплект 70 руб./м², минимум 3000 руб.",
+     "za_chto": "70 × 150 = 10 500 BYN"
+    },
+    {
+     "company": "F100 (f100.by)",
+     "url": "https://f100.by/individualnyj-proekt/",
+     "price": "от 7 BYN/m2",
+     "za_chto": "7 × 150 = 1 050 BYN (нижняя планка)"
+    }
+   ],
+   "kommentariy": "Индивидуальный проект дома 150 м² (архитектурный + конструктивный разделы). Медиана по 4. Готовые проекты из каталога дешевле: 500–600 BYN (f100.by)."
+  },
+  "реконструкция дома": {
+   "check": 22500,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Стар-Строй (star-stroy.by)",
+     "url": "https://star-stroy.by/remont-pod-klyuch/dom.html",
+     "price": "Комплексный ремонт дома под ключ от 250 руб. за м.кв.",
+     "za_chto": "250 × 100 м² = 25 000 BYN"
+    },
+    {
+     "company": "Ремонт БАЙ (remon.by)",
+     "url": "https://remon.by/minsk/remont-domov",
+     "price": "от 150 бел. руб./м², капитальное обновление от 200 бел. руб./м² (работы без материалов)",
+     "za_chto": "200 × 100 = 20 000 BYN; страница curl не отдалась, цифра из выдачи поиска"
+    }
+   ],
+   "kommentariy": "Реконструкция/капремонт дома 100 м², только работа (материалы +30–70 % по словам подрядчиков). Медиана по 2. Оценка мягкая: в прайсах ставка за м², а не за объект."
+  },
+  "строительство бань|строительство бани": {
+   "check": 25900,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "MDL (mdl.by)",
+     "url": "https://mdl.by/bani-iz-brusa.html",
+     "price": "Баня из бруса 5х6 ББ-17 – 30 000 BYN; 6х6 ББ-18 – 36 000 BYN",
+     "za_chto": "баня 5×6 под ключ, 30 м²"
+    },
+    {
+     "company": "Дачные домики (dachnye-domiki.by)",
+     "url": "https://dachnye-domiki.by/banya-s-terrasoy",
+     "price": "Баня 6х4м с террасой «под ключ» за 25.900 руб, с доставкой и сборкой до 100 км от Минска",
+     "za_chto": "баня 6×4 под ключ"
+    },
+    {
+     "company": "Бани Минск (bani-minsk.by)",
+     "url": "https://bani-minsk.by/katalog/kupit-banyu-v-minske/",
+     "price": "Баня из профилированного бруса 3×4 – 5×6 м от 20 000 BYN",
+     "za_chto": "нижняя планка, без пересчёта"
+    }
+   ],
+   "kommentariy": "Баня 5×6–6×6 из бруса под ключ (доставка, сборка, печь). Медиана по 3 источникам; у barnhouses.by бани от 65 000 BYN (по выдаче поиска) – в медиану не брал, это крупные бани-дома."
+  },
+  "баня под ключ": {
+   "check": 25900,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "MDL (mdl.by)",
+     "url": "https://mdl.by/bani-iz-brusa.html",
+     "price": "Баня из бруса 6х6 ББ-18 – 36 000 BYN",
+     "za_chto": "баня 6×6 под ключ"
+    },
+    {
+     "company": "Дачные домики (dachnye-domiki.by)",
+     "url": "https://dachnye-domiki.by/banya-s-terrasoy",
+     "price": "25.900 BYN – окончательная цена с доставкой и сборкой",
+     "za_chto": "баня 6×4 с террасой под ключ"
+    },
+    {
+     "company": "Бани Минск (bani-minsk.by)",
+     "url": "https://bani-minsk.by/katalog/kupit-banyu-v-minske/",
+     "price": "Каркасная баня под ключ 3×4 м от 1 800 BYN/м²",
+     "za_chto": "1 800 × 12 м² = 21 600 BYN"
+    }
+   ],
+   "kommentariy": "Баня под ключ 6×4–6×6 м. Медиана по 3."
+  },
+  "баня из бруса": {
+   "check": 25900,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "MDL (mdl.by)",
+     "url": "https://mdl.by/bani-iz-brusa.html",
+     "price": "Баня из бруса 5х6 ББ-17 – 30 000 BYN",
+     "za_chto": "баня 5×6 под ключ"
+    },
+    {
+     "company": "Дачные домики (dachnye-domiki.by)",
+     "url": "https://dachnye-domiki.by/banya-s-terrasoy",
+     "price": "Баня 6х4м с террасой «под ключ» за 25.900 руб",
+     "za_chto": "баня 6×4 под ключ"
+    },
+    {
+     "company": "Бани Минск (bani-minsk.by)",
+     "url": "https://bani-minsk.by/katalog/kupit-banyu-v-minske/",
+     "price": "Баня из профилированного бруса от 20 000 BYN",
+     "za_chto": "нижняя планка"
+    }
+   ],
+   "kommentariy": "Баня из бруса 5×6 / 6×4 под ключ. Медиана по 3."
+  },
+  "баня бочка|бани бочки": {
+   "check": 7200,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "баня-бочка.бел",
+     "url": "https://xn--80ab1ap9b.xn--90ais/",
+     "price": "6 450 – 8 745 Br (печь, доставка и монтаж в цене)",
+     "za_chto": "медиана 6 позиций каталога ≈ 7 530 BYN"
+    },
+    {
+     "company": "Бочонок (bochenok.by)",
+     "url": "https://bochenok.by/catalog/bochka",
+     "price": "4 890 – 8 940 р.",
+     "za_chto": "медиана 5 позиций = 6 210 BYN"
+    },
+    {
+     "company": "Бани Минск (bani-minsk.by)",
+     "url": "https://bani-minsk.by/katalog/kupit-banyu-v-minske/",
+     "price": "Баня-бочка (1 отделение) 4 м от 7 200 BYN; 2 отделения 9 300–17 000 BYN",
+     "za_chto": "бочка 4 м"
+    }
+   ],
+   "kommentariy": "Баня-бочка 3–4 м с печью, доставкой и установкой. Медиана по 3 продавцам (у каждого – середина каталога)."
+  },
+  "барнхаус": {
+   "check": 152800,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "ЭлитКаркасСтрой (elitdom.by)",
+     "url": "https://elitdom.by/catalog/barnhouse.html",
+     "price": "NEW – 90 м²: Каркас Плюс 76170 BYN, Стандарт 141010 BYN",
+     "za_chto": "90 м², комплектация «Стандарт»"
+    },
+    {
+     "company": "Barnhouses (barnhouses.by)",
+     "url": "https://barnhouses.by/catalog/barnhouse/",
+     "price": "Проект Barnhouse L80, 80 м² – 54 900 USD",
+     "za_chto": "54 900 × 2,9987 = 164 600 BYN"
+    }
+   ],
+   "kommentariy": "Барнхаус 80–90 м² в комплектации для жизни. Медиана по 2 компаниям. Комплектация «Каркас Плюс» у ЭлитКаркасСтрой вдвое дешевле (76 170 BYN за 90 м²)."
+  },
+  "строительство гаража|гараж под ключ": {
+   "check": 25800,
+   "basis": "ot",
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "ШаркСтрой (sharkstroy.by)",
+     "url": "https://sharkstroy.by/stroitelstvo-garazhej-khozblokov",
+     "price": "Сэндвич-панель от 950 руб.м2; бетонный пол 125 руб.м2",
+     "za_chto": "(950 + 125) × 24 м² = 25 800 BYN"
+    }
+   ],
+   "kommentariy": "Гараж на 1 машину ~24 м² (4×6). Одна компания с ценой за м² под ключ; у агрегатора navseruki.by только работа: «гараж под ключ без ямы 100 BYN/м²» (≈ 2 400 BYN за 24 м²) – в медиану не брал."
+  },
+  "строительство беседки|беседки под ключ": {
+   "check": 7500,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Мир беседок (mir-besedok.by)",
+     "url": "https://mir-besedok.by/p41031811-derevyannaya-besedka-pod.html",
+     "price": "3х4 (12 кв.м) = 9800 бел.руб.",
+     "za_chto": "беседка 3×4, доставка отдельно"
+    },
+    {
+     "company": "Филартбел (filartbel.by)",
+     "url": "https://filartbel.by/dacha/besedki/bd-04",
+     "price": "Беседка из бруса БС-04 (3×4) – 1900 $",
+     "za_chto": "1 900 × 2,9987 = 5 700 BYN"
+    },
+    {
+     "company": "Derevo.by",
+     "url": "https://derevo.by/product/besedka-3x4-dvuxskatnaya-tri-reshetki/",
+     "price": "комплект 4 002 руб, «под ключ» 7480 руб",
+     "za_chto": "3×4 под ключ; цифра из выдачи поиска, страница старше 1,5 лет"
+    }
+   ],
+   "kommentariy": "Деревянная беседка 3×4 под ключ. Медиана по 3."
+  },
+  "хозблок": {
+   "check": 4300,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Древкон (drevkon.by)",
+     "url": "https://drevkon.by/hozbloki.html",
+     "price": "Цена: 4300р. – 5000р.",
+     "za_chto": "младшая модель 4 300 BYN"
+    },
+    {
+     "company": "Строим вместе (strvmeste.by)",
+     "url": "https://strvmeste.by/katalog/bani-i-byitovki/byitovki-hozbloki/",
+     "price": "8 900.00 руб. (со скидкой), с доставкой и сборкой",
+     "za_chto": "младшая модель"
+    },
+    {
+     "company": "Пульс цен (pulscen.by)",
+     "url": "https://www.pulscen.by/price/160614-hozblok",
+     "price": "3 300 рублей металлический хозблок 4х2 м с доставкой",
+     "za_chto": "из выдачи поиска, страницу не открывал"
+    }
+   ],
+   "kommentariy": "Деревянный хозблок 3×2 – 4×2 м. Медиана по 3; с доставкой и сборкой дороже (strvmeste 8 900+)."
+  },
+  "фундамент под ключ|заливка фундамента": {
+   "check": 7500,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Экспресс-Бетон (expres-beton.by)",
+     "url": "https://expres-beton.by/services/fundament/lentochnyij-fundament-pod-klyuch/",
+     "price": "от 180 руб. за м3",
+     "za_chto": "лента 25 м³ × 180 = 4 500 BYN"
+    },
+    {
+     "company": "Мидеро (midero.by)",
+     "url": "https://midero.by/prajs",
+     "price": "Ленточный фундамент от 300 byn/м3 (копка, подсыпка, армирование, заливка, опалубка)",
+     "za_chto": "25 м³ × 300 = 7 500 BYN"
+    },
+    {
+     "company": "Qstroy (qstroy.by)",
+     "url": "https://qstroy.by/vse-uslugi-qstroy/stroitelstvo-fundamenta/",
+     "price": "Ленточный фундамент от 300 руб. за м3",
+     "za_chto": "25 м³ × 300 = 7 500 BYN"
+    },
+    {
+     "company": "zalivkafundamenta.by",
+     "url": "https://zalivkafundamenta.by/plitnyj-fundament/",
+     "price": "Монолитная плита под ключ (200 мм) – 165 BYN/м², работа + материалы",
+     "za_chto": "плита 100 м² × 165 = 16 500 BYN"
+    }
+   ],
+   "kommentariy": "Фундамент под дом 10×10 м: лента ~50 п.м, ≈25 м³ бетона, или плита 100 м². Цены «от» за м³/м² × объём, работа + материалы. Медиана по 4."
+  },
+  "ленточный фундамент": {
+   "check": 7500,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Экспресс-Бетон (expres-beton.by)",
+     "url": "https://expres-beton.by/services/fundament/lentochnyij-fundament-pod-klyuch/",
+     "price": "от 180 руб. за м3 (на бетонной подушке от 198)",
+     "za_chto": "25 × 180 = 4 500 BYN"
+    },
+    {
+     "company": "Мидеро (midero.by)",
+     "url": "https://midero.by/prajs",
+     "price": "от 300 byn/м3",
+     "za_chto": "25 × 300 = 7 500 BYN"
+    },
+    {
+     "company": "Qstroy (qstroy.by)",
+     "url": "https://qstroy.by/vse-uslugi-qstroy/stroitelstvo-fundamenta/",
+     "price": "от 300 руб. за м3",
+     "za_chto": "25 × 300 = 7 500 BYN"
+    }
+   ],
+   "kommentariy": "Лента под дом 10×10 м с одной внутренней стеной: ~50 п.м × 0,4 × 1,2–1,3 м ≈ 25 м³. Цена «от» за м³ под ключ × 25. Медиана по 3; у monolitstroy.by по выдаче поиска «от 450 руб. за м³» (≈ 11 250 BYN) – не открывал."
+  },
+  "свайный фундамент|винтовые сваи": {
+   "check": 4100,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Сваи РБ (svairb.by)",
+     "url": "https://svairb.by/",
+     "price": "дом 9,6×6,9 м, 23 сваи 2,5 м 108 – Цена фундамента под ключ 4600 BYN",
+     "za_chto": "готовый пример под ключ"
+    },
+    {
+     "company": "Мидеро (midero.by)",
+     "url": "https://midero.by/vintovye-svai",
+     "price": "108 мм – 180 byn/шт. (установка без ростверка)",
+     "za_chto": "23 × 180 = 4 140 BYN"
+    },
+    {
+     "company": "Qstroy (qstroy.by)",
+     "url": "https://qstroy.by/vse-uslugi-qstroy/stroitelstvo-fundamenta/",
+     "price": "Свайный фундамент от 150 руб. за сваю",
+     "za_chto": "23 × 150 = 3 450 BYN"
+    }
+   ],
+   "kommentariy": "Свайно-винтовой фундамент под дом ~10×7 м: 23 сваи 108 мм × 2,5 м с монтажом. Медиана по 3."
+  },
+  "плитный фундамент|монолитная плита фундамент": {
+   "check": 8000,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "zalivkafundamenta.by",
+     "url": "https://zalivkafundamenta.by/plitnyj-fundament/",
+     "price": "Монолитная плита под ключ (200 мм) 165 BYN/м²; 250–300 мм – 215 BYN/м²",
+     "za_chto": "100 м² × 165 = 16 500 BYN"
+    },
+    {
+     "company": "Qstroy (qstroy.by)",
+     "url": "https://qstroy.by/vse-uslugi-qstroy/stroitelstvo-fundamenta/",
+     "price": "Плитный фундамент от 80 руб. за м2; утеплённая шведская плита от 290 руб. за м2",
+     "za_chto": "100 м² × 80 = 8 000 BYN"
+    },
+    {
+     "company": "СДЖМ (sgm.by)",
+     "url": "https://sgm.by/minsk/fundament",
+     "price": "Монолитная плита – от 62 бел. руб./м2 (200 мм) до 174 бел. руб./м2 (400 мм) под ключ",
+     "za_chto": "100 м² × 62 = 6 200 BYN; страница curl не отдалась, цифра из выдачи поиска"
+    }
+   ],
+   "kommentariy": "Монолитная плита 10×10 м (100 м²), 200–300 мм, работа + материалы. Медиана по 3."
+  },
+  "купить бетон|бетон с доставкой": {
+   "check": 1170,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Бетон Минск (betonminsk.by)",
+     "url": "https://betonminsk.by/prodazha-betona/stoimost/",
+     "price": "Товарный бетон М200 С12/15, гравий, П2 – 150.00 руб.",
+     "za_chto": "8 м³ × 150 = 1 200 BYN"
+    },
+    {
+     "company": "eBeton (ebeton.by)",
+     "url": "https://ebeton.by/",
+     "price": "M200 – от 146.4 р.",
+     "za_chto": "8 × 146,4 = 1 171 BYN"
+    },
+    {
+     "company": "Арсобетон (arsobeton.by)",
+     "url": "https://www.arsobeton.by/beton-price/",
+     "price": "Бетон на гравии цена от 135 рублей за куб",
+     "za_chto": "8 × 135 = 1 080 BYN"
+    }
+   ],
+   "kommentariy": "Один миксер 8 м³ бетона М200 на гравии. Доставка у всех считается отдельно по удалённости – в число не входит, поэтому «ot». Медиана по 3."
+  },
+  "стяжка пола": {
+   "check": 1050,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Мастера стяжки (mastera-styazhki.by)",
+     "url": "https://mastera-styazhki.by/ceny-na-styazhku-pola-v-minske/",
+     "price": "От 50 м² – от 1000 рублей (с материалом)",
+     "za_chto": "объект 50 м²"
+    },
+    {
+     "company": "Лемад Групп (at-group.by)",
+     "url": "https://at-group.by/",
+     "price": "от 50 м² – от 1500 руб. (с материалом)",
+     "za_chto": "объект 50 м²"
+    },
+    {
+     "company": "Уникомстрой (unikomstroy.by)",
+     "url": "https://unikomstroy.by/",
+     "price": "от 17,50 с материалом за м²",
+     "za_chto": "60 м² × 17,5 = 1 050 BYN; цифра из выдачи поиска"
+    }
+   ],
+   "kommentariy": "Полусухая стяжка 50–60 м² с материалом. Медиана по 3."
+  },
+  "бетонные работы": {
+   "check": 6200,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "ШаркСтрой (sharkstroy.by)",
+     "url": "https://sharkstroy.by/stroitelstvo-garazhej-khozblokov",
+     "price": "Бетонный пол: ПГС 200 мм, бетон 150 мм – 125 руб.м2",
+     "za_chto": "50 м² × 125 = 6 250 BYN"
+    },
+    {
+     "company": "zalivkafundamenta.by",
+     "url": "https://zalivkafundamenta.by/plitnyj-fundament/",
+     "price": "Монолитная плита под ключ (200 мм) 165 BYN/м²",
+     "za_chto": "50 м² × 165 = 8 250 BYN"
+    },
+    {
+     "company": "stroi.by",
+     "url": "https://stroi.by/uslugi/monolitnye-raboty/",
+     "price": "Берем в работу заказы на сумму от 5000 бел.руб.",
+     "za_chto": "минимальный заказ монолитных работ"
+    }
+   ],
+   "kommentariy": "Типовой заказ взят как бетонная площадка/пол по грунту 50 м² (ПГС + бетон 150 мм). Неоднозначная услуга: у stroi.by минимальный заказ монолитных работ 5 000 BYN. Медиана по 3."
+  },
+  "кровельные работы|монтаж кровли": {
+   "check": 5200,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "krovelnye-raboty.by",
+     "url": "https://krovelnye-raboty.by/krysha-pod-kljuch/",
+     "price": "Крыша под ключ – стоимость от 35 руб/м2",
+     "za_chto": "работа, 150 м² × 35 = 5 250 BYN"
+    },
+    {
+     "company": "Крыша тут (krishatut.by)",
+     "url": "https://krishatut.by/uslugi/montazh-gibkoj-cherepitsy",
+     "price": "от 35 руб. кв.м. (стропильная система, гидроизоляция, обрешётка, фанера, ковёр, укладка)",
+     "za_chto": "работа, 150 × 35 = 5 250 BYN"
+    },
+    {
+     "company": "Крыша в дом (krishavdom.by)",
+     "url": "https://krishavdom.by/work/pod-klyuch/",
+     "price": "Монтаж металлочерепицы на двускатной крыше от 20 BYN за м2",
+     "za_chto": "работа, 150 × 20 = 3 000 BYN"
+    }
+   ],
+   "kommentariy": "Крыша дома ~100 м² по полу = ~150 м² кровли. В прайсах Минска – только работа за м² («под ключ» = стропила, гидроизоляция, обрешётка, покрытие), материалы отдельно: одна металлочерепица от 15,79 BYN/м² (lkr.by), с пиломатериалом и плёнками реальный чек в 2–3 раза выше. Медиана по 3."
+  },
+  "ремонт крыши|ремонт кровли": {
+   "check": 3900,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Покровле (pokrovle.by)",
+     "url": "https://pokrovle.by/remont-krovli/",
+     "price": "Ремонт (замена) кровли не касаясь стропил – от 35,00 руб. кв.м.",
+     "za_chto": "150 × 35 = 5 250 BYN"
+    },
+    {
+     "company": "krovelnye-raboty.by",
+     "url": "https://krovelnye-raboty.by/remont-krovli/",
+     "price": "Ремонт крыши – стоимость от 17 руб/м²",
+     "za_chto": "150 × 17 = 2 550 BYN"
+    }
+   ],
+   "kommentariy": "Замена покрытия без замены стропил, 150 м², только работа. Медиана по 2 (точнее – среднее)."
+  },
+  "монтаж металлочерепицы|укладка металлочерепицы": {
+   "check": 4200,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Крыша в дом (krishavdom.by)",
+     "url": "https://krishavdom.by/work/pod-klyuch/",
+     "price": "от 20 BYN за м2 (двускатная), от 24 BYN (вальма)",
+     "za_chto": "150 × 20 = 3 000 BYN"
+    },
+    {
+     "company": "ЛКР (lkr.by)",
+     "url": "https://www.lkr.by/krovelnye-raboty/krovlya-pod-klyuch/",
+     "price": "Монтаж металлочерепицы: от 11,00 USD / м.кв.",
+     "za_chto": "150 × 11 × 2,9987 = 4 950 BYN; цифра из выдачи поиска (curl отдал страницу без прайса)"
+    },
+    {
+     "company": "Дом под ключ (dompodkluch.by)",
+     "url": "https://dompodkluch.by/montazh-krovli-pod-klyuch/",
+     "price": "Устройство кровли из металлочерепицы под ключ, м² – от 28",
+     "za_chto": "150 × 28 = 4 200 BYN; цифра из выдачи поиска"
+    }
+   ],
+   "kommentariy": "Монтаж металлочерепицы 150 м², только работа (материал от 15,79 BYN/м² – ещё ≈ 2 400 BYN). Медиана по 3."
+  },
+  "мягкая кровля": {
+   "check": 5200,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Крыша тут (krishatut.by)",
+     "url": "https://krishatut.by/uslugi/montazh-gibkoj-cherepitsy",
+     "price": "Монтаж гибкой черепицы от 35 руб. кв.м.",
+     "za_chto": "150 × 35 = 5 250 BYN"
+    },
+    {
+     "company": "Белкровля (belkrovlia.by)",
+     "url": "https://belkrovlia.by/usluga/montazh-myagkoj-krovli/",
+     "price": "от 28 руб. за м2",
+     "za_chto": "150 × 28 = 4 200 BYN"
+    },
+    {
+     "company": "krovelnye-raboty.by",
+     "url": "https://krovelnye-raboty.by/montazh-myagkoj-krovli/",
+     "price": "Монтаж мягкой кровли от 43 руб/м² (заголовок страницы)",
+     "za_chto": "150 × 43 = 6 450 BYN"
+    }
+   ],
+   "kommentariy": "Гибкая черепица 150 м², работа под ключ без материалов (черепица от 12,74 BYN/м², lkr.by). Медиана по 3."
+  },
+  "утепление фасада|утепление дома": {
+   "check": 14200,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Твой фасад (tvoyfasad.by)",
+     "url": "https://tvoyfasad.by/fasadnye-raboty/",
+     "price": "Утепление пенопластом 100мм (работа + материалы) = от 95,00 бел. руб.",
+     "za_chto": "150 × 95 = 14 250 BYN"
+    },
+    {
+     "company": "Рефреш (refresh.by)",
+     "url": "https://refresh.by/uslugi/fasadnye-raboty/mokry",
+     "price": "минвата + штукатурка «Шуба» 95 – 130 рублей/м², материалы 50 рублей",
+     "za_chto": "середина 112,5 × 150 = 16 900 BYN (как полная цена; если материалы сверху – дороже)"
+    },
+    {
+     "company": "Чердак (4erdak.by)",
+     "url": "https://4erdak.by/fasadnye-raboty/uteplenie-fasada.php",
+     "price": "утепление фасада под ключ (с материалами) от 38,00 бел/руб. за м2",
+     "za_chto": "150 × 38 = 5 700 BYN"
+    }
+   ],
+   "kommentariy": "Мокрый фасад 150 м² стен, пенопласт/минвата 100 мм + штукатурка, работа + материалы. Медиана по 3."
+  },
+  "отделка фасада|облицовка фасада": {
+   "check": 7000,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Твой фасад (tvoyfasad.by)",
+     "url": "https://tvoyfasad.by/fasadnye-raboty/",
+     "price": "Работа + материалы под ключ: без утепления = от 48,00 руб.",
+     "za_chto": "150 × 48 = 7 200 BYN"
+    },
+    {
+     "company": "1platforma.by",
+     "url": "https://1platforma.by/minsk/montazh-saidinga/",
+     "price": "Монтаж сайдинга под ключ в Минске от 45 руб. за м2 (заголовок)",
+     "za_chto": "150 × 45 = 6 750 BYN; цифра из выдачи поиска"
+    }
+   ],
+   "kommentariy": "Отделка фасада 150 м² без утепления (штукатурка или сайдинг под ключ). Медиана по 2."
+  },
+  "монтаж сайдинга|обшивка сайдингом": {
+   "check": 2700,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Qstroy (qstroy.by)",
+     "url": "https://qstroy.by/naruzhnyie-stroitelno-otdelochnyie-rabotyi/otdelka-doma-sajdingom/",
+     "price": "от 15–18 руб. за м2",
+     "za_chto": "работа, 150 × 18 = 2 700 BYN"
+    },
+    {
+     "company": "Крыша тут (krishatut.by)",
+     "url": "https://krishatut.by/montazh-fasadov/sajding",
+     "price": "от 16 руб. кв.м.",
+     "za_chto": "работа, 150 × 16 = 2 400 BYN"
+    },
+    {
+     "company": "1platforma.by",
+     "url": "https://1platforma.by/minsk/montazh-saidinga/",
+     "price": "Монтаж сайдинга под ключ от 45 руб. за м2",
+     "za_chto": "150 × 45 = 6 750 BYN; из выдачи поиска"
+    }
+   ],
+   "kommentariy": "Обшивка 150 м² стен. В прайсах в основном работа без сайдинга; одна цена под ключ (1platforma, 45 руб/м²). Медиана по 3 – это ближе к цене работы."
+  },
+  "водосточная система|водостоки": {
+   "check": 2100,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Водостоков нет (vodostokov.net)",
+     "url": "http://vodostokov.net/",
+     "price": "Алюцинк 0.5мм, 64 мп, 1 день – Стоимость 2 744 руб. (примеры 42 мп – 1 617, 102 мп – 3 755)",
+     "za_chto": "объект 64 п.м под ключ с материалом"
+    },
+    {
+     "company": "Крыша тут (krishatut.by)",
+     "url": "https://krishatut.by/uslugi/montazh-vodostokov",
+     "price": "от 22–25 руб. м.пог.",
+     "za_chto": "только монтаж, 60 × 25 = 1 500 BYN"
+    },
+    {
+     "company": "БГСК (bgsk.by)",
+     "url": "https://bgsk.by/krovelnye-raboty/montazh-vodostochnoj-sistemy/",
+     "price": "Монтаж водосточной системы от 14 BYN (за м² кровли)",
+     "za_chto": "150 м² × 14 = 2 100 BYN"
+    }
+   ],
+   "kommentariy": "Водосток на дом ~60–65 п.м. Медиана по 3: у vodostokov.net – готовые объекты с материалом, у остальных только работа."
+  },
+  "установка забора|забор под ключ": {
+   "check": 2700,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Забор-Профлист (zabor-proflist.by)",
+     "url": "https://zabor-proflist.by/",
+     "price": "Забор из профнастила от 83 BYN / м.п. (лист С8/С20, столбы, лаги); металлоштакетник от 89 BYN / м.п.",
+     "za_chto": "профнастил 30 × 83 = 2 490 BYN"
+    },
+    {
+     "company": "АйронТрейд (irontrade.by)",
+     "url": "https://irontrade.by/ustanovka-zaborov/zabor-iz-profnastila/zabor-iz-profnastila-pod-klyuch-2-metra",
+     "price": "Забор из профнастила 2м под ключ от 125 BYN/м.п.",
+     "za_chto": "30 × 125 = 3 750 BYN"
+    },
+    {
+     "company": "Забор-Профлист (zabor-proflist.by), металлоштакетник",
+     "url": "https://zabor-proflist.by/",
+     "price": "Забор из металлоштакетника от 89 BYN / м.п.",
+     "za_chto": "30 × 89 = 2 670 BYN"
+    }
+   ],
+   "kommentariy": "Забор 30 п.м высотой 1,8–2 м под ключ (материал + столбы + монтаж), самый ходовой – профнастил/штакетник. Медиана по 3."
+  },
+  "забор из профнастила|заборы из профнастила": {
+   "check": 2500,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Забор-Профлист (zabor-proflist.by)",
+     "url": "https://zabor-proflist.by/",
+     "price": "от 83 BYN / м.п. (лист С8/С20, столбы, лаги)",
+     "za_chto": "30 × 83 = 2 490 BYN"
+    },
+    {
+     "company": "АйронТрейд (irontrade.by)",
+     "url": "https://irontrade.by/ustanovka-zaborov/zabor-iz-profnastila/zabor-iz-profnastila-pod-klyuch-2-metra",
+     "price": "Забор из профнастила 2м под ключ от 125 BYN/м.п. (1,5 м – от 115)",
+     "za_chto": "30 × 125 = 3 750 BYN"
+    },
+    {
+     "company": "Купи забор (kupit-zabor.by)",
+     "url": "https://kupit-zabor.by/minsk/zabor-iz-profnastila/",
+     "price": "от 75 руб./п.м.",
+     "za_chto": "30 × 75 = 2 250 BYN"
+    }
+   ],
+   "kommentariy": "30 п.м профнастила 1,8–2 м под ключ. Медиана по 3; у kupit-zabor.by «от 75 руб./п.м» без уточнения состава."
+  },
+  "откатные ворота": {
+   "check": 2800,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Автопроезд (avtoproezd.by)",
+     "url": "https://avtoproezd.by/",
+     "price": "Ворота до 4 м – 2 850 руб. с установкой и фундаментом",
+     "za_chto": "под ключ, проём 4 м"
+    },
+    {
+     "company": "Купи забор (kupit-zabor.by)",
+     "url": "https://kupit-zabor.by/minsk/otkatnye-vorota/",
+     "price": "проём 3–4 м: «Поставь сам» 970, с автоматикой 1 750, с автоматикой и монтажом 2 200, с фундаментом и монтажом 3 250 руб.",
+     "za_chto": "с автоматикой, фундаментом и монтажом; цифры из выдачи поиска (на странице сейчас «стоимость уточняйте»)"
+    },
+    {
+     "company": "ВесторСтройГрупп (vestorstroy.by)",
+     "url": "https://www.vestorstroy.by/goods/279666614-otkatnyye_vorota_montazh_pod_klyuch_4_m_komplekt_mekhaniki_i_avtomatiki_do_800_kg",
+     "price": "ворота 4 м с механикой и автоматикой 2 300 бел. руб/шт.; монтаж от 250 (без автоматики) / 500 (с автоматикой)",
+     "za_chto": "2 300 + 500 = 2 800 BYN; из выдачи поиска, страница curl не отдалась"
+    }
+   ],
+   "kommentariy": "Откатные ворота под проезд 4 м с фундаментом и монтажом. Медиана по 3. Голый каркас без заполнения и монтажа – от 890–1 463 BYN."
+  },
+  "автоматические ворота|ворота с автоматикой": {
+   "check": 3200,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Купи забор (kupit-zabor.by)",
+     "url": "https://kupit-zabor.by/minsk/otkatnye-vorota-s-elektroprivodom/",
+     "price": "Комплект ворот с автоматикой + фундамент + монтаж, проём 3–4 м – 3 250 руб.",
+     "za_chto": "из выдачи поиска"
+    },
+    {
+     "company": "ВесторСтройГрупп (vestorstroy.by)",
+     "url": "https://www.vestorstroy.by/goods/279666614-otkatnyye_vorota_montazh_pod_klyuch_4_m_komplekt_mekhaniki_i_avtomatiki_do_800_kg",
+     "price": "2 300 бел. руб/шт. + монтаж с автоматикой 500",
+     "za_chto": "2 800 BYN без фундамента; из выдачи поиска"
+    },
+    {
+     "company": "Алютех (alutech.by)",
+     "url": "https://alutech.by/vorota/vezdnye/otkatnye/s-elektroprivodom/",
+     "price": "откатные 4×2 м с автоматикой Roteo/Ambo – от 7 352 до 8 556 руб. (без монтажа)",
+     "za_chto": "нижняя цена 7 352 BYN; из выдачи поиска"
+    }
+   ],
+   "kommentariy": "Откатные ворота 4 м с электроприводом и монтажом. Медиана по 3; Alutech – заводские ворота с сэндвич-панелью, без монтажа, верх рынка."
+  },
+  "металлический забор|металлические заборы|металлические ограждения": {
+   "check": 3800,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Забор-Профлист (zabor-proflist.by)",
+     "url": "https://zabor-proflist.by/",
+     "price": "металлоштакетник от 89 BYN / м.п.; из профильной трубы от 200 BYN / м.п.",
+     "za_chto": "штакетник 30 × 89 = 2 670 BYN"
+    },
+    {
+     "company": "АйронТрейд (irontrade.by)",
+     "url": "https://irontrade.by/ustanovka-zaborov/zabor-iz-profnastila/zabor-iz-profnastila-pod-klyuch-2-metra",
+     "price": "от 125 BYN/м.п. (профнастил 2 м под ключ)",
+     "za_chto": "30 × 125 = 3 750 BYN"
+    },
+    {
+     "company": "Забор-Профлист, модульный забор",
+     "url": "https://zabor-proflist.by/",
+     "price": "Модульный забор от 135 BYN / м.п.",
+     "za_chto": "30 × 135 = 4 050 BYN (та же компания, другой тип)"
+    }
+   ],
+   "kommentariy": "30 п.м металлического забора (штакетник/профнастил/профтруба) под ключ. Медиана по 3."
+  },
+  "забор из сетки|забор из рабицы": {
+   "check": 1350,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Забор-Профлист (zabor-proflist.by)",
+     "url": "https://zabor-proflist.by/",
+     "price": "Забор из сетки рабица от 35 BYN / м.п.",
+     "za_chto": "30 × 35 = 1 050 BYN"
+    },
+    {
+     "company": "Купи забор (kupit-zabor.by)",
+     "url": "https://kupit-zabor.by/minsk/zabor-iz-profnastila/",
+     "price": "Забор из сетки рабицы 55 рублей/п.метр",
+     "za_chto": "30 × 55 = 1 650 BYN; из выдачи поиска"
+    }
+   ],
+   "kommentariy": "30 п.м рабицы со столбами под ключ (для дачи бывает 50–100 м – чек пропорционально больше). Медиана по 2."
+  },
+  "3д забор|3d забор|забор из 3д сетки": {
+   "check": 1800,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "SVL (svl.by)",
+     "url": "https://svl.by/zabor-iz-3d-setki.html",
+     "price": "3д забор эконом: 1,2 м – от 37 руб., 2,0 м – от 55 руб. за метр (материалы, работа, доставка, монтаж)",
+     "za_chto": "30 × 55 = 1 650 BYN"
+    },
+    {
+     "company": "Купи забор (kupit-zabor.by)",
+     "url": "https://kupit-zabor.by/minsk/3d-zabor/",
+     "price": "от 60 руб./п.м.",
+     "za_chto": "30 × 60 = 1 800 BYN"
+    },
+    {
+     "company": "Забор-Профлист (zabor-proflist.by)",
+     "url": "https://zabor-proflist.by/",
+     "price": "Забор 3D от 79 BYN / м.п. (панель 3,5–4 мм)",
+     "za_chto": "30 × 79 = 2 370 BYN"
+    }
+   ],
+   "kommentariy": "30 п.м 3D-забора высотой 1,8–2 м с монтажом. Медиана по 3."
+  },
+  "кованые ворота|кованый забор": {
+   "check": 13500,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "SVL (svl.by)",
+     "url": "https://svl.by/zabory-kovanye.html",
+     "price": "Кованый забор под ключ: 1,2 м – от 71 руб., 2,0 м – от 121 руб. за м.п.",
+     "za_chto": "30 × 121 = 3 630 BYN"
+    },
+    {
+     "company": "Купи забор (kupit-zabor.by)",
+     "url": "https://kupit-zabor.by/minsk/kovanyy-zabor/",
+     "price": "кованый забор 450 рублей/п.метр",
+     "za_chto": "30 × 450 = 13 500 BYN; из выдачи поиска"
+    },
+    {
+     "company": "Версаль (versales.by)",
+     "url": "https://versales.by/zabor-kovanyiy-01/",
+     "price": "270 рублей за метр квадратный (материал, ковка, сборка, грунт, покраска)",
+     "za_chto": "54 м² × 270 = 14 580 BYN; из выдачи поиска"
+    }
+   ],
+   "kommentariy": "Кованый забор 30 п.м высотой ~1,8 м (≈54 м²). Разброс огромный: у SVL «кованый под ключ» – по сути сварной из элементов. Медиана по 3."
+  },
+  "гаражные ворота|секционные ворота": {
+   "check": 2300,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Как своим (kaksvoim.by)",
+     "url": "https://kaksvoim.by/minsk-vorota-sekcionnye/",
+     "price": "DoorHan RSD01 2500×2000 мм с монтажом – от 2 290 руб.",
+     "za_chto": "с монтажом"
+    },
+    {
+     "company": "Алютех (alutech.by)",
+     "url": "https://alutech.by/vorota/garazhnye/sekcionnye/alutech-prestige-2500-2125-teplye/",
+     "price": "ALUTECH Prestige 2500×2125 утеплённые – 4 400 руб.",
+     "za_chto": "с автоматикой; доставка и установка по выдаче поиска входят"
+    },
+    {
+     "company": "Hörmann партнёр (hoermannpartner.by)",
+     "url": "https://hoermannpartner.by/product/vorota/garazhnye-vorota/sekcionnye/",
+     "price": "RenoMatic 42 2500×2125 – 2270.00 руб.",
+     "za_chto": "монтаж не указан; из выдачи поиска"
+    }
+   ],
+   "kommentariy": "Секционные ворота ~2500×2125 с автоматикой и монтажом. Медиана по 3."
+  },
+  "пластиковые окна": {
+   "check": 1800,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Все окна (vseokna.by)",
+     "url": "https://vseokna.by/ceny",
+     "price": "1300×1400 Brusbox Aero от 480,00 руб.; установка 75,00 руб.; пластиковые откосы 90,00 руб.",
+     "za_chto": "(480 + 75 + 90) × 3 = 1 935 BYN"
+    },
+    {
+     "company": "Окна Минск 24 (oknaminsk24.by)",
+     "url": "https://oknaminsk24.by/product/dvuhstvorchatoe-okno-1300-1400/",
+     "price": "двухстворчатое 1300×1400 с монтажом – от 600 руб. (базовая комплектация)",
+     "za_chto": "600 × 3 = 1 800 BYN; из выдачи поиска"
+    },
+    {
+     "company": "Минскокна (minskokna.by) + монтаж Окналюкс",
+     "url": "https://minskokna.by/minsk/ceny-na-okna-pvh/",
+     "price": "Цена: от 188 р./м2 (окно); монтаж окна 1400×1300 – 108,50 бел руб (oknaluks.by/montazh/)",
+     "za_chto": "(1,82 м² × 188 + 108,5) × 3 = 1 352 BYN"
+    }
+   ],
+   "kommentariy": "3 двухстворчатых окна ПВХ 1300×1400 (квартира) с монтажом. Медиана по 3."
+  },
+  "установка окон": {
+   "check": 1800,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Все окна (vseokna.by)",
+     "url": "https://vseokna.by/ceny",
+     "price": "окно от 480,00 + установка 75,00 + откосы 90,00 руб.",
+     "za_chto": "× 3 окна = 1 935 BYN"
+    },
+    {
+     "company": "Окна Минск 24 (oknaminsk24.by)",
+     "url": "https://oknaminsk24.by/product/dvuhstvorchatoe-okno-1300-1400/",
+     "price": "от 600 руб. с монтажом",
+     "za_chto": "× 3 = 1 800 BYN; из выдачи поиска"
+    },
+    {
+     "company": "ПВХ окна (pvhokna.by) + монтаж Окналюкс",
+     "url": "https://pvhokna.by/ceny",
+     "price": "Brusbox Super-Aero 1300х1400 – от 200 р. (новая цена); монтаж 108,50 бел руб (oknaluks.by)",
+     "za_chto": "(200 + 108,5) × 3 = 926 BYN"
+    }
+   ],
+   "kommentariy": "Запрос «установка окон» – как правило заказ окон с монтажом; типовой заказ тот же: 3 окна 1300×1400. Если нужен только монтаж чужих окон – 75–108,5 BYN за окно (vseokna, oknaluks), ≈ 225–325 BYN за 3 окна. Медиана по 3."
+  },
+  "остекление балкона|остекление лоджии": {
+   "check": 1200,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "У-балкон (u-balkon.by)",
+     "url": "https://u-balkon.by/ostekleniye-balkonov/",
+     "price": "Тёплое остекление, лоджия 3 метра, KBE Etalon – доставка и монтаж 1900 руб. (+ подоконник 50, отлив 100)",
+     "za_chto": "пример выполненной работы"
+    },
+    {
+     "company": "Балконы.бел (xn--80abe5aengb.xn--90ais)",
+     "url": "https://xn--80abe5aengb.xn--90ais/uslugi/osteklenie/",
+     "price": "тёплое (ПВХ) от 1200 BYN, холодное прямой балкон 3 м от 990 BYN под ключ",
+     "za_chto": "тёплое 3 м; из выдачи поиска"
+    },
+    {
+     "company": "Окна Моло (oknamolo.by)",
+     "url": "https://oknamolo.by/osteklenie-balkonov/",
+     "price": "остекление балкона – цена от 800 р (заголовок)",
+     "za_chto": "нижняя планка; из выдачи поиска"
+    }
+   ],
+   "kommentariy": "Тёплое (ПВХ) остекление балкона/лоджии 3 м под ключ. Холодное алюминиевое – дешевле (от 400–990 BYN). Медиана по 3."
+  },
+  "входные двери|входная дверь": {
+   "check": 770,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Мирстрой (mirstroy.by)",
+     "url": "https://mirstroy.by/vhodnye-dveri",
+     "price": "двери 600–1125 р. (медиана 4 карточек 650 р.); базовый монтаж в Минске 120 руб.",
+     "za_chto": "650 + 120 = 770 BYN"
+    },
+    {
+     "company": "Двери Дисконт (dveridiscont.by)",
+     "url": "https://dveridiscont.by/vxodnie_dveri",
+     "price": "двери для квартиры от 386 до 767 руб.; установка 90 руб.",
+     "za_chto": "середина 576 + 90 = 666 BYN; из выдачи поиска"
+    },
+    {
+     "company": "Дверной рай (dvernoirai.by)",
+     "url": "https://dvernoirai.by/vhodnye-dveri",
+     "price": "входные двери от 336 руб.; с терморазрывом от 1 109 руб.",
+     "za_chto": "утеплённая с терморазрывом 1 109 + монтаж ~120 ≈ 1 230 BYN; из выдачи поиска"
+    }
+   ],
+   "kommentariy": "Металлическая входная дверь в квартиру среднего класса + базовый монтаж. Медиана по 3."
+  },
+  "межкомнатные двери": {
+   "check": 920,
+   "basis": "tipovoy",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Двери.бай (dveri.by)",
+     "url": "https://dveri.by/blog/mezhkomnatnyie-dveri-pod-klyuch-czena-komplekta-na-3-proyoma",
+     "price": "Смета на 3 проёма, типовая двушка: итого 1130 BYN (эконом), 1500 BYN (средний)",
+     "za_chto": "эконом, 3 двери под ключ"
+    },
+    {
+     "company": "ZeDoors (thedoors.by)",
+     "url": "https://thedoors.by/mejkomnatnie_dveri/",
+     "price": "полотна от 120 BYN; установка экошпон/МДФ 120 BYN",
+     "za_chto": "(120 + 120) × 3 = 720 BYN без коробки и наличников; из выдачи поиска"
+    }
+   ],
+   "kommentariy": "3 межкомнатные двери под ключ (типовая двушка). Источников с полным расчётом мало: dveri.by даёт смету 3 проёма 1 130 (эконом) / 1 500 BYN (средний); у ZeDoors – полотно от 120 + установка 120 BYN без коробки. Медиана по 2."
+  },
+  "ремонт окон|ремонт пластиковых окон": {
+   "check": 80,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "РПО (rpo.by)",
+     "url": "https://rpo.by/uslugi-remonta-okon-v-minske/remont-okon-minsk",
+     "price": "от 50 руб. – перекос, плохое закрытие; от 10 руб/м – уплотнитель",
+     "za_chto": "50 + 6 × 10 = 110 BYN"
+    },
+    {
+     "company": "Сервис окон (servis-okon.by)",
+     "url": "https://servis-okon.by/tseny-uslug/",
+     "price": "Ремонт окна ПВХ (устранение провисания), смазка – 20 руб.; ремонт фурнитуры от 35 руб.",
+     "za_chto": "3 створки × 20 = 60 BYN"
+    },
+    {
+     "company": "ремонт-окон.бел",
+     "url": "https://xn----itbqgfcdcbm0a.xn--90ais/",
+     "price": "замена уплотнителя обычного окна от 80 руб. (материал, выезд, регулировка)",
+     "za_chto": "из выдачи поиска"
+    }
+   ],
+   "kommentariy": "Вызов мастера: регулировка створок + замена уплотнителя на одном окне (~6 м). Медиана по 3."
+  },
+  "алюминиевые окна|раздвижные окна": {
+   "check": 1230,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Витан (vitan.by)",
+     "url": "https://vitan.by/katalog/razdvizhnye-okna.html",
+     "price": "холодные 520 бел. руб., тёплые 3 400 бел. руб. (за конструкцию 2000х2000 мм)",
+     "za_chto": "холодная 2×2 м, без монтажа"
+    },
+    {
+     "company": "Витан (vitan.by), тёплая серия",
+     "url": "https://vitan.by/katalog/razdvizhnye-okna.html",
+     "price": "3 400 бел. руб. за конструкцию 2000х2000 мм (тёплая серия)",
+     "za_chto": "тёплая 2×2 м"
+    },
+    {
+     "company": "магазин в выдаче (балконная рама)",
+     "url": "https://minskokna.by/minsk/balkonnye-ramy/",
+     "price": "алюминиевая раздвижная рама 2450×1400 – 1229 руб с установкой и отливом (по выдаче); у minskokna рамы от 500–800 руб.",
+     "za_chto": "холодная, с монтажом"
+    }
+   ],
+   "kommentariy": "Раздвижная алюминиевая конструкция ~2,5×1,4 – 2×2 м. Тёплый алюминий в 5–6 раз дороже холодного – медиана сильно зависит от выбора. Медиана по 3."
+  },
+  "деревянные окна": {
+   "check": 3500,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "4top.by (сводка производителей)",
+     "url": "https://4top.by/derevyannye-okna-minsk/",
+     "price": "стартовые цены производителей 512–789 BYN/м²",
+     "za_chto": "медиана 643 × 5,46 = 3 511 BYN"
+    },
+    {
+     "company": "Окна Панорама (oknapanorama.by)",
+     "url": "https://oknapanorama.by/derevyannye-okna/",
+     "price": "от 1000 руб/м2",
+     "za_chto": "1 000 × 5,46 = 5 460 BYN"
+    },
+    {
+     "company": "alyuminievye-okna.by",
+     "url": "https://alyuminievye-okna.by/derevyannye-okna/",
+     "price": "сосна от 440 р/м2",
+     "za_chto": "440 × 5,46 = 2 402 BYN; из выдачи поиска"
+    }
+   ],
+   "kommentariy": "3 окна 1300×1400 (5,46 м²) из сосны/лиственницы со стеклопакетом. Цены «от» за м² × 5,46. Медиана по 3."
+  },
+  "бурение скважин|скважина на воду": {
+   "check": 4200,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Как своим (kaksvoim.by)",
+     "url": "https://kaksvoim.by/minsk-burenie/",
+     "price": "Бурение (труба D-125мм) 80-95 руб за м; обустройство под ключ 799-3399 руб",
+     "za_chto": "50 м × 87,5 = 4 375 BYN"
+    },
+    {
+     "company": "Waterwell (waterwell.by)",
+     "url": "https://waterwell.by/",
+     "price": "Бурение скважин на воду в Минске под ключ, цена от 70 руб.",
+     "za_chto": "50 × 70 = 3 500 BYN"
+    },
+    {
+     "company": "Steptec (steptec.by)",
+     "url": "https://steptec.by/burenie-na-vodu-cena",
+     "price": "Стоимость за 1 м: 75 / 85 / 95 руб для труб 90×5, 125×5, 125×6",
+     "za_chto": "50 × 85 = 4 250 BYN; цифры из выдачи поиска (таблица на странице без чисел в HTML)"
+    }
+   ],
+   "kommentariy": "Бурение 50 м под трубу 125 мм, без обустройства (подключение/кессон под ключ ещё 799–3 399 BYN по kaksvoim.by – с ним чек ≈ 6–7 тыс.). Медиана по 3."
+  },
+  "установка септика|септик под ключ": {
+   "check": 1350,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Бригады (brigadi.by)",
+     "url": "https://brigadi.by/users/septik-pod-kljuch/",
+     "price": "септик из ЖБ колец «под ключ» от 2200 руб.",
+     "za_chto": "из выдачи поиска"
+    },
+    {
+     "company": "Чистовод (chistovod.by)",
+     "url": "https://chistovod.by/",
+     "price": "многокамерный септик от 1350,50 BYN",
+     "za_chto": "из выдачи поиска (калькулятор)"
+    },
+    {
+     "company": "Бурим (byrim.by)",
+     "url": "https://byrim.by/ustanovka-septikov-i-sbo",
+     "price": "Монтаж железобетонных септиков от 600 бел.руб.; пластиковых от 970 бел.руб.",
+     "za_chto": "монтаж пластикового септика, без оборудования"
+    }
+   ],
+   "kommentariy": "Септик из ЖБ колец/пластиковый под ключ для дома. Данные слабые: часть – только монтаж. Медиана по 3."
+  },
+  "станция биологической очистки|биологический септик": {
+   "check": 5000,
+   "basis": "ot",
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "Бригады (brigadi.by)",
+     "url": "https://brigadi.by/users/septik-pod-kljuch/",
+     "price": "станции от 5000 руб.",
+     "za_chto": "станция под ключ; из выдачи поиска"
+    }
+   ],
+   "kommentariy": "СБО (Топас и аналоги) с монтажом. Цену «станция + монтаж» нашёл один раз; у byrim.by монтаж СБО от 1 000–1 200 BYN без станции, у агрегатора «от 1305 BYN» – выглядит как цена монтажа. Нужна проверка."
+  },
+  "канализация в частном доме|наружная канализация": {
+   "check": 900,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Как своим (kaksvoim.by)",
+     "url": "https://kaksvoim.by/minsk-kanalizaciya/",
+     "price": "прокладка трубы от 45 BYN/м.пог.",
+     "za_chto": "20 м × 45 = 900 BYN"
+    },
+    {
+     "company": "Объявление Kufar",
+     "url": "https://www.kufar.by/item/68834346",
+     "price": "Наружная канализация в частном доме под ключ, цена 900 р.",
+     "za_chto": "из выдачи поиска, объявление старое"
+    },
+    {
+     "company": "Deal.by (подрядчик)",
+     "url": "https://minsk.deal.by/Naruzhnaya-kanalizatsiya-dlya-zagorodnogo-doma.html",
+     "price": "канализация в частном доме от 1 200 руб./услуга",
+     "za_chto": "из выдачи поиска"
+    }
+   ],
+   "kommentariy": "Наружная канализация дом → септик ~20 м трассы, без септика. Медиана по 3."
+  },
+  "водоснабжение частного дома|водопровод в частный дом": {
+   "check": 2400,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "ГазТехМонтаж (gaztgm.by)",
+     "url": "https://gaztgm.by/prokladka-vodoprovoda-v-chastnom-dome",
+     "price": "Монтаж водопровода ввод под ключ (с земляными работами и геодезией) – от 2800 бел. руб. за объект",
+     "za_chto": "за объект"
+    },
+    {
+     "company": "Как своим (kaksvoim.by)",
+     "url": "https://kaksvoim.by/minsk-burenie/",
+     "price": "Подключение скважины (обустройство) под ключ 799-3399 руб",
+     "za_chto": "середина 2 099 BYN"
+    }
+   ],
+   "kommentariy": "Ввод воды в дом от скважины под ключ (траншея, труба, кессон/адаптер, насос). Медиана по 2."
+  },
+  "копка колодцев|колодец под ключ": {
+   "check": 1850,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Бурим (byrim.by)",
+     "url": "https://byrim.by/kopka-kolodtsev",
+     "price": "Копка колодца в стандартных грунтах до 10 кольца – от 170 бел.руб. за кольцо",
+     "za_chto": "10 × 170 = 1 700 BYN"
+    },
+    {
+     "company": "Колодцы (kolodci.by)",
+     "url": "https://kolodci.by/",
+     "price": "от 200 руб. за кольцо в обычных грунтах",
+     "za_chto": "10 × 200 = 2 000 BYN; из выдачи поиска"
+    }
+   ],
+   "kommentariy": "Колодец 10 колец, только копка за кольцо (кольца и крышка, как правило, отдельно). Медиана по 2."
+  },
+  "абиссинская скважина": {
+   "check": 1300,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Абисинка (abisinka.by)",
+     "url": "https://abisinka.by/",
+     "price": "скважина для Минской области за 1000 руб. (до 15 м трубы ПНД 32 мм)",
+     "za_chto": "под ключ до 15 м"
+    },
+    {
+     "company": "Строй-дом (stroy-dom.by)",
+     "url": "https://stroy-dom.by/2/abissinskaya-skvazhina-minsk/",
+     "price": "Абиссинская скважина под ключ до 15м: 1400 BYN",
+     "za_chto": "под ключ; ввод в дом +50–200"
+    },
+    {
+     "company": "Waterwell (waterwell.by)",
+     "url": "https://waterwell.by/abessinskie-skvazhiny/",
+     "price": "от 1300 руб.",
+     "za_chto": "под ключ"
+    }
+   ],
+   "kommentariy": "Абиссинская скважина до 15 м под ключ. Медиана по 3."
+  }
+ }
+}

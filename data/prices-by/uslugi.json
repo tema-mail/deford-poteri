@@ -1,0 +1,2111 @@
+{
+ "city": "Минск",
+ "currency": "BYN",
+ "date": "2026-11-18",
+ "prices": {
+  "стоматология|стоматологическая клиника": {
+   "check": 250,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Практикдент",
+     "url": "https://practikdent-2.103.by",
+     "price": "консультация от 13,07; пломба средняя от 193,93 руб.",
+     "za_chto": "консультация + пломба одного зуба ≈ 207"
+    },
+    {
+     "company": "Здоровая улыбка",
+     "url": "https://zdorovaya-ulybka.103.by",
+     "price": "консультация + КЛКТ 26,04; лечение среднего кариеса 175; проф. гигиена 149 руб.",
+     "za_chto": "консультация+КЛКТ + лечение кариеса ≈ 201; с гигиеной ≈ 350"
+    },
+    {
+     "company": "Стоматология Доктора Шабановича",
+     "url": "https://cids.103.by",
+     "price": "консультация терапевта 60; лечение кариеса от 280 руб.",
+     "za_chto": "консультация + лечение кариеса = 340"
+    }
+   ],
+   "kommentariy": "Общий запрос: первое обращение = консультация/снимок + лечение одного зуба (часть с гигиеной). Медиана по 3 клиникам 103.by ≈ 207–340, взято 250. Производное от услуг, без протезирования и имплантации (они дорогие и есть отдельными строками)."
+  },
+  "имплантация зубов|импланты зубов": {
+   "check": 2400,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "VOKA DENT",
+     "url": "https://www.103.by/list/teeth-implantation-megagen/minsk/",
+     "price": "операция имплантации Megagen Anyone от 1 350; коронка на импланте из диоксида циркония от 1 300 руб.",
+     "za_chto": "имплант + коронка = 2 650"
+    },
+    {
+     "company": "Три Дантиста Плюс",
+     "url": "https://www.103.by/list/teeth-implantation-megagen/minsk/",
+     "price": "Имплантация AnyOne 1 400 руб.; AnyRidge 1 500 руб.",
+     "za_chto": "только имплант; + коронка на импланте ~1 000 (медиана) ≈ 2 400"
+    },
+    {
+     "company": "Фабрика улыбки",
+     "url": "https://www.103.by/list/teeth-implantation-megagen/minsk/",
+     "price": "установка Megagen AnyOne с формирователем 1 290; AnyRidge 1 600 руб.",
+     "za_chto": "только имплант 1 290–1 600; + коронка ≈ 2 300–2 600"
+    },
+    {
+     "company": "Здоровая улыбка / Практикдент / Жадовича",
+     "url": "https://www.103.by/list/izgotovlenie-zubnyh-koronok/minsk/",
+     "price": "МК коронка на имплантате 1 017; МК на имплантате от 1 098,17; МК на импланте от 799 руб.",
+     "za_chto": "цена коронки на импланте, медиана ≈ 1 017"
+    }
+   ],
+   "kommentariy": "Один имплант под ключ: медиана операции (Megagen, 4 клиники, 103.by) ≈ 1 350–1 400 + медиана коронки на импланте ≈ 1 017. Итого ≈ 2 400. Без костной пластики и синус-лифтинга. Дентабел даёт от 800 по подписке – как заманка не учтён."
+  },
+  "протезирование зубов|коронка на зуб": {
+   "check": 620,
+   "basis": "tipovoy",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Здоровая улыбка",
+     "url": "https://www.103.by/list/izgotovlenie-zubnyh-koronok/minsk/",
+     "price": "Металлокерамическая коронка 396; Циркониевая коронка 720 руб.",
+     "za_chto": "среднее МК и циркония = 558"
+    },
+    {
+     "company": "Практикдент",
+     "url": "https://www.103.by/list/izgotovlenie-zubnyh-koronok/minsk/",
+     "price": "МК коронка от 456,34; безметалловая от 987,81 руб.",
+     "za_chto": "среднее = 722"
+    },
+    {
+     "company": "Стоматология имени Жадовича",
+     "url": "https://www.103.by/list/izgotovlenie-zubnyh-koronok/minsk/",
+     "price": "МК коронка от 420; безметалловая из диоксида циркония от 810 руб.",
+     "za_chto": "среднее = 615"
+    },
+    {
+     "company": "МиладентАл",
+     "url": "https://www.103.by/list/izgotovlenie-zubnyh-koronok/minsk/",
+     "price": "Коронка МК с работой от 400; безметалловая с работой от 700 руб.",
+     "za_chto": "среднее = 550"
+    },
+    {
+     "company": "VOKA DENT",
+     "url": "https://www.103.by/list/izgotovlenie-zubnyh-koronok/minsk/",
+     "price": "E-max от 1 200; диоксид циркония от 1 200 руб.",
+     "za_chto": "безметалловая 1 200"
+    }
+   ],
+   "kommentariy": "Типовой заказ – одна коронка (половина клиентов берёт металлокерамику, половина – цирконий). Медиана по 5 клиникам 615 ≈ 620. Если клиенту нужно 2–3 коронки или мост, чек в 2–3 раза выше."
+  },
+  "брекеты|исправление прикуса": {
+   "check": 3000,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Практикдент",
+     "url": "https://www.103.by/list/ortodontiya-ustanovka-breketov/minsk/",
+     "price": "Фиксация брекетов лигатурная (две челюсти) от 3 057,61; безлигатурная (две челюсти) от 4 559,47 руб.",
+     "za_chto": "две челюсти, лигатурные = 3 058"
+    },
+    {
+     "company": "Премиумдент",
+     "url": "https://www.103.by/list/ortodontiya-ustanovka-breketov/minsk/",
+     "price": "Лигатурные брекеты от 3 000 руб./2 челюсти; самолигирующие от 5 700 руб./2 челюсти",
+     "za_chto": "лигатурные 2 челюсти = 3 000"
+    },
+    {
+     "company": "Дента Смайл",
+     "url": "https://www.103.by/list/ortodontiya-ustanovka-breketov/minsk/",
+     "price": "Брекет-система металлическая Sensy Smart 2 500; Н4 самолигирующие 3 200 руб.",
+     "za_chto": "металлическая система = 2 500"
+    },
+    {
+     "company": "Новая улыбка",
+     "url": "https://www.103.by/list/ortodontiya-ustanovka-breketov/minsk/",
+     "price": "Установка и обслуживание брекет-системы от 1 000 руб.",
+     "za_chto": "заманка «от», не учтена в медиане"
+    }
+   ],
+   "kommentariy": "Типовой заказ – металлические брекеты на две челюсти (установка). Медиана 3 клиник = 3 000. Плановые коррекции (от 300 у Премиумдент) и ретейнеры добавляют ещё 1 000–2 000 за курс – не включены."
+  },
+  "лечение зубов|лечение кариеса": {
+   "check": 190,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Практикдент",
+     "url": "https://www.103.by/list/lechenie-zubov/minsk/",
+     "price": "Установка пломбы (средняя) от 193,93 руб.",
+     "za_chto": "один зуб, средний кариес = 194"
+    },
+    {
+     "company": "Здоровая улыбка",
+     "url": "https://www.103.by/list/lechenie-zubov/minsk/",
+     "price": "Лечение среднего кариеса 175 руб.",
+     "za_chto": "один зуб = 175"
+    },
+    {
+     "company": "Дента Смайл",
+     "url": "https://www.103.by/list/lechenie-zubov/minsk/",
+     "price": "Лечение кариеса от 160; лечение пульпита от 350 руб.",
+     "za_chto": "кариес = 160"
+    },
+    {
+     "company": "Стоматология Доктора Шабановича",
+     "url": "https://www.103.by/list/lechenie-zubov/minsk/",
+     "price": "Лечение кариеса зубов от 280 руб.",
+     "za_chto": "кариес = 280"
+    }
+   ],
+   "kommentariy": "Типовой заказ – лечение одного зуба с пломбой (средний кариес). Медиана 4 клиник ≈ 185 → 190. Пульпит (каналы) 350+."
+  },
+  "удаление зуба": {
+   "check": 200,
+   "basis": "tipovoy",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Три Дантиста Плюс",
+     "url": "https://www.103.by/list/hirurgicheskaya-stomatologiya-udalenije-zubov/minsk/",
+     "price": "Удаление зуба простое 200; сложное 450 руб.",
+     "za_chto": "простое = 200"
+    },
+    {
+     "company": "МиладентАл",
+     "url": "https://www.103.by/list/hirurgicheskaya-stomatologiya-udalenije-zubov/minsk/",
+     "price": "однокорневого от 110; многокорневого от 150 руб.",
+     "za_chto": "среднее = 130"
+    },
+    {
+     "company": "Стоматология Корчигиных",
+     "url": "https://www.103.by/list/hirurgicheskaya-stomatologiya-udalenije-zubov/minsk/",
+     "price": "Удаление зуба от 150; зуба мудрости от 300 руб.",
+     "za_chto": "= 150"
+    },
+    {
+     "company": "Практикдент",
+     "url": "https://www.103.by/list/hirurgicheskaya-stomatologiya-udalenije-zubov/minsk/",
+     "price": "однокоренного от 223,78; многокорневого от 241,80 руб.",
+     "za_chto": "среднее = 233"
+    },
+    {
+     "company": "Новый Лекарь",
+     "url": "https://www.103.by/list/hirurgicheskaya-stomatologiya-udalenije-zubov/minsk/",
+     "price": "многокорневого от 250; зуба мудрости от 250 руб.",
+     "za_chto": "= 250"
+    }
+   ],
+   "kommentariy": "Типовой заказ – удаление одного зуба (не ретинированного). Медиана 5 клиник = 200. Зуб мудрости 250–450."
+  },
+  "отбеливание зубов": {
+   "check": 410,
+   "basis": "tipovoy",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Практикдент",
+     "url": "https://www.103.by/list/otbelivanie-zubov-ofisnoje-otbelivanije-zubov/minsk/",
+     "price": "Офисное отбеливание (2 челюсти) 376,80 руб.",
+     "za_chto": "= 377"
+    },
+    {
+     "company": "Новая улыбка",
+     "url": "https://www.103.by/list/otbelivanie-zubov-ofisnoje-otbelivanije-zubov/minsk/",
+     "price": "Офисное отбеливание зубов 350 руб.",
+     "za_chto": "= 350"
+    },
+    {
+     "company": "СолДент",
+     "url": "https://www.103.by/list/otbelivanie-zubov-ofisnoje-otbelivanije-zubov/minsk/",
+     "price": "Офисное отбеливание (2 челюсти) 409,17 руб.",
+     "za_chto": "= 409"
+    },
+    {
+     "company": "Стоматология имени Жадовича",
+     "url": "https://www.103.by/list/otbelivanie-zubov-ofisnoje-otbelivanije-zubov/minsk/",
+     "price": "от 246,67 руб./1 челюсть",
+     "za_chto": "×2 челюсти = 493"
+    },
+    {
+     "company": "Премиумдент",
+     "url": "https://www.103.by/list/otbelivanie-zubov-ofisnoje-otbelivanije-zubov/minsk/",
+     "price": "Офисное отбеливание от 707,55 руб./2 челюсти",
+     "za_chto": "= 708"
+    }
+   ],
+   "kommentariy": "Офисное отбеливание обеих челюстей, медиана 5 клиник = 409 → 410. Обычно перед ним гигиена (+150–240), не включена."
+  },
+  "виниры": {
+   "check": 6600,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Стоматология Доктора Шабановича",
+     "url": "https://www.103.by/list/stomatologii-esteticheskaya-stomatologiya/minsk/",
+     "price": "Виниры от 1 300 руб.",
+     "za_chto": "за 1 винир"
+    },
+    {
+     "company": "Практикдент",
+     "url": "https://www.103.by/list/stomatologii-esteticheskaya-stomatologiya/minsk/",
+     "price": "Винир от 987,81 руб.",
+     "za_chto": "за 1 винир"
+    },
+    {
+     "company": "ЭверестДент",
+     "url": "https://www.103.by/list/stomatologii-esteticheskaya-stomatologiya/minsk/",
+     "price": "Керамические виниры от 875; Виниры E-max от 1 105 руб.",
+     "za_chto": "E-max за 1 = 1 105"
+    },
+    {
+     "company": "Дента Смайл",
+     "url": "https://www.103.by/list/stomatologii-esteticheskaya-stomatologiya/minsk/",
+     "price": "Виниры керамические от 1 100 руб.",
+     "za_chto": "за 1 винир"
+    }
+   ],
+   "kommentariy": "Медиана керамического винира 4 клиник ≈ 1 100 за единицу. Типовой заказ – зона улыбки, 6 виниров на верхнюю челюсть: 6 × 1 100 = 6 600. Допущение по количеству моё: при 4 винирах – 4 400, при 8 – 8 800. Композитные виниры дешевле (250–300 за зуб)."
+  },
+  "чистка зубов|профессиональная чистка зубов": {
+   "check": 240,
+   "basis": "tipovoy",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Стоматология Доктора Шабановича",
+     "url": "https://www.103.by/list/gigiena-polosty-rta/minsk/",
+     "price": "Гигиена полости рта от 320 руб.",
+     "za_chto": "= 320"
+    },
+    {
+     "company": "ЭверестДент",
+     "url": "https://www.103.by/list/gigiena-polosty-rta/minsk/",
+     "price": "Профессиональная гигиена + Air Flow от 241 руб.",
+     "za_chto": "= 241"
+    },
+    {
+     "company": "Здоровая улыбка",
+     "url": "https://www.103.by/list/gigiena-polosty-rta/minsk/",
+     "price": "Профессиональная гигиена 149; снятие отложений + Air Flow + фтор 185 руб.",
+     "za_chto": "= 149–185"
+    },
+    {
+     "company": "Дента Смайл",
+     "url": "https://www.103.by/list/gigiena-polosty-rta/minsk/",
+     "price": "Профессиональная гигиена от 240 руб.",
+     "za_chto": "= 240"
+    },
+    {
+     "company": "МиладентАл",
+     "url": "https://www.103.by/list/gigiena-polosty-rta/minsk/",
+     "price": "Профессиональная чистка Air Flow 200 руб.",
+     "za_chto": "= 200"
+    }
+   ],
+   "kommentariy": "Комплексная гигиена (ультразвук + Air Flow + полировка), медиана 5 клиник = 240."
+  },
+  "детский стоматолог|детская стоматология": {
+   "check": 140,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "врачи на 103.by (детские стоматологи Минска)",
+     "url": "https://www.103.by/doctor/detskij-stomatolog/minsk/",
+     "price": "Лечение кариеса детям от 110,00; Лечение кариеса постоянного зуба у детей от 170,00; Детская профессиональная гигиена от 130,00 руб.",
+     "za_chto": "лечение одного зуба 110–170"
+    },
+    {
+     "company": "Дента Смайл",
+     "url": "https://www.103.by/list/gigiena-polosty-rta/minsk/",
+     "price": "Герметизация фиссур детям от 80 руб.",
+     "za_chto": "профилактика, нижняя граница"
+    }
+   ],
+   "kommentariy": "Типовой заказ – лечение одного зуба ребёнку или гигиена. Цены с 103.by 110 / 130 / 170, медиана 130 + осмотр ≈ 140. Лечение под наркозом – отдельно и намного дороже."
+  },
+  "медицинский центр|платная клиника|платная поликлиника": {
+   "check": 90,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "103.by – терапевты Минска",
+     "url": "https://www.103.by/doctor/terapevt/minsk/",
+     "price": "Консультация терапевта от 45,29; первичный приём терапевта первой категории от 59,00 руб.",
+     "za_chto": "приём специалиста ≈ 45–59"
+    },
+    {
+     "company": "103.by – гинекологи Минска",
+     "url": "https://www.103.by/doctor/ginekolog/minsk/",
+     "price": "Консультация гинеколога первой категории от 47,37; первичный приём от 37,00–59,00 руб.",
+     "za_chto": "приём ≈ 45"
+    },
+    {
+     "company": "Авиценна / ИНВИТРО / Эксана",
+     "url": "https://www.103.by/list/gastroenterologiya-uzi-organov-bryushnoj-polosti/minsk/",
+     "price": "УЗИ органов брюшной полости 51; 58,51; 59,29 руб.",
+     "za_chto": "одно УЗИ ≈ 58"
+    }
+   ],
+   "kommentariy": "Общий запрос: типовой визит = приём врача (медиана ≈ 45–50 по 103.by) + одно исследование (УЗИ ≈ 40–58). Итого ≈ 90. Производное."
+  },
+  "узи": {
+   "check": 50,
+   "basis": "tipovoy",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Авиценна",
+     "url": "https://www.103.by/list/gastroenterologiya-uzi-organov-bryushnoj-polosti/minsk/",
+     "price": "УЗИ органов брюшной полости 51; УЗИ органов малого таза 39; УЗИ щитовидной железы 25,81 руб.",
+     "za_chto": "три самые частые зоны"
+    },
+    {
+     "company": "ИНВИТРО",
+     "url": "https://www.103.by/list/gastroenterologiya-uzi-organov-bryushnoj-polosti/minsk/",
+     "price": "УЗИ ОБП, почек и желчного 58,51; УЗИ матки и придатков (абд.+ваг.) 41,65; УЗИ щитовидной 33,49 руб.",
+     "za_chto": ""
+    },
+    {
+     "company": "Эксана",
+     "url": "https://www.103.by/list/gastroenterologiya-uzi-organov-bryushnoj-polosti/minsk/",
+     "price": "УЗИ органов брюшной полости 59,29; малого таза с допплером 41,44; щитовидной 35,68 руб.",
+     "za_chto": ""
+    },
+    {
+     "company": "КОРДИС",
+     "url": "https://www.103.by/list/endokrynologiya-uzi-shhitovidnoj-zhelezy/minsk/",
+     "price": "УЗИ ОБП и почек с дуплексом 57,32; малого таза 47,67; щитовидной 33,95 руб.",
+     "za_chto": ""
+    },
+    {
+     "company": "Димеда",
+     "url": "https://www.103.by/list/gastroenterologiya-uzi-organov-bryushnoj-polosti/minsk/",
+     "price": "УЗИ органов брюшной полости и почек 61,62 руб.",
+     "za_chto": ""
+    }
+   ],
+   "kommentariy": "Одно УЗИ: брюшная полость медиана ≈ 58, малый таз ≈ 41, щитовидная ≈ 34. Обращение – чаще 1 зона, иногда 2. Взято 50 (середина между одной и двумя зонами недорогих видов)."
+  },
+  "мрт": {
+   "check": 200,
+   "basis": "tipovoy",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "ЛОДЭ",
+     "url": "https://www.103.by/list/nevrologiya-mrt-pozvonochnika/minsk/",
+     "price": "МРТ головного мозга 198,68; отдела позвоночника 127,02; коленного сустава 169,36 руб. (1,5 Тл)",
+     "za_chto": "среднее трёх зон ≈ 165"
+    },
+    {
+     "company": "Авиценна",
+     "url": "https://www.103.by/list/nevrologiya-mrt-pozvonochnika/minsk/",
+     "price": "МРТ области головы от 231; отдела позвоночника от 178; коленного от 188 руб.",
+     "za_chto": "≈ 199"
+    },
+    {
+     "company": "IMRED",
+     "url": "https://www.103.by/list/nevrologiya-mrt-pozvonochnika/minsk/",
+     "price": "МРТ шейного отдела 307,82; коленного 291,40 руб.",
+     "za_chto": "≈ 300"
+    },
+    {
+     "company": "Томография",
+     "url": "https://www.103.by/list/ortopediya-mrt-kolennogo-sustava/minsk/",
+     "price": "МРТ коленного сустава 309,81; поясничного отдела 566,50 руб.",
+     "za_chto": "≈ 310–440"
+    },
+    {
+     "company": "РНПЦ детской онкологии (гос.)",
+     "url": "https://www.103.by/list/mrt/minsk/",
+     "price": "МРТ головного мозга без контраста 92,77; отдела позвоночника 144,18 руб.",
+     "za_chto": "≈ 120"
+    }
+   ],
+   "kommentariy": "Одна зона без контраста. Медиана 5 центров ≈ 199 → 200. С контрастом +80–150."
+  },
+  "гинеколог": {
+   "check": 75,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "ЭКО (медцентр)",
+     "url": "https://www.103.by/list/medicinskie-centry-uzi-polovyh-organov/minsk/",
+     "price": "Первичный приём акушера-гинеколога I категории + УЗИ матки и придатков 54,90; высшей категории + УЗИ 70,50 руб.",
+     "za_chto": "приём+УЗИ ≈ 55–70"
+    },
+    {
+     "company": "ИНВИТРО",
+     "url": "https://www.103.by/list/medicinskie-centry-uzi-polovyh-organov/minsk/",
+     "price": "Консультация гинеколога высшей категории с УЗ-исследованием 76,45 руб.",
+     "za_chto": "= 76"
+    },
+    {
+     "company": "103.by – гинекологи + УЗИ",
+     "url": "https://www.103.by/doctor/ginekolog/minsk/",
+     "price": "Консультация гинеколога медиана ≈ 45 (37–59); УЗИ малого таза 39–48 руб.",
+     "za_chto": "раздельно ≈ 85"
+    }
+   ],
+   "kommentariy": "Типовое обращение = приём + УЗИ малого таза. Медиана ≈ 70–76 → 75. Мазки/анализы добавят 20–40."
+  },
+  "сдать анализы|анализы": {
+   "check": 65,
+   "basis": "tipovoy",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Санте",
+     "url": "https://sante.by",
+     "price": "Биохимия крови (20 показателей с забором материала) 56,73 рублей; липидограмма 12,29",
+     "za_chto": "биохимия + ОАК ≈ 65–70"
+    },
+    {
+     "company": "Synlab",
+     "url": "https://www.synlab.by",
+     "price": "Комплексное биохимическое исследование крови всего за 65 руб.",
+     "za_chto": "= 65"
+    }
+   ],
+   "kommentariy": "Типовой заказ – общий + биохимический анализ крови. ≈ 65. Гормоны и инфекции – отдельно, дороже."
+  },
+  "эндокринолог": {
+   "check": 80,
+   "basis": "tipovoy",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "103.by – эндокринологи Минска",
+     "url": "https://www.103.by/doctor/endokrinolog/minsk/",
+     "price": "Консультация эндокринолога высшей категории 49,93; первой от 44,69; первичный приём от 59,00 руб.",
+     "za_chto": "медиана ≈ 45"
+    },
+    {
+     "company": "ИНВИТРО / Авиценна / IMRED / КОРДИС",
+     "url": "https://www.103.by/list/endokrynologiya-uzi-shhitovidnoj-zhelezy/minsk/",
+     "price": "УЗИ щитовидной 33,49; 25,81; 39,57; 33,95 руб.",
+     "za_chto": "медиана ≈ 34"
+    }
+   ],
+   "kommentariy": "Приём (≈ 45) + УЗИ щитовидной (≈ 34) ≈ 80. Анализы на гормоны (ТТГ, Т4) ещё +20–30, не включены."
+  },
+  "кардиолог": {
+   "check": 50,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "103.by – кардиологи Минска",
+     "url": "https://www.103.by/doctor/kardiolog/minsk/",
+     "price": "Консультация кардиолога первой категории 44,93; от 44,69; высшей от 49,75; первичный приём от 59,00 руб.",
+     "za_chto": "медиана ≈ 48"
+    },
+    {
+     "company": "ЛОДЭ (через 103.by)",
+     "url": "https://www.103.by/doctor/kardiolog/minsk/",
+     "price": "Консультация кардиолога первой квалификационной категории от 44,69 руб.",
+     "za_chto": ""
+    }
+   ],
+   "kommentariy": "Только приём, медиана ≈ 48 → 50. ЭКГ и УЗИ сердца (≈ 60–80) делают чек 100–130, отдельно не собирал."
+  },
+  "остеопат|мануальный терапевт": {
+   "check": 130,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "2doc.by (каталог остеопатов Минска)",
+     "url": "https://2doc.by/doctors/osteopat",
+     "price": "Стоимость приема остеопата составляет от 60.00 р. до 80.00 р.",
+     "za_chto": "сеанс ≈ 70"
+    },
+    {
+     "company": "Центр здоровья Империя",
+     "url": "https://imperiafohow.by/osteopatiya",
+     "price": "Первый сеанс … диагностика равен 60 рублей",
+     "za_chto": "= 60"
+    },
+    {
+     "company": "БолиВспине",
+     "url": "https://bolivspine.by",
+     "price": "Первичный приём: диагностика + сеанс от 195 BYN; лечебный сеанс от 160 Br",
+     "za_chto": "= 195"
+    },
+    {
+     "company": "Седьмое небо",
+     "url": "https://7nebo.by",
+     "price": "Лечение у мануального терапевта (1 сеанс). Стоимость – 215,0 рублей",
+     "za_chto": "= 215"
+    }
+   ],
+   "kommentariy": "Один лечебный сеанс: остеопаты 60–80, мануальная терапия в клиниках 160–215. Медиана 4 ≈ 130. Консультация без сеанса 28–48 (zoon.by) не бралась."
+  },
+  "медосмотр|медицинская справка|медкомиссия": {
+   "check": 35,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "МСЦ на Вавилова",
+     "url": "https://msc-vavilova.by/voditelskaya-komissia/",
+     "price": "Пройти водительскую комиссию в Минске от 23,90р.",
+     "za_chto": "= 24"
+    },
+    {
+     "company": "myfin.by (обзор цен, Горизонт и поликлиника МВД)",
+     "url": "https://myfin.by/article/avto/skolko-stoit-polucit-voditelskoe-udostoverenie-i-kakie-dokumenty-nuzny-38298",
+     "price": "от 35 рублей в «Горизонте»; поликлиника МВД – 44,04 рубля",
+     "za_chto": "35–44; дата статьи не проверена"
+    }
+   ],
+   "kommentariy": "Типовой заказ – водительская справка/медкомиссия. Медиана ≈ 35. Справки в бассейн, лагерь – 10–25; медосмотр на работу – 40–80."
+  },
+  "флеболог|лечение варикоза": {
+   "check": 350,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "103.by – флебологи Минска",
+     "url": "https://www.103.by/doctor/flebolog/minsk/",
+     "price": "Консультация флеболога высшей категории 52,91; первичный приём от 61,00; консультация + УЗИ 71,60 руб.",
+     "za_chto": "приём+УЗИ ≈ 72–100"
+    },
+    {
+     "company": "ЛОДЭ / Linii / Клинический центр пластической хирургии",
+     "url": "https://www.103.by/list/flebologiya-skleroterapija/minsk/",
+     "price": "пенная склеротерапия от 200; от 223,49; 297,31–326,03 руб. за приток",
+     "za_chto": "сеанс ≈ 250"
+    },
+    {
+     "company": "ЛОДЭ / Маяк здоровья / SANTE / Клинический центр",
+     "url": "https://www.103.by/list/flebologiya-lazernaja-koagulyacija-ven-evlk/minsk/",
+     "price": "ЭВЛК от 910/1 кон.; 1 215,30; 1 552; 808,62–831,81 руб. (одна нога)",
+     "za_chto": "ЭВЛК одной ноги, медиана ≈ 1 060"
+    }
+   ],
+   "kommentariy": "Типовой клиент флеболога: приём + УЗИ вен (≈ 100) + один сеанс склеротерапии (≈ 250) ≈ 350. Если доходит до ЭВЛК – чек ≈ 1 060 за ногу. Сомнительное число: смесь путей лечения."
+  },
+  "косметолог|косметология": {
+   "check": 300,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "103.by – косметологи Минска",
+     "url": "https://www.103.by/doctor/kosmetolog/minsk/",
+     "price": "Консультация косметолога первой категории 44,37–46,00 руб.",
+     "za_chto": "консультация ≈ 45"
+    },
+    {
+     "company": "KODERM / Космед / E-clinic",
+     "url": "https://www.103.by/list/chistka-kozhi/minsk/",
+     "price": "чистка лица 110–180 руб.",
+     "za_chto": "чистка ≈ 110–150"
+    },
+    {
+     "company": "Космед / HappyDerm / MedArt",
+     "url": "https://www.103.by/list/biorevitalizatcia/minsk/",
+     "price": "биоревитализация 410–590 руб.",
+     "za_chto": "≈ 450"
+    },
+    {
+     "company": "KODERM / Клинический центр",
+     "url": "https://www.103.by/list/kosmetologia-botulinoterapia/minsk/",
+     "price": "ботулинотерапия лоб+межбровье 528; 180,58 за зону",
+     "za_chto": "≈ 380"
+    }
+   ],
+   "kommentariy": "Общий запрос: визит к косметологу = одна процедура. Медиана четырёх популярных (чистка ≈ 110, пилинг ≈ 100, биоревитализация ≈ 450, ботокс ≈ 380) ≈ 250–300 → 300. Производное от строк ниже."
+  },
+  "чистка лица": {
+   "check": 120,
+   "basis": "tipovoy",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Космед",
+     "url": "https://www.103.by/list/chistka-kozhi/minsk/",
+     "price": "Механическая, комбинированная чистка лица 180; ультразвуковая 120 руб.",
+     "za_chto": "комбинированная = 180"
+    },
+    {
+     "company": "KODERM",
+     "url": "https://www.103.by/list/chistka-kozhi/minsk/",
+     "price": "Механическая чистка лица 160; атравматичная 120–140 руб.",
+     "za_chto": "≈ 150"
+    },
+    {
+     "company": "E-clinic",
+     "url": "https://www.103.by/list/chistka-kozhi/minsk/",
+     "price": "Чистка от 110 руб.",
+     "za_chto": "= 110"
+    },
+    {
+     "company": "Кабинет косметика Лешкевич",
+     "url": "https://www.103.by/list/chistka-kozhi/minsk/",
+     "price": "Атравматическая чистка лица с маской 110 руб.",
+     "za_chto": "= 110"
+    },
+    {
+     "company": "Клинический центр пластической хирургии",
+     "url": "https://www.103.by/list/chistka-kozhi/minsk/",
+     "price": "Очищение кожи лица механическое 58,35 руб.",
+     "za_chto": "= 58, нижняя граница"
+    }
+   ],
+   "kommentariy": "Медиана 5 ≈ 110, у салонов среднего уровня 110–180. Взято 120."
+  },
+  "ботокс|ботулинотерапия": {
+   "check": 380,
+   "basis": "tipovoy",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "KODERM",
+     "url": "https://www.103.by/list/kosmetologia-botulinoterapia/minsk/",
+     "price": "Коррекция мимических морщин в области лба + межбровье 528 руб.",
+     "za_chto": "две зоны = 528"
+    },
+    {
+     "company": "Клинический центр пластической хирургии",
+     "url": "https://www.103.by/list/kosmetologia-botulinoterapia/minsk/",
+     "price": "Коррекция функциональных морщин 180,58 руб./1 ан.область",
+     "za_chto": "× 2 зоны = 361"
+    },
+    {
+     "company": "Космед",
+     "url": "https://www.103.by/list/kosmetologia-botulinoterapia/minsk/",
+     "price": "Диспорт от 3,80 руб./ед.",
+     "za_chto": "лоб+межбровье ≈ 100 ед. Диспорта = 380"
+    },
+    {
+     "company": "E-clinic",
+     "url": "https://www.103.by/list/kosmetologia-botulinoterapia/minsk/",
+     "price": "Коррекция мимических морщин (Диспорт) от 3,10 руб.",
+     "za_chto": "× 100 ед. = 310"
+    },
+    {
+     "company": "HappyDerm",
+     "url": "https://www.103.by/list/kosmetologia-botulinoterapia/minsk/",
+     "price": "Релатокс, морщины лба (включая межбровье) 20–35 единиц: 12 руб.",
+     "za_chto": "12 × 35 ед. = 420"
+    }
+   ],
+   "kommentariy": "Типовой заказ – лоб + межбровье. Медиана 5 клиник = 380."
+  },
+  "увеличение губ|контурная пластика": {
+   "check": 610,
+   "basis": "tipovoy",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "KODERM",
+     "url": "https://www.103.by/list/uvelichenie-gub-fillerom/minsk/",
+     "price": "Увеличение губ Juvederm Ultra Smile 610; Juvederm Ultra 3 820; Saypha Volume 700 руб.",
+     "za_chto": "1 мл ≈ 700"
+    },
+    {
+     "company": "HappyDerm",
+     "url": "https://www.103.by/list/uvelichenie-gub-fillerom/minsk/",
+     "price": "aliaxin 1,0 мл 600; juvederm ultra 3 1,0 мл 815 руб.",
+     "za_chto": "1 мл ≈ 600–815"
+    },
+    {
+     "company": "Клинический центр пластической хирургии",
+     "url": "https://www.103.by/list/uvelichenie-gub-fillerom/minsk/",
+     "price": "Инъекционная коррекция формы и объема губ 558,20 руб.",
+     "za_chto": "= 558"
+    },
+    {
+     "company": "Форестмед",
+     "url": "https://www.103.by/list/uvelichenie-gub-fillerom/minsk/",
+     "price": "Коррекция и увеличение губ от 610 руб.",
+     "za_chto": "= 610"
+    },
+    {
+     "company": "MedArt",
+     "url": "https://www.103.by/list/uvelichenie-gub-fillerom/minsk/",
+     "price": "Juvederm Ultra Smile 0,55 – 515 руб.",
+     "za_chto": "0,55 мл = 515"
+    }
+   ],
+   "kommentariy": "Губы 0,55–1 мл филлера. Медиана 5 клиник = 610."
+  },
+  "лазерная эпиляция": {
+   "check": 120,
+   "basis": "tipovoy",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Med Avenue",
+     "url": "https://medavenu.by",
+     "price": "КОМПЛЕКС №3 Бикини + подмышки + ноги полностью (женщины) 122,02 BYN",
+     "za_chto": "комплекс за сеанс"
+    },
+    {
+     "company": "Марлен",
+     "url": "https://marlen.by",
+     "price": "Комплекс №8 (голени, бикини …) 165 руб.",
+     "za_chto": "комплекс за сеанс"
+    },
+    {
+     "company": "Лесанте",
+     "url": "https://lesante.by",
+     "price": "голени, бедра, бикини глубокое, подмышки 159,9 руб.",
+     "za_chto": "комплекс"
+    },
+    {
+     "company": "Evos",
+     "url": "https://evos.by",
+     "price": "подмышки, глубокое бикини, голени, бедра 120 BYN",
+     "za_chto": "комплекс"
+    },
+    {
+     "company": "Biovin clinic",
+     "url": "https://biovin-clinic.by",
+     "price": "…глубокое бикини, голени или бедра (первый сеанс) 99,00 руб.",
+     "za_chto": "акция первого сеанса"
+    }
+   ],
+   "kommentariy": "Один сеанс популярного комплекса зон (бикини + подмышки + ноги), сниппеты Яндекса 18.11. Медиана 5 = 122 → 120. Курс 6–8 сеансов – чек клиента за курс 700–1 000."
+  },
+  "биоревитализация": {
+   "check": 450,
+   "basis": "tipovoy",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Космед",
+     "url": "https://www.103.by/list/biorevitalizatcia/minsk/",
+     "price": "Jalupro HMW 2,5 мл 450; Meso-Wharton 1,5 мл 490; Jalupro 1% 410 руб.",
+     "za_chto": "≈ 450"
+    },
+    {
+     "company": "KODERM",
+     "url": "https://www.103.by/list/biorevitalizatcia/minsk/",
+     "price": "CROMA REVITALIS 510; RRS Long Lasting 690; PLINEST 820 руб.",
+     "za_chto": "≈ 600"
+    },
+    {
+     "company": "HappyDerm",
+     "url": "https://www.103.by/list/biorevitalizatcia/minsk/",
+     "price": "teosyal redensity 450; newest 2 мл 530 руб.",
+     "za_chto": "≈ 450"
+    },
+    {
+     "company": "MedArt",
+     "url": "https://www.103.by/list/biorevitalizatcia/minsk/",
+     "price": "Prostrolane 455–487; Jalupro 390 руб.",
+     "za_chto": "≈ 455"
+    },
+    {
+     "company": "E-clinic",
+     "url": "https://www.103.by/list/biorevitalizatcia/minsk/",
+     "price": "Биоревитализация от 260 руб.",
+     "za_chto": "заманка «от»"
+    }
+   ],
+   "kommentariy": "Одна процедура. Медиана 5 = 450. Курс обычно 2–4 процедуры."
+  },
+  "удаление родинок|удаление папиллом": {
+   "check": 80,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "ЛОДЭ",
+     "url": "https://www.103.by/list/udalenie-rodinok/minsk/",
+     "price": "Радиочастотное удаление невуса до 0,5 см от 30; 0,5–1 см от 45 руб.",
+     "za_chto": "одно ≈ 30–45"
+    },
+    {
+     "company": "Linii",
+     "url": "https://www.103.by/list/udalenie-rodinok/minsk/",
+     "price": "Лазерное удаление новообразования до 5 мм от 38,37; до 10 мм от 55,37 руб.",
+     "za_chto": "одно ≈ 38"
+    },
+    {
+     "company": "MedArt",
+     "url": "https://www.103.by/list/udalenie-rodinok/minsk/",
+     "price": "Лазерное удаление на теле до 5 мм 41 руб.",
+     "za_chto": "= 41"
+    },
+    {
+     "company": "Седьмое небо",
+     "url": "https://www.103.by/list/udalenie-rodinok/minsk/",
+     "price": "Электрорадиокоагуляция родинки хирургом-онкологом от 45 руб.",
+     "za_chto": "= 45"
+    }
+   ],
+   "kommentariy": "Одно образование до 5 мм: медиана ≈ 41. Обычно за визит удаляют 2 → ≈ 80 (+ консультация дерматолога ≈ 45 в некоторых клиниках, не включена)."
+  },
+  "пластический хирург|блефаропластика|пластическая операция": {
+   "check": 1600,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Эдаран-Медикал",
+     "url": "https://www.103.by/list/plasticheskaya-hirurgiya-blefaroplastika/minsk/",
+     "price": "Верхняя блефаропластика 1 600 руб.",
+     "za_chto": "= 1 600"
+    },
+    {
+     "company": "Клинический центр пластической хирургии",
+     "url": "https://www.103.by/list/plasticheskaya-hirurgiya-blefaroplastika/minsk/",
+     "price": "Двухсторонняя верхняя блефаропластика 1 512,91; с устранением грыж 1 633,08 руб.",
+     "za_chto": "≈ 1 513–1 633"
+    },
+    {
+     "company": "Нордин",
+     "url": "https://www.103.by/list/plasticheskaya-hirurgiya-blefaroplastika/minsk/",
+     "price": "Блефаропластика верхняя, 2 стороны от 2 500; нижняя+верхняя от 5 200 руб.",
+     "za_chto": "от 2 500"
+    }
+   ],
+   "kommentariy": "Типовая операция – верхняя блефаропластика (самая частая): медиана 3 = 1 600. Маммопластика и ринопластика в разы дороже – средний чек хирурга выше, если в нише их доля большая."
+  },
+  "массаж": {
+   "check": 80,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Spa Paradise",
+     "url": "https://spaparadise.by",
+     "price": "Нейроседативный (успокаивающий) массаж всего тела 75 BYN, 60 минут",
+     "za_chto": "= 75"
+    },
+    {
+     "company": "Шевелюра",
+     "url": "https://www.103.by/list/krasota-limfodrenazhnyj-massazh/minsk/",
+     "price": "Классический массаж всего тела с элементами лимфодренажа 80 руб.",
+     "za_chto": "= 80"
+    },
+    {
+     "company": "Студия массажа «МолВит»",
+     "url": "https://www.103.by/list/krasota-limfodrenazhnyj-massazh/minsk/",
+     "price": "Массаж общий лимфодренажный 60 руб./50 мин",
+     "za_chto": "= 60"
+    },
+    {
+     "company": "Салон на ул. Победителей, 4 (Яндекс Карты, блок выдачи)",
+     "url": "https://yandex.by/maps/157/minsk/",
+     "price": "Массаж тканей тела – Цена 120 Br",
+     "za_chto": "= 120"
+    }
+   ],
+   "kommentariy": "Один сеанс общего массажа 50–60 мин. Медиана ≈ 78 → 80. Лечебный курс – 10 сеансов спины/ШВЗ."
+  },
+  "массаж спины": {
+   "check": 65,
+   "basis": "tipovoy",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Sanika",
+     "url": "https://www.103.by/list/massazhnye-kabinety-massazh-spiny/minsk/",
+     "price": "Массаж спины с разминанием ШВЗ 49; с ШВЗ и поясницей 85 руб.",
+     "za_chto": "≈ 67"
+    },
+    {
+     "company": "Body Dream",
+     "url": "https://www.103.by/list/massazhnye-kabinety-massazh-spiny/minsk/",
+     "price": "Массаж спины 30 мин 50; массаж спины 70; ручной 75 руб.",
+     "za_chto": "= 70"
+    },
+    {
+     "company": "Шевелюра",
+     "url": "https://www.103.by/list/massazhnye-kabinety-massazh-spiny/minsk/",
+     "price": "Массаж спины с элементами разминания 50–80 руб.",
+     "za_chto": "≈ 60"
+    },
+    {
+     "company": "Арталея",
+     "url": "https://www.103.by/list/massazhnye-kabinety-massazh-spiny/minsk/",
+     "price": "Массаж спины – 5 сеансов: 40 руб./30 мин",
+     "za_chto": "= 40 за сеанс в пакете"
+    },
+    {
+     "company": "салоны на Немиге (Яндекс Карты)",
+     "url": "https://yandex.by/maps/157/minsk/",
+     "price": "Спа-массаж спины 70 Br; Авторский массаж спины и шеи 70 Br",
+     "za_chto": "= 70"
+    }
+   ],
+   "kommentariy": "Один сеанс. Медиана 5 ≈ 65. Гос. больницы (от 8–10) не учитывались."
+  },
+  "антицеллюлитный массаж": {
+   "check": 60,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "zoon.by (каталог, 20 салонов Минска)",
+     "url": "https://zoon.by/minsk/beauty/",
+     "price": "Антицеллюлитный массаж … в среднем 60 руб.",
+     "za_chto": "среднее по каталогу"
+    },
+    {
+     "company": "Нордин",
+     "url": "https://nordin.by",
+     "price": "Антицеллюлитный массаж. Стоимость услуги: от 113.00 BYN",
+     "za_chto": "= 113"
+    },
+    {
+     "company": "Demidov massage",
+     "url": "https://demidovmassage.by",
+     "price": "антицеллюлитный, лимфодренажный … Цены от 60 BYN",
+     "za_chto": "= 60"
+    }
+   ],
+   "kommentariy": "Один сеанс. Медиана 3 = 60. Обычно продают курс 10 сеансов (600+)."
+  },
+  "лимфодренажный массаж": {
+   "check": 75,
+   "basis": "tipovoy",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Шевелюра",
+     "url": "https://www.103.by/list/krasota-limfodrenazhnyj-massazh/minsk/",
+     "price": "Лимфодренажный массаж всего тела 80 руб.",
+     "za_chto": "= 80"
+    },
+    {
+     "company": "Ska",
+     "url": "https://www.103.by/list/krasota-limfodrenazhnyj-massazh/minsk/",
+     "price": "Лимфодренажный массаж тела 60 мин от 75; 80 мин 90 руб.",
+     "za_chto": "= 75"
+    },
+    {
+     "company": "Студия массажа Натальи Суходольской",
+     "url": "https://www.103.by/list/krasota-limfodrenazhnyj-massazh/minsk/",
+     "price": "Нелечебный лимфодренажный массаж (45 минут) 60 руб.",
+     "za_chto": "= 60"
+    },
+    {
+     "company": "INTUITION",
+     "url": "https://www.103.by/list/krasota-limfodrenazhnyj-massazh/minsk/",
+     "price": "лимфодренажный спа-массаж 85 руб.",
+     "za_chto": "= 85"
+    },
+    {
+     "company": "МолВит",
+     "url": "https://www.103.by/list/krasota-limfodrenazhnyj-massazh/minsk/",
+     "price": "Массаж общий лимфодренажный 60 руб./50 мин",
+     "za_chto": "= 60"
+    }
+   ],
+   "kommentariy": "Один сеанс тела. Медиана 5 = 75."
+  },
+  "детский массаж": {
+   "check": 50,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "2doc.by",
+     "url": "https://2doc.by",
+     "price": "Вызов массажиста на дом. До 18 лет. 45 рублей",
+     "za_chto": "= 45"
+    },
+    {
+     "company": "profi-bel.by (14 детских массажистов)",
+     "url": "https://profi-bel.by",
+     "price": "Цены: от 40 до 70 руб. / ч.",
+     "za_chto": "≈ 55"
+    },
+    {
+     "company": "Доктор на дом (dodoctor.103.by)",
+     "url": "https://dodoctor.103.by",
+     "price": "Детский массаж на дому в г. Минске. 30 минут. 55 руб.",
+     "za_chto": "= 55"
+    }
+   ],
+   "kommentariy": "Один сеанс. Медиана 3 ≈ 50. Детский массаж почти всегда курсом 10 сеансов (≈ 500)."
+  },
+  "массажист|массажный салон": {
+   "check": 80,
+   "basis": "tipovoy",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Spa Paradise",
+     "url": "https://spaparadise.by",
+     "price": "массаж всего тела 75 BYN, 60 минут",
+     "za_chto": "= 75"
+    },
+    {
+     "company": "Шевелюра / Sanika / Body Dream",
+     "url": "https://www.103.by/list/massazhnye-kabinety-massazh-spiny/minsk/",
+     "price": "массаж тела 80; спины 49–90 руб.",
+     "za_chto": "≈ 70–80"
+    }
+   ],
+   "kommentariy": "Общий запрос к салону = один сеанс общего массажа; берётся то же, что в строке «массаж» (≈ 80)."
+  },
+  "психолог|консультация психолога": {
+   "check": 100,
+   "basis": "tipovoy",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "103.by – психологи Минска",
+     "url": "https://www.103.by/doctor/psiholog/minsk/",
+     "price": "Консультация психолога от 98,00; 118,00 руб.",
+     "za_chto": "одна сессия 98–118"
+    },
+    {
+     "company": "103.by – психотерапевты",
+     "url": "https://www.103.by/doctor/psihoterapevt/minsk/",
+     "price": "Первичная психотерапевтическая сессия с диагностикой от 103,18 руб.",
+     "za_chto": "= 103"
+    }
+   ],
+   "kommentariy": "Одна сессия, медиана ≈ 100. Клиент психолога обычно ходит 4–10 сессий."
+  },
+  "семейный психолог": {
+   "check": 175,
+   "basis": "tipovoy",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "103.by",
+     "url": "https://www.103.by/doctor/psiholog/minsk/",
+     "price": "Консультация психолога для семейной пары 150,00 руб.",
+     "za_chto": "= 150"
+    },
+    {
+     "company": "allmed.by (23 клиники Минска)",
+     "url": "https://allmed.by",
+     "price": "Семейный психолог в Минске… Средняя цена ~ 175BYN; консультация семейного психолога от 210 BYN",
+     "za_chto": "среднее по каталогу 175"
+    }
+   ],
+   "kommentariy": "Одна сессия пары. Медиана 150 / 175 / 210 = 175."
+  },
+  "детский психолог": {
+   "check": 85,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Нордин",
+     "url": "https://nordin.by",
+     "price": "Консультация детского психолога. Стоимость услуги: от 80.00 BYN",
+     "za_chto": "= 80"
+    },
+    {
+     "company": "2doc.by",
+     "url": "https://2doc.by",
+     "price": "Диагностика психологом индивидуальная от 90.00 р.",
+     "za_chto": "= 90"
+    },
+    {
+     "company": "103.by",
+     "url": "https://www.103.by/doctor/detskij-psiholog/minsk/",
+     "price": "Консультация детского психолога от 65,00 руб.",
+     "za_chto": "= 65"
+    }
+   ],
+   "kommentariy": "Одна консультация, медиана 3 = 80; взято 85 (середина 80–90 у частных центров)."
+  },
+  "психотерапевт": {
+   "check": 105,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "103.by – психотерапевты Минска",
+     "url": "https://www.103.by/doctor/psihoterapevt/minsk/",
+     "price": "Первичная психотерапевтическая сессия с диагностикой от 103,18; первичная консультация врача-психотерапевта от 104,69; сеанс индивидуальной психотерапии от 130,68 руб.",
+     "za_chto": "медиана ≈ 104"
+    },
+    {
+     "company": "103.by – телемедицина",
+     "url": "https://www.103.by/doctor/psihoterapevt/minsk/",
+     "price": "Психотерапия с врачом-психотерапевтом онлайн от 108,00 руб.",
+     "za_chto": "= 108"
+    }
+   ],
+   "kommentariy": "Одна сессия. Медиана ≈ 104 → 105."
+  },
+  "психиатр": {
+   "check": 80,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "zoon.by (каталог клиник Минска)",
+     "url": "https://zoon.by/minsk/medical/type/priem_psikhiatra/",
+     "price": "Прием психиатра в Минске: средняя цена 76 руб.",
+     "za_chto": "среднее по каталогу"
+    },
+    {
+     "company": "103.by – психиатры",
+     "url": "https://www.103.by/doctor/psihiatr/minsk/",
+     "price": "Первичная психотерапевтическая сессия с диагностикой от 103,18 руб.",
+     "za_chto": "верхняя граница"
+    }
+   ],
+   "kommentariy": "Приём психиатра: среднее zoon.by 76, у частных центров с психотерапией ≈ 103. Взято 80 (ближе к среднему каталога)."
+  },
+  "вывод из запоя|кодирование от алкоголя|нарколог": {
+   "check": 290,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Парацельс (Яндекс Карты)",
+     "url": "https://www.narkolog.by",
+     "price": "Купирование абстинентного синдрома на дому 329 Br; капельница на дому от запоя – 329 руб.",
+     "za_chto": "= 329"
+    },
+    {
+     "company": "Медтерра (Яндекс Карты)",
+     "url": "https://narkolog-minsk.by",
+     "price": "Вывод из запоя 240 Br; в центре 260; в клинике 350 Br",
+     "za_chto": "на дому = 240"
+    },
+    {
+     "company": "Исцеление (Яндекс Карты)",
+     "url": "https://yandex.by/maps/157/minsk/",
+     "price": "Выведение из запоя на дому 290 Br; в клинике 220 Br",
+     "za_chto": "= 290"
+    },
+    {
+     "company": "Нет зависимости",
+     "url": "https://netzavisimosti.by",
+     "price": "вывод из запоя с выездом на дом … от 290 р.",
+     "za_chto": "= 290"
+    }
+   ],
+   "kommentariy": "Типовой заказ – вывод из запоя на дому (капельница). Медиана 4 = 290. Кодирование – отдельно, обычно 200–600. «Наркология 24/7» с 83 Br не учтена: похоже на сетевую заглушку."
+  },
+  "ветклиника|ветеринарная клиника": {
+   "check": 65,
+   "basis": "tipovoy",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "zoon.by (14 ветклиник Минска)",
+     "url": "https://zoon.by/minsk/vet/",
+     "price": "Консультация ветеринара … в среднем 29 руб.",
+     "za_chto": "приём ≈ 29"
+    },
+    {
+     "company": "Доктор Сет",
+     "url": "https://doctor-set.by/uslugi/vakcinacia/",
+     "price": "прививку собаке, коту комплексную и от бешенства по цене от 25 byn",
+     "za_chto": "процедура ≈ 25–40"
+    }
+   ],
+   "kommentariy": "Типовой визит = приём (≈ 29) + процедура/анализ/укол (≈ 30–40) ≈ 65. Производное, операций не включает."
+  },
+  "ветеринар": {
+   "check": 60,
+   "basis": "tipovoy",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "zoon.by (14 ветклиник Минска)",
+     "url": "https://zoon.by/minsk/vet/",
+     "price": "Консультация ветеринара … в среднем 29 руб.",
+     "za_chto": "приём ≈ 29"
+    },
+    {
+     "company": "zoon.by – вакцинация",
+     "url": "https://zoon.by/minsk/vet/type/vaktsinatsiya_sobak/",
+     "price": "Комплексная прививка для собак … средняя цена 41 руб.",
+     "za_chto": "процедура ≈ 41"
+    }
+   ],
+   "kommentariy": "Приём ≈ 29 + одна процедура ≈ 30 → 60. Производное."
+  },
+  "стерилизация кошки|кастрация кота": {
+   "check": 190,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Здоровый питомец",
+     "url": "https://zdoroviypitomec.by",
+     "price": "Стерилизация кошки под ключ (операция + наркоз + материалы + приём) 250 руб.",
+     "za_chto": "кошка под ключ = 250"
+    },
+    {
+     "company": "Ветцентр",
+     "url": "https://vetcentr.by/uslugi/sterilizaciya-koshki/",
+     "price": "Стоимость стерилизации кошки от 190 руб",
+     "za_chto": "= 190"
+    },
+    {
+     "company": "ветклиника на 103.by",
+     "url": "https://www.103.by",
+     "price": "Кастрация кота с расходными материалами + ОАК 256,50 руб.",
+     "za_chto": "кот с анализом = 256"
+    },
+    {
+     "company": "Петомец",
+     "url": "https://petomec.by/price/",
+     "price": "Овариэктомия кошки 80 р. Кастрация кота 60 р.",
+     "za_chto": "без наркоза и препаратов, нижняя граница"
+    }
+   ],
+   "kommentariy": "Медиана 4 = 190–220. Кастрация кота дешевле (60–130 без анализов), стерилизация кошки 190–250. Взято 190."
+  },
+  "груминг|стрижка собак": {
+   "check": 70,
+   "basis": "tipovoy",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "zoon.by (ветклиники и салоны Минска)",
+     "url": "https://zoon.by/minsk/vet/type/strizhka_sobak/",
+     "price": "Подстричь собаку в Минске: средняя цена 70 руб.",
+     "za_chto": "среднее"
+    },
+    {
+     "company": "Groom",
+     "url": "https://groom.by",
+     "price": "СТРИЖКА СОБАК от 60 р.",
+     "za_chto": "= 60"
+    }
+   ],
+   "kommentariy": "Комплекс для небольшой/средней собаки: 60–70. Крупные породы 100–150."
+  },
+  "прививки собаке|вакцинация собак": {
+   "check": 45,
+   "basis": "tipovoy",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "zoon.by",
+     "url": "https://zoon.by/minsk/vet/type/vaktsinatsiya_sobak/",
+     "price": "Комплексная прививка для собак в Минске: средняя цена 41 руб.",
+     "za_chto": "= 41"
+    },
+    {
+     "company": "Доктор Сет",
+     "url": "https://doctor-set.by/uslugi/vakcinacia/",
+     "price": "комплексную и от бешенства по цене от 25 byn",
+     "za_chto": "= 25+"
+    }
+   ],
+   "kommentariy": "Комплексная вакцина с осмотром: ≈ 41 + чип/паспорт по желанию. Взято 45."
+  },
+  "грузоперевозки|грузоперевозка": {
+   "check": 110,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "MinskPereezd",
+     "url": "https://minskpereezd.by/",
+     "price": "Грузовое такси (только фургон) от 12 м³ от 40 BYN/ч",
+     "za_chto": "40 × 2,5–3 ч ≈ 100–120"
+    },
+    {
+     "company": "GruzBus",
+     "url": "https://gruzbus.by/",
+     "price": "Грузоперевозки от 40 BYN/ч; минимальный заказ — 2 часа",
+     "za_chto": "40 × 2,5–3 ч"
+    },
+    {
+     "company": "Перевозим",
+     "url": "https://perevozim.by/",
+     "price": "АВТО ДО 10 куб от 20 р.ч.; ДО 15 куб от 45 р.ч.; ДО 20 куб от 50 р.ч.",
+     "za_chto": "45 × 2,5 ч ≈ 110"
+    }
+   ],
+   "kommentariy": "Типовой заказ – фургон 10–15 м³ по Минску на 2,5–3 часа без грузчиков. Медиана ставки ≈ 40–45 BYN/ч → ≈ 110."
+  },
+  "грузовое такси": {
+   "check": 80,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "MinskPereezd",
+     "url": "https://minskpereezd.by/",
+     "price": "Грузовое такси (машина + 1 грузчик) от 65 BYN/ч",
+     "za_chto": "× 2 ч мин. = 130"
+    },
+    {
+     "company": "GruzBus",
+     "url": "https://gruzbus.by/",
+     "price": "Грузовое такси от 40 BYN/ч по Минску; минимальный заказ 2 часа",
+     "za_chto": "= 80"
+    },
+    {
+     "company": "Перевозим",
+     "url": "https://perevozim.by/",
+     "price": "Тариф «Мини+» мин. 2 часа, 1 грузчик – 60 руб",
+     "za_chto": "= 60"
+    }
+   ],
+   "kommentariy": "Минимальный заказ 2 часа. Медиана 3 = 80."
+  },
+  "квартирный переезд|переезд квартиры": {
+   "check": 350,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "MinskPereezd",
+     "url": "https://minskpereezd.by/",
+     "price": "Квартирный переезд (фургон + 2 грузчика) 12 м³ от 90 BYN/ч; 20 м³ от 100 BYN/ч",
+     "za_chto": "двушка ≈ 4 ч × 90–100 = 360–400"
+    },
+    {
+     "company": "GruzBus",
+     "url": "https://gruzbus.by/",
+     "price": "Квартирный переезд от 80 BYN/ч с грузчиками",
+     "za_chto": "4 ч × 80 = 320"
+    },
+    {
+     "company": "Перевозим",
+     "url": "https://perevozim.by/",
+     "price": "Тариф «Легко+» мин. 2 часа, 2 грузчика – 75 руб, доп. час 40 руб",
+     "za_chto": "4 ч ≈ 155 (эконом)"
+    }
+   ],
+   "kommentariy": "Двушка: фургон 12–20 м³ + 2 грузчика ≈ 4 часа. Медиана 320–360 → 350. Сборка/разборка мебели и упаковка – сверху."
+  },
+  "офисный переезд": {
+   "check": 720,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "MinskPereezd",
+     "url": "https://minskpereezd.by/",
+     "price": "Офисный переезд 12 м³ от 120 BYN/ч; 20 м³ от 130 BYN/ч",
+     "za_chto": "6 ч × 120 = 720"
+    },
+    {
+     "company": "GruzBus (сниппет Яндекса)",
+     "url": "https://gruzbus.by/",
+     "price": "Офисный переезд в Минске — от 120 BYN/ч, без простоя",
+     "za_chto": "6 ч × 120 = 720"
+    },
+    {
+     "company": "Бел-Груз (сниппет Яндекса)",
+     "url": "https://bel-gruz.com",
+     "price": "Офисный переезд в Минске с грузчиками и без от 40 руб",
+     "za_chto": "нижняя граница"
+    }
+   ],
+   "kommentariy": "Небольшой офис (5–10 рабочих мест) ≈ 6 часов машины с бригадой. 6 × 120 = 720. Допущение по часам моё."
+  },
+  "грузчики|услуги грузчиков": {
+   "check": 130,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "ГрузРезерв (сниппет Яндекса)",
+     "url": "https://gruzrezerv.by",
+     "price": "Стоимость грузчика начинается от 19 руб. (за час)",
+     "za_chto": "2 × 3 ч × 19 = 114"
+    },
+    {
+     "company": "Завозим (сниппет Яндекса)",
+     "url": "https://zavozim.by",
+     "price": "Цена за грузчика: от 25 руб/час",
+     "za_chto": "2 × 3 × 25 = 150"
+    },
+    {
+     "company": "ГрузДоставим (сниппет Яндекса)",
+     "url": "https://gruzdostavim.by",
+     "price": "Цена найма одного грузчика … от 15 руб/час",
+     "za_chto": "2 × 3 × 15 = 90"
+    },
+    {
+     "company": "Переездик (сниппет Яндекса)",
+     "url": "https://pereezdik.by",
+     "price": "Тариф для физических лиц: 45,00 руб. / 1 час (специалист)",
+     "za_chto": "дорогой край"
+    }
+   ],
+   "kommentariy": "Типовой заказ – 2 грузчика на 3 часа. Медиана ставки ≈ 22 BYN/ч → ≈ 130."
+  },
+  "перевозка мебели": {
+   "check": 180,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "MinskPereezd",
+     "url": "https://minskpereezd.by/",
+     "price": "Перевозка мебели (фургон + 2 грузчика) 12 м³ от 90 BYN/ч",
+     "za_chto": "мин. 2 ч = 180"
+    },
+    {
+     "company": "GruzBus",
+     "url": "https://gruzbus.by/",
+     "price": "Ориентировочно: от 180 BYN · 2 ч, 2 грузчика",
+     "za_chto": "= 180"
+    },
+    {
+     "company": "Перевозим",
+     "url": "https://perevozim.by/",
+     "price": "Тариф «Легко+» 2 часа, 2 грузчика – 75 руб",
+     "za_chto": "= 75 (эконом)"
+    }
+   ],
+   "kommentariy": "Перевезти диван/шкаф/кухню: машина + 2 грузчика на 2 часа. Медиана 3 = 180."
+  },
+  "международные грузоперевозки": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "эвакуатор": {
+   "check": 90,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Автопомощь 24",
+     "url": "https://avtopomosh24h.by/price/",
+     "price": "Подача эвакуатора по Минску – от 90 BYN; эвакуация в партнерские автосервисы – от 60 BYN",
+     "za_chto": "по городу = 90"
+    },
+    {
+     "company": "Эвакуатор Минск 1626",
+     "url": "https://evakuator-minsk1626.by/",
+     "price": "от 30 руб; отзыв: «назвали цену 65 рублей» (Дзержинского)",
+     "za_chto": "реальный заказ по городу = 65"
+    },
+    {
+     "company": "Яндекс Услуги (соседний Борисов)",
+     "url": "https://uslugi.yandex.ru",
+     "price": "Стоимость эвакуации легкового авто … начинается от 120 рублей",
+     "za_chto": "верхний ориентир, не Минск"
+    }
+   ],
+   "kommentariy": "Эвакуация легковой по Минску: 65–90 (медиана Минска ≈ 80–90); с выездом за МКАД +1,3 BYN/км. Взято 90."
+  },
+  "техпомощь на дороге|помощь на дороге": {
+   "check": 45,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Автопомощь 24",
+     "url": "https://avtopomosh24h.by/price/",
+     "price": "Выездные работы по автопомощи в городе — от 50 BYN",
+     "za_chto": "= 50"
+    },
+    {
+     "company": "Эвакуатор 24 Минск",
+     "url": "https://evakuator24-minsk.by/prikurit-avtomobil/",
+     "price": "Прикурить автомобиль в Минске от 40 BYN круглосуточно",
+     "za_chto": "= 40"
+    },
+    {
+     "company": "Help Driver",
+     "url": "https://help-driver.by/prikurit-avto/",
+     "price": "Фиксированная цена по Минску от 40 руб (с 6.00 до 24.00)",
+     "za_chto": "= 40, ночью дороже"
+    }
+   ],
+   "kommentariy": "Типовой вызов – прикурить/заменить колесо/подвезти топливо по городу. Медиана 3 = 40; ночью и за городом дороже → 45."
+  },
+  "трезвый водитель|перегон авто": {
+   "check": 55,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Трезвый водитель",
+     "url": "https://trezviyvoditel.by/",
+     "price": "По городу от 60 руб., за город от 70 руб.",
+     "za_chto": "= 60"
+    },
+    {
+     "company": "RGarage",
+     "url": "https://rgarage.by/uslugi/trezvyj-voditel/",
+     "price": "Трезвый водитель в Минске — круглосуточно, от 45 BYN",
+     "za_chto": "= 45"
+    }
+   ],
+   "kommentariy": "Одна поездка по городу. 45 / 60 → 55."
+  },
+  "прокат авто|аренда авто": {
+   "check": 225,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Avto-arenda.by",
+     "url": "https://avto-arenda.by/minsk",
+     "price": "Аренда авто в Минске на сутки … от 65 BYN",
+     "za_chto": "3 суток × 65 = 195"
+    },
+    {
+     "company": "Чайка",
+     "url": "https://chayka.by",
+     "price": "Самые доступные автомобили стоят от 75 BYN в сутки при аренде от 15 (суток)",
+     "za_chto": "на короткий срок дороже; 3 × 85 ≈ 255"
+    },
+    {
+     "company": "R24",
+     "url": "https://r24.by",
+     "price": "Аренда легковых авто в Минске — от 18 руб./сутки",
+     "za_chto": "похоже на заманку, не учтено"
+    }
+   ],
+   "kommentariy": "Типовая аренда эконом-класса на 3 суток: ≈ 65–85 BYN/сутки → ≈ 225. Залог не включён."
+  },
+  "ремонт холодильников": {
+   "check": 120,
+   "basis": "ot",
+   "n": 2,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "Xol.by",
+     "url": "https://xol.by/",
+     "price": "Холодильники Ремонт от 25 руб; морозильники от 25",
+     "za_chto": "минимальная работа"
+    },
+    {
+     "company": "Сниппет Яндекса xol.by",
+     "url": "https://xol.by/",
+     "price": "ремонт холодильника в Минске на дому — цены от 15 руб.",
+     "za_chto": "заманка"
+    }
+   ],
+   "kommentariy": "Цены только «от 15–25» – это мелкие работы. Типовой ремонт (термостат, датчик, заправка фреоном) по аналогии со стиральными ≈ 100–150. Взято 120 – оценка, не медиана; источник один (xol.by)."
+  },
+  "ремонт стиральных машин": {
+   "check": 110,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Robt",
+     "url": "https://robt.by/price",
+     "price": "Замена подшипников в двигателе 148; замена сливного насоса 126; замена амортизаторов 107; замена клапана подачи воды 91 руб",
+     "za_chto": "типовые работы ≈ 90–150"
+    },
+    {
+     "company": "SM-Service",
+     "url": "https://sm-service.by/",
+     "price": "ремонт помпы от 70; натяжка ремня или ремонт мотора от 95; ремонт платы от 125 р.",
+     "za_chto": "≈ 95"
+    },
+    {
+     "company": "Стир-машинки",
+     "url": "https://stir-mashinki.by/",
+     "price": "Замена щёток двигателя от 40; аквастопа от 50 BYN; выезд бесплатно",
+     "za_chto": "работа без детали ≈ 40–50"
+    }
+   ],
+   "kommentariy": "Типовой ремонт на дому (насос, клапан, подшипники): медиана работ ≈ 95–110. Запчасть сверху не всегда включена."
+  },
+  "ремонт телефонов|ремонт айфонов|ремонт iphone": {
+   "check": 150,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "ITClinic",
+     "url": "https://itclinic.by/remont-telefonov/apple/iphone-13/",
+     "price": "Замена экрана / дисплея iPhone 13 от 80 руб.",
+     "za_chto": "копия экрана"
+    },
+    {
+     "company": "AppleStok",
+     "url": "https://applestok.by",
+     "price": "Замена экрана iPhone 13 в Минске от 300 руб.",
+     "za_chto": "оригинальный экран"
+    }
+   ],
+   "kommentariy": "Типовой заказ – замена экрана: 80 (копия) – 300 (оригинал). Взято 150 с учётом более дешёвых заказов (АКБ ≈ 60–100)."
+  },
+  "ремонт ноутбуков|ремонт компьютеров": {
+   "check": 80,
+   "basis": "ot",
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "Fixit",
+     "url": "https://fixit.by",
+     "price": "чистка ноутбука от пыли … от 75 руб. от 60 руб.",
+     "za_chto": "чистка с термопастой 60–75"
+    }
+   ],
+   "kommentariy": "Типовой заказ – чистка + замена термопасты ≈ 70; ремонт матрицы/клавиатуры 150+. Взято 80. Источник один."
+  },
+  "ремонт телевизоров": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "ремонт посудомоечных машин": {
+   "check": 95,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "SM-Service",
+     "url": "https://sm-service.by/",
+     "price": "Стоимость выезда мастера по Минску – 25 рублей; работы от 70–125 р.",
+     "za_chto": "типовая работа ≈ 95"
+    },
+    {
+     "company": "Xol.by",
+     "url": "https://xol.by/",
+     "price": "Посудомойка Ремонт от 10 руб",
+     "za_chto": "нижняя граница"
+    }
+   ],
+   "kommentariy": "Типовой ремонт (насос, ТЭН, клапан) ≈ 95 без детали."
+  },
+  "ремонт кофемашин": {
+   "check": 90,
+   "basis": "ot",
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "Xol.by",
+     "url": "https://xol.by/",
+     "price": "Кофемашина Ремонт от 20 руб; диагностика, чистка, ремонт капучинатора, помпы, заварочного блока. Цены от 30 BYN",
+     "za_chto": "минимальная работа"
+    }
+   ],
+   "kommentariy": "Только «от 20–30». Типовой ремонт (чистка + декальцинация + замена уплотнений/помпы) обычно 80–120 – оценка, не медиана. Источник один."
+  },
+  "ремонт бытовой техники": {
+   "check": 110,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Robt",
+     "url": "https://robt.by/price",
+     "price": "типовые работы по стиральным машинам 91–148 руб",
+     "za_chto": "≈ 110"
+    },
+    {
+     "company": "SM-Service",
+     "url": "https://sm-service.by/",
+     "price": "работы от 70–125 р.",
+     "za_chto": "≈ 95"
+    },
+    {
+     "company": "Xol.by",
+     "url": "https://xol.by/",
+     "price": "Цены от 30 BYN, без скрытых доплат",
+     "za_chto": "нижняя граница"
+    }
+   ],
+   "kommentariy": "Общий запрос: типовой ремонт крупной техники на дому ≈ 100–110 (по данным стиральных машин, самой частой категории)."
+  },
+  "клининг|клининговые услуги": {
+   "check": 180,
+   "basis": "ot",
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "Лепей",
+     "url": "https://lepei.by",
+     "price": "Цена генеральной уборки двухкомнатной квартиры от 240 руб, а поддерживающей от 115",
+     "za_chto": "поддерживающая 115 / генеральная 240"
+    }
+   ],
+   "kommentariy": "Общий запрос: среднее между поддерживающей (115) и генеральной (240) уборкой двушки ≈ 180. Источник один."
+  },
+  "уборка квартир|генеральная уборка": {
+   "check": 240,
+   "basis": "ot",
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "Лепей",
+     "url": "https://lepei.by",
+     "price": "Уборка двухкомнатной квартиры. В Минске от 95 BYN… генеральной уборки двухкомнатной квартиры от 240 руб",
+     "za_chto": "генеральная двушки = 240"
+    }
+   ],
+   "kommentariy": "Генеральная уборка двушки от 240. Один источник."
+  },
+  "уборка после ремонта": {
+   "check": 440,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Spectrclean",
+     "url": "https://spectrclean.by/uborka-posle-stroitelstva",
+     "price": "уборка после ремонта от 7.00 BYN/м²",
+     "za_chto": "× 55 м² = 385"
+    },
+    {
+     "company": "PrimeClean",
+     "url": "https://primeclean.by",
+     "price": "Уборка после ремонта в Минске — 9 BYN/м²",
+     "za_chto": "× 55 м² = 495"
+    }
+   ],
+   "kommentariy": "Двушка 55 м² × 7–9 BYN/м² ≈ 440."
+  },
+  "химчистка мебели|химчистка дивана": {
+   "check": 70,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "CleanField",
+     "url": "https://cleanfield.by/sofa/",
+     "price": "Химчистка дивана на дому в Минске – цена от 55 руб.",
+     "za_chto": "от 55"
+    },
+    {
+     "company": "GreenCleaning",
+     "url": "https://greencleaning.by/uslugi/",
+     "price": "Химчистка дивана в Минске — цены от 40 BYN",
+     "za_chto": "от 40"
+    }
+   ],
+   "kommentariy": "Цены «от» для двухместного дивана 40–55; трёхместный/угловой дороже. Взято 70."
+  },
+  "химчистка ковров|стирка ковров": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "мойка окон": {
+   "check": 140,
+   "basis": "ot",
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "3 Енота",
+     "url": "https://3enota.by",
+     "price": "Окно, 1 створка от 12 BYN",
+     "za_chto": "двушка ≈ 12 створок × 12 = 144"
+    }
+   ],
+   "kommentariy": "Двушка: 4 окна + балкон ≈ 12 створок × 12 = ≈ 140. Источник один."
+  },
+  "юрист|юридическая консультация": {
+   "check": 95,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Юриспрудент",
+     "url": "https://jurisprudent.by",
+     "price": "Цена консультации юриста в Минске от 120 руб.",
+     "za_chto": "= 120"
+    },
+    {
+     "company": "zoon.by (юридические консультации Минска)",
+     "url": "https://zoon.by/minsk/law/",
+     "price": "Юридические консультации в Минске: цена от 70 руб.",
+     "za_chto": "= 70"
+    }
+   ],
+   "kommentariy": "Одна консультация: 70–120 → 95. Составление документа/иска – дороже (150–400)."
+  },
+  "адвокат": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "бухгалтерские услуги|бухгалтерское обслуживание": {
+   "check": 300,
+   "basis": "ot",
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "ЕКВ",
+     "url": "https://ekv.by/czeny/",
+     "price": "Цены на бухгалтерские услуги начинаются от 299 руб/мес.",
+     "za_chto": "за месяц"
+    }
+   ],
+   "kommentariy": "Месяц обслуживания малого ООО/ИП от 299. Клиент платит ежемесячно – годовой чек ×12. Один источник."
+  },
+  "регистрация ип|регистрация ооо": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "юрист по разводу|раздел имущества": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "оценка недвижимости|оценка имущества": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "бюро переводов|перевод документов": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "агентство недвижимости|риэлтор": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "продать квартиру": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "купить квартиру": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "снять квартиру": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "гостиница|гостиницы|отель": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "хостел": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "мини отель": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "квартира на сутки|квартиры на сутки|посуточно": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "апартаменты": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "агроусадьба|агроусадьбы": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "база отдыха|базы отдыха": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "коттедж на сутки|дом на сутки|снять дом": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "баня на сутки|баня с бассейном": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "санатории|санаторий": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "спа|спа центр": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "детский лагерь|летний лагерь": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "банкетный зал|банкет": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "аренда зала для праздника|зал для дня рождения": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "ведущий на свадьбу|тамада": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "организация свадьбы|свадебное агентство": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "кейтеринг": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "фотограф|фотосессия": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  },
+  "аниматор на день рождения|аниматоры": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не собрано за отведённое время: zoon.by отдал 429 (блок по IP), Яндекс-сниппеты не дали цен по этой услуге; нужен отдельный проход"
+  }
+ }
+}

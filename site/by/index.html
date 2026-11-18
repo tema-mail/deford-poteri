@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow"><title>Прототип – Дефорд · Беларусь: сколько теряет бизнес без SEO</title>
+<style>/* Комплект чёрно-белого прототипа (маркетолог → site-prototype).
+   Прототип показывает смысл, текст, порядок и действие – не дизайн. Цвета только серые; дизайнер делает визуал после «да» владельца.
+   Блок: <section class="w-block" data-n="1" data-name="Первый экран" data-question="вопрос клиента" data-proof="опора"> */
+:root {
+  --ink: #141414; --muted: #5f5f5f; --line: #b9b9b9; --fill: #ececec; --fill2: #f6f6f6; --paper: #ffffff;
+  --note: #fff6c8; --note-line: #c9b44a; --ask: #7a1f1f;
+  --font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mono: ui-monospace, Menlo, Consolas, monospace;
+  --wrap: 1180px;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.55 var(--font); }
+img { max-width: 100%; }
+a { color: var(--ink); }
+h1, h2, h3 { margin: 0; line-height: 1.2; text-wrap: balance; }
+h1 { font-size: clamp(28px, 4.2vw, 46px); }
+h2 { font-size: clamp(22px, 3vw, 32px); }
+h3 { font-size: 18px; }
+p { margin: 0; }
+.w-wrap { max-width: var(--wrap); margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.w-stack { display: grid; gap: 14px; }
+.w-muted { color: var(--muted); }
+
+/* Панель прототипа: переключатели «Логика» и «Комментарии» */
+.w-bar { position: sticky; top: 0; z-index: 50; background: var(--ink); color: #fff; font: 13px/1.3 var(--mono); }
+.w-bar .w-wrap { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; padding-block: 8px; }
+.w-bar b { font-weight: 600; }
+.w-bar label { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
+
+/* Блок и его подпись логики */
+.w-block { border-top: 1px dashed var(--line); padding-block: 40px; position: relative; }
+.w-logic { display: none; font: 12.5px/1.45 var(--mono); background: var(--fill2); border: 1px solid var(--line); padding: 8px 10px; margin-bottom: 18px; }
+body.show-logic .w-logic { display: block; }
+.w-logic b { font-weight: 700; }
+.w-note { display: none; background: var(--note); border: 1px dashed var(--note-line); padding: 8px 10px; font-size: 13.5px; margin-top: 12px; }
+body.show-notes .w-note { display: block; }
+.w-note::before { content: "Дизайнеру: "; font-weight: 700; }
+.w-seo { display: none; font: 13px/1.5 var(--mono); background: #eef3ff; border: 1px solid #8aa0d6; padding: 12px 14px; margin: 12px auto; max-width: var(--wrap); }
+body.show-seo .w-seo { display: block; }
+.w-seo table { border-collapse: collapse; width: 100%; }
+.w-seo td { border-top: 1px solid #c9d4ee; padding: 4px 6px; vertical-align: top; }
+.w-seo td:first-child { white-space: nowrap; font-weight: 700; width: 1%; }
+.w-seo .bad { color: var(--ask); font-weight: 700; }
+.w-seo ul { margin: 0; padding-left: 18px; }
+.w-ask { color: var(--ask); font-weight: 600; background: #f7e9e9; padding: 0 4px; }
+
+/* Место под фото/видео/схему: роль, а не «картинка» */
+.w-media { background: repeating-linear-gradient(45deg, var(--fill), var(--fill) 10px, var(--fill2) 10px, var(--fill2) 20px);
+  border: 1px solid var(--line); min-height: 220px; display: grid; place-items: center; text-align: center; padding: 16px;
+  color: var(--muted); font-size: 14px; }
+.w-media::before { content: "▣ "; }
+.w-media.small { min-height: 120px; }
+
+/* Кнопки */
+.w-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 22px; border: 2px solid var(--ink);
+  background: var(--ink); color: #fff; font-weight: 600; text-decoration: none; border-radius: 6px; cursor: pointer; font-size: 16px; }
+.w-btn.ghost { background: transparent; color: var(--ink); }
+.w-btn[disabled] { opacity: .45; cursor: not-allowed; }
+.w-hint { font-size: 13px; color: var(--muted); }
+
+/* Шапка */
+.w-header .w-wrap { display: flex; flex-wrap: wrap; gap: 10px 20px; align-items: center; justify-content: space-between; padding-block: 12px; }
+.w-logo { border: 2px solid var(--ink); padding: 6px 10px; font-weight: 700; }
+.w-descr { font-size: 13.5px; color: var(--muted); max-width: 34ch; }
+.w-contacts-top { display: grid; gap: 2px; font-size: 14px; text-align: right; }
+.w-nav { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 14.5px; border-top: 1px solid var(--line); padding-block: 8px; }
+
+/* Первый экран */
+.w-hero { display: grid; grid-template-columns: 1.1fr .9fr; gap: 32px; align-items: center; }
+.w-hero ul { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
+.w-actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+
+/* Сетки и карточки */
+.w-grid { display: grid; grid-template-columns: repeat(var(--cols, 3), minmax(0, 1fr)); gap: 14px; }
+.w-card { border: 1px solid var(--line); padding: 16px; display: grid; gap: 8px; align-content: start; min-width: 0; }
+.w-card .w-media { min-height: 140px; }
+.w-price { font-weight: 700; }
+
+/* Этапы */
+.w-steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(var(--cols, 4), minmax(0, 1fr)); gap: 14px; counter-reset: st; }
+.w-steps li { border: 1px solid var(--line); padding: 14px; counter-increment: st; display: grid; gap: 6px; }
+.w-steps li::before { content: counter(st); font-weight: 700; font-size: 22px; }
+
+/* Таблица */
+.w-table-wrap { overflow-x: auto; }
+.w-table { width: 100%; border-collapse: collapse; font-size: 15px; }
+.w-table th, .w-table td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+.w-table th { background: var(--fill2); }
+
+/* FAQ */
+.w-faq details { border: 1px solid var(--line); padding: 12px 14px; }
+.w-faq details + details { border-top: 0; }
+.w-faq summary { font-weight: 600; cursor: pointer; }
+
+/* Форма */
+.w-form { border: 2px solid var(--ink); padding: 18px; display: grid; gap: 12px; max-width: 520px; }
+.w-field { display: grid; gap: 4px; font-size: 14px; }
+.w-field input, .w-field select { min-height: 44px; border: 1px solid var(--ink); padding: 0 10px; font: inherit; background: #fff; }
+.w-check { display: flex; gap: 8px; align-items: flex-start; font-size: 13.5px; }
+
+/* Полоса призыва */
+.w-cta { background: var(--fill); padding: 24px; display: flex; flex-wrap: wrap; gap: 14px; align-items: center; justify-content: space-between; }
+/* Плашка призыва между блоками: section.w-block.w-cta-strip с одной строкой предложения и кнопкой или мини-формой (карточка prizyv-mezhdu-blokami) */
+.w-block.w-cta-strip { padding-block: 16px; }
+.w-cta-strip .w-cta { padding: 14px 18px; }
+.w-cta-strip .w-cta p { margin: 0; font-weight: 600; }
+
+/* Состояние формы после отправки (карточка stranica-spasibo-sleduyushchiy-shag): видно по переключателю «После отправки» */
+.w-success { display: none; border: 2px dashed var(--ink); padding: 14px; background: var(--fill); }
+.w-success p { margin: 0 0 6px; }
+body.show-success .w-success { display: block; }
+
+/* Подвал */
+.w-footer { background: var(--fill2); border-top: 1px solid var(--line); padding-block: 28px; font-size: 14px; }
+
+/* Липкая панель действий на телефоне */
+.w-sticky { display: none; }
+header.w-block { padding-block: 0; border-top: 0; }
+header.w-block > .w-logic { margin: 8px auto; max-width: var(--wrap); }
+
+@media (max-width: 760px) {
+  .w-hide-m { display: none !important; }
+  /* Мобильная шапка: логотип, короткий дескриптор и «Меню»; звонок и мессенджеры – в липкой панели снизу */
+  .w-header .w-wrap { flex-wrap: nowrap; padding-block: 8px; gap: 10px; }
+  .w-header .w-contacts-top, .w-header .w-wrap > .w-btn, .w-nav { display: none !important; }
+  .w-header .w-descr { font-size: 12px; line-height: 1.3; }
+  .w-header > div.w-wrap:has(> .w-logo)::after { content: "☰ Меню"; margin-left: auto; border: 1px solid var(--ink); padding: 6px 10px; font-size: 13px; white-space: nowrap; }
+  .w-hero .w-media, .w-block[data-n="1"] .w-media:first-of-type { min-height: 160px; }
+  .w-bar .w-wrap { padding-block: 4px; gap: 4px 10px; font-size: 11px; }
+  .w-hero { grid-template-columns: 1fr; }
+  .w-grid { grid-template-columns: repeat(var(--cols-m, 2), minmax(0, 1fr)); }
+  .w-steps { grid-template-columns: 1fr; }
+  .w-contacts-top { text-align: left; }
+  .w-block { padding-block: 28px; }
+  .w-sticky { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; position: fixed; left: 0; right: 0; bottom: 0; z-index: 40;
+    padding: 8px max(12px, env(safe-area-inset-right, 0px)) calc(8px + env(safe-area-inset-bottom, 0px)) max(12px, env(safe-area-inset-left, 0px));
+    background: #fff; border-top: 1px solid var(--line); }
+  body { padding-bottom: 72px; }
+}
+@media (max-width: 420px) { .w-grid.one-m { grid-template-columns: 1fr; } }
+</style>
+<style>
+.p-row { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; }
+.p-city { min-height: 44px; border: 1px solid var(--ink); background: transparent; padding: 0 14px; font: inherit; font-weight: 600; color: inherit; cursor: pointer; }
+.p-city.on { background: var(--ink); color: #fff; }
+.p-big { font: 700 clamp(36px, 7vw, 72px)/1 var(--font); }
+.p-seg h3 a { color: inherit; }
+.p-seg .p-lose { display: grid; gap: 2px; background: var(--fill); padding: 12px; }
+.p-seg .p-lose b { font-size: clamp(24px, 3vw, 32px); line-height: 1.1; }
+.p-seg .p-lose span { font-size: 13px; color: var(--muted); }
+.p-seg ul { margin: 0; padding-left: 18px; font-size: 14px; }
+.w-table td.n, .w-table th.n { text-align: right; white-space: nowrap; }
+</style><style data-tema-v1>
+html[data-theme=dark]{color-scheme:dark}
+html[data-theme=dark] body{background:#141518!important;color:#e4e4e2!important}
+html[data-theme=dark] a{color:#8ab8ff}
+html[data-theme=dark] .w-btn:not(.ghost){background:#e4e4e2!important;color:#141518!important;border-color:#e4e4e2!important}
+html[data-theme=dark] .w-btn.ghost{background:transparent!important;color:#e4e4e2!important;border-color:#e4e4e2!important}
+html[data-theme=dark] :is(.t,.box,.card,details,.kit,.nav,.code button,button,.btn,textarea,input,select){background:#1f2125!important;color:#e4e4e2!important;border-color:#3a3c42!important}
+html[data-theme=dark] button.main,html[data-theme=dark] .nav a,html[data-theme=dark] .step span{background:#e4e4e2!important;color:#141518!important}
+html[data-theme=dark] :is(.chip,.int,code,th){background:#2a2d33!important;color:#e4e4e2!important}
+html[data-theme=dark] :is(.flag,.note){background:#3a3220!important;color:#f1e6c8!important}
+html[data-theme=dark] .ready{background:#1f3320!important;color:#d6ecd0!important}
+html[data-theme=dark] .stop{background:#3b2222!important;color:#f3d6d3!important}
+html[data-theme=dark] :is(td,th,details[open] summary){border-color:#33363c!important}
+html[data-theme=dark] :is(.sub,.meta,.top,small,.ex small,details){color:#a9abb0!important}
+html[data-theme=dark] :is(h1,h2,h3,.day,dt,summary){color:#f2f2f0!important}
+/* комплект ч/б прототипа marketolog/prototip (w-*, p-*) – светлые плашки и панели */
+html[data-theme=dark] :is(.w-sticky,.w-header,.w-footer,.w-bar){background:#141518!important}
+html[data-theme=dark] :is(.w-card,.w-cta,.w-success,.w-logic,.w-media,.w-steps li,.w-faq details,.w-form,.w-table th,.p-box,.p-res div,.p-flag,.p-formula,.p-chips label){background:#1f2125!important;color:#e4e4e2!important;border-color:#3a3c42!important}
+html[data-theme=dark] :is(.w-muted,.w-hint,.w-descr,.p-res span,.p-flag span,.w-table td small){color:#a9abb0!important}
+html[data-theme=dark] .w-ask{background:#3b2222!important;color:#f3b4ad!important}
+html[data-theme=dark] .w-note{background:#3a3220!important;color:#f1e6c8!important}
+html[data-theme=dark] :is(.w-block,.w-table td,.w-table th){border-color:#3a3c42!important}
+html[data-theme=dark] img{filter:brightness(.92)}
+#tema-btn{position:fixed;right:14px;bottom:14px;z-index:99;width:44px;height:44px;border-radius:50%;border:1px solid #ccc;background:#fff;color:#111;font-size:20px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.15)}
+html[data-theme=dark] #tema-btn{background:#2a2d33!important;color:#f2f2f0!important;border-color:#44474e!important}
+</style><script>(function(){var t;try{t=localStorage.getItem('tema')}catch(e){}
+if(!t){var h=new Date().getHours();t=(h>=19||h<7||(matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches))?'dark':'light'}
+document.documentElement.setAttribute('data-theme',t)})();</script></head><body>
+<div class="w-bar"><div class="w-wrap"><b>Прототип · Дефорд · Беларусь: все ниши · v1 18.11.2026</b>
+<label><input type="checkbox" id="t-logic"> Логика блоков</label><label><input type="checkbox" id="t-notes"> Комментарии дизайнеру</label>
+<label><input type="checkbox" id="t-seo"> SEO страницы</label><label><input type="checkbox" id="t-success"> После отправки</label>
+<span>Меток «запросить»: <b id="ask-count">0</b></span><a href="../" style="color:#fff">← отчёт</a></div></div>
+<script type="application/json" id="w-seo">{"title": "Сколько клиентов теряет ваш бизнес без сайта – Беларусь | Дефорд", "description": "Спрос в Яндексе и Google по 7 сегментам и 54 разделам в Минске и областных центрах: сколько клиентов и денег уходит мимо без SEO-сайта.", "h1": "Белорусский бизнес без сайта в поиске каждый месяц отдаёт конкурентам", "zapros": "сайт для бизнеса беларусь", "schema": "Organization", "links": ["/by/<сегмент>/ – сегмент", "/by/<сегмент>/<раздел>/ – раздел"]}</script>
+<div class="w-seo" id="w-seo-box"></div>
+<header class="w-header w-block" data-n="0" data-name="Шапка" data-question="Кто это?" data-proof="телефон"><div class="w-wrap"><span class="w-logo">DEFORD</span>
+<span class="w-descr">Сайты, которые приводят клиентов из поиска – Беларусь</span><a class="w-btn ghost" href="#segmenty">Выбрать нишу</a></div></header>
+<main>
+<section class="w-block" data-n="1" data-name="Первый экран" data-question="Сколько теряет бизнес в моём городе?" data-proof="спрос Яндекса и Google по городу" data-next="Где моя ниша?">
+<div class="w-wrap w-stack">
+<div class="p-row" id="cities"></div>
+<h1>Белорусский бизнес без сайта в поиске каждый месяц отдаёт конкурентам</h1>
+<div class="p-big" id="big">…</div>
+<p>В <b class="js-in">Минске</b> услуги и товары этих ниш ищут <b id="hot">…</b> раз в месяц в Яндексе и Google. Сумма выше – сколько из этого получают те, у кого сайт со страницей под услугу стоит в топе, если у вас такого сайта нет.</p>
+<p class="w-note">Город – кнопками. Сегменты и разделы – по сумме потерь в выбранном городе. Каждый сегмент и каждый раздел – отдельная страница с калькулятором (как у автосервиса РФ).</p>
+</div></section>
+<section class="w-block" id="segmenty" data-n="2" data-name="Сегменты" data-question="Где моя ниша?" data-proof="7 сегментов, разделы со своими страницами">
+<div class="w-wrap w-stack"><h2>Сегменты и разделы</h2><div class="w-grid" id="segs" style="--cols:2;--cols-m:1"></div></div></section>
+<section class="w-block" data-n="3" data-name="Все разделы" data-question="Какие разделы самые денежные?" data-proof="таблица по сумме">
+<div class="w-wrap w-stack"><h2>Все разделы по деньгам</h2><div class="w-table-wrap"><table class="w-table" id="all"><thead><tr><th>Раздел</th><th class="n">Ищут в месяц</th><th class="n">Мимо, BYN/мес</th></tr></thead><tbody></tbody></table></div>
+<p class="w-muted">Спрос – Вордстат Яндекса за октябрь 2026 по городу × 2,5 (доля Google в Беларуси). Чеки – медианы прайсов Минска, где не нашли – оценка. Модель: {формула на страницах сегментов}.</p></div></section>
+</main>
+<footer class="w-footer"><div class="w-wrap"><span>Дефорд · <a href="https://t.me/Artem1Galimov">Telegram</a></span></div></footer>
+<script>window.SUMMARY={"regions": {"mnsk": "Минск", "gomel": "Гомель", "brest": "Брест", "vitebsk": "Витебск", "grodno": "Гродно", "mogilev": "Могилёв", "by": "Вся Беларусь"}, "cityIn": {"mnsk": "Минске", "gomel": "Гомеле", "brest": "Бресте", "vitebsk": "Витебске", "grodno": "Гродно", "mogilev": "Могилёве", "by": "Беларуси"}, "segments": [{"id": "avto", "name": "Автосервис и автоуслуги", "short": "Авто", "niches": [{"id": "multi", "name": "Многопрофильный автосервис", "t": {"mnsk": [39534, 145.9, 42433], "gomel": [11918, 43.4, 12665], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [133643, 530.1, 152837]}}, {"id": "body", "name": "Кузовной ремонт, покраска и стёкла", "t": {"mnsk": [18618, 89.4, 23237], "gomel": [4961, 23.8, 6553], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [60081, 288.4, 76356]}}, {"id": "detailing", "name": "Детейлинг", "t": {"mnsk": [28713, 137.8, 183798], "gomel": [5978, 28.7, 32885], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [82711, 397.0, 485751]}}, {"id": "dop", "name": "Допоборудование", "t": {"mnsk": [5223, 25.1, 13696], "gomel": [1381, 6.6, 3418], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [16245, 78.0, 40576]}}, {"id": "chip", "name": "Чип-тюнинг, прошивки и русификация", "t": {"mnsk": [8759, 42.0, 16066], "gomel": [1937, 9.3, 3950], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [28179, 135.3, 51493]}}, {"id": "atelier", "name": "Тюнинг и ателье салона", "t": {"mnsk": [3051, 14.6, 5200], "gomel": [275, 1.3, 955], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [11651, 55.9, 21703]}}, {"id": "tires", "name": "Шиномонтаж и диски", "t": {"mnsk": [23105, 81.4, 9043], "gomel": [0, 0, 0], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [74429, 259.9, 27889]}}, {"id": "china", "name": "Китайские авто: ремонт и русификация", "t": {"mnsk": [17, 0.1, 20], "gomel": [0, 0, 0], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [95, 0.5, 114]}}, {"id": "units", "name": "Ремонт узлов и агрегатов", "t": {"mnsk": [11001, 52.8, 9067], "gomel": [0, 0, 0], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [45456, 218.2, 39877]}}], "priced": 78, "services": 80}, {"id": "stroyka", "name": "Строительство и ремонт", "short": "Стройка", "niches": [{"id": "doma", "name": "Строительство домов и коттеджей", "t": {"mnsk": [40598, 39.0, 5097462], "gomel": [8300, 8.0, 936067], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [136780, 131.3, 16421742]}}, {"id": "bani", "name": "Бани, гаражи, хозпостройки", "t": {"mnsk": [9730, 19.5, 364032], "gomel": [2644, 5.3, 65262], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [39460, 78.9, 1299922]}}, {"id": "fundament", "name": "Фундамент и бетонные работы", "t": {"mnsk": [17212, 41.3, 96718], "gomel": [4919, 11.8, 25938], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [69404, 166.6, 371446]}}, {"id": "krovlya", "name": "Кровля и фасады", "t": {"mnsk": [14608, 35.1, 199002], "gomel": [4320, 10.4, 57593], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [60086, 144.2, 823449]}}, {"id": "zabory", "name": "Заборы и ворота", "t": {"mnsk": [15454, 49.5, 146556], "gomel": [4304, 13.8, 40616], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [71629, 229.2, 676177]}}, {"id": "okna", "name": "Окна и двери", "t": {"mnsk": [88401, 282.9, 292140], "gomel": [23761, 76.0, 78397], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [251601, 805.1, 897102]}}, {"id": "voda", "name": "Скважины, септики, канализация", "t": {"mnsk": [7303, 23.4, 67600], "gomel": [1769, 5.7, 17012], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [30430, 97.4, 273385]}}, {"id": "otoplenie", "name": "Отопление, газ, сантехника", "t": {"mnsk": [30851, 63.6, 278855], "gomel": [7688, 16.3, 63297], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [106682, 230.7, 927604]}}, {"id": "elektro", "name": "Электрика, солнечные панели, слаботочка", "t": {"mnsk": [54062, 143.4, 381442], "gomel": [12879, 33.8, 68669], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [175066, 461.6, 1079932]}}, {"id": "remont", "name": "Ремонт квартир и отделка", "t": {"mnsk": [45291, 72.5, 1083336], "gomel": [10224, 16.4, 192436], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [132173, 211.5, 2593846]}}, {"id": "potolki", "name": "Потолки и полы", "t": {"mnsk": [36144, 115.7, 146584], "gomel": [10662, 34.1, 44335], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [147076, 470.6, 596769]}}, {"id": "mebel", "name": "Кухни и мебель на заказ", "t": {"mnsk": [7828, 15.7, 26053], "gomel": [1581, 3.2, 4475], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [24487, 49.0, 77995]}}, {"id": "lestnicy", "name": "Лестницы, печи и камины", "t": {"mnsk": [29298, 70.3, 206081], "gomel": [8469, 20.3, 54167], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [128255, 307.8, 850514]}}, {"id": "klimat", "name": "Кондиционеры и вентиляция", "t": {"mnsk": [23019, 73.7, 129604], "gomel": [6236, 20.0, 33276], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [76221, 243.9, 435533]}}, {"id": "uchastok", "name": "Участок и ландшафт", "t": {"mnsk": [31967, 89.5, 176958], "gomel": [9206, 25.8, 48649], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [142482, 398.9, 706532]}}, {"id": "spectech", "name": "Спецтехника, демонтаж, вывоз", "t": {"mnsk": [20939, 83.8, 43337], "gomel": [6210, 24.8, 11239], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [95202, 380.8, 160207]}}], "priced": 95, "services": 124}, {"id": "med", "name": "Медицина и стоматология", "short": "Медицина", "niches": [{"id": "stom", "name": "Стоматология", "t": {"mnsk": [178968, 542.3, 419195], "gomel": [35655, 105.8, 73446], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [548641, 1637.3, 1176667]}}, {"id": "klinika", "name": "Медцентры и диагностика", "t": {"mnsk": [551446, 2416.9, 187985], "gomel": [121158, 556.6, 41029], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [1395748, 6627.6, 505807]}}, {"id": "kosmet", "name": "Косметология и пластика", "t": {"mnsk": [48721, 233.9, 107808], "gomel": [7213, 34.6, 16876], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [117628, 564.6, 263803]}}, {"id": "massazh", "name": "Массаж", "t": {"mnsk": [97585, 468.4, 37473], "gomel": [20046, 96.2, 7698], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [296531, 1423.3, 113868]}}, {"id": "psih", "name": "Психологи и наркология", "t": {"mnsk": [68373, 328.2, 38117], "gomel": [13893, 66.7, 7713], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [191168, 917.6, 106424]}}, {"id": "vet", "name": "Ветклиники", "t": {"mnsk": [51313, 155.9, 12134], "gomel": [11334, 33.7, 2669], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [147575, 446.3, 35445]}}], "priced": 45, "services": 45}, {"id": "uslugi", "name": "Услуги для людей и бизнеса", "short": "Услуги", "niches": [{"id": "gruz", "name": "Грузоперевозки и переезды", "t": {"mnsk": [43426, 208.4, 29815], "gomel": [13830, 66.4, 7914], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [150586, 722.8, 91826]}}, {"id": "evak", "name": "Эвакуатор и помощь на дороге", "t": {"mnsk": [25160, 92.7, 16168], "gomel": [5092, 16.5, 2404], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [67390, 230.6, 37997]}}, {"id": "remteh", "name": "Ремонт техники", "t": {"mnsk": [33288, 159.8, 19222], "gomel": [9353, 44.9, 5474], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [124953, 599.8, 72531]}}, {"id": "klining", "name": "Клининг и химчистка", "t": {"mnsk": [14845, 71.3, 10795], "gomel": [2248, 10.8, 1782], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [36306, 174.3, 26150]}}, {"id": "yurist", "name": "Юристы, бухгалтерия, документы", "t": {"mnsk": [50569, 202.3, 41105], "gomel": [5591, 22.4, 2887], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [146737, 586.9, 120457]}}, {"id": "nedvizh", "name": "Агентства недвижимости", "t": {"mnsk": [396456, 951.5, 2080051], "gomel": [70328, 168.8, 341842], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [1172294, 2813.5, 5900321]}}], "priced": 24, "services": 36}, {"id": "otdyh", "name": "Гостиницы, отдых, праздники", "short": "Отдых", "niches": [{"id": "oteli", "name": "Гостиницы и хостелы", "t": {"mnsk": [273606, 682.4, 126113], "gomel": [61653, 152.3, 28528], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [966931, 2385.9, 447630]}}, {"id": "posut", "name": "Квартиры на сутки", "t": {"mnsk": [72805, 349.5, 58703], "gomel": [19797, 95.0, 15795], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [271126, 1301.4, 216787]}}, {"id": "usadby", "name": "Усадьбы и базы отдыха", "t": {"mnsk": [57531, 276.1, 117022], "gomel": [13540, 65.0, 27833], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [199139, 955.9, 403617]}}, {"id": "sanat", "name": "Санатории и СПА", "t": {"mnsk": [261738, 1047.0, 1390994], "gomel": [96277, 385.1, 557310], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [1091291, 4365.2, 6153143]}}, {"id": "prazdnik", "name": "Праздники и банкеты", "t": {"mnsk": [37179, 148.7, 119677], "gomel": [8714, 34.9, 18643], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [110470, 441.9, 311074]}}], "priced": 0, "services": 19}, {"id": "magaziny", "name": "Интернет-магазины", "short": "Магазины", "niches": [{"id": "cvety", "name": "Цветы", "t": {"mnsk": [85612, 136.0, 9633], "gomel": [21666, 33.3, 2334], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [294667, 457.1, 32019]}}, {"id": "zoo", "name": "Зоотовары", "t": {"mnsk": [53558, 75.4, 9986], "gomel": [13729, 20.3, 2743], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [77539, 125.6, 23433]}}, {"id": "odezhda", "name": "Одежда и обувь", "t": {"mnsk": [310261, 502.6, 91162], "gomel": [73056, 118.4, 21236], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [960523, 1556.0, 279622]}}, {"id": "optika", "name": "Оптика", "t": {"mnsk": [75642, 101.4, 12007], "gomel": [15497, 20.8, 2501], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [197490, 256.5, 27085]}}, {"id": "kosm", "name": "Косметика и парфюмерия", "t": {"mnsk": [142232, 230.4, 28185], "gomel": [28159, 45.6, 5928], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [396995, 643.1, 82134]}}, {"id": "interier", "name": "Мебель, свет, сантехника", "t": {"mnsk": [242682, 393.1, 325966], "gomel": [89108, 144.4, 116599], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [1201491, 1946.4, 1605801]}}, {"id": "stroymat", "name": "Стройматериалы", "t": {"mnsk": [66118, 107.1, 169754], "gomel": [19591, 31.7, 47269], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [279037, 452.0, 740366]}}], "priced": 0, "services": 46}, {"id": "sport", "name": "Спорт, дети, обучение", "short": "Спорт и обучение", "niches": [{"id": "fitnes", "name": "Фитнес и спорт", "t": {"mnsk": [126366, 495.2, 44335], "gomel": [27218, 106.4, 9396], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [335399, 1318.5, 116933]}}, {"id": "deti", "name": "Детские центры", "t": {"mnsk": [36055, 144.2, 33797], "gomel": [8093, 32.4, 6990], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [104251, 417.0, 97941]}}, {"id": "obuch", "name": "Курсы, репетиторы, автошколы", "t": {"mnsk": [51587, 206.3, 160482], "gomel": [17260, 69.0, 43764], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [196744, 787.0, 476373]}}], "priced": 0, "services": 20}, {"id": "krasota", "name": "Красота", "short": "Красота", "niches": [{"id": "salon", "name": "Салоны и парикмахерские", "t": {"mnsk": [118378, 389.9, 28754], "gomel": [29212, 96.9, 6821], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [346544, 1151.4, 82202]}}, {"id": "master", "name": "Ногти, ресницы, брови", "t": {"mnsk": [56370, 270.6, 17831], "gomel": [11766, 56.5, 3832], "brest": [0, 0, 0], "vitebsk": [0, 0, 0], "grodno": [0, 0, 0], "mogilev": [0, 0, 0], "by": [160853, 772.1, 44828]}}], "priced": 0, "services": 15}]};</script>
+<script>
+(function () {
+  var S = window.SUMMARY, cur = 'mnsk', $ = function (id) { return document.getElementById(id); };
+  var fmt = function (n) { return Math.round(n).toLocaleString('ru-RU'); };
+  var money = function (n) { return n >= 999500 ? (Math.round(n / 1e5) / 10).toLocaleString('ru-RU') + ' млн BYN' : n >= 1e4 ? fmt(n / 1000) + ' тыс. BYN' : fmt(n) + ' BYN'; };
+  $('cities').innerHTML = Object.keys(S.regions).map(function (r) { return '<button class="p-city" type="button" data-r="' + r + '">' + S.regions[r] + '</button>'; }).join('');
+  function draw() {
+    document.querySelectorAll('.p-city').forEach(function (b) { b.classList.toggle('on', b.dataset.r === cur); });
+    document.querySelectorAll('.js-in').forEach(function (e) { e.textContent = S.cityIn[cur]; });
+    var segs = S.segments.map(function (s) {
+      var ns = s.niches.map(function (n) { return { id: n.id, name: n.name, hot: n.t[cur][0], m: n.t[cur][2], seg: s }; }).sort(function (a, b) { return b.m - a.m; });
+      return { s: s, ns: ns, hot: ns.reduce(function (t, n) { return t + n.hot; }, 0), m: ns.reduce(function (t, n) { return t + n.m; }, 0) };
+    }).sort(function (a, b) { return b.m - a.m; });
+    var tm = segs.reduce(function (t, s) { return t + s.m; }, 0), th = segs.reduce(function (t, s) { return t + s.hot; }, 0);
+    $('big').textContent = money(tm) + ' в месяц'; $('hot').textContent = fmt(th);
+    $('segs').innerHTML = segs.map(function (x) {
+      return '<article class="w-card p-seg"><h3><a href="' + x.s.id + '/">' + x.s.name + '</a></h3><div class="p-lose"><b>' + money(x.m) + '</b><span>в месяц мимо · ищут ' + fmt(x.hot) + ' раз</span></div><ul>' +
+        x.ns.map(function (n) { return '<li><a href="' + x.s.id + '/' + n.id + '/">' + n.name + '</a> – ' + money(n.m) + '</li>'; }).join('') + '</ul><div class="w-actions"><a class="w-btn" href="' + x.s.id + '/">Открыть сегмент</a></div></article>';
+    }).join('');
+    var all = []; segs.forEach(function (x) { all = all.concat(x.ns); }); all.sort(function (a, b) { return b.m - a.m; });
+    document.querySelector('#all tbody').innerHTML = all.map(function (n) { return '<tr><td><a href="' + n.seg.id + '/' + n.id + '/">' + n.name + '</a><br><small class="w-muted">' + n.seg.short + '</small></td><td class="n">' + fmt(n.hot) + '</td><td class="n"><b>' + money(n.m) + '</b></td></tr>'; }).join('');
+  }
+  $('cities').addEventListener('click', function (e) { var b = e.target.closest('[data-r]'); if (b) { cur = b.dataset.r; draw(); } });
+  draw();
+})();
+</script>
+<script src="../proto.js"></script>
+<script data-tema-v1>(function(){var b=document.createElement('button');b.id='tema-btn';b.type='button';
+function upd(){var d=document.documentElement.getAttribute('data-theme')==='dark';b.textContent=d?'☀':'☾';b.title=d?'Светлая тема':'Тёмная тема';b.setAttribute('aria-label',b.title)}
+b.onclick=function(){var n=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';document.documentElement.setAttribute('data-theme',n);try{localStorage.setItem('tema',n)}catch(e){}upd()};
+upd();document.body.appendChild(b)})();</script></body></html>

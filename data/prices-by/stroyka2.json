@@ -1,0 +1,1398 @@
+{
+ "city": "Минск",
+ "currency": "BYN",
+ "date": "2026-11-18",
+ "prices": {
+  "отопление частного дома|монтаж отопления": {
+   "check": 2700,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Городкотлов",
+     "url": "https://gorodkotlov.by/services/montazh-otopleniya/",
+     "price": "радиатор в частном доме под ключ от 155 BYN; монтаж газового котла от 320 BYN; обвязка/подключение котла от 320 BYN",
+     "za_chto": "дом 150 м²: 12 радиаторов × 155 + котёл 320 + обвязка 320 = 2 500 BYN, только работа"
+    },
+    {
+     "company": "Мистер Сантехник (mr-plumber.by)",
+     "url": "https://mr-plumber.by/montazh-otopleniya/",
+     "price": "от 100–150 м² = от 3000 руб., без стоимости оборудования и материалов",
+     "za_chto": "дом 100–150 м², только работа, 3 000 BYN; страница давняя"
+    },
+    {
+     "company": "ГазТеплоМонтаж (gaztgm.by)",
+     "url": "https://gaztgm.by/teplosnabzhenie-prays",
+     "price": "радиатор 35$, газовый котёл 180$, бойлер косв. 70$, дымоход 100$, коллектор 35$ по курсу НБРБ",
+     "za_chto": "12×35 + 180 + 70 + 100 + 35 = 805 $ × 2,9987 = 2 414 BYN, только работа"
+    },
+    {
+     "company": "iheat.by (объект)",
+     "url": "https://iheat.by/montazh",
+     "price": "дом 140 м² – 8 400 $ водоснабжение и отопление",
+     "za_chto": "с материалами и водоснабжением ≈ 25 190 BYN – в медиану не брал, другая база (сайт с просроченным сертификатом, цифра из сниппета)"
+    }
+   ],
+   "kommentariy": "Типовой заказ: монтаж водяного отопления дома ~150 м² (котёл, 12 радиаторов, обвязка), только работа без котла и материалов. Медиана трёх расчётов работы 2 414 / 2 500 / 3 000 ≈ 2 700 BYN (округлено). С материалами и оборудованием чек в 3–5 раз выше (пример iheat: 8 400 $ за отопление+воду 140 м²). Курс НБРБ 18.11.2026: 1 USD = 2,9987 BYN."
+  },
+  "тепловой насос|тепловые насосы": {
+   "check": 19000,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "split.by (Panasonic Aquarea)",
+     "url": "https://split.by/content/otoplenie-ohlazhdenie-i-gvs-doma-teplovym-nasosom-panasonic-aquarea-vse-v-odnom-montazh-pod",
+     "price": "9 кВт со встроенным баком ГВС 18 500 BYN; монтаж под ключ 1000 BYN",
+     "za_chto": "18 500 + 1 000 = 19 500 BYN, дом 100–180 м²"
+    },
+    {
+     "company": "Твой Климат",
+     "url": "https://tvoy-klimat.by/catalog/teplovye-nasosy/",
+     "price": "VETERO ECOAIR 12 I – 18 065 руб.",
+     "za_chto": "18 065 + монтаж ~1 000 (по split.by) = 19 065 BYN"
+    },
+    {
+     "company": "kotlov.by",
+     "url": "https://kotlov.by/teplovyie-nasosyi",
+     "price": "воздушные насосы от 12 690 BYN, без монтажа",
+     "za_chto": "12 690 + 1 000 = 13 690 BYN, «от»"
+    }
+   ],
+   "kommentariy": "Типовой заказ: воздух-вода 8–12 кВт для дома 120–150 м² с монтажом (без тёплых полов). Медиана 13 690 / 19 065 / 19 500 = 19 065 ≈ 19 000 BYN. Геотермальные системы под ключ 14 650 € (130 м², betherm.by) – отдельный, более дорогой сегмент."
+  },
+  "монтаж теплого пола|укладка теплого пола": {
+   "check": 1450,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Redsale (прайс Минск 2026)",
+     "url": "https://redsale.by/prices/remont/plumber",
+     "price": "водяной тёплый пол под ключ (без стяжки) от 16 BYN/м²; коллектор от 140 BYN/шт",
+     "za_chto": "80 м² × 16 + 140 = 1 420 BYN, работа"
+    },
+    {
+     "company": "Городкотлов",
+     "url": "https://gorodkotlov.by/services/montazh-otopleniya/",
+     "price": "водяной тёплый пол без стяжки от 16 BYN за м²; коллектор от 140 BYN",
+     "za_chto": "80 × 16 + 140 = 1 420 BYN, работа"
+    },
+    {
+     "company": "ГазТеплоМонтаж (gaztgm.by)",
+     "url": "https://gaztgm.by/teplosnabzhenie-prays",
+     "price": "тёплый пол водяной 7$ по курсу НБРБ (за м²); коллектор 35$",
+     "za_chto": "80 × 7 × 2,9987 + 35 × 2,9987 = 1 784 BYN, работа"
+    }
+   ],
+   "kommentariy": "Типовой заказ: водяной тёплый пол 80 м² в доме (трубы, утеплитель, коллектор), только работа, без стяжки и материалов. Медиана 1 420 / 1 420 / 1 784 ≈ 1 450 BYN. Электрический тёплый пол в санузле стоит в разы меньше."
+  },
+  "установка котла|монтаж котла": {
+   "check": 330,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Городкотлов",
+     "url": "https://gorodkotlov.by/services/montazh-otopleniya/",
+     "price": "монтаж газового котла от 320 BYN; двухконтурного от 360 BYN",
+     "za_chto": "320–360 BYN за настенный котёл, работа"
+    },
+    {
+     "company": "s-ka.by",
+     "url": "https://s-ka.by/service/ustanovka-montazh-podklyuchenie-gazovogo-kotla/",
+     "price": "монтаж настенного двухконтурного котла от 260 руб.",
+     "za_chto": "260 BYN, работа (цифра из сниппета выдачи)"
+    },
+    {
+     "company": "teplodvor.by",
+     "url": "https://www.teplodvor.by/montazh-oborudovaniya/montazh-kotlov-otopleniya/",
+     "price": "настенный без дымохода 280",
+     "za_chto": "280 BYN (цифра из сниппета выдачи)"
+    },
+    {
+     "company": "ГазТеплоМонтаж (gaztgm.by)",
+     "url": "https://gaztgm.by/teplosnabzhenie-prays",
+     "price": "газовый настенный котёл 180$ по курсу НБРБ",
+     "za_chto": "180 × 2,9987 = 540 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: монтаж и подключение настенного газового котла (замена/установка), работа без котла и дымохода. Медиана 260 / 280 / 340 / 540 = 310–340 → 330 BYN. Коаксиальный дымоход +375–400 BYN, сам котёл 2 000+ BYN."
+  },
+  "газификация дома|газификация частного дома": {
+   "check": 7250,
+   "basis": "tipovoy",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "ГазТеплоМонтаж (gaztgm.by)",
+     "url": "https://gaztgm.by/gazifikatsiyu-prays",
+     "price": "под ключ от 6 000 BYN (Минск и р-н); дом 100–150 м² – 5 000–12 000 BYN; пример: дом 180 м² Минский р-н – 9 850 BYN",
+     "za_chto": "под ключ: геодезия, два проекта, наружный и внутренний газопровод; середина диапазона 8 500"
+    },
+    {
+     "company": "БелМинГаз",
+     "url": "https://belmingaz.by/%D0%A1%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C-%D0%B3%D0%B0%D0%B7%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8/",
+     "price": "монтаж под ключ от 2000 BYN; проект от 120 BYN; топосъёмка от 250 BYN",
+     "za_chto": "2 000 + 120 + 250 = 2 370 BYN «от», без котла"
+    }
+   ],
+   "kommentariy": "Типовой заказ: газификация частного дома 100–150 м² под Минском под ключ (проект, геодезия, наружный+внутренний газопровод), без котла. Значения 2 370 (от) / 6 000 (от) / 8 500 (середина FAQ) / 9 850 (пример) – медиана 7 250 BYN. Врезка Мингаза оплачивается отдельно."
+  },
+  "сантехник|услуги сантехника": {
+   "check": 70,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Redsale (прайс Минск 2026)",
+     "url": "https://redsale.by/prices/remont/plumber",
+     "price": "замена смесителя от 35 BYN; замена унитаза от 55 BYN; устранение засора от 35 BYN",
+     "za_chto": "типовой вызов 1–2 работы: 35 + 35 = 70 BYN"
+    },
+    {
+     "company": "Redsale (агрегатор)",
+     "url": "https://redsale.by/remont/plumber",
+     "price": "средняя стоимость вызова на дом около 50 BYN",
+     "za_chto": "50 BYN (из сниппета выдачи)"
+    },
+    {
+     "company": "s-ka.by и др. (выдача)",
+     "url": "https://s-ka.by/santekhuslugi/",
+     "price": "минимальный выезд 70 руб.",
+     "za_chto": "70 BYN минимальный заказ"
+    },
+    {
+     "company": "k-a-s.by",
+     "url": "https://k-a-s.by/vyzov-santehnika",
+     "price": "установка унитаза от 60 руб.; засор от 40–80 руб.",
+     "za_chto": "~80 BYN за одну работу средней сложности (сниппет)"
+    }
+   ],
+   "kommentariy": "Типовой заказ: вызов сантехника на 1–2 мелкие работы (смеситель, засор, унитаз), работа без материалов. Медиана 50 / 70 / 70 / 80 = 70 BYN. Привязка цифр к сайтам частично по сниппетам выдачи."
+  },
+  "замена труб|разводка труб": {
+   "check": 600,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "redfiks.by",
+     "url": "https://redfiks.by/landing/minsk/plumber/pipe-replacement",
+     "price": "замена труб в ванной, санузле или квартире под ключ от 450–2800 BYN",
+     "za_chto": "квартира целиком – середина 450–2 800 ≈ 1 600; санузел 450"
+    },
+    {
+     "company": "s-ka.by",
+     "url": "https://s-ka.by/service/zamena-trub-v-vannoj-v-kvartire-v-minske/",
+     "price": "полная замена разводки водоснабжения и канализации в санузле без материалов: от 600 BYN",
+     "za_chto": "600 BYN, работа"
+    },
+    {
+     "company": "remon.by (статья)",
+     "url": "https://remon.by/articles/montazh-sistem-vodosnabzhenija-v-minske-zamena-trub",
+     "price": "двухкомнатная квартира, полная замена ХВС/ГВС по коллекторной схеме – от 500 бел.",
+     "za_chto": "500 BYN «от»"
+    }
+   ],
+   "kommentariy": "Типовой заказ: замена разводки воды и канализации в санузле/квартире (двушка), работа, местами с материалами. Значения 500 (от) / 600 (от) / 1 600 (середина redfiks) – медиана 600 BYN; это нижняя граница, с материалами и коллектором чек 900–1 600. Привязка цифр к сайтам частично по сниппетам выдачи."
+  },
+  "установка бойлера|монтаж бойлера": {
+   "check": 80,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Redsale (прайс Минск 2026)",
+     "url": "https://redsale.by/prices/remont/plumber",
+     "price": "электрический бойлер настенный до 80 л от 50 BYN; свыше 80 л от 70 BYN; на новые выводы от 60 BYN",
+     "za_chto": "60–70 BYN"
+    },
+    {
+     "company": "master-elektro.by",
+     "url": "https://master-elektro.by/uslugi/ustanovka-bojlera/",
+     "price": "установка электрического бойлера (50–100 литров) – от 120,00 BYN",
+     "za_chto": "120 BYN (сниппет)"
+    },
+    {
+     "company": "domodel.by",
+     "url": "https://domodel.by/categories/montazh-vodosnabzheniya/products/ustanovka-boylera",
+     "price": "установка бойлера: от 80,00 руб.",
+     "za_chto": "80 BYN"
+    },
+    {
+     "company": "sgm.by",
+     "url": "https://sgm.by/articles/ustanovka-podklyuchenie-boylera-v-minske-vodonagrevatelya",
+     "price": "от 40 бел. руб.",
+     "za_chto": "40 BYN на готовые выводы"
+    }
+   ],
+   "kommentariy": "Типовой заказ: установка накопительного электробойлера 50–100 л в квартире, работа без бойлера. Медиана 40 / 70 / 80 / 120 = 75 ≈ 80 BYN. Бойлер косвенного нагрева в доме – 300–500 BYN работы."
+  },
+  "электромонтажные работы|электромонтаж": {
+   "check": 1090,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Профи (profi-bel.by)",
+     "url": "https://profi-bel.by/remont/electromontajnye-raboty/price/",
+     "price": "электромонтажные работы: от 920 руб. за усл.; разводка электрики в квартире от 920 руб.",
+     "za_chto": "920 BYN, работа, «от»"
+    },
+    {
+     "company": "elit-remont.by",
+     "url": "https://elit-remont.by/%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D0%BA%D0%B0/",
+     "price": "250–400 $ для двухкомнатной квартиры",
+     "za_chto": "середина 325 $ × 2,9987 = 975 BYN (сниппет, страница ~год)"
+    },
+    {
+     "company": "elmont.by",
+     "url": "https://minsk.elmont.by/",
+     "price": "от 1200 руб. за двухкомнатную",
+     "za_chto": "1 200 BYN «от» (сниппет)"
+    },
+    {
+     "company": "electrpro.by",
+     "url": "https://electrpro.by/zamena-provodki-v-kvartire.html",
+     "price": "двухкомнатная от 1 500 BYN",
+     "za_chto": "1 500 BYN «от»"
+    }
+   ],
+   "kommentariy": "Типовой заказ: полный электромонтаж двухкомнатной квартиры ~55 м² (штробы, кабель, щит, точки), работа без материалов. Медиана 920 / 975 / 1 200 / 1 500 = 1 088 ≈ 1 090 BYN. Курс 1 USD = 2,9987 BYN (НБРБ 18.11.2026)."
+  },
+  "электрик|вызов электрика|услуги электрика": {
+   "check": 70,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "electrikaminsk.by (обзор цен 2026)",
+     "url": "https://electrikaminsk.by/blog/skolko-stoit-vyzvat-elektrika-v-minske-v-2026-godu-polnyj-razbor-tsen",
+     "price": "выезд 20–40; диагностика 25–50; замена розетки 15–30; итог вызова от 30 до 100–150 BYN",
+     "za_chto": "выезд 30 + диагностика 35 + одна работа 20 ≈ 85 BYN"
+    },
+    {
+     "company": "electricam.by",
+     "url": "https://electricam.by/uslugi/vyzov-ehlektrika/",
+     "price": "вызов электрика от 25 BYN (диагностика)",
+     "za_chto": "25 + одна работа ~20–30 ≈ 50 BYN (сниппет)"
+    },
+    {
+     "company": "jelektrik.by",
+     "url": "https://jelektrik.by/elektromontazh/srochnyj-vyzov-elektrika",
+     "price": "срочный выезд от 50 BYN, диагностика бесплатно",
+     "za_chto": "50 + одна работа ~20 = 70 BYN (сниппет)"
+    }
+   ],
+   "kommentariy": "Типовой заказ: вызов электрика на дом на 1–2 мелкие работы (розетка, автомат, поиск неисправности). Медиана 50 / 70 / 85 = 70 BYN."
+  },
+  "замена проводки|электрика в квартире": {
+   "check": 1050,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "tokman.by",
+     "url": "https://tokman.by/uslugi/elektroprovodka/",
+     "price": "полная замена проводки в квартире за м² по полу от 10 BYN",
+     "za_chto": "55 м² × 10 = 550 BYN, работа"
+    },
+    {
+     "company": "electrikaminsk.by (обзор цен 2026)",
+     "url": "https://electrikaminsk.by/blog/skolko-stoit-vyzvat-elektrika-v-minske-v-2026-godu-polnyj-razbor-tsen",
+     "price": "полная замена проводки, 1-комнатная квартира 500–900",
+     "za_chto": "для двушки взял верх диапазона однушки ≈ 900 BYN"
+    },
+    {
+     "company": "elmont.by",
+     "url": "https://minsk.elmont.by/",
+     "price": "от 1200 руб. за двухкомнатную",
+     "za_chto": "1 200 BYN (сниппет)"
+    },
+    {
+     "company": "electrpro.by",
+     "url": "https://electrpro.by/zamena-provodki-v-kvartire.html",
+     "price": "однокомнатная (30–45 м²) от 1 000 BYN, двухкомнатная от 1 500 BYN",
+     "za_chto": "1 500 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: замена проводки в двухкомнатной квартире ~55 м², работа без материалов. Значения 550 / 900 / 1 200 / 1 500 – медиана 1 050 BYN."
+  },
+  "электрика в частном доме|электрика в доме": {
+   "check": 1350,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "tokman.by",
+     "url": "https://tokman.by/uslugi/elektroprovodka/",
+     "price": "полная замена проводки за м² по полу от 10 BYN",
+     "za_chto": "дом 150 м² × 10 = 1 500 BYN, работа"
+    },
+    {
+     "company": "tokovod.by",
+     "url": "https://tokovod.by/uslugi/elektrika-pod-klyuch/",
+     "price": "электрика под ключ в частном доме от 1200 руб. (проект и монтаж)",
+     "za_chto": "1 200 BYN «от»"
+    },
+    {
+     "company": "elektro-montazh.by",
+     "url": "https://elektro-montazh.by/elektromontazhnye-raboty-v-kottedzhe/",
+     "price": "«Эконом» от 10 у.е./м², «Стандарт» от 14 у.е./м²",
+     "za_chto": "150 × 10 $ × 2,9987 = 4 498 BYN (страница ~2024 г.)"
+    },
+    {
+     "company": "stroy-dom.by",
+     "url": "https://stroy-dom.by/2/electromontazh-uslugi-electrica-minsk/",
+     "price": "электрика в доме: от 6 руб/м2",
+     "za_chto": "150 × 6 = 900 BYN (страница старая)"
+    }
+   ],
+   "kommentariy": "Типовой заказ: электрика частного дома 150 м² под ключ (ввод, щит, разводка, точки), работа без материалов. Медиана 900 / 1 200 / 1 500 / 4 498 = 1 350 BYN. Разброс большой: цены «от» против расчёта по м² у elektro-montazh.by."
+  },
+  "солнечные панели|солнечная электростанция": {
+   "check": 19800,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "SmartEnergy",
+     "url": "https://smartenergy.by/dlya-doma",
+     "price": "частный дом 10 кВт – ориентир под ключ от 16 000 руб.",
+     "za_chto": "16 000 BYN под ключ, сетевая СЭС"
+    },
+    {
+     "company": "Green Energy",
+     "url": "https://green-energy.by/catalog/solnechnye_elektrostantsii_dlya_predpriyatiy_i_biznesa/setevye_solnechnye_elektrostantii6373/cetevaya-solnechnaya-elektrostantsiya-na-10-kvt/",
+     "price": "сетевая СЭС 10 кВт – 19 832,76 руб./компл. (без креплений и монтажа)",
+     "za_chto": "19 833 BYN, оборудование"
+    },
+    {
+     "company": "electroshop.by",
+     "url": "https://electroshop.by/catalog/solnechnye_elektrostantsii_dlya_doma/1022/",
+     "price": "станция 8 кВт с накопителем ~10 кВт·ч – 28 964,44 BYN",
+     "za_chto": "28 964 BYN, гибрид с АКБ"
+    }
+   ],
+   "kommentariy": "Типовой заказ: солнечная электростанция для частного дома ~8–10 кВт. Медиана 16 000 / 19 833 / 28 964 = 19 833 ≈ 19 800 BYN. Гибрид с аккумуляторами 10 кВт – от 47 500 (e-energy.by), это верхний сегмент."
+  },
+  "установка видеонаблюдения|видеонаблюдение": {
+   "check": 920,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "7video.by",
+     "url": "https://7video.by/videonablyudenie-dlya-chastnogo-doma",
+     "price": "комплект на 4 камеры от 540 руб.; монтаж 4 камер от 380 руб.",
+     "za_chto": "540 + 380 = 920 BYN"
+    },
+    {
+     "company": "IPVision",
+     "url": "https://ipvision.by/services/ustanovka-videonablyudeniya",
+     "price": "комплекты на 4 камеры от 1105 до 2976 руб., без монтажа",
+     "za_chto": "1 105 + монтаж ~380 = 1 485 BYN"
+    },
+    {
+     "company": "Випогард / sgm.by (выдача)",
+     "url": "https://vipoguard.by/p236597615-ustanovka-videonablyudeniya-chastnyj.html",
+     "price": "система с 4 камерами и регистратором (с оборудованием) от 650 р.",
+     "za_chto": "650 BYN «от» (сниппет, страница старше года)"
+    }
+   ],
+   "kommentariy": "Типовой заказ: видеонаблюдение частного дома на 4 камеры с регистратором, оборудование + монтаж. Медиана 650 / 920 / 1 485 = 920 BYN."
+  },
+  "умный дом": {
+   "check": 8050,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Z-Wave.by",
+     "url": "https://z-wave.by/skolko_stoit_sistema_umnyy_dom/",
+     "price": "трёхкомнатная квартира под ключ от 500 до 7000 евро",
+     "za_chto": "середина 3 750 € × 3,2989 = 12 371 BYN (с оборудованием и монтажом)"
+    },
+    {
+     "company": "Gira (дистрибьютор)",
+     "url": "https://www.gira.by/stoimost-umnogo-doma",
+     "price": "минимальная стоимость проекта $2 000",
+     "za_chto": "2 000 × 2,9987 = 5 997 BYN"
+    },
+    {
+     "company": "remont-otdelka.minsk.by",
+     "url": "https://remont-otdelka.minsk.by/ustanovka-i-nastrojka-sistemy-umnyj-dom/index.html",
+     "price": "умный дом под ключ с нуля от 10100 руб.",
+     "za_chto": "10 100 BYN «от» (заголовок)"
+    },
+    {
+     "company": "mikon.by",
+     "url": "https://mikon.by/montazh-sistemy-umnyy-dom/",
+     "price": "монтаж от 287$",
+     "za_chto": "287 × 2,9987 = 861 BYN, только монтаж"
+    }
+   ],
+   "kommentariy": "Типовой заказ: умный дом для квартиры/дома (свет, климат, протечки, управление со смартфона), с оборудованием. Медиана 861 / 5 997 / 10 100 / 12 371 = 8 049 ≈ 8 050 BYN. Разброс в 10+ раз – зависит от пакета."
+  },
+  "установка домофона|домофон": {
+   "check": 120,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "slabo-tochka.by",
+     "url": "https://slabo-tochka.by/videodomofony-domofony/",
+     "price": "установка видеодомофона 80 BYN; IP видеодомофона 100 BYN",
+     "za_chto": "80–100 BYN, работа"
+    },
+    {
+     "company": "Redsale",
+     "url": "https://redsale.by/remont/electrician/ustanovka-domofona",
+     "price": "установка видеодомофона – от 90 BYN; монитора от 120 BYN",
+     "za_chto": "90 BYN (сниппет)"
+    },
+    {
+     "company": "v-p.by",
+     "url": "https://v-p.by/services/ustanovka-domofonov/dlya-fiz-lits/",
+     "price": "полный монтаж комплекта в квартиру от 150 бел. руб.; в частный дом от 290 бел. руб.",
+     "za_chto": "150 BYN квартира (сниппет)"
+    },
+    {
+     "company": "ipcam.by",
+     "url": "https://ipcam.by/uslugi-po-montazhu/ustanovka-videodomofona.html",
+     "price": "IP-комплект Hikvision в частный дом: работа 100–300, оборудование от 670 бел. руб.",
+     "za_chto": "работа 200 (середина); с оборудованием ≈ 870 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: установка видеодомофона в квартиру/дом, только работа. Медиана 80 / 90 / 150 / 200 = 120 BYN. С оборудованием чек 400–900 BYN (IP-комплект в дом ≈ 870 по ipcam.by) – для калькулятора это заметно занижено."
+  },
+  "ремонт квартир|ремонт квартиры": {
+   "check": 27500,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "allrem.by (обзор цен 2026)",
+     "url": "https://allrem.by/blog/skolko-stoit-remont-kvartiry-v-minske-2026",
+     "price": "капитальный 380–700 BYN/м² (работа); пример: 2-комн. 60 м² × 500 = 30 000 BYN без материалов",
+     "za_chto": "55 м² × 500 = 27 500 BYN"
+    },
+    {
+     "company": "buildit.by (обзор цен 2026)",
+     "url": "https://buildit.by/blog/skolko-stoit-remont-kvartiry-minsk-2026",
+     "price": "двухкомнатная 50–60 м², капитальный: 18 000–30 000 BYN (работа)",
+     "za_chto": "середина 24 000 BYN"
+    },
+    {
+     "company": "Ровно-Ровно",
+     "url": "https://rovno-rovno.by/ceny-na-remont-kvartir-pod-klyuch-minsk/",
+     "price": "стоимость работ под ключ в Минске – $280–380 за м²",
+     "za_chto": "55 × 330 $ × 2,9987 = 54 426 BYN, работа"
+    }
+   ],
+   "kommentariy": "Типовой заказ: капитальный ремонт двухкомнатной квартиры 55 м², только работа без материалов. Медиана 24 000 / 27 500 / 54 426 = 27 500 BYN. Косметика в той же квартире 5 000–12 000."
+  },
+  "ремонт под ключ": {
+   "check": 55000,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "allrem.by (обзор цен 2026)",
+     "url": "https://allrem.by/blog/skolko-stoit-remont-kvartiry-v-minske-2026",
+     "price": "2-комн. 60 м², капитальный 500 BYN/м² + материалы средние 200 BYN/м² = 42 000 BYN",
+     "za_chto": "55 × 700 = 38 500 BYN с материалами"
+    },
+    {
+     "company": "buildit.by (обзор цен 2026)",
+     "url": "https://buildit.by/blog/skolko-stoit-remont-kvartiry-minsk-2026",
+     "price": "под ключ: работа от 500 BYN/м², материалы – обычно сопоставимая сумма",
+     "za_chto": "55 × 500 × 2 = 55 000 BYN с материалами"
+    },
+    {
+     "company": "Ровно-Ровно",
+     "url": "https://rovno-rovno.by/ceny-na-remont-kvartir-pod-klyuch-minsk/",
+     "price": "$280–380 за м² работ; черновые материалы ≈ 40–60% от стоимости работ",
+     "za_chto": "55 × 330 $ × 1,5 × 2,9987 = 81 640 BYN (работа + черновые)"
+    }
+   ],
+   "kommentariy": "Типовой заказ: ремонт под ключ двухкомнатной квартиры 55 м² с материалами (черновые + средняя чистовая отделка). Медиана 38 500 / 55 000 / 81 640 = 55 000 BYN. Без материалов – см. «ремонт квартир» (27 500)."
+  },
+  "ремонт ванной|ремонт ванной комнаты|ремонт санузла": {
+   "check": 5410,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "remont-vannoy.by",
+     "url": "https://remont-vannoy.by/",
+     "price": "пакет «Стандарт» (3–4 м²) от 4 500 BYN; примеры: совмещённый санузел 6 880 и 7 230 руб., ванная 4 700 / 4 880 / 5 410 руб., санузел 6 330 / 6 460 руб.",
+     "za_chto": "медиана 7 примеров ванных/санузлов = 5 410 BYN, работа"
+    },
+    {
+     "company": "Строим Город",
+     "url": "https://stroimgorod.by/uslugi-remont/komnata-pod-klyuch/vannaya-i-tualet/",
+     "price": "совмещённый санузел от 4000 byn, раздельный от 5000 byn (с черновыми материалами)",
+     "za_chto": "4 000 BYN (сниппет выдачи, сайт отдал 503)"
+    },
+    {
+     "company": "выдача Яндекс/поиск (сайт ремонта ванных)",
+     "url": "https://stroi-garant.by/remont-vannoj-komnaty-pod-kluch.html",
+     "price": "общая стоимость ремонта ванной под ключ от 4500 BYN до 6800 BYN",
+     "za_chto": "середина 5 650 BYN (привязка к сайту по сниппету, не открыт)"
+    }
+   ],
+   "kommentariy": "Типовой заказ: ремонт совмещённого санузла/ванной 4–5 м² под ключ, работа (иногда с черновыми материалами). Медиана 4 000 / 5 410 / 5 650 = 5 410 BYN."
+  },
+  "укладка плитки|плиточник": {
+   "check": 1190,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Redsale (прайс Минск 2026)",
+     "url": "https://redsale.by/prices/remont/tile",
+     "price": "керамическая плитка стены и пол стандартного формата от 28–30 BYN/м²",
+     "za_chto": "30 м² × 29 = 870 BYN"
+    },
+    {
+     "company": "Ровно-Ровно",
+     "url": "https://rovno-rovno.by/ukladka-plitki/",
+     "price": "укладка плитки от 50 BYN за м2",
+     "za_chto": "30 × 50 = 1 500 BYN"
+    },
+    {
+     "company": "Микон",
+     "url": "https://mikon.by/ukladka-plitki/",
+     "price": "от 60 руб м2",
+     "za_chto": "30 × 60 = 1 800 BYN"
+    },
+    {
+     "company": "REMONT-7.BY",
+     "url": "https://remont-7.by/ukladka-plitki/",
+     "price": "цена от 26 руб/м2",
+     "za_chto": "30 × 26 = 780 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: облицовка ванной плиткой ~30 м² (стены + пол), работа без материалов. Медиана 780 / 870 / 1 500 / 1 800 = 1 185 ≈ 1 190 BYN."
+  },
+  "штукатурка стен|штукатурные работы": {
+   "check": 2480,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Redsale (прайс Минск 2026)",
+     "url": "https://redsale.by/prices/remont/stuccoing",
+     "price": "механизированная штукатурка 10–20 мм – от 18 BYN/м²",
+     "za_chto": "150 м² × 18 = 2 700 BYN"
+    },
+    {
+     "company": "Redfiks (прайс Минск 2026)",
+     "url": "https://redfiks.by/prices/minsk/plasterer",
+     "price": "от 14 до 16 BYN/м² за слой до 20 мм",
+     "za_chto": "150 × 15 = 2 250 BYN"
+    },
+    {
+     "company": "100m2.by",
+     "url": "https://www.100m2.by/",
+     "price": "механизированная штукатурка от 18–20 руб/м² (гипс от 20)",
+     "za_chto": "150 × 19 = 2 850 BYN"
+    },
+    {
+     "company": "shtukatur-lux.by",
+     "url": "https://shtukatur-lux.by/mehanizirovannaya-shtukaturka/",
+     "price": "от 12 руб./м² стандартный слой; сетка от 4 руб./м²",
+     "za_chto": "150 × 12 = 1 800 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: механизированная штукатурка стен двухкомнатной квартиры ~150 м² стен, работа без материалов. Медиана 1 800 / 2 250 / 2 700 / 2 850 = 2 475 ≈ 2 480 BYN."
+  },
+  "отделочные работы|отделка квартир": {
+   "check": 9160,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "allrem.by (обзор цен 2026)",
+     "url": "https://allrem.by/blog/skolko-stoit-remont-kvartiry-v-minske-2026",
+     "price": "косметический 180–250 BYN/м² (работа); пример 1-комн. 40 м² × 250 = 10 000",
+     "za_chto": "55 м² × 215 = 11 825 BYN"
+    },
+    {
+     "company": "buildit.by (обзор цен 2026)",
+     "url": "https://buildit.by/blog/skolko-stoit-remont-kvartiry-minsk-2026",
+     "price": "двухкомнатная 50–60 м², косметический: 5 000–8 000 BYN",
+     "za_chto": "середина 6 500 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: чистовая/косметическая отделка двухкомнатной квартиры 55 м² (шпаклёвка, покраска/обои, пол, потолок), работа. Среднее двух источников 6 500 / 11 825 = 9 160 BYN. Ещё одна компания в выдаче – «косметический от 70 BYN/м²» (≈3 850), сайт не установлен, в счёт не брал."
+  },
+  "ремонт в новостройке|ремонт новостройки": {
+   "check": 26400,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Ровно-Ровно",
+     "url": "https://rovno-rovno.by/remont-kvartir-v-novostrojkah/",
+     "price": "новостройка, работа без материалов: 1-комн. от 500, 2-комн. от 470–480, 3-комн. от 450 BYN/м²; пример 2-комн. 31 490 BYN",
+     "za_chto": "55 × 480 = 26 400 BYN"
+    },
+    {
+     "company": "allrem.by (обзор цен 2026)",
+     "url": "https://allrem.by/blog/skolko-stoit-remont-kvartiry-v-minske-2026",
+     "price": "новостройка без отделки 380–600 BYN/м²",
+     "za_chto": "55 × 490 = 26 950 BYN"
+    },
+    {
+     "company": "Ровно-Ровно (пример)",
+     "url": "https://rovno-rovno.by/remont-kvartir-v-novostrojkah/",
+     "price": "пример: 2-комнатная – 31 490 BYN, только работа",
+     "za_chto": "31 490 BYN – тот же сайт, в n не считаю отдельно"
+    }
+   ],
+   "kommentariy": "Типовой заказ: ремонт двухкомнатной квартиры 55 м² в новостройке (без отделки) под ключ, работа без материалов. Медиана двух расчётов 26 400 / 26 950 ≈ 26 400 BYN (пример с сайта 31 490). Третья строка – тот же сайт."
+  },
+  "дизайн интерьера|дизайн проект квартиры": {
+   "check": 6300,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "СДКЭ (sdke.by)",
+     "url": "https://sdke.by/czenyi.html",
+     "price": "«ТЕХНО» 26 $/м², «Стандарт» 35 $/м², «Релакс» 44 $/м²",
+     "za_chto": "60 м² × 35 $ × 2,9987 = 6 297 BYN"
+    },
+    {
+     "company": "Оникс (onyx.by)",
+     "url": "https://onyx.by/ceny/",
+     "price": "полный пакет от 80 р./м²; 80–120 рублей за м² с 3D и надзором",
+     "za_chto": "60 × 80 = 4 800 BYN"
+    },
+    {
+     "company": "dia.by (выдача)",
+     "url": "https://dia.by/czeny-na-sozdanie-dizajn-proekta-ot-studii-dia/",
+     "price": "полный дизайн-проект 35$ за 1 м² (квартиры до 60 м²)",
+     "za_chto": "60 × 35 $ × 2,9987 = 6 297 BYN (сниппет; привязка к сайту вероятная)"
+    }
+   ],
+   "kommentariy": "Типовой заказ: полный дизайн-проект двухкомнатной квартиры 60 м² (планировка, 3D, чертежи). Медиана 4 800 / 6 297 / 6 297 ≈ 6 300 BYN."
+  },
+  "малярные работы|поклейка обоев|покраска стен": {
+   "check": 920,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Redsale (прайс Минск)",
+     "url": "https://redsale.by/prices/remont/oboi",
+     "price": "средняя цена поклейки ~6,5 руб/м²; флизелин 7",
+     "za_chto": "150 м² стен × 7 = 1 050 BYN"
+    },
+    {
+     "company": "sgm.by (прайс от 01.11.2026)",
+     "url": "https://sgm.by/remont/articles/poklejka-oboev-v-minske-oklejka-obojami",
+     "price": "флизелиновые/виниловые от 5.3 р./м²",
+     "za_chto": "150 × 5,3 = 795 BYN"
+    },
+    {
+     "company": "KLEIMOBOI.BY",
+     "url": "https://kleimoboi.by/",
+     "price": "поклейка обоев от 4 руб/м²",
+     "za_chto": "150 × 4 = 600 BYN"
+    },
+    {
+     "company": "sdelai.by",
+     "url": "https://sdelai.by/poklejka-oboev/",
+     "price": "от 10 BYN за м²",
+     "za_chto": "150 × 10 = 1 500 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: поклейка обоев (или покраска) в двухкомнатной квартире ~150 м² стен, работа без подготовки и материалов. Медиана 600 / 795 / 1 050 / 1 500 = 922 ≈ 920 BYN. С шпаклёвкой и грунтом под покраску – ×2–2,5."
+  },
+  "ремонт офиса|ремонт офисов": {
+   "check": 24200,
+   "basis": "ot",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "БГСК (bgsk-remont.by)",
+     "url": "https://bgsk-remont.by/services/remont-ofisov/",
+     "price": "ремонт офисов от 125 руб/м² (косметический), капитальный от 160",
+     "za_chto": "100 м² × 125 = 12 500 BYN"
+    },
+    {
+     "company": "abby.by",
+     "url": "https://abby.by/remontno-otdelochnye-raboty/remont-ofice",
+     "price": "косметический от 120 у.е./м², капитальный от 180 у.е./м² (расчёт в BYN по договору)",
+     "za_chto": "100 × 120 $ × 2,9987 = 35 984 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: косметический ремонт офиса 100 м², работа. Среднее двух источников 12 500 / 35 984 = 24 242 ≈ 24 200 BYN. Разброс почти ×3; в выдаче есть и «от 69–82 руб/м²» (старые страницы)."
+  },
+  "натяжные потолки|натяжной потолок": {
+   "check": 1250,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "potolky-minsk.by (обзор цен 2026)",
+     "url": "https://potolky-minsk.by/blog/skolko-stoit-natyazhnoy-potolok-minsk/",
+     "price": "матовые/глянцевые ПВХ 21–30 BYN/м² с установкой; светильники отдельно",
+     "za_chto": "50 м² × 25,5 = 1 275 BYN"
+    },
+    {
+     "company": "1potolok.by",
+     "url": "https://1potolok.by/",
+     "price": "от 25 руб/м² под ключ",
+     "za_chto": "50 × 25 = 1 250 BYN"
+    },
+    {
+     "company": "superpotolok.by",
+     "url": "https://superpotolok.by/czeny/",
+     "price": "цены за 1 м2 с установкой от 25 руб.",
+     "za_chto": "50 × 25 = 1 250 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: натяжные потолки ПВХ (мат/глянец) в квартире 50 м² с установкой, без светильников и световых линий. Медиана 1 250 / 1 250 / 1 275 = 1 250 BYN. Со светильниками, тканью или световыми линиями чек 1,5–2× выше."
+  },
+  "потолок из гипсокартона|гипсокартонные потолки": {
+   "check": 1200,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "sgm.by (прайс от 01.11.2026)",
+     "url": "https://sgm.by/remont/articles/potolki-iz-gipsokartona-v-minske-podvesnye-montazh-i-ustrojstvo",
+     "price": "одноуровневый от 20 руб./м², двухуровневый от 36",
+     "za_chto": "40 м² × 20 = 800 BYN"
+    },
+    {
+     "company": "REMONT-7.BY",
+     "url": "https://remont-7.by/potolok-iz-gipsokartona/",
+     "price": "от 23 руб/м2; двухуровневый от 46",
+     "za_chto": "40 × 23 = 920 BYN"
+    },
+    {
+     "company": "Строим Город",
+     "url": "https://stroimgorod.by/uslugi-remont/otdelochnye-raboty/gipsokartonnye-raboty/",
+     "price": "37 руб./м²; двухуровневый с подсветкой от 50",
+     "za_chto": "40 × 37 = 1 480 BYN"
+    },
+    {
+     "company": "Ровно-Ровно",
+     "url": "https://rovno-rovno.by/potolok-iz-gipsokartona/",
+     "price": "50–60 руб./м² в зависимости от шага каркаса",
+     "za_chto": "40 × 55 = 2 200 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: одноуровневый потолок из ГКЛ в 1–2 комнатах ~40 м², работа без материалов и шпаклёвки под покраску. Медиана 800 / 920 / 1 480 / 2 200 = 1 200 BYN."
+  },
+  "укладка ламината": {
+   "check": 625,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "sgm.by",
+     "url": "https://sgm.by/remont/articles/ukladka-laminata-v-minske-montazh-i-zamena",
+     "price": "прямая укладка от 8 руб./м²",
+     "za_chto": "50 м² × 8 = 400 BYN"
+    },
+    {
+     "company": "kovroff.by",
+     "url": "https://kovroff.by/services/servisnye-sluzhby/ukladka-laminata/",
+     "price": "12–14 руб./м²",
+     "za_chto": "50 × 13 = 650 BYN"
+    },
+    {
+     "company": "alexparket.by",
+     "url": "https://alexparket.by/faq/skolko-stoit-rabota-po-ukladke-laminata/",
+     "price": "12 руб./м² на подложку (пересчёт по курсу на 19.09.2026)",
+     "za_chto": "50 × 12 = 600 BYN"
+    },
+    {
+     "company": "sdelai.by",
+     "url": "https://sdelai.by/ukladka-laminata/",
+     "price": "цена работы от 16 бел руб за м2",
+     "za_chto": "50 × 16 = 800 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: укладка ламината прямым способом в двухкомнатной квартире ~50 м², работа без материалов и демонтажа. Медиана 400 / 600 / 650 / 800 = 625 BYN."
+  },
+  "наливной пол|наливные полы": {
+   "check": 1075,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "polmaster.by",
+     "url": "https://polmaster.by/product/viravnivanie-samoniveliromn/",
+     "price": "от 15 руб./м² без материала, от 29 руб./м² с материалом",
+     "za_chto": "50 м² × 29 = 1 450 BYN с материалом"
+    },
+    {
+     "company": "BudMax.by",
+     "url": "https://budmax.by/catalog/styazhka-i-nivelirovka",
+     "price": "нивелировка пола от 12 рублей",
+     "za_chto": "50 × 12 = 600 BYN, работа"
+    },
+    {
+     "company": "Профи (profi-bel.by)",
+     "url": "https://profi-bel.by/remont/vyravnivanie-pola-samovyravnivayushchejsya-smesyu/",
+     "price": "от 10, в среднем 14, максимум ~23 руб./м²",
+     "za_chto": "50 × 14 = 700 BYN, работа"
+    },
+    {
+     "company": "shlifpol.by",
+     "url": "https://shlifpol.by/",
+     "price": "заливка нивелира от 20 руб/м²; комплекс под ламинат/LVT от 35 руб/м² под ключ",
+     "za_chto": "50 × 35 = 1 750 BYN под ключ"
+    }
+   ],
+   "kommentariy": "Типовой заказ: наливной (самовыравнивающийся) пол в квартире 50 м² под ламинат. Медиана 600 / 700 / 1 450 / 1 750 = 1 075 BYN; база смешанная (работа и работа+материал). Полимерные декоративные полы – отдельно, 35–120 BYN/м²."
+  },
+  "циклевка паркета|шлифовка паркета": {
+   "check": 1200,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "beldom.by",
+     "url": "https://beldom.by/shlifovka-parketa-minsk",
+     "price": "шлифовка с лаком от 14 BYN/м²; шлифовка + шпаклёвка + 3 слоя лака от 20 BYN/м²",
+     "za_chto": "50 м² × 20 = 1 000 BYN"
+    },
+    {
+     "company": "parket-lux.by (прайс 2026)",
+     "url": "https://parket-lux.by/shlifovka-pola",
+     "price": "от 20 до 28 руб./м² (эконом – премиум)",
+     "za_chto": "50 × 24 = 1 200 BYN"
+    },
+    {
+     "company": "eco-pol.by",
+     "url": "https://eco-pol.by/cziklevka-parketa-pola.html",
+     "price": "22–30 руб./м² комплекс с полиуретановым лаком",
+     "za_chto": "50 × 26 = 1 300 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: циклёвка паркета 50 м² под ключ (шлифовка, шпаклёвка, 3 слоя лака). Медиана 1 000 / 1 200 / 1 300 = 1 200 BYN. Минимальный заказ у многих 200–240 BYN."
+  },
+  "укладка паркета": {
+   "check": 1325,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "alexparket.by (цены 2026)",
+     "url": "https://alexparket.by/faq/skolko-stoit-polozhit-novyj-parket/",
+     "price": "штучный паркет 43 бел. руб./м² под лак, 44 под масло (без паркета, клея, лака)",
+     "za_chto": "50 м² × 43 = 2 150 BYN"
+    },
+    {
+     "company": "kisara-pol.by",
+     "url": "https://kisara-pol.by/ukladka-parketa",
+     "price": "укладка штучного паркета от 20 бел. руб. за м²",
+     "za_chto": "50 × 20 = 1 000 BYN"
+    },
+    {
+     "company": "domex.by",
+     "url": "https://domex.by/remont/ukladka-parketa",
+     "price": "укладка паркета от 19,80 руб. (на 01.09.2025)",
+     "za_chto": "50 × 19,8 = 990 BYN"
+    },
+    {
+     "company": "horoshiy-pol.by",
+     "url": "https://horoshiy-pol.by/uslugi/ukladka",
+     "price": "укладка паркета 11 USD за м²",
+     "za_chto": "50 × 11 × 2,9987 = 1 649 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: укладка штучного паркета/паркетной доски на клей 50 м², работа без материалов и шлифовки. Медиана 990 / 1 000 / 1 649 / 2 150 = 1 325 BYN."
+  },
+  "промышленные полы|полимерные полы": {
+   "check": 7500,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "sgm.by (прайс 2026)",
+     "url": "https://sgm.by/floor-minsk/articles/ceny-na-promyshlennye-i-3d-nalivnye-poly-v-minske-jepoksidnye",
+     "price": "эпоксидный промышленный пол 1,5–2 мм от 45 BYN/м²",
+     "za_chto": "200 м² × 45 = 9 000 BYN"
+    },
+    {
+     "company": "budstroy.by",
+     "url": "https://budstroy.by/services/epoksidnye-poly/",
+     "price": "самовыравнивающийся эпоксидный 2 мм от 28 руб./м²",
+     "za_chto": "200 × 28 = 5 600 BYN"
+    },
+    {
+     "company": "sdelaem.by",
+     "url": "https://sdelaem.by/poly/",
+     "price": "эпоксидные промышленные 1,5–2 мм от 30 BYN",
+     "za_chto": "200 × 30 = 6 000 BYN"
+    },
+    {
+     "company": "sharkstroy.by",
+     "url": "https://sharkstroy.by/promyshlennye-poly/polimernye-nalivnye-poly",
+     "price": "эпоксидный 1,5–3 мм от 23 у.е./м² с работой и материалом",
+     "za_chto": "200 × 23 $ × 2,9987 = 13 794 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: эпоксидный наливной пол 1,5–2 мм на складе/в цеху/гараже 200 м², работа с материалом, без подготовки бетона. Медиана 5 600 / 6 000 / 9 000 / 13 794 = 7 500 BYN. Заказчик чаще бизнес, а не частник."
+  },
+  "кухни на заказ|кухня на заказ": {
+   "check": 2270,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "zakaz-kuhni-minsk.by",
+     "url": "https://zakaz-kuhni-minsk.by/",
+     "price": "линейные и угловые кухни ~477–695 руб. за погонный метр",
+     "za_chto": "3,5 п.м. × 586 = 2 051 BYN"
+    },
+    {
+     "company": "Прайм Мебели (primebeli.by)",
+     "url": "https://primebeli.by/",
+     "price": "ЛДСП от 538 BYN/п.м., пластик от 595 BYN/п.м.",
+     "za_chto": "3,5 × 595 = 2 083 BYN"
+    },
+    {
+     "company": "КакСвоим (kaksvoim.by)",
+     "url": "https://kaksvoim.by/minsk-kuhni/",
+     "price": "«Эконом» от 549, «Стандарт» от 699, «Элитные» от 829 за п.м.",
+     "za_chto": "3,5 × 699 = 2 447 BYN"
+    },
+    {
+     "company": "mebelzakaz5.by",
+     "url": "https://mebelzakaz5.by/kuhni-pod-zakaz/v-sovremennom-stile/",
+     "price": "современные кухни от ~1 171 BYN за м.п.",
+     "za_chto": "3,5 × 1 171 = 4 099 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: кухонный гарнитур 3,5 п.м. (ЛДСП/пластик/МДФ-плёнка) без техники. Медиана 2 051 / 2 083 / 2 447 / 4 099 = 2 265 ≈ 2 270 BYN. Все цены «от»; МДФ-эмаль/массив/камень – 5 000–15 000+. В выдаче также «средняя цена 2 950 BYN» и «прямая 2,6 м от 5 000» – сайты не установлены."
+  },
+  "шкаф купе на заказ|шкафы купе на заказ": {
+   "check": 1890,
+   "basis": "tipovoy",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Шкаф-Граф (shkaf-graf.by)",
+     "url": "https://shkaf-graf.by/tseny/",
+     "price": "2 м: 2 двери 1500.00 р., 3 двери 1700,00 р. (встроенный, с доставкой и сборкой, акция октябрь 2026)",
+     "za_chto": "1 500 BYN за 2 м"
+    },
+    {
+     "company": "coupe.by",
+     "url": "https://coupe.by/",
+     "price": "модели 2000 мм: 1 836–2 550 руб. (10 моделей)",
+     "za_chto": "медиана 10 моделей 2 м = 2 278 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: шкаф-купе 2 м (2 двери, ЛДСП/зеркало) с доставкой и сборкой. Среднее 1 500 / 2 278 = 1 889 ≈ 1 890 BYN. Шире 2,4 м – 2 000–2 700."
+  },
+  "мебель на заказ|корпусная мебель на заказ": {
+   "check": 2000,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "кухни – см. «кухни на заказ»",
+     "url": "https://kaksvoim.by/minsk-kuhni/",
+     "price": "кухня 3,5 п.м. ≈ 2 265 BYN (медиана 4 источников)",
+     "za_chto": "2 265 BYN"
+    },
+    {
+     "company": "шкафы-купе – см. «шкаф-купе»",
+     "url": "https://coupe.by/",
+     "price": "шкаф-купе 2 м ≈ 1 890 BYN",
+     "za_chto": "1 890 BYN"
+    },
+    {
+     "company": "гардеробные – см. «гардеробные»",
+     "url": "https://sky-mebel.by/garderobnye",
+     "price": "гардеробная 3 м ≈ 1 590 BYN",
+     "za_chto": "1 590 BYN"
+    },
+    {
+     "company": "детская – см. «детская мебель»",
+     "url": "https://mebio.by/katalog/detskaya/detskie-komnatyi/",
+     "price": "комплект детской ≈ 2 400 BYN",
+     "za_chto": "2 400 BYN"
+    }
+   ],
+   "kommentariy": "Производная оценка: общий запрос «мебель на заказ» – смесь кухонь, шкафов, гардеробных, детских. Медиана типовых чеков категорий 1 590 / 1 890 / 2 265 / 2 400 = 2 078 ≈ 2 000 BYN. Отдельных прайсов «корпусная мебель на заказ» с ценой целого заказа не нашёл."
+  },
+  "гардеробная на заказ|гардеробная система": {
+   "check": 1590,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Sky-Mebel",
+     "url": "https://sky-mebel.by/garderobnye",
+     "price": "гардеробная 1,5 м – 800 руб, 2 м – 1 060 руб, 3 м – 1 590 руб (замер, доставка, монтаж бесплатно)",
+     "za_chto": "3 м = 1 590 BYN"
+    },
+    {
+     "company": "Formatmebel",
+     "url": "https://formatmebel.by/product-category/garderobnye/",
+     "price": "«Элис» гардеробная комната 6 000 BYN, «Макс» 7 000 BYN (Blum)",
+     "za_chto": "6 000 BYN, средний сегмент"
+    },
+    {
+     "company": "mebelzakaz5.by / savladi.by (шаблонный текст)",
+     "url": "https://savladi.by/garderobnyie/",
+     "price": "от 600 руб, средняя стоимость 1 м.п. – 180 рублей с доставкой и установкой",
+     "za_chto": "3 п.м. × 180 = 540 BYN (страница старая)"
+    }
+   ],
+   "kommentariy": "Типовой заказ: гардеробная система ~3 п.м. (ЛДСП, полки, штанги, ящики) с монтажом. Медиана 540 / 1 590 / 6 000 = 1 590 BYN. Разброс огромный: открытая система vs гардеробная комната с фурнитурой Blum."
+  },
+  "столешница из искусственного камня|столешница из камня": {
+   "check": 2490,
+   "basis": "ot",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "ArtStone (Заславль/Минск)",
+     "url": "https://artstone.by/stoleshnica-dlya-kukhni",
+     "price": "столешницы для кухни от 960 BYN/п.м.",
+     "za_chto": "3 п.м. × 960 = 2 880 BYN"
+    },
+    {
+     "company": "СоюзГранит Строй",
+     "url": "https://sgranit.by/katalog-izdelij/stoleshnicy-iz-naturalnogo-kamnya/stoleshnicy-iz-iskusstvennogo-kamnya.html",
+     "price": "от 700 руб. за м.п.",
+     "za_chto": "3 × 700 = 2 100 BYN"
+    },
+    {
+     "company": "StarStone",
+     "url": "https://starstone.by/tseny.html",
+     "price": "LG Hi-Macs от 1100 руб. м²; Caesarstone от 1730 руб. м² (страница ~1,5 года)",
+     "za_chto": "3 × 0,6 = 1,8 м² × 1 100 = 1 980 BYN"
+    },
+    {
+     "company": "Svarokmaster",
+     "url": "https://svarokmaster.by/stoleshnitsy/stoleshnitsa-iz-iskusstvennogo-kamnya/",
+     "price": "столешница из кварцевого агломерата с установкой – 4 300 руб. под ключ (пример)",
+     "za_chto": "4 300 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: кухонная столешница из искусственного камня 3 п.м. (600 мм) с вырезом под мойку и установкой. Медиана 1 980 / 2 100 / 2 880 / 4 300 = 2 490 BYN."
+  },
+  "детская мебель на заказ": {
+   "check": 2400,
+   "basis": "ot",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "mebio.by",
+     "url": "https://mebio.by/katalog/detskaya/detskie-komnatyi/",
+     "price": "комплекты ~1 258–3 200 BYN",
+     "za_chto": "середина 2 229 BYN"
+    },
+    {
+     "company": "mebelminsk.by",
+     "url": "https://www.mebelminsk.by/categories/modulnye-gruppy-dlya-detskoi?pres=order",
+     "price": "модульные наборы на заказ ~1 800–3 000; пример 2 400,00 р.",
+     "za_chto": "2 400 BYN"
+    },
+    {
+     "company": "bestmebelshop.by",
+     "url": "https://bestmebelshop.by/catalog/mebel-dlya-detskoy/category-detskaya-po-individualnym-razmeram/",
+     "price": "детские по индивидуальным размерам от ~1 110",
+     "za_chto": "1 110 BYN «от»"
+    },
+    {
+     "company": "TROOM",
+     "url": "https://troom.by/katalog/korpusnaya-mebel/mebel-dlya-detskoj-komnaty/",
+     "price": "детская мебель от 4680 BYN; комплекты ~7 649–19 513",
+     "za_chto": "4 680 BYN «от»"
+    },
+    {
+     "company": "mholl.by",
+     "url": "https://mholl.by/detskie/",
+     "price": "стартовые цены ~4 480–15 008",
+     "za_chto": "4 480 BYN «от»"
+    }
+   ],
+   "kommentariy": "Типовой заказ: комплект детской на заказ (кровать, шкаф, стол, стеллаж), ЛДСП/МДФ. Медиана 1 110 / 2 229 / 2 400 / 4 480 / 4 680 = 2 400 BYN. Цифры из сниппетов выдачи, страницы не открывал."
+  },
+  "перетяжка мебели": {
+   "check": 220,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Redsale",
+     "url": "https://redsale.by/furniture/upholstery",
+     "price": "в среднем перетяжка дивана ~200 BYN; от 160 прямой, от 230 трёхместный",
+     "za_chto": "200 BYN"
+    },
+    {
+     "company": "sgm.by (цены 2026)",
+     "url": "https://sgm.by/obivka-peretjazhka-minsk/articles/obivka-i-peretjazhka-divana-v-minske-na-domu",
+     "price": "80 р. двойка, 120 р. трёхместный, 150 р. еврокнижка; ткань рогожка от 14, шенилл от 16 р./п.м.",
+     "za_chto": "120 + 8 п.м. × 16 = 248 BYN с тканью"
+    },
+    {
+     "company": "КВП (kvp.by)",
+     "url": "https://kvp.by/",
+     "price": "двухместный от 60 BYN, трёхместный от 90 BYN, угловой от 130 BYN",
+     "za_chto": "90 + ткань 128 = 218 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: перетяжка прямого трёхместного дивана с тканью среднего класса. Медиана 200 / 218 / 248 = 218 ≈ 220 BYN. Угловой диван – 300–400."
+  },
+  "лестница на второй этаж|лестницы на второй этаж": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "деревянные лестницы|лестница из дерева": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "металлическая лестница|лестница на металлокаркасе": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "установка камина|камин под ключ|печь камин": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "печь для бани|печи для бани": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "кладка печи|печник": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "монтаж дымохода|дымоход": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "установка кондиционера|кондиционер с установкой": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "купить кондиционер": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "монтаж вентиляции|приточная вентиляция|вентиляция в частном доме": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "рекуператор|рекуператоры": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "воздуховоды|воздуховод": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "чистка кондиционера|обслуживание кондиционеров": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "ландшафтный дизайн": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "укладка тротуарной плитки|мощение": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "купить тротуарную плитку|тротуарная плитка купить": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "теплица из поликарбоната|теплицы": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "рулонный газон|посев газона|укладка газона": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "автополив": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "дренаж участка|дренажная система": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "благоустройство участка|благоустройство территории": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "навес из поликарбоната|навес для машины": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "услуги экскаватора|аренда экскаватора": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "автовышка|аренда автовышки": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "манипулятор|аренда манипулятора": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "вывоз мусора|вывоз строительного мусора": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "демонтажные работы|снос дома|демонтаж дома": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "песок с доставкой|щебень с доставкой": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "аренда самосвала|самосвал": {
+   "basis": "ot",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  }
+ }
+}
