@@ -1,0 +1,1123 @@
+{
+ "city": "Минск",
+ "currency": "BYN",
+ "date": "2026-11-18",
+ "prices": {
+  "международные грузоперевозки": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "ремонт телевизоров": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "химчистка ковров|стирка ковров": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "адвокат": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "регистрация ип|регистрация ооо": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "юрист по разводу|раздел имущества": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "оценка недвижимости|оценка имущества": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "бюро переводов|перевод документов": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "агентство недвижимости|риэлтор": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "продать квартиру": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "купить квартиру": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "снять квартиру": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "гостиница|гостиницы|отель": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "хостел": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "мини отель": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "квартира на сутки|квартиры на сутки|посуточно": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "апартаменты": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "агроусадьба|агроусадьбы": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "база отдыха|базы отдыха": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "коттедж на сутки|дом на сутки|снять дом": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "баня на сутки|баня с бассейном": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "санатории|санаторий": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "спа|спа центр": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "детский лагерь|летний лагерь": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "банкетный зал|банкет": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "аренда зала для праздника|зал для дня рождения": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "ведущий на свадьбу|тамада": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "организация свадьбы|свадебное агентство": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "кейтеринг": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "фотограф|фотосессия": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "аниматор на день рождения|аниматоры": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "фитнес клуб|фитнес центр": {
+   "check": 150,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Lifestyle",
+     "url": "https://www.relax.by/cat/fitness-clubs/sport-fitness/",
+     "price": "Клубная карта 1 месяц (безлимит) 148 руб.",
+     "za_chto": "месяц"
+    },
+    {
+     "company": "Max Mirnyi Center",
+     "url": "https://www.relax.by/cat/health/fitness/",
+     "price": "Абонемент на 1 месяц (безлимит) 150 руб.",
+     "za_chto": "месяц"
+    },
+    {
+     "company": "Теннисный центр «Аква-Минск»",
+     "url": "https://www.relax.by/cat/health/fitness/",
+     "price": "Клубная карта White DAY 255 руб./3 мес.",
+     "za_chto": "≈ 85 в месяц"
+    },
+    {
+     "company": "Мандарин",
+     "url": "https://www.relax.by/cat/health/fitness/",
+     "price": "тренажёрный зал безлимит 120 руб./мес; «Всё включено» день 80",
+     "za_chto": "месяц 120"
+    }
+   ],
+   "kommentariy": "Клубная карта на месяц. Медиана [85,120,148,150]=134; клубы с бассейном и группами дороже – взято 150. Премиальные клубы (на relax.by цен нет) не учтены."
+  },
+  "тренажерный зал|спортзал": {
+   "check": 120,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Мандарин (ул. Лучины)",
+     "url": "https://www.relax.by/cat/health/fitness/",
+     "price": "Абонемент тренажерный зал «Стандарт» (безлимит) 120 руб./месяц",
+     "za_chto": "месяц безлимит"
+    },
+    {
+     "company": "Max Mirnyi Center",
+     "url": "https://www.relax.by/cat/health/fitness/",
+     "price": "Абонемент на 1 месяц (безлимит) в тренажерном зале 150 руб.",
+     "za_chto": "месяц безлимит"
+    },
+    {
+     "company": "FiT4YoU",
+     "url": "https://www.relax.by/cat/health/fitness/",
+     "price": "Абонемент 1 месяц (безлимит до 16:30) 100 руб.",
+     "za_chto": "дневной месяц"
+    },
+    {
+     "company": "Динамо",
+     "url": "https://www.relax.by/cat/health/fitness/",
+     "price": "Тренажерный зал безлимит на 1 месяц 125 руб.",
+     "za_chto": "месяц безлимит"
+    }
+   ],
+   "kommentariy": "Абонемент в тренажёрный зал на месяц. Медиана [100,120,125,150]=122,5 → 120."
+  },
+  "персональный тренер": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "бассейн": {
+   "check": 140,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "СПА и фитнес-центр отеля «Пекин»",
+     "url": "https://www.relax.by/cat/active/pools/",
+     "price": "Безлимит на 30 дней бассейн 50 м от 130 руб.",
+     "za_chto": "месяц"
+    },
+    {
+     "company": "Олимпийский",
+     "url": "https://www.relax.by/cat/active/pools/",
+     "price": "Разовое посещение бассейна 50 м 19 руб.",
+     "za_chto": "8 посещений ≈ 152"
+    },
+    {
+     "company": "Кафедра плавания",
+     "url": "https://www.relax.by/cat/active/pools/",
+     "price": "Групповое обучение плаванию 25–30 руб./занятие в абонементе",
+     "za_chto": "8 занятий ≈ 200–240"
+    },
+    {
+     "company": "Теннисный центр «Аква-Минск»",
+     "url": "https://www.relax.by/cat/active/pools/",
+     "price": "Абонемент по плаванию детский (1 раз в неделю) 150 руб.",
+     "za_chto": "месяц"
+    }
+   ],
+   "kommentariy": "Месяц плавания (абонемент/8 посещений). Медиана [130,150,152,220]=151; взято 140 (самостоятельное плавание дешевле обучения)."
+  },
+  "йога|пилатес|стретчинг": {
+   "check": 165,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Возрождение культуры",
+     "url": "https://www.relax.by/cat/health/ioga/",
+     "price": "Йога, абонемент на 1 месяц (8 занятий) 180 руб.",
+     "za_chto": "месяц 8 занятий"
+    },
+    {
+     "company": "Bee Happy Studio",
+     "url": "https://www.relax.by/cat/health/ioga/",
+     "price": "Абонемент 1 месяц (8 занятий) по йоге от 90; 12 занятий от 150 руб.",
+     "za_chto": "месяц"
+    },
+    {
+     "company": "Nuga",
+     "url": "https://www.relax.by/cat/health/fitness/",
+     "price": "Абонемент на 1 месяц (8 занятий) в студию растяжки 199 руб.",
+     "za_chto": "месяц 8 занятий"
+    }
+   ],
+   "kommentariy": "Абонемент на месяц, 8–12 занятий. Медиана [90,150,180,199] = 165."
+  },
+  "школа танцев|танцы для взрослых": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "спортивные секции|секции для детей": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "детский центр|развивающий центр": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "развивающие занятия для детей": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "подготовка к школе": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "логопед": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "частный детский сад": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "детский праздник|день рождения ребенка": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "курсы английского|английский язык курсы": {
+   "check": 250,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "International House",
+     "url": "https://www.relax.by/list/kursy-anglijskogo-yazyka-dlya-vzroslyh/minsk/",
+     "price": "Общий английский для взрослых 256 руб./месяц",
+     "za_chto": "месяц"
+    },
+    {
+     "company": "ULC",
+     "url": "https://www.relax.by/list/kursy-anglijskogo-yazyka-dlya-vzroslyh/minsk/",
+     "price": "Курс офлайн на 12 месяцев 245 руб./мес.",
+     "za_chto": "месяц"
+    },
+    {
+     "company": "ICAN",
+     "url": "https://www.relax.by/list/kursy-anglijskogo-yazyka-dlya-vzroslyh/minsk/",
+     "price": "Коммуникативный курс для взрослых от 240 руб.",
+     "za_chto": "месяц (от)"
+    }
+   ],
+   "kommentariy": "Месяц групповых занятий. Медиана [240,245,256] = 245 → 250."
+  },
+  "репетитор": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "подготовка к цт|подготовка к цэ|курсы цт": {
+   "check": 250,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "100ct",
+     "url": "https://www.relax.by/cat/education/ct-kursy/",
+     "price": "«Оптима» 1 предмет/месяц от 252 руб.; 2 предмета от 416",
+     "za_chto": "1 предмет месяц"
+    },
+    {
+     "company": "International House",
+     "url": "https://www.relax.by/cat/education/ct-kursy/",
+     "price": "Подготовка к ЦТ по английскому 235 руб./месяц",
+     "za_chto": "1 предмет месяц"
+    },
+    {
+     "company": "EN Discovery",
+     "url": "https://www.relax.by/cat/education/ct-kursy/",
+     "price": "1 предмет (месяц) от 144 руб.",
+     "za_chto": "1 предмет месяц (от)"
+    }
+   ],
+   "kommentariy": "Месяц подготовки по одному предмету в группе: медиана [144,235,252]=235 → 250 (часто берут 2 предмета – 400+). Годовой курс ≈ 8–9 месяцев."
+  },
+  "автошкола|курсы вождения": {
+   "check": 2400,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "ВиртуозАвто",
+     "url": "https://www.relax.by/list/driving-kategoriya-b/minsk/",
+     "price": "Категория «B» от 2 400 руб.",
+     "za_chto": "курс целиком"
+    },
+    {
+     "company": "Азбука вождения",
+     "url": "https://www.relax.by/list/driving-kategoriya-b/minsk/",
+     "price": "Категория «B» (с учетом топлива) 2 390 руб.",
+     "za_chto": "курс целиком"
+    },
+    {
+     "company": "Минская РОС ДОСААФ",
+     "url": "https://www.relax.by/list/driving-kategoriya-b/minsk/",
+     "price": "Категория «B» (с топливом и авто в ГАИ) 2 800 руб.",
+     "za_chto": "курс целиком"
+    },
+    {
+     "company": "АвтоводительПлюс",
+     "url": "https://www.relax.by/list/driving-kategoriya-b/minsk/",
+     "price": "Категория «B» МКПП без топлива 1 850 руб.",
+     "za_chto": "курс целиком без топлива"
+    }
+   ],
+   "kommentariy": "Курс категории B целиком. Медиана [1850,2390,2400,2800]=2395 → 2400. Ориентир 900 сильно занижен."
+  },
+  "курсы программирования|it курсы": {
+   "check": 2600,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "IT-Academy",
+     "url": "https://www.it-academy.by/course/python-developer/",
+     "price": "2 390 BYN и 2 840 BYN при единовременной оплате; базовый 640 BYN",
+     "za_chto": "курс-профессия целиком"
+    },
+    {
+     "company": "TeachMeSkills",
+     "url": "https://teachmeskills.by/kursy-python",
+     "price": "Оплата сразу 3 600 BYN (по акции 2 850)",
+     "za_chto": "курс Python целиком"
+    },
+    {
+     "company": "Next Level",
+     "url": "https://www.relax.by/list/programmirovanie/minsk/",
+     "price": "Интенсив для детей 200 руб.",
+     "za_chto": "детский интенсив – не учтён в медиане"
+    }
+   ],
+   "kommentariy": "Курс-профессия целиком. Медиана [640,2390,2840,3600]=2615 → 2600."
+  },
+  "курсы бухгалтера|бухгалтерские курсы": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "курсы маникюра|курсы парикмахера": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "салон красоты": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  },
+  "парикмахерская|парикмахер": {
+   "check": 50,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Надежда (ул. Слободская)",
+     "url": "https://www.relax.by/list/parikmaherskie-muzhskaja-strizhka/minsk/",
+     "price": "мужская (средние) 45; женская (средние) 60 руб.",
+     "za_chto": "среднее мужская/женская ≈ 52"
+    },
+    {
+     "company": "SPA Paradise",
+     "url": "https://www.relax.by/list/parikmaherskie-strizhka/minsk/",
+     "price": "мужская модельная 43; женская модельная от 52 руб.",
+     "za_chto": "≈ 48"
+    },
+    {
+     "company": "Sanika",
+     "url": "https://www.relax.by/list/parikmaherskie-strizhka/minsk/",
+     "price": "мужская модельная 39; женская модельная от 52 руб.",
+     "za_chto": "≈ 46"
+    },
+    {
+     "company": "Шоколад",
+     "url": "https://www.relax.by/list/parikmaherskie-strizhka/minsk/",
+     "price": "женская средний волос 70; мужская модельная 45 руб.",
+     "za_chto": "≈ 57"
+    }
+   ],
+   "kommentariy": "Типовой визит в парикмахерскую = одна стрижка (смесь мужских и женских). Медиана ≈ 50."
+  },
+  "женская стрижка|стрижка женская": {
+   "check": 70,
+   "basis": "tipovoy",
+   "n": 7,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "ICON",
+     "url": "https://www.relax.by/list/parikmaherskie-zhenskaja-strizhka/minsk/",
+     "price": "Стрижка женская 95 руб.",
+     "za_chto": "одна стрижка"
+    },
+    {
+     "company": "Шоколад",
+     "url": "https://www.relax.by/list/parikmaherskie-zhenskaja-strizhka/minsk/",
+     "price": "Стрижка женская (средний волос) 70 руб. (без акции)",
+     "za_chto": "средняя длина"
+    },
+    {
+     "company": "Да-студия",
+     "url": "https://www.relax.by/list/parikmaherskie-zhenskaja-strizhka/minsk/",
+     "price": "Стрижка женская (средний волос) 65 руб.",
+     "za_chto": "средняя длина"
+    },
+    {
+     "company": "Тезоро",
+     "url": "https://www.relax.by/list/parikmaherskie-zhenskaja-strizhka/minsk/",
+     "price": "Стрижка средних волос 75 руб.",
+     "za_chto": "средняя длина"
+    },
+    {
+     "company": "Надежда",
+     "url": "https://www.relax.by/list/parikmaherskie-zhenskaja-strizhka/minsk/",
+     "price": "Стрижка женская (средние волосы) 60 руб.",
+     "za_chto": "средняя длина"
+    },
+    {
+     "company": "Zhukovskaya",
+     "url": "https://www.relax.by/list/parikmaherskie-zhenskaja-strizhka/minsk/",
+     "price": "Женская стрижка (любая длина) от 70 руб.",
+     "za_chto": "от-цена"
+    },
+    {
+     "company": "Мон Платин Центр",
+     "url": "https://www.relax.by/list/parikmaherskie-zhenskaja-strizhka/minsk/",
+     "price": "Стрижка женская 100 руб.",
+     "za_chto": "одна стрижка"
+    }
+   ],
+   "kommentariy": "relax.by 18.11, салоны в выдаче категории; медиана [60,65,70,70,75,95,100]=70. Каталог тянет к салонам среднего+ уровня."
+  },
+  "окрашивание волос": {
+   "check": 190,
+   "basis": "tipovoy",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Zhukovskaya",
+     "url": "https://www.relax.by/list/parikmaherskie-okrashivanije-volos/minsk/",
+     "price": "Окрашивание в один тон от 230 руб.",
+     "za_chto": "один тон"
+    },
+    {
+     "company": "ICON",
+     "url": "https://www.relax.by/list/parikmaherskie-okrashivanije-volos/minsk/",
+     "price": "Окрашивание Keune (средние) 185 руб.",
+     "za_chto": "средняя длина"
+    },
+    {
+     "company": "Шоколад",
+     "url": "https://www.relax.by/list/parikmaherskie-okrashivanije-volos/minsk/",
+     "price": "Сложное окрашивание (средние) 200 руб. (без акции)",
+     "za_chto": "средняя длина"
+    },
+    {
+     "company": "BellaNika",
+     "url": "https://www.relax.by/list/parikmaherskie-okrashivanije-volos/minsk/",
+     "price": "тон в тон от 100; сложное (средней густоты) 240 руб.",
+     "za_chto": "≈ 170 средне"
+    },
+    {
+     "company": "Мон Платин Центр",
+     "url": "https://www.relax.by/list/parikmaherskie-okrashivanije-volos/minsk/",
+     "price": "в один тон от 150 руб.",
+     "za_chto": "один тон"
+    }
+   ],
+   "kommentariy": "Окрашивание средней длины, один тон/сложное. Медиана [150,170,185,200,230]=185, округлено 190."
+  },
+  "наращивание волос": {
+   "check": 650,
+   "basis": "ot",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Красота Вашей Мечты",
+     "url": "https://www.relax.by/list/parikmaherskie-narashhivanije-volos/minsk/",
+     "price": "Голливудское наращивание 2 ряда от 690 руб.",
+     "za_chto": "типовой объём 2 ряда"
+    },
+    {
+     "company": "Perfection Style",
+     "url": "https://www.relax.by/list/parikmaherskie-narashhivanije-volos/minsk/",
+     "price": "капсульное наращивание 2,50 руб. за капсулу",
+     "za_chto": "~120–150 капсул ≈ 300–375 только работа, без волос"
+    },
+    {
+     "company": "Zhukovskaya",
+     "url": "https://www.relax.by/list/parikmaherskie-narashhivanije-volos/minsk/",
+     "price": "коррекция голливудского наращивания 2 тресса 295 руб.",
+     "za_chto": "коррекция, первичное дороже"
+    }
+   ],
+   "kommentariy": "Мало прямых цен «под ключ»: работа 300–700, волосы отдельно. Взято ≈ 650 (2 ряда/150 капсул с работой). Сомнительно."
+  },
+  "кератиновое выпрямление|кератин": {
+   "check": 240,
+   "basis": "tipovoy",
+   "n": 6,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Да-студия",
+     "url": "https://www.relax.by/list/parikmaherskie-keratinovoje-vypryamlenije-volos/minsk/",
+     "price": "Кератиновое выпрямление (средний волос) 350 руб.",
+     "za_chto": "средняя длина"
+    },
+    {
+     "company": "Надежда",
+     "url": "https://www.relax.by/list/parikmaherskie-keratinovoje-vypryamlenije-volos/minsk/",
+     "price": "Brazilian Blowout (средние) 250 руб.",
+     "za_chto": "средняя длина"
+    },
+    {
+     "company": "ICON",
+     "url": "https://www.relax.by/list/parikmaherskie-keratinovoje-vypryamlenije-volos/minsk/",
+     "price": "Brazilian Blowout средняя длина от 295 руб.",
+     "za_chto": "средняя длина"
+    },
+    {
+     "company": "SPA Paradise",
+     "url": "https://www.relax.by/list/parikmaherskie-keratinovoje-vypryamlenije-volos/minsk/",
+     "price": "Кератиновое выпрямление от 160 руб.",
+     "za_chto": "от"
+    },
+    {
+     "company": "Sanika",
+     "url": "https://www.relax.by/list/parikmaherskie-keratinovoje-vypryamlenije-volos/minsk/",
+     "price": "Кератиновое выпрямление от 200 руб.",
+     "za_chto": "от"
+    },
+    {
+     "company": "Tori Lozovaya",
+     "url": "https://www.relax.by/list/parikmaherskie-keratinovoje-vypryamlenije-volos/minsk/",
+     "price": "Brazilian blowout от 230 руб.",
+     "za_chto": "от"
+    }
+   ],
+   "kommentariy": "Медиана [160,200,230,250,295,350]=240."
+  },
+  "барбершоп|мужская стрижка": {
+   "check": 50,
+   "basis": "tipovoy",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Barbershop Corner",
+     "url": "https://www.relax.by/list/parikmaherskie-muzhskaja-strizhka/minsk/",
+     "price": "Мужская стрижка 40 руб.",
+     "za_chto": "одна стрижка"
+    },
+    {
+     "company": "THE BAZA",
+     "url": "https://www.relax.by/list/parikmaherskie-strizhka/minsk/",
+     "price": "Стрижка мужская 60 руб.",
+     "za_chto": "одна стрижка"
+    },
+    {
+     "company": "ICON",
+     "url": "https://www.relax.by/list/parikmaherskie-muzhskaja-strizhka/minsk/",
+     "price": "Стрижка мужская 55 руб.",
+     "za_chto": "одна стрижка"
+    },
+    {
+     "company": "Zhukovskaya",
+     "url": "https://www.relax.by/list/parikmaherskie-muzhskaja-strizhka/minsk/",
+     "price": "Мужская стрижка 50 руб.",
+     "za_chto": "одна стрижка"
+    },
+    {
+     "company": "Надежда",
+     "url": "https://www.relax.by/list/parikmaherskie-muzhskaja-strizhka/minsk/",
+     "price": "Стрижка мужская (средние) 45 руб.",
+     "za_chto": "одна стрижка"
+    }
+   ],
+   "kommentariy": "Медиана [40,45,50,55,60]=50."
+  },
+  "маникюр": {
+   "check": 80,
+   "basis": "tipovoy",
+   "n": 7,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Zhukovskaya",
+     "url": "https://www.relax.by/list/manicure-manikyur-s-gely-lakom/minsk/",
+     "price": "Маникюр со снятием и долговременным покрытием 80 руб.",
+     "za_chto": "маникюр+гель-лак"
+    },
+    {
+     "company": "ICON",
+     "url": "https://www.relax.by/list/manicure-manikyur-s-gely-lakom/minsk/",
+     "price": "Маникюр с долговременным покрытием 90 руб.",
+     "za_chto": "маникюр+гель-лак"
+    },
+    {
+     "company": "SPA Paradise",
+     "url": "https://www.relax.by/list/manicure-manikyur-s-gely-lakom/minsk/",
+     "price": "Маникюр с долговременным цветным покрытием 79 руб.",
+     "za_chto": "маникюр+гель-лак"
+    },
+    {
+     "company": "Nailberry",
+     "url": "https://www.relax.by/list/manicure-manikyur-s-gely-lakom/minsk/",
+     "price": "Комбинированный маникюр + снятие + покрытие 49 руб.",
+     "za_chto": "маникюр+гель-лак"
+    },
+    {
+     "company": "Beauty Bank",
+     "url": "https://www.relax.by/list/manicure-manikyur-s-gely-lakom/minsk/",
+     "price": "Маникюр, гель-лак 80 руб.",
+     "za_chto": "маникюр+гель-лак"
+    },
+    {
+     "company": "BellaNika",
+     "url": "https://www.relax.by/list/manicure-manikyur-s-gely-lakom/minsk/",
+     "price": "Снятие + маникюр + покрытие 75 руб.",
+     "za_chto": "маникюр+гель-лак"
+    },
+    {
+     "company": "Шоколад",
+     "url": "https://www.relax.by/list/manicure-manikyur-s-gely-lakom/minsk/",
+     "price": "Маникюр + долговременное покрытие 80 руб. (по акции 48)",
+     "za_chto": "маникюр+гель-лак"
+    }
+   ],
+   "kommentariy": "Маникюр с покрытием гель-лаком. Медиана 80 по салонам relax.by; частные мастера и сети эконом 45–55 – реальный средний чек может быть ниже."
+  },
+  "педикюр": {
+   "check": 100,
+   "basis": "tipovoy",
+   "n": 6,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Zhukovskaya",
+     "url": "https://www.relax.by/list/manicure-pedikyur-gely-lak/minsk/",
+     "price": "Комбинированный педикюр с покрытием 110 руб.",
+     "za_chto": "педикюр+покрытие"
+    },
+    {
+     "company": "ICON",
+     "url": "https://www.relax.by/list/manicure-pedikyur-gely-lak/minsk/",
+     "price": "Педикюр с долговременным покрытием 105 руб.",
+     "za_chto": "педикюр+покрытие"
+    },
+    {
+     "company": "Nailberry",
+     "url": "https://www.relax.by/list/manicure-pedikyur-gely-lak/minsk/",
+     "price": "Педикюр + долговременное покрытие 60 руб.",
+     "za_chto": "педикюр+покрытие"
+    },
+    {
+     "company": "SPA Paradise",
+     "url": "https://www.relax.by/list/manicure-pedikyur-gely-lak/minsk/",
+     "price": "Smart-педикюр с покрытием и снятием 83 руб.",
+     "za_chto": "педикюр+покрытие"
+    },
+    {
+     "company": "BellaNika",
+     "url": "https://www.relax.by/list/manicure-pedikyur-gely-lak/minsk/",
+     "price": "Педикюр с долговременным покрытием 95 руб.",
+     "za_chto": "педикюр+покрытие"
+    },
+    {
+     "company": "Мон Платин Центр",
+     "url": "https://www.relax.by/list/manicure-pedikyur-gely-lak/minsk/",
+     "price": "Smart педикюр с долговременным покрытием 100 руб.",
+     "za_chto": "педикюр+покрытие"
+    }
+   ],
+   "kommentariy": "Медиана [60,83,95,100,105,110]=97,5 → 100."
+  },
+  "наращивание ногтей": {
+   "check": 115,
+   "basis": "tipovoy",
+   "n": 6,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Да-студия",
+     "url": "https://www.relax.by/list/manicure-narashhivanije-nogtej/minsk/",
+     "price": "Наращивание + покрытие (до 2,5 см) 154 руб.",
+     "za_chto": "первичное наращивание"
+    },
+    {
+     "company": "SPA Paradise",
+     "url": "https://www.relax.by/list/manicure-narashhivanije-nogtej/minsk/",
+     "price": "Наращивание гелем до 7 мм 105 руб.",
+     "za_chto": "первичное"
+    },
+    {
+     "company": "Nailberry",
+     "url": "https://www.relax.by/list/manicure-narashhivanije-nogtej/minsk/",
+     "price": "Наращивание ногтей (1–2 мм) 115 руб.",
+     "za_chto": "первичное"
+    },
+    {
+     "company": "BellaNika",
+     "url": "https://www.relax.by/list/manicure-narashhivanije-nogtej/minsk/",
+     "price": "Наращивание с однотонным покрытием 110 руб.",
+     "za_chto": "первичное"
+    },
+    {
+     "company": "ICON",
+     "url": "https://www.relax.by/list/manicure-narashhivanije-nogtej/minsk/",
+     "price": "Наращивание ногтей от 120 руб.",
+     "za_chto": "от"
+    },
+    {
+     "company": "Moipodolog",
+     "url": "https://www.relax.by/list/manicure-narashhivanije-nogtej/minsk/",
+     "price": "Маникюр + моделирование 100 руб.",
+     "za_chto": "первичное"
+    }
+   ],
+   "kommentariy": "Медиана [100,105,110,115,120,154]=112,5 → 115."
+  },
+  "наращивание ресниц|ламинирование ресниц": {
+   "check": 75,
+   "basis": "tipovoy",
+   "n": 7,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Да-студия",
+     "url": "https://www.relax.by/list/beauty-narashhivanije-resnic/minsk/",
+     "price": "Классическое наращивание 100 руб.",
+     "za_chto": "классика"
+    },
+    {
+     "company": "BellaNika",
+     "url": "https://www.relax.by/list/beauty-narashhivanije-resnic/minsk/",
+     "price": "Классическое наращивание 70 руб.",
+     "za_chto": "классика"
+    },
+    {
+     "company": "Lagoda Beauty",
+     "url": "https://www.relax.by/list/beauty-narashhivanije-resnic/minsk/",
+     "price": "Классическое наращивание 60 руб.",
+     "za_chto": "классика"
+    },
+    {
+     "company": "Мильфей",
+     "url": "https://www.relax.by/list/beauty-narashhivanije-resnic/minsk/",
+     "price": "Классическое наращивание 75 руб.",
+     "za_chto": "классика"
+    },
+    {
+     "company": "Izumrud",
+     "url": "https://www.relax.by/list/beauty-narashhivanije-resnic/minsk/",
+     "price": "Классическое 1d 100 руб.",
+     "za_chto": "классика"
+    },
+    {
+     "company": "Valeria Studio",
+     "url": "https://www.relax.by/list/beauty-narashhivanije-resnic/minsk/",
+     "price": "Наращивание ресниц 50 руб.",
+     "za_chto": "классика"
+    },
+    {
+     "company": "Nailberry",
+     "url": "https://www.relax.by/list/beauty-narashhivanije-resnic/minsk/",
+     "price": "Наращивание классика 49 руб.",
+     "za_chto": "классика"
+    }
+   ],
+   "kommentariy": "Классическое наращивание. Медиана [49,50,60,70,75,100,100]=70; с 1,5D–2D ближе к 80 → 75."
+  },
+  "оформление бровей|ламинирование бровей": {
+   "check": 45,
+   "basis": "tipovoy",
+   "n": 6,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Zhukovskaya",
+     "url": "https://www.relax.by/list/beauty-korrekcija-brovej/minsk/",
+     "price": "Коррекция + окрашивание бровей 45 руб.",
+     "za_chto": "коррекция+окрашивание"
+    },
+    {
+     "company": "SPA Paradise",
+     "url": "https://www.relax.by/list/beauty-korrekcija-brovej/minsk/",
+     "price": "Коррекция + окрашивание 37 руб.",
+     "za_chto": "коррекция+окрашивание"
+    },
+    {
+     "company": "Beauty Bank",
+     "url": "https://www.relax.by/list/beauty-korrekcija-brovej/minsk/",
+     "price": "Коррекция + окрашивание 50 руб.",
+     "za_chto": "коррекция+окрашивание"
+    },
+    {
+     "company": "BROW ZONE",
+     "url": "https://www.relax.by/list/beauty-korrekcija-brovej/minsk/",
+     "price": "Коррекция + окрашивание 45; укладка+коррекция+окрашивание 60 руб.",
+     "za_chto": "коррекция+окрашивание"
+    },
+    {
+     "company": "ICON",
+     "url": "https://www.relax.by/list/beauty-korrekcija-brovej/minsk/",
+     "price": "Архитектура бровей 55 руб.",
+     "za_chto": "архитектура"
+    },
+    {
+     "company": "BellaNika",
+     "url": "https://www.relax.by/list/beauty-korrekcija-brovej/minsk/",
+     "price": "Коррекция + моделирование + окрашивание 45 руб.",
+     "za_chto": "комплекс"
+    }
+   ],
+   "kommentariy": "Оформление (коррекция+окрашивание). Медиана 45; ламинирование/долговременная укладка с комплексом 60–80."
+  },
+  "перманентный макияж|татуаж бровей": {
+   "check": 250,
+   "basis": "tipovoy",
+   "n": 7,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Beauty Bank",
+     "url": "https://www.relax.by/list/tattoo-tatuazh-brovej/minsk/",
+     "price": "Перманентный макияж бровей 360 руб.",
+     "za_chto": "брови"
+    },
+    {
+     "company": "Sanika",
+     "url": "https://www.relax.by/list/tattoo-tatuazh-brovej/minsk/",
+     "price": "Перманентный макияж бровей 250 руб.",
+     "za_chto": "брови"
+    },
+    {
+     "company": "SPA Paradise",
+     "url": "https://www.relax.by/list/tattoo-tatuazh-brovej/minsk/",
+     "price": "Перманентный макияж бровей 250 руб.",
+     "za_chto": "брови"
+    },
+    {
+     "company": "ГЕЛЕНС",
+     "url": "https://www.relax.by/list/tattoo-tatuazh-brovej/minsk/",
+     "price": "Перманентный макияж бровей 250 руб.",
+     "za_chto": "брови"
+    },
+    {
+     "company": "INTUITION",
+     "url": "https://www.relax.by/list/tattoo-tatuazh-brovej/minsk/",
+     "price": "Перманентный макияж: брови 375 руб.",
+     "za_chto": "брови"
+    },
+    {
+     "company": "Студия Алексея Набедо",
+     "url": "https://www.relax.by/list/tattoo-tatuazh-brovej/minsk/",
+     "price": "Перманент бровей 200–300 руб.",
+     "za_chto": "брови ≈ 230"
+    },
+    {
+     "company": "Perfection Style",
+     "url": "https://www.relax.by/list/tattoo-tatuazh-brovej/minsk/",
+     "price": "Перманент бровей 300 руб.",
+     "za_chto": "брови"
+    }
+   ],
+   "kommentariy": "Медиана [230,250,250,250,300,360,375]=250. Коррекция (+125) не включена."
+  },
+  "шугаринг|депиляция|восковая эпиляция": {
+   "check": 50,
+   "basis": "tipovoy",
+   "n": 5,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Sanika",
+     "url": "https://www.relax.by/list/beauty-shugaring/minsk/",
+     "price": "Шугаринг глубокого бикини 49 руб.",
+     "za_chto": "одна зона"
+    },
+    {
+     "company": "SPA Paradise",
+     "url": "https://www.relax.by/list/beauty-shugaring/minsk/",
+     "price": "Шугаринг глубокого бикини 53 руб.",
+     "za_chto": "одна зона"
+    },
+    {
+     "company": "Шевелюра",
+     "url": "https://www.relax.by/list/beauty-shugaring/minsk/",
+     "price": "Депиляция воском/шугаринг глубокое бикини 75 руб.; шугаринг глубокое бикини 40 руб.",
+     "za_chto": "одна зона ≈ 57"
+    },
+    {
+     "company": "Флер",
+     "url": "https://www.relax.by/list/beauty-shugaring/minsk/",
+     "price": "шугаринг бикини от 35 руб.",
+     "za_chto": "от"
+    },
+    {
+     "company": "Мон Платин Центр",
+     "url": "https://www.relax.by/list/beauty-shugaring/minsk/",
+     "price": "голени + бикини глубокое 100 руб.",
+     "za_chto": "комплекс 2 зоны"
+    }
+   ],
+   "kommentariy": "Одна процедура = глубокое бикини ~50; визит с двумя зонами 90–100. Взято 50 по одной зоне."
+  },
+  "тату салон|сделать тату": {
+   "basis": "tipovoy",
+   "n": 0,
+   "status": "net",
+   "sources": [],
+   "kommentariy": "не успел собрать"
+  }
+ }
+}

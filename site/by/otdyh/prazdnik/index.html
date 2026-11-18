@@ -104,6 +104,9 @@ body.show-seo .w-seo { display: block; }
 .w-form { border: 2px solid var(--ink); padding: 18px; display: grid; gap: 12px; max-width: 520px; }
 .w-field { display: grid; gap: 4px; font-size: 14px; }
 .w-field input, .w-field select { min-height: 44px; border: 1px solid var(--ink); padding: 0 10px; font: inherit; background: #fff; }
+/* длинный вариант в select не распирает форму на телефоне (18.11.2026: вылезало на 8 px при 390) */
+.w-form > *, .w-field { min-width: 0; }
+.w-field input, .w-field select { width: 100%; max-width: 100%; }
 .w-check { display: flex; gap: 8px; align-items: flex-start; font-size: 13.5px; }
 
 /* Полоса призыва */
@@ -298,7 +301,7 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head>
           <div><b id="r-y">…</b><span><span class="js-cur">₽</span> за год</span></div>
         </div>
         <details><summary>Как считаем</summary>
-          <p class="p-formula">горячие поиски (Яндекс + Google) × 50% переходят на сайты (остальные – карты, агрегаторы; для запросов «рядом» – вдвое меньше) × 20% достаются сайту в топ-3 × 8% звонят или пишут × доля заказов раздела (от 12% у домов до 60%) × средний чек.<br>Лендинг забирает ≈15% этого, сайт без продвижения ≈10%, без сайта – 0.</p>
+          <p class="p-formula">горячие поиски (Яндекс + Google) × 30% переходят на сайты (остальные – карты, агрегаторы; для запросов «рядом» – вдвое меньше) × 20% достаются сайту в топ-3 × 8% звонят или пишут × доля заказов раздела (от 12% у домов до 60%) × средний чек.<br>Лендинг забирает ≈15% этого, сайт без продвижения ≈10%, без сайта – 0.</p>
           <p class="w-ask">[запросить: подтвердить коэффициенты на Метрике Evolution Car Service Минск и своих сайтов]</p>
         </details>
       </div>

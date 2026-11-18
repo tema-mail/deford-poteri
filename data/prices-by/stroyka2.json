@@ -654,7 +654,7 @@
   "ремонт в новостройке|ремонт новостройки": {
    "check": 26400,
    "basis": "ot",
-   "n": 3,
+   "n": 2,
    "status": "ok",
    "sources": [
     {
@@ -668,15 +668,9 @@
      "url": "https://allrem.by/blog/skolko-stoit-remont-kvartiry-v-minske-2026",
      "price": "новостройка без отделки 380–600 BYN/м²",
      "za_chto": "55 × 490 = 26 950 BYN"
-    },
-    {
-     "company": "Ровно-Ровно (пример)",
-     "url": "https://rovno-rovno.by/remont-kvartir-v-novostrojkah/",
-     "price": "пример: 2-комнатная – 31 490 BYN, только работа",
-     "za_chto": "31 490 BYN – тот же сайт, в n не считаю отдельно"
     }
    ],
-   "kommentariy": "Типовой заказ: ремонт двухкомнатной квартиры 55 м² в новостройке (без отделки) под ключ, работа без материалов. Медиана двух расчётов 26 400 / 26 950 ≈ 26 400 BYN (пример с сайта 31 490). Третья строка – тот же сайт."
+   "kommentariy": "Типовой заказ: ремонт двухкомнатной квартиры 55 м² в новостройке (без отделки) под ключ, работа без материалов. Среднее двух расчётов 26 400 / 26 950 ≈ 26 400 BYN (округлено вниз; пример с сайта rovno-rovno – 2-комн. 31 490 BYN работы)."
   },
   "дизайн интерьера|дизайн проект квартиры": {
    "check": 6300,
@@ -1192,207 +1186,847 @@
    "kommentariy": "Типовой заказ: перетяжка прямого трёхместного дивана с тканью среднего класса. Медиана 200 / 218 / 248 = 218 ≈ 220 BYN. Угловой диван – 300–400."
   },
   "лестница на второй этаж|лестницы на второй этаж": {
+   "check": 4200,
    "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Сталь-Ключ (stalkluch.by)",
+     "url": "https://stalkluch.by/portfolio/lestnitsa-v-dom-na-metallicheskom-karkase-s-derevyannymi-stupenyami",
+     "price": "лестница на 2 этаж на металлокаркасе со ступенями из сосны – 4100 руб.; двойной косоур ориентировочно 3000–4500 руб.",
+     "za_chto": "4 100 BYN под ключ"
+    },
+    {
+     "company": "Пульс цен (minsk.pulscen.by)",
+     "url": "https://minsk.pulscen.by/price/101715-lestnitsy/f:61732_mietallichieskiie",
+     "price": "на металлокаркасе с деревянными ступенями ~3000–4000 руб. за шт.",
+     "za_chto": "середина 3 500 BYN"
+    },
+    {
+     "company": "КакСвоим (kaksvoim.by)",
+     "url": "https://kaksvoim.by/minsk-lestnicy/",
+     "price": "деревянные от 4 499 BYN; на металлокаркасе от 1 699 BYN",
+     "za_chto": "деревянная 4 499 BYN"
+    },
+    {
+     "company": "mebelny-shchit.by",
+     "url": "https://mebelny-shchit.by/catalog/lestnitsy-pod-klyuch/derevyannaya-lestnitsa",
+     "price": "деревянная лестница цена от 4290 руб./шт.",
+     "za_chto": "4 290 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: лестница на второй этаж частного дома (дерево или металлокаркас с деревянными ступенями) под ключ, без сложного ограждения. Медиана 3 500 / 4 100 / 4 290 / 4 499 = 4 195 ≈ 4 200 BYN."
   },
   "деревянные лестницы|лестница из дерева": {
+   "check": 4400,
    "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "КакСвоим (kaksvoim.by)",
+     "url": "https://kaksvoim.by/minsk-lestnicy/",
+     "price": "деревянные от 4 499 BYN",
+     "za_chto": "4 499 BYN"
+    },
+    {
+     "company": "mebelny-shchit.by",
+     "url": "https://mebelny-shchit.by/catalog/lestnitsy-pod-klyuch/derevyannaya-lestnitsa",
+     "price": "деревянная лестница от 4290 руб./шт. (сосна; ольха +30%, лиственница ×2, дуб дороже)",
+     "za_chto": "4 290 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: деревянная (сосна) лестница на второй этаж под ключ. Среднее 4 290 / 4 499 ≈ 4 400 BYN. В выдаче есть «от 2 500» и «от 1 900 BYN» у других сайтов – не открывал, в расчёт не брал. Дуб – ×2–2,5."
   },
   "металлическая лестница|лестница на металлокаркасе": {
+   "check": 3800,
    "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Сталь-Ключ (stalkluch.by)",
+     "url": "https://stalkluch.by/portfolio/lestnitsa-v-dom-na-metallicheskom-karkase-s-derevyannymi-stupenyami",
+     "price": "на металлокаркасе со ступенями из сосны – 4100 руб.",
+     "za_chto": "4 100 BYN"
+    },
+    {
+     "company": "Элитвуд на Deal.by",
+     "url": "https://elitwood.by/p7106761-lestnitsa-metallokarkase.html",
+     "price": "лестница на металлокаркасе № 1 от 4500 руб. за комплект (в другом разделе от 3600)",
+     "za_chto": "4 500 BYN (сниппет)"
+    },
+    {
+     "company": "Пульс цен",
+     "url": "https://minsk.pulscen.by/price/101715-lestnitsy/f:61732_mietallichieskiie",
+     "price": "~3000–4000 руб. за шт.",
+     "za_chto": "3 500 BYN"
+    },
+    {
+     "company": "КакСвоим",
+     "url": "https://kaksvoim.by/minsk-lestnicy/",
+     "price": "на металлокаркасе от 1 699 BYN",
+     "za_chto": "1 699 BYN, скорее каркас"
+    }
+   ],
+   "kommentariy": "Типовой заказ: лестница на металлокаркасе с деревянными ступенями на второй этаж, под ключ. Медиана 1 699 / 3 500 / 4 100 / 4 500 = 3 800 BYN."
   },
   "установка камина|камин под ключ|печь камин": {
-   "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 5750,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Город Котлов",
+     "url": "https://gorodkotlov.by/services/montazh-kaminov/",
+     "price": "монтаж каминной топки с зашивкой из силиката кальция от 900 BYN, с дымоходом от 1550 BYN",
+     "za_chto": "1 550 + топка ~3 300 (Fenix, pechibani.by) = 4 850 BYN"
+    },
+    {
+     "company": "ExpressMaster (печник)",
+     "url": "https://expressmaster.by/minsk-pech",
+     "price": "камин с закрытой топкой (кассета) от 2 200 руб.",
+     "za_chto": "2 200 + топка ~3 300 = 5 500 BYN"
+    },
+    {
+     "company": "kamin.by (статья)",
+     "url": "https://kamin.by/skolko-stoyat-kaminy",
+     "price": "камин под ключ без дымохода ~от 2000 у.е.",
+     "za_chto": "2 000 × 2,9987 = 5 997 BYN (статья ~6 лет)"
+    },
+    {
+     "company": "izrazec.by (пример сметы)",
+     "url": "https://izrazec.by/tseny/tseny-kaminy/",
+     "price": "топка Piazzetta 10 032 BYN, изразцы 16 674 BYN, работа 5 890 BYN",
+     "za_chto": "32 596 BYN – премиум"
+    }
+   ],
+   "kommentariy": "Типовой заказ: камин под ключ в частном доме – каминная топка средней ценовой категории + облицовка + дымоход + монтаж. Медиана 4 850 / 5 500 / 5 997 / 32 596 = 5 749 ≈ 5 750 BYN."
   },
   "печь для бани|печи для бани": {
+   "check": 1020,
    "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Amazonka.by",
+     "url": "https://amazonka.by/pechi-dlya-bani",
+     "price": "банные печи 240–4370 BYN; бюджетные ~570–720 BYN",
+     "za_chto": "645 BYN (середина бюджетных)"
+    },
+    {
+     "company": "Propechi.by",
+     "url": "https://propechi.by/catalog/pechi-dlya-banu/",
+     "price": "Harvia от ~1 400 BYN",
+     "za_chto": "1 400 BYN"
+    },
+    {
+     "company": "Pechibani.by",
+     "url": "https://pechibani.by/pechi-dlya-bani/",
+     "price": "Helo ~2 500–17 500 BYN",
+     "za_chto": "2 500 BYN «от»"
+    },
+    {
+     "company": "Woodfuel.by",
+     "url": "https://woodfuel.by/produkciya/pechi-dlya-bani.html",
+     "price": "цены от 528 руб.",
+     "za_chto": "528 BYN «от»"
+    }
+   ],
+   "kommentariy": "Типовой заказ: дровяная печь для бани без монтажа. Медиана 528 / 645 / 1 400 / 2 500 = 1 023 ≈ 1 020 BYN. Монтаж с дымоходом – ещё 500–1 000 BYN (цен в выдаче нет)."
   },
   "кладка печи|печник": {
+   "check": 2190,
    "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Сделаем (pechi.sdelaem.by)",
+     "url": "https://pechi.sdelaem.by/kladka-pechej/",
+     "price": "отопительная печь 510×510×2100 мм ~603 BYN; русская печь 1260×1635×2100 ~3174 BYN; от 2,3 BYN за кирпич",
+     "za_chto": "отопительная 603, русская 3 174"
+    },
+    {
+     "company": "ExpressMaster (печник)",
+     "url": "https://expressmaster.by/minsk-pech",
+     "price": "отопительная печь с материалами от 1 200 руб.",
+     "za_chto": "1 200 BYN"
+    },
+    {
+     "company": "sgm.by (обзор 2026)",
+     "url": "https://sgm.by/pechi-minsk/articles/ceny-na-kladku-kaminov-pechej-v-minske-uslugi-pechnikov-remont",
+     "price": "русская печь с лежанкой около 3800 BYN и выше за кладку; 2,3–9,9 BYN за кирпич",
+     "za_chto": "3 800 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: кладка отопительной или отопительно-варочной печи в частном доме. Медиана 603 / 1 200 / 3 174 / 3 800 = 2 187 ≈ 2 190 BYN. Ориентир «печник» как услуги очень широк: от ремонта за 100 до русской печи 4 000+."
   },
   "монтаж дымохода|дымоход": {
+   "check": 580,
    "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Теплосервис (teploservis.by)",
+     "url": "https://teploservis.by/services/montazh-bytovogo-dymohoda/czeny-na-montazh-dymohoda/",
+     "price": "сэндвич по фасаду от 400 руб., внутри с выходом через кровлю от 500 руб.",
+     "za_chto": "500 BYN, работа"
+    },
+    {
+     "company": "Kupipech.by",
+     "url": "https://kupipech.by/montag",
+     "price": "сэндвич-труба 1 м от 60 руб; проход перекрытия/кровли от 150 руб.",
+     "za_chto": "6 × 60 + 2 × 150 = 660 BYN, работа"
+    },
+    {
+     "company": "Kaminminsk.by",
+     "url": "https://kaminminsk.by/services/servisnye-sluzhby/nastroyka-elektroniki/",
+     "price": "установка сэндвич дымохода – 700 руб.",
+     "za_chto": "700 BYN"
+    },
+    {
+     "company": "ГазТеплоМонтаж (gaztgm.by)",
+     "url": "https://gaztgm.by/teplosnabzhenie-prays",
+     "price": "дымоход сэндвич вертикальный (без аренды вышки) 100$",
+     "za_chto": "100 × 2,9987 = 300 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: монтаж сэндвич-дымохода ~6 м с проходом перекрытия и кровли, работа без материалов. Медиана 300 / 500 / 660 / 700 = 580 BYN. Материал (сэндвич 6 м + узлы) – ещё ~600–1 000 BYN."
   },
   "установка кондиционера|кондиционер с установкой": {
-   "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 1580,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "swcomfort.by + splitsystems.by",
+     "url": "https://swcomfort.by/product/kondicioner-mitsudai-sento-2026-md-sne09ai/",
+     "price": "Mitsudai Sento 2026 MD-SNE09AI – 929,00 BYN; стандартный монтаж 350–700 BYN (splitsystems.by)",
+     "za_chto": "929 + 525 = 1 454 BYN"
+    },
+    {
+     "company": "Aircomfort",
+     "url": "https://aircomfort.by/catalog/kondicionery/",
+     "price": "«9»: от 1 155 BYN (on/off) до 2 199 BYN (инвертор Wi-Fi)",
+     "za_chto": "1 155 + 525 = 1 680 BYN"
+    },
+    {
+     "company": "Domex",
+     "url": "https://domex.by/other/montazh-konditsionerov",
+     "price": "монтаж сплит-системы менее 9 кВт от 650 бел.руб. (на 01.09.2025)",
+     "za_chto": "650 + 929 = 1 579 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: сплит-система «09» (до 25 м²) с монтажом под ключ, трасса до 4 м. Медиана 1 454 / 1 579 / 1 680 = 1 579 ≈ 1 580 BYN. Монтаж по splitsystems.by: https://splitsystems.by/news/skolko-stoit-ustanovit-kondiczioner-v-minske-i-po-belarusi-v-2026-godu/"
   },
   "купить кондиционер": {
-   "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 1140,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "swcomfort.by",
+     "url": "https://swcomfort.by/product/kondicioner-mitsudai-sento-2026-md-sne09ai/",
+     "price": "Mitsudai Sento 2026 MD-SNE09AI – 929,00 BYN",
+     "za_chto": "929 BYN"
+    },
+    {
+     "company": "21vek.by",
+     "url": "https://www.21vek.by/conditioners/9000_btu/",
+     "price": "бюджетные инверторы «9» ~878–1 400 BYN",
+     "za_chto": "середина 1 139 BYN"
+    },
+    {
+     "company": "Aircomfort",
+     "url": "https://aircomfort.by/catalog/kondicionery/",
+     "price": "«9»: от 1 155 BYN до 2 199 BYN",
+     "za_chto": "1 155 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: покупка сплит-системы «09» без монтажа. Медиана 929 / 1 139 / 1 155 = 1 139 ≈ 1 140 BYN. На деле многие покупают с монтажом – см. «кондиционер с установкой»."
   },
   "монтаж вентиляции|приточная вентиляция|вентиляция в частном доме": {
-   "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 6725,
+   "basis": "tipovoy",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Shopclimatic",
+     "url": "https://shopclimatic.by/sistemy-ventilyacii-pod-klyuch/pritochno-vytyazhnaya-sistema-na-baze-plastinchatogo-rekuperatora",
+     "price": "приточно-вытяжная система на пластинчатом рекуператоре Salda от 9300 р. с монтажными работами",
+     "za_chto": "9 300 BYN"
+    },
+    {
+     "company": "Aircomfort (таблица «сезон 2026»)",
+     "url": "https://aircomfort.by/catalog/ventilyatsiya/",
+     "price": "ПВУ с рекуперацией 3 200–16 500 BYN; монтаж и пусконаладка ПВУ под ключ от 950",
+     "za_chto": "3 200 + 950 = 4 150 BYN «от» (привязка таблицы к сайту по сниппету)"
+    }
+   ],
+   "kommentariy": "Типовой заказ: приточно-вытяжная вентиляция с рекуператором для дома/квартиры под ключ. Среднее 4 150 / 9 300 = 6 725 BYN. В выдаче также проекты Komfovent: квартира 72 м² – 5 500 € (18 144 BYN), коттедж 180 м² с кондиционированием – 11 500 € (37 937 BYN); сайт не открыт, в расчёт не брал. Курс EUR 3,2989."
   },
   "рекуператор|рекуператоры": {
-   "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 1710,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Statvent",
+     "url": "https://statvent.by/product/vakio-base-plus",
+     "price": "Vakio Base Smart ~1180 руб., монтаж 300 руб.",
+     "za_chto": "1 480 BYN"
+    },
+    {
+     "company": "Pritochka.by",
+     "url": "https://pritochka.by/rekuperatory",
+     "price": "компактные (Vakio Window Smart) ~1320–2500 руб.; монтаж под ключ 350–700 руб.",
+     "za_chto": "1 910 + 525 = 2 435 BYN"
+    },
+    {
+     "company": "Hobot.by",
+     "url": "https://www.hobot.by/catalog/ventilacia/provetrivateli/",
+     "price": "компактные рекуператоры ~720–1900 руб.",
+     "za_chto": "1 310 + монтаж ~400 = 1 710 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: настенный компактный рекуператор в комнату с установкой. Медиана 1 480 / 1 710 / 2 435 = 1 710 BYN. Центральная ПВУ с рекуперацией – см. «монтаж вентиляции»."
   },
   "воздуховоды|воздуховод": {
+   "check": 300,
    "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "n-a.by",
+     "url": "https://n-a.by/catalog/ventilyatsiya/vozdukhovody_kruglogo_secheniya/",
+     "price": "спирально-навивной Ø160 – 16,00 р/пог.м",
+     "za_chto": "30 п.м. × 16 = 480 BYN"
+    },
+    {
+     "company": "Dagaz",
+     "url": "https://dagaz.by/vozduhovody-i-fasonnye-chasti/",
+     "price": "круглый прямошовный от 7 р/м.пог., прямоугольный от 10 р/м.пог.",
+     "za_chto": "30 × 10 = 300 BYN"
+    },
+    {
+     "company": "vodostoc.by",
+     "url": "https://vodostoc.by/%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C/%D0%B2-%D0%BC%D0%B8%D0%BD%D1%81%D0%BA%D0%B5/%D0%B2%D0%BE%D0%B7%D0%B4%D1%83%D1%85%D0%BE%D0%B2%D0%BE%D0%B4-%D0%BE%D1%86%D0%B8%D0%BD%D0%BA%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9/",
+     "price": "Д100–Д315 от 9,60 р за 1 м",
+     "za_chto": "30 × 9,6 = 288 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: комплект оцинкованных воздуховодов ~30 п.м. для вентиляции дома, без фасонных деталей. Медиана 288 / 300 / 480 = 300 BYN. Фасонка 20–30 BYN/м² (прайс eredus.by 2020, устарел). Покупатель часто монтажная организация – чек B2B может быть в разы выше."
   },
   "чистка кондиционера|обслуживание кондиционеров": {
+   "check": 130,
    "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Redsale",
+     "url": "https://redsale.by/remont/ustanovka-konditsionerov/chistka",
+     "price": "средняя цена чистки кондиционера 116,7 руб. (мин 30, макс 190)",
+     "za_chto": "117 BYN"
+    },
+    {
+     "company": "Kandik.by",
+     "url": "https://kandik.by/obsluzhivaniye-konditsionera/",
+     "price": "ТО бытового настенного от 60 руб. за блок",
+     "za_chto": "60 BYN"
+    },
+    {
+     "company": "Condik.by",
+     "url": "https://condik.by/",
+     "price": "обслуживание, чистка и дезинфекция – 150 руб.",
+     "za_chto": "150 BYN"
+    },
+    {
+     "company": "Бонтехно",
+     "url": "https://bontehno.by/uslugi/servisnoe-obsluzhivanie",
+     "price": "выезд 45 + диагностика 80 + фильтры 15 + испаритель 20 + корпус 10 = 170 руб. без НДС",
+     "za_chto": "170 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: чистка/ТО одной бытовой сплит-системы с выездом. Медиана 60 / 117 / 150 / 170 = 133,5 ≈ 130 BYN."
   },
   "ландшафтный дизайн": {
-   "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 2370,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "ldesign.by",
+     "url": "https://ldesign.by/proekt-landshaftnogo-dizayna-tsena/",
+     "price": "участок 20 соток: минимальный 168, стандартный 191, премиум 330 руб. за сотку",
+     "za_chto": "12 соток × 191 = 2 292 BYN"
+    },
+    {
+     "company": "proektminsk.by",
+     "url": "https://proektminsk.by/uslugi/dizayn/landshaftnyy-dizayn/",
+     "price": "базовый от 48, стандартный от 68, полный от 104 у.е./сотка",
+     "za_chto": "12 × 68 × 2,9987 = 2 447 BYN"
+    },
+    {
+     "company": "Greenton",
+     "url": "https://greenton.by/services/proektirovanie/tseny-na-landshaftnoe-proektirovanie/",
+     "price": "участки 0–13 соток, пакет Smart – 3550 руб.",
+     "za_chto": "3 550 BYN"
+    },
+    {
+     "company": "GrassArea",
+     "url": "https://grassarea.by/landshaftnyj-dizajn/landshaftnoe-proektirovanie",
+     "price": "стоимость проекта от 950 бел.руб. (10 соток)",
+     "za_chto": "950 BYN «от»"
+    }
+   ],
+   "kommentariy": "Типовой заказ: ландшафтный проект участка 10–12 соток (стандартный пакет: генплан, дендроплан, разбивка). Медиана 950 / 2 292 / 2 447 / 3 550 = 2 370 BYN. Реализация – см. «благоустройство»."
   },
   "укладка тротуарной плитки|мощение": {
+   "check": 2560,
    "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Стройдвор (stroydvor.by)",
+     "url": "https://stroydvor.by/",
+     "price": "с выемкой грунта и основанием: пешеходная зона от 28 BYN/м², проезд от 26–30",
+     "za_chto": "80 м² × 28 = 2 240 BYN"
+    },
+    {
+     "company": "A-Строй (astroy.by)",
+     "url": "https://astroy.by/ukladka-trotuarnoj-plitki/",
+     "price": "укладка от 21,90 BYN/м² (основание, борт, материалы отдельно)",
+     "za_chto": "80 × 21,9 = 1 752 BYN"
+    },
+    {
+     "company": "N-Строй (n-stroy.by)",
+     "url": "https://n-stroy.by/uslugi/ukladka-trotuarnoy-plitki/",
+     "price": "укладка тротуарной плитки от 36 BYN/м²",
+     "za_chto": "80 × 36 = 2 880 BYN"
+    },
+    {
+     "company": "ВМА Строй (vmastroy.by)",
+     "url": "https://vmastroy.by/blagoustrojstvo-territoriy/",
+     "price": "укладка плитки с подготовкой основания от 37.00 за м²",
+     "za_chto": "80 × 37 = 2 960 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: мощение двора/парковки ~80 м² с подготовкой основания, работа без плитки. Медиана 1 752 / 2 240 / 2 880 / 2 960 = 2 560 BYN. С плиткой (~27 BYN/м²) чек ~4 700."
   },
   "купить тротуарную плитку|тротуарная плитка купить": {
-   "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 2200,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "DSA.BY",
+     "url": "https://www.dsa.by/catalog/trotuarnaya-plitka/",
+     "price": "кирпичик 6 см от 28 руб./м²",
+     "za_chto": "80 м² × 28 = 2 240 BYN"
+    },
+    {
+     "company": "gorazdo.by",
+     "url": "http://gorazdo.by/katalog-trotuarnaya-plitka-price.html",
+     "price": "от 26,75 р./м²",
+     "za_chto": "80 × 26,75 = 2 140 BYN"
+    },
+    {
+     "company": "Gausplitka",
+     "url": "https://gausplitka.by/shop/plitka",
+     "price": "«Новый город» 6 см серая 27.5 р./м²",
+     "za_chto": "80 × 27,5 = 2 200 BYN"
+    },
+    {
+     "company": "sgm.by (прайс от 01.11.2026)",
+     "url": "https://sgm.by/pricelist-minsk/articles/trotuarnaja-plitka-v-minske-kupit-bordjur",
+     "price": "цены от 24.6 бел. руб./м²",
+     "za_chto": "80 × 24,6 = 1 968 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: покупка серой тротуарной плитки 6 см на двор ~80 м², без доставки и укладки. Медиана 1 968 / 2 140 / 2 200 / 2 240 = 2 170 ≈ 2 200 BYN (округлено вверх: цветная +30%)."
   },
   "теплица из поликарбоната|теплицы": {
+   "check": 975,
    "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Shtenli-bel.by",
+     "url": "https://shtenli-bel.by/p231142272-teplitsa-polikarbonata-3h6.html",
+     "price": "теплица 3х6 (дуги 40х20) – 1 110 руб.",
+     "za_chto": "1 110 BYN"
+    },
+    {
+     "company": "Deal.by",
+     "url": "https://minsk.deal.by/catalog/Teplitsa-iz-polikarbonata-3-6.html",
+     "price": "одна из позиций 3х6 – 837 руб.",
+     "za_chto": "837 BYN"
+    },
+    {
+     "company": "Сделаем (sdelaem.by)",
+     "url": "https://sdelaem.by/teplicy/ceny/",
+     "price": "3х6 от 489 до 660 BYN (не ясно, с монтажом ли)",
+     "za_chto": "середина 575 BYN"
+    },
+    {
+     "company": "8sotokshop.by (завод теплиц)",
+     "url": "https://8sotokshop.by/catalog/parniki-i-teplicy-iz-polikarbonata/filter/sizes-is-3x6-m/apply/",
+     "price": "модели 3х6 ~727–1 900 руб.",
+     "za_chto": "середина 1 313 BYN (привязка диапазона к сайту по сниппету)"
+    }
+   ],
+   "kommentariy": "Типовой заказ: теплица из поликарбоната 3×6 м, комплект без сборки. Медиана 575 / 837 / 1 110 / 1 313 = 974 ≈ 975 BYN. Сборка/фундамент – +150–400 (прайсов не нашёл)."
   },
   "рулонный газон|посев газона|укладка газона": {
+   "check": 2400,
    "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "GrassArea",
+     "url": "https://grassarea.by/gazon-pod-klyuch",
+     "price": "газон под ключ от 8 руб/м²; укладка рулонного от 10 руб/м² работ",
+     "za_chto": "300 м² × 8 = 2 400 BYN"
+    },
+    {
+     "company": "Ozelenim.by",
+     "url": "https://ozelenim.by/rulonnyj-gazon",
+     "price": "от 100 до 300 м² – 8,00 BYN; до 100 м² – 11,00 BYN",
+     "za_chto": "300 × 8 = 2 400 BYN"
+    },
+    {
+     "company": "SADMASTER.BY",
+     "url": "https://sadmaster.by/ozelenenie-uchastka/gazon-pod-klyuch/",
+     "price": "рулонный газон под ключ от 12 рублей/м²",
+     "za_chto": "300 × 12 = 3 600 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: рулонный газон 300 м² (3 сотки) с подготовкой и укладкой. Медиана 2 400 / 2 400 / 3 600 = 2 400 BYN. Включён ли сам рулон (~7–8 BYN/м²) – у источников по-разному, поэтому basis «ot»."
   },
   "автополив": {
-   "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 7100,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "avto-poliv.by",
+     "url": "https://avto-poliv.by/avtopoliv-tsena-stoimost-oborudovaniya-i-ustanovki",
+     "price": "участок 5 соток – 1500 у.е., 10 соток – 2500 у.е., 15 соток – 3000 у.е.",
+     "za_chto": "2 500 × 2,9987 = 7 497 BYN (привязка таблицы к сайту по сниппету)"
+    },
+    {
+     "company": "выдача: gardenwater.by",
+     "url": "https://gardenwater.by/services/avtopoliv-uchastka/",
+     "price": "пример: 14 соток под ключ с оборудованием – 3900 долларов США",
+     "za_chto": "278 $/сотка × 10 × 2,9987 = 8 336 BYN (привязка по сниппету)"
+    },
+    {
+     "company": "выдача: grassarea.by",
+     "url": "https://grassarea.by/blagoustrojstvo-territorii/proektirovanie-i-montazh-sistem-avtopoliva",
+     "price": "150–300 у.е. за сотку",
+     "za_chto": "225 × 10 × 2,9987 = 6 747 BYN (привязка по сниппету)"
+    },
+    {
+     "company": "выдача: prolandshaft.by",
+     "url": "https://prolandshaft.by/services/9-avtopoliv-uchastka.html",
+     "price": "250–400 BYN за сотку",
+     "za_chto": "325 × 10 = 3 250 BYN (привязка по сниппету)"
+    }
+   ],
+   "kommentariy": "Типовой заказ: автополив газона на участке 10 соток под ключ (оборудование + монтаж). Медиана 3 250 / 6 747 / 7 497 / 8 336 = 7 122 ≈ 7 100 BYN. Цифры из сводки выдачи, привязка к конкретным сайтам не проверена открытием страниц; страницы 1,5–4 года."
   },
   "дренаж участка|дренажная система": {
+   "check": 2375,
    "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Профэк (profec.by)",
+     "url": "https://profec.by/uslugi/drenazh-uchastka/",
+     "price": "от 100 BYN за погонный метр под ключ",
+     "za_chto": "50 п.м. × 100 = 5 000 BYN"
+    },
+    {
+     "company": "Севердом (severdom.by)",
+     "url": "https://severdom.by/ustrojstvo-drenazha-na-uchastke/",
+     "price": "дренажные работы от 20 BYN/м.п.",
+     "za_chto": "50 × 20 = 1 000 BYN, работа"
+    },
+    {
+     "company": "navseruki.by",
+     "url": "https://navseruki.by/blagoustrojstvo-territorii/",
+     "price": "закрытый дренаж от 19 BYN",
+     "za_chto": "50 × 19 = 950 BYN"
+    },
+    {
+     "company": "Deal.by",
+     "url": "https://minsk.deal.by/Drenazh-uchastka.html",
+     "price": "устройство дренажа от 75 руб./пог.м",
+     "za_chto": "50 × 75 = 3 750 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: дренаж участка ~50 п.м. (траншея, геотекстиль, щебень, труба, колодец). Медиана 950 / 1 000 / 3 750 / 5 000 = 2 375 BYN. Разброс из-за базы: работа vs под ключ с материалами."
   },
   "благоустройство участка|благоустройство территории": {
-   "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 18500,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Тракторок (traktorok.by)",
+     "url": "https://traktorok.by/",
+     "price": "объекты: выравнивание 1200 м² – 5 000 руб.; дорожки, посадка и выравнивание – 25 000 руб.; выравнивание с автополивом – 24 000 руб.",
+     "za_chto": "медиана 3 объектов 24 000 BYN"
+    },
+    {
+     "company": "N-Строй (n-stroy.by)",
+     "url": "https://n-stroy.by/",
+     "price": "калькулятор озеленения: ориентировочно 18500 BYN",
+     "za_chto": "18 500 BYN"
+    },
+    {
+     "company": "Чистосервис",
+     "url": "https://chistoservis.by/blagoustrojstvo-dachnogo-uchastka-v-minskom-rajone-i-minskoj-oblasti/",
+     "price": "благоустройство дачного участка от 600 рублей",
+     "za_chto": "600 BYN «от» – отдельные работы"
+    }
+   ],
+   "kommentariy": "Типовой заказ: комплексное благоустройство участка 10–12 соток (планировка, газон, дорожки, посадки). Медиана 600 / 18 500 / 24 000 = 18 500 BYN. Сильный разброс: «благоустройство» – от расчистки до полного комплекса."
   },
   "навес из поликарбоната|навес для машины": {
+   "check": 3960,
    "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Будауники (budauniki.by)",
+     "url": "https://budauniki.by/navesy_avto.htm",
+     "price": "навес для автомобиля от 220 рублей за м.кв под ключ",
+     "za_chto": "18 м² (3×6) × 220 = 3 960 BYN"
+    },
+    {
+     "company": "navesnazakaz.by",
+     "url": "https://navesnazakaz.by/navesy-dlya-avto/",
+     "price": "навес для автомобиля от 250 BYN (сотовый поликарбонат; монолитный от 400)",
+     "za_chto": "18 × 250 = 4 500 BYN (если цена за м²)"
+    },
+    {
+     "company": "green-city.by",
+     "url": "https://www.naves-polikarbonat.by.green-city.by/",
+     "price": "от 125 руб. за 1 м² по крыше",
+     "za_chto": "18 × 125 = 2 250 BYN (страница старая)"
+    }
+   ],
+   "kommentariy": "Типовой заказ: навес из сотового поликарбоната на одну машину 3×6 м под ключ. Медиана 2 250 / 3 960 / 4 500 = 3 960 BYN. У navesnazakaz.by не ясно, «от 250» за м² или за изделие."
   },
   "услуги экскаватора|аренда экскаватора": {
-   "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 960,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "r24.by (агрегатор)",
+     "url": "https://r24.by/katalog/spec/ekskavatory-pogruzchiki/",
+     "price": "экскаватор-погрузчик: 120–140 BYN/час, смена 8 ч – 960–1120 BYN",
+     "za_chto": "середина смены 1 040 BYN (привязка цифр к сайту по сниппету)"
+    },
+    {
+     "company": "kovsh.by",
+     "url": "https://kovsh.by/arenda-excavatora/minsk/",
+     "price": "экскаватор от 120 BYN/час, погрузчик от 110 BYN/час",
+     "za_chto": "120 × 8 = 960 BYN (привязка по сниппету)"
+    },
+    {
+     "company": "rbstroy.by (объявления)",
+     "url": "https://rbstroy.by/catalog.php?h=215",
+     "price": "за час 60.00 BYN, за смену 480.00 BYN; мин. заказ 4 часа",
+     "za_chto": "480 BYN – нижняя граница частников"
+    }
+   ],
+   "kommentariy": "Типовой заказ: экскаватор-погрузчик (JCB 3CX/4CX) с оператором на смену 8 часов, без доставки. Медиана 480 / 960 / 1 040 = 960 BYN. Частный заказ часто 4 ч минимум (≈ 480 BYN)."
   },
   "автовышка|аренда автовышки": {
-   "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 300,
+   "basis": "tipovoy",
+   "n": 3,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "rbstroy.by (агрегатор)",
+     "url": "https://rbstroy.by/minsk/arenda/avtovyshki",
+     "price": "от 75 BYN/час, первые часы дороже; мин. заказ 4 часа",
+     "za_chto": "75 × 4 = 300 BYN (привязка по сниппету)"
+    },
+    {
+     "company": "РенталСкай (rentalsky.by)",
+     "url": "https://rentalsky.by/",
+     "price": "от 87,5 BYN/час",
+     "za_chto": "87,5 × 4 = 350 BYN"
+    },
+    {
+     "company": "buldozer.by (объявления)",
+     "url": "https://buldozer.by/arenda-spectehniki/avtovyshki/region/minskaya-obl",
+     "price": "автовышка 22 м от 40 BYN/час",
+     "za_chto": "40 × 4 = 160 BYN (привязка по сниппету)"
+    }
+   ],
+   "kommentariy": "Типовой заказ: автовышка 18–22 м, минимальный заказ 4 часа (3 ч работы + подача). Медиана 160 / 300 / 350 = 300 BYN. Вышки 40–54 м – 225–400 BYN/час."
   },
   "манипулятор|аренда манипулятора": {
-   "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 260,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Gorazdo (gorazdo.by)",
+     "url": "http://gorazdo.by/arenda-manipulyator.html",
+     "price": "аренда манипулятора от 65 руб./час",
+     "za_chto": "65 × 4 = 260 BYN"
+    },
+    {
+     "company": "RDU7 (rdu7.by)",
+     "url": "https://rdu7.by/arenda-manipulyatora-minsk/",
+     "price": "цена от 89 руб./час (страница старше года)",
+     "za_chto": "89 × 4 = 356 BYN"
+    },
+    {
+     "company": "uProkat.by",
+     "url": "https://uprokat.by/katalog-prokata/spetstekhnika/manipulyatory",
+     "price": "аренда манипулятора 35 BYN за час",
+     "za_chto": "35 × 4 = 140 BYN"
+    },
+    {
+     "company": "rbstroy.by (агрегатор)",
+     "url": "https://rbstroy.by/uslugi_manipulatora.php",
+     "price": "средняя цена 50–80 BYN/час, мин. заказ 3–4 часа",
+     "za_chto": "65 × 4 = 260 BYN (привязка по сниппету)"
+    }
+   ],
+   "kommentariy": "Типовой заказ: манипулятор (до 5–7 т) на 4 часа по Минску. Медиана 140 / 260 / 260 / 356 = 260 BYN. Подача 0,5–1 ч и выезд за МКАД доплачиваются."
   },
   "вывоз мусора|вывоз строительного мусора": {
-   "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 400,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "Razze (razze.by, цены 2025–2026)",
+     "url": "https://razze.by/blog/vivoz-stroitelnogo-musora",
+     "price": "контейнер 8 м³ – 350–420 BYN, 3 дня; ГАЗель 4–5 м³ – 160–220 BYN за рейс",
+     "za_chto": "середина 385 BYN"
+    },
+    {
+     "company": "vyvoz-stroitelnogo-musora.by",
+     "url": "https://vyvoz-stroitelnogo-musora.by/arenda-kontejnerov",
+     "price": "контейнер 8 м³ – 350 руб. (до 5 дней на объекте)",
+     "za_chto": "350 BYN"
+    },
+    {
+     "company": "ТБО Сервис",
+     "url": "https://tboservice.by/vyvoz-musora/vyvoz-stroitelnogo-musora/",
+     "price": "контейнер 8 м³ (до 8 т) от 450 BYN",
+     "za_chto": "450 BYN"
+    },
+    {
+     "company": "Альфаэкосервис",
+     "url": "https://alfaekoservis.by/vyvoz-stroitelnogo-musora/konteiner-8m3",
+     "price": "от 420 BYN с утилизацией",
+     "za_chto": "420 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: вывоз строительного мусора после ремонта квартиры – контейнер 8 м³ с утилизацией. Медиана 350 / 385 / 420 / 450 = 402 ≈ 400 BYN. Один рейс ГАЗели (до 5 м³) – 160–220 BYN."
   },
   "демонтажные работы|снос дома|демонтаж дома": {
-   "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 4600,
+   "basis": "tipovoy",
+   "n": 1,
+   "status": "malo",
+   "sources": [
+    {
+     "company": "Razze (razze.by, блог 2025–2026)",
+     "url": "https://razze.by/blog/snos-derevyannogo-doma-cena",
+     "price": "снос от 28 до 60 BYN/м² общей площади; дом 80–120 м² – 2 400–6 800 BYN под ключ; на сайте razze.by/dismanhouse – от 37 BYN/м³ (кирпич от 70)",
+     "za_chto": "середина 2 400–6 800 = 4 600 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: снос деревянного частного дома 80–120 м² под ключ с вывозом мусора. Один источник с прайсом – середина диапазона 4 600 BYN. В выдаче также «от 1 200» и «от 1 800 BYN за частный дом» и «дом 60 м² ≈ 7 200 BYN» у других компаний (сайты не открыты, привязку не проверил)."
   },
   "песок с доставкой|щебень с доставкой": {
-   "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 300,
+   "basis": "tipovoy",
+   "n": 2,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "dostavka-samosvalom.by",
+     "url": "https://dostavka-samosvalom.by/pesok.html",
+     "price": "полный чек за 10 т песка 1-го класса ~200 BYN; гранитный щебень 5–20 с доставкой ~420 BYN",
+     "za_chto": "песок 200, щебень 420"
+    },
+    {
+     "company": "pesok-dostavim.by",
+     "url": "https://www.pesok-dostavim.by/goods/72237814-pesok_seyanny_v_minske_i_minskom_r_ne",
+     "price": "сеяный песок 10 т с доставкой ~160 бел. руб.; гравийный щебень от 350–450 бел. руб. за машину",
+     "za_chto": "песок 160, щебень 400"
+    }
+   ],
+   "kommentariy": "Типовой заказ: одна машина 10 т песка или щебня с доставкой по Минску/району. Медиана четырёх цен 160 / 200 / 400 / 420 = 300 BYN (песок ≈ 180, щебень ≈ 410)."
   },
   "аренда самосвала|самосвал": {
-   "basis": "ot",
-   "n": 0,
-   "status": "net",
-   "sources": [],
-   "kommentariy": "не успел собрать"
+   "check": 320,
+   "basis": "tipovoy",
+   "n": 4,
+   "status": "ok",
+   "sources": [
+    {
+     "company": "БауАрендаБай",
+     "url": "https://bauarenda.by/arenda-samosvala",
+     "price": "МАЗ 20 т от 85 бел.руб./час без НДС",
+     "za_chto": "85 × 4 = 340 BYN"
+    },
+    {
+     "company": "Fts.by",
+     "url": "https://fts.by/",
+     "price": "самосвал 10 т с водителем 75 руб. в час без НДС",
+     "za_chto": "75 × 4 = 300 BYN"
+    },
+    {
+     "company": "Dorbox",
+     "url": "https://dorbox.by/product/uslugi-samosvala/",
+     "price": "услуги самосвала от 49 руб/час",
+     "za_chto": "49 × 4 = 196 BYN"
+    },
+    {
+     "company": "Divavtotrans",
+     "url": "https://divavtotrans.by/arenda-tehniki-categorii/arenda-samosvala/",
+     "price": "30-тонники 120 бел.руб. в час без НДС",
+     "za_chto": "120 × 4 = 480 BYN"
+    }
+   ],
+   "kommentariy": "Типовой заказ: самосвал 10–20 т с водителем, минимальный заказ 4 часа. Медиана 196 / 300 / 340 / 480 = 320 BYN. Смена 8 ч – 600–700 BYN."
   }
  }
 }

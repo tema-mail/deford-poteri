@@ -195,7 +195,7 @@ def hub():
 <label><input type="checkbox" id="t-logic"> Логика блоков</label><label><input type="checkbox" id="t-notes"> Комментарии дизайнеру</label>
 <label><input type="checkbox" id="t-seo"> SEO страницы</label><label><input type="checkbox" id="t-success"> После отправки</label>
 <span>Меток «запросить»: <b id="ask-count">0</b></span><a href="../" style="color:#fff">← отчёт</a></div></div>
-<script type="application/json" id="w-seo">{{"title": "Сколько клиентов теряет ваш бизнес без сайта – Беларусь | Дефорд", "description": "Спрос в Яндексе и Google по 7 сегментам и 54 разделам в Минске и областных центрах: сколько клиентов и денег уходит мимо без SEO-сайта.", "h1": "Белорусский бизнес без сайта в поиске каждый месяц отдаёт конкурентам", "zapros": "сайт для бизнеса беларусь", "schema": "Organization", "links": ["/by/<сегмент>/ – сегмент", "/by/<сегмент>/<раздел>/ – раздел"]}}</script>
+<script type="application/json" id="w-seo">{{"title": "Сколько клиентов теряет ваш бизнес без сайта – Беларусь | Дефорд", "description": "Спрос в Яндексе и Google по 8 сегментам и 54 разделам в Минске, Гомеле, Бресте и по всей Беларуси: сколько клиентов и денег уходит мимо без SEO-сайта.", "h1": "Белорусский бизнес без сайта в поиске каждый месяц отдаёт конкурентам", "zapros": "сайт для бизнеса беларусь", "schema": "Organization", "links": ["/by/<сегмент>/ – сегмент", "/by/<сегмент>/<раздел>/ – раздел"]}}</script>
 <div class="w-seo" id="w-seo-box"></div>
 <header class="w-header w-block" data-n="0" data-name="Шапка" data-question="Кто это?" data-proof="телефон"><div class="w-wrap"><span class="w-logo">DEFORD</span>
 <span class="w-descr">Сайты, которые приводят клиентов из поиска – Беларусь</span><a class="w-btn ghost" href="#segmenty">Выбрать нишу</a></div></header>
@@ -206,13 +206,14 @@ def hub():
 <h1>Белорусский бизнес без сайта в поиске каждый месяц отдаёт конкурентам</h1>
 <div class="p-big" id="big">…</div>
 <p>В <b class="js-in">Минске</b> услуги и товары этих ниш ищут <b id="hot">…</b> раз в месяц в Яндексе и Google. Сумма выше – сколько из этого получают те, у кого сайт со страницей под услугу стоит в топе, если у вас такого сайта нет.</p>
+<p class="w-muted">Витебск, Гродно, Могилёв – снимем по заявке («Другой город» на странице сегмента).</p>
 <p class="w-note">Город – кнопками. Сегменты и разделы – по сумме потерь в выбранном городе. Каждый сегмент и каждый раздел – отдельная страница с калькулятором (как у автосервиса РФ).</p>
 </div></section>
-<section class="w-block" id="segmenty" data-n="2" data-name="Сегменты" data-question="Где моя ниша?" data-proof="7 сегментов, разделы со своими страницами">
+<section class="w-block" id="segmenty" data-n="2" data-name="Сегменты" data-question="Где моя ниша?" data-proof="8 сегментов, разделы со своими страницами">
 <div class="w-wrap w-stack"><h2>Сегменты и разделы</h2><div class="w-grid" id="segs" style="--cols:2;--cols-m:1"></div></div></section>
 <section class="w-block" data-n="3" data-name="Все разделы" data-question="Какие разделы самые денежные?" data-proof="таблица по сумме">
 <div class="w-wrap w-stack"><h2>Все разделы по деньгам</h2><div class="w-table-wrap"><table class="w-table" id="all"><thead><tr><th>Раздел</th><th class="n">Ищут в месяц</th><th class="n">Мимо, BYN/мес</th></tr></thead><tbody></tbody></table></div>
-<p class="w-muted">Спрос – Вордстат Яндекса за октябрь 2026 по городу × 2,5 (доля Google в Беларуси). Чеки – медианы прайсов Минска, где не нашли – оценка. Модель: {{формула на страницах сегментов}}.</p></div></section>
+<p class="w-muted">Спрос – Вордстат Яндекса за октябрь 2026 по городу × 2,5 (доля Google в Беларуси). Чеки – медианы прайсов Минска, где не нашли – оценка. Как считаем – раскрывашка «Как считаем» в калькуляторе на странице сегмента.</p></div></section>
 </main>
 <footer class="w-footer"><div class="w-wrap"><span>Дефорд · <a href="https://t.me/Artem1Galimov">Telegram</a></span></div></footer>
 <script>window.SUMMARY={segs};</script>
